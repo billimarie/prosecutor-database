@@ -1,3 +1,4 @@
 # light-pollution
+> prosecutor oversight
 
-**light-pollution** is a prosecutor oversight project. It is a sister project to [**\*sunlight**](https://github.com/billimarie/sunlight).
+**light-pollution** houses local prosecutor data. It is a sister project to [**\*sunlight**](https://github.com/billimarie/sunlight).
