@@ -13,7 +13,7 @@ The `research` branch houses websites, news articles, Wikipedia links, photograp
 
 ## GitHub pages branch: [`gh-pages`](https://github.com/billimarie/light-pollution/tree/gh-pages)
 
-The gh-pages branch contains all the code for the official website.
+The `gh-pages` branch contains all the code for the official website.
 
 ## Documentation: [Wiki](https://github.com/billimarie/light-pollution/wiki)
 
