@@ -1,0 +1,247 @@
+[{
+	"state": "the United States",
+	"name": "Jeff Sessions",
+	"role": "Attorney General",
+	"websites": {
+		"url": "https://www.justice.gov/ag",
+		"google": "https://www.google.com/search?q=jeff+sessions+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Jeff_Sessions"
+	}
+}, {
+	"state": "Alabama",
+	"name": "Steve Marshall",
+	"role": "Attorney General",
+	"websites": {
+		"url": "http://www.ago.alabama.gov/",
+		"google": "https://www.google.com/search?q=steve+marshall+alabama+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Steve_Marshall_(politician)"
+	}
+
+
+}, {
+	"state": "Alaska",
+	"name": "Jahna Lindemuth",
+	"role": "Attorney General"
+}, {
+	"state": "American Samoa",
+	"name": "Talauega Eleasalo V. Ale",
+	"role": "Attorney General"
+}, {
+	"state": "Arizona",
+	"name": "Mark Brnovich",
+	"role": "Attorney General"
+}, {
+	"state": "Arkansas",
+	"name": "Leslie Rutledge",
+	"role": "Attorney General"
+}, {
+	"state": "California",
+	"name": "Xavier Becerra",
+	"role": "Attorney General"
+}, {
+	"state": "Colorado",
+	"name": "Cynthia H. Coffman",
+	"role": "Attorney General"
+}, {
+	"state": "Connecticut",
+	"name": "George Jepsen",
+	"role": "Attorney General"
+}, {
+	"state": "Delaware",
+	"name": "Matthew Denn",
+	"role": "Attorney General"
+}, {
+	"state": "District of Columbia",
+	"name": "Karl A. Racine",
+	"role": "Attorney General"
+}, {
+	"state": "Florida",
+	"name": "Pam Bondi",
+	"role": "Attorney General"
+}, {
+	"state": "Georgia",
+	"name": "Chris Carr",
+	"role": "Attorney General"
+}, {
+	"state": "Guam",
+	"name": "Elizabeth Barrett-Anderson",
+	"role": "Attorney General"
+}, {
+	"state": "Hawaii",
+	"name": "Douglas S. Chin",
+	"role": "Attorney General"
+}, {
+	"state": "Idaho",
+	"name": "Lawrence Wasden",
+	"role": "Attorney General"
+}, {
+	"state": "Illinois",
+	"name": "Lisa Madigan",
+	"role": "Attorney General"
+}, {
+	"state": "Indiana",
+	"name": "Curtis T. Hill, Jr.",
+	"role": "Attorney General"
+}, {
+	"state": "Iowa",
+	"name": "Tom Miller",
+	"role": "Attorney General"
+}, {
+	"state": "Kansas",
+	"name": "Derek Schmidt",
+	"role": "Attorney General"
+}, {
+	"state": "Kentucky",
+	"name": "Andy Beshear",
+	"role": "Attorney General"
+}, {
+	"state": "Louisiana",
+	"name": "Jeff Landry",
+	"role": "Attorney General"
+}, {
+	"state": "Maine",
+	"name": "Janet T. Mills",
+	"role": "Attorney General"
+}, {
+	"state": "Maryland",
+	"name": "Brian Frosh",
+	"role": "Attorney General"
+}, {
+	"state": "Massachusetts",
+	"name": "Maura Healey",
+	"role": "Attorney General"
+}, {
+	"state": "Michigan",
+	"name": "Bill Schuette",
+	"role": "Attorney General"
+}, {
+	"state": "Minnesota",
+	"name": "Lori Swanson",
+	"role": "Attorney General",
+	"websites": {
+		"url": "https://www.ag.state.mn.us/Office/AGBio.asp",
+		"google": "https://www.google.com/search?q=lori+swanson+minnesota+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Lori_Swanson"
+	}
+}, {
+	"state": "Mississippi",
+	"name": "Jim Hood",
+	"role": "Attorney General",
+	"websites": {
+		"url": "http://www.ago.state.ms.us/",
+		"google": "https://www.google.com/search?q=jim+hood+mississippi+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Jim_Hood"
+	}
+}, {
+	"state": "Montana",
+	"name": "Tim Fox",
+	"role": "Attorney General"
+}, {
+	"state": "Nebraska",
+	"name": "Doug Peterson",
+	"role": "Attorney General"
+}, {
+	"state": "Nevada",
+	"name": "Adam Paul Laxalt",
+	"role": "Attorney General"
+}, {
+	"state": "New Hampshire",
+	"name": "TBD",
+	"role": "Attorney General"
+}, {
+	"state": "New Jersey",
+	"name": "Christopher S. Porrino",
+	"role": "Attorney General"
+}, {
+	"state": "New Mexico",
+	"name": "Hector Balderas",
+	"role": "Attorney General"
+}, {
+	"state": "New York",
+	"name": "Eric Schneiderman",
+	"role": "Attorney General"
+}, {
+	"state": "North Carolina",
+	"name": "Josh Stein",
+	"role": "Attorney General"
+}, {
+	"state": "North Dakota",
+	"name": "Wayne Stenehjem",
+	"role": "Attorney General"
+}, {
+	"state": "Northern Mariana Islands",
+	"name": "Edward Manibusan",
+	"role": "Attorney General"
+}, {
+	"state": "Ohio",
+	"name": "Mike DeWine",
+	"role": "Attorney General"
+}, {
+	"state": "Oklahoma",
+	"name": "Mike Hunter",
+	"role": "Attorney General"
+}, {
+	"state": "Oregon",
+	"name": "Ellen F. Rosenblum",
+	"role": "Attorney General"
+}, {
+	"state": "Pennsylvania",
+	"name": "Josh Shapiro",
+	"role": "Attorney General"
+}, {
+	"state": "Puerto Rico",
+	"name": "Wanda Vàzquez Garced",
+	"role": "Attorney General"
+}, {
+	"state": "Rhode Island",
+	"name": "Peter Kilmartin",
+	"role": "Attorney General"
+}, {
+	"state": "South Carolina",
+	"name": "Alan Wilson",
+	"role": "Attorney General"
+}, {
+	"state": "South Dakota",
+	"name": "Marty J. Jackley",
+	"role": "Attorney General"
+}, {
+	"state": "Tennessee",
+	"name": "Herbert H. Slatery, III",
+	"role": "Attorney General"
+}, {
+	"state": "Texas",
+	"name": "Ken Paxton",
+	"role": "Attorney General"
+}, {
+	"state": "Utah",
+	"name": "Sean Reyes",
+	"role": "Attorney General"
+}, {
+	"state": "Vermont",
+	"name": "TJ Donovan",
+	"role": "Attorney General"
+}, {
+	"state": "Virgin Islands",
+	"name": "Claude E. Walker",
+	"role": "Attorney General"
+}, {
+	"state": "Virginia",
+	"name": "Mark Herring",
+	"role": "Attorney General"
+}, {
+	"state": "Washington",
+	"name": "Bob Ferguson",
+	"role": "Attorney General"
+}, {
+	"state": "West Virginia",
+	"name": "Patrick Morrisey",
+	"role": "Attorney General"
+}, {
+	"state": "Wisconsin",
+	"name": "Brad Schimel",
+	"role": "Attorney General"
+}, {
+	"state": "Wyoming",
+	"name": "Peter K. Michael",
+	"role": "Attorney General"
+}]

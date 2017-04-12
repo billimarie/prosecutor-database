@@ -1,0 +1,175 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Light Pollution</title>
+		<meta property="og:title" content="Light Pollution: U.S. Prosecutors Database">
+		<meta property="og:description" content="A Prosecutor Oversight prototype. Light Pollution houses the data of government lawyers, including Attorney General, U.S. Attorney, District Attorney, and Municipal Attorney roles.">
+		<meta property="og:image" content="https://raw.githubusercontent.com/billimarie/light-pollution/gh-pages/light-pollution_billimarie_prosecutors_usa.png">
+		<meta property="og:url" content="https://billimarie.github.io/light-pollution">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta property="og:site_name" content="Light Pollution: U.S. Prosecutors Database">
+		<meta name="twitter:image:alt" content="Light Pollution: U.S. Prosecutors Database">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,800" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600i,700" rel="stylesheet">
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-83031492-3', 'auto');
+			ga('send', 'pageview');
+
+		</script>
+	</head>
+	<body>
+
+		<header>
+			<div class="jumbotron">
+				<h1>Light Pollution</h1>
+				<h2>A Collection of U.S. Prosecutors</h2>
+				<p>(Updated April 12th 2017)</p>
+			</div>
+		</header>
+
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">LIGHT POLLUTION</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="#attorney-general">Attorney General</a></li>
+						<li><a href="#us-attorney">U.S. Attorney</a></li>
+						<li><a href="#district-attorney">District Attorney</a></li>
+						<li><a href="#municipal-attorney">Municipal Attorney</a></li>
+						<li><a href="#election">Elections</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="add.html#add"><span class="glyphicon glyphicon-pencil"></span> Add</a></li>
+						<li><a href="about.html#about"><span class="glyphicon glyphicon-paperclip"></span> About</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+
+		<div id="prosecutorMasterList" class="container"></div>
+
+		<script id="prosecutorJsonTemplate" type="text/x-handlebars-template">
+			<section id="attorney-general">
+				<h2>Attorney General</h2>
+
+				{{#if prosecutors.attorneyGeneral}}
+				<ul class="row">
+					{{#each prosecutors.attorneyGeneral}}
+					<li class="{{id}} col-md-4">
+						<a href="attorney-general/{{link name}}.html">
+							<h3 class="name">{{name}}</h3>
+							<h4 class="state">{{state}}</h4>
+						</a>
+					</li>
+					{{/each}}
+				</ul>
+				{{else}}
+				<p>No <strong>Attorney General</strong> data available.</p>
+				{{/if}}
+			</section>
+
+			<hr />
+
+			<section id="us-attorney">
+				<h2>U.S. Attorney</h2>
+				{{#if prosecutors.usAttorney}}
+				<ul class="row">
+					{{#each prosecutors.usAttorney}}
+				<li class="{{id}} col-md-4">
+					<a href="#">
+						<h3>{{name}}</h3>
+						<h4>{{state}}</h4>
+						<h5><em>{{district}}</em></h5>
+						<p><span>Appointed:</span> {{appointed}}</p>
+					</a>
+				</li>
+					{{/each}}
+				</ul>
+				{{else}}
+					<p>No <strong>U.S. Attorney</strong> data available.</p>
+				{{/if}}
+			</section>
+
+			<hr />
+
+			<section id="district-attorney">
+				<h2>District Attorney</h2>
+				<p><strong>District Attorney</strong> data coming soon.</p>
+				<p><a href="https://goo.gl/forms/JG9gYxSIGE7nB6eK2">Submit your district attorney data.</a></p>
+			</section>
+
+			<hr />
+
+			<section id="municipal-attorney">
+				<h2>Municipal/County Attorney</h2>
+				<p><strong>Municipal, County, City Attorney</strong> data coming soon.</p>
+				<p><a href="https://goo.gl/forms/JG9gYxSIGE7nB6eK2">Submit your municipal, county, and/or city attorney data.</a></p>
+			</section>
+
+			<hr />
+
+			<section id="election">
+				<h2>Elections</h2>
+				<p><strong>Election</strong> data coming soon.</p>
+				<p><a href="https://goo.gl/forms/JG9gYxSIGE7nB6eK2">Submit your election data.</a></p>
+			</section>
+
+		</script>
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h3 class="page-header">Links</h3>
+						<ul>
+							<li><a href="index.html">Attorney General</a></li>
+							<li><a href="index.html#us-attorney">U.S. Attorney</a></li>
+							<li><a href="index.html#district-attorney">District Attorney</a></li>
+							<li><a href="index.html#municipal-attorney">Municipal/County Attorney</a></li>
+							<li><a href="#election">Elections</a></li>
+							<li><a href="about.html">About Light Pollution</a></li>
+						</ul>
+					</div>
+					<div class="col-md-6">
+						<h3 class="page-header">Contribute</h3>
+						<ul>
+							<li><a href="add.html">Add an Attorney</a></li>
+							<li><a href="add.html#correction">Submit a Correction</a></li>
+							<li><a href="add.html#suggestions">Suggestions</a></li>
+							<li><a href="https://github.com/billimarie/light-pollution/" target="_blank">GitHub Repo</a></li>
+							<li><a href="https://github.com/billimarie/light-pollution/wiki" target="_blank">Documentation</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<p>&copy; 2017 Billimarie Lubiano Robinson. "Light Pollution" is a very early prototype of a Prosecutor Oversight web app. Created and maintained by <a href="https://www.github.com/billimarie" target="_blank">@billimarie</a>, co-founder of <strong><a href="https://www.CLASPjustice.com" target="_blank">CLASP</a></strong>.</p>
+				</div>
+			</div>
+		</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="js/handlebars.js"></script>
+		<script src="js/helpers.js"></script>
+		<script src="js/prosecutorList.js"></script>
+
+	</body>
+</html>
