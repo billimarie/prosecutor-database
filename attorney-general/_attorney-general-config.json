@@ -77,81 +77,81 @@
 	"name": "George Jepsen",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://www.ct.gov/ag/site/default.asp",
+		"google": "https://www.google.com/search?q=George+Jepsen+Connecticut+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/George_Jepsen"
 	}
 }, {
 	"state": "Delaware",
 	"name": "Matthew Denn",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://attorneygeneral.delaware.gov/",
+		"google": "https://www.google.com/search?q=Matthew+Denn+Delaware+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Matthew_Denn"
 	}
 }, {
 	"state": "District of Columbia",
 	"name": "Karl A. Racine",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "https://oag.dc.gov/",
+		"google": "https://www.google.com/search?q=Karl+A.+Racine+District+of+Columbia+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Karl_Racine"
 	}
 }, {
 	"state": "Florida",
 	"name": "Pam Bondi",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://myfloridalegal.com/",
+		"google": "https://www.google.com/search?q=Pam+Bondi+Florida+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Pam_Bondi"
 	}
 }, {
 	"state": "Georgia",
 	"name": "Chris Carr",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "https://law.georgia.gov/",
+		"google": "https://www.google.com/search?q=Chris+Carr+Georgia+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Christopher_M._Carr"
 	}
 }, {
 	"state": "Guam",
 	"name": "Elizabeth Barrett-Anderson",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://www.guamag.org/index.html",
+		"google": "https://www.google.com/?q=Elizabeth+Barrett-Anderson+Guam+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Elizabeth_Barrett-Anderson"
 	}
 }, {
 	"state": "Hawaii",
 	"name": "Douglas S. Chin",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://ag.hawaii.gov/",
+		"google": "https://www.google.com/?q=Douglas+S.+Chin+Hawaii+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Doug_Chin"
 	}
 }, {
 	"state": "Idaho",
 	"name": "Lawrence Wasden",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://www.ag.idaho.gov/index.html",
+		"google": "https://www.google.com/?q=Lawrence+Wasden+Idaho+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Lawrence_Wasden"
 	}
 }, {
 	"state": "Illinois",
 	"name": "Lisa Madigan",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://www.illinoisattorneygeneral.gov/",
+		"google": "https://www.google.com/?q=Lisa+Madigan+Illinois+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Lisa_Madigan"
 	}
 }, {
 	"state": "Indiana",
