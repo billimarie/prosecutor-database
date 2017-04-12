@@ -123,7 +123,7 @@
 	"role": "Attorney General",
 	"websites": {
 		"url": "http://www.guamag.org/index.html",
-		"google": "https://www.google.com/?q=Elizabeth+Barrett-Anderson+Guam+attorney+general&tbm=nws",
+		"google": "https://www.google.com/search?q=Elizabeth+Barrett-Anderson+Guam+attorney+general&tbm=nws",
 		"wiki": "https://en.wikipedia.org/wiki/Elizabeth_Barrett-Anderson"
 	}
 }, {
@@ -141,7 +141,7 @@
 	"role": "Attorney General",
 	"websites": {
 		"url": "http://www.ag.idaho.gov/index.html",
-		"google": "https://www.google.com/?q=Lawrence+Wasden+Idaho+attorney+general&tbm=nws",
+		"google": "https://www.google.com/search?q=Lawrence+Wasden+Idaho+attorney+general&tbm=nws",
 		"wiki": "https://en.wikipedia.org/wiki/Lawrence_Wasden"
 	}
 }, {
@@ -150,7 +150,7 @@
 	"role": "Attorney General",
 	"websites": {
 		"url": "http://www.illinoisattorneygeneral.gov/",
-		"google": "https://www.google.com/?q=Lisa+Madigan+Illinois+attorney+general&tbm=nws",
+		"google": "https://www.google.com/search?q=Lisa+Madigan+Illinois+attorney+general&tbm=nws",
 		"wiki": "https://en.wikipedia.org/wiki/Lisa_Madigan"
 	}
 }, {
@@ -158,81 +158,89 @@
 	"name": "Curtis T. Hill, Jr.",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://www.curtishillforindiana.com/",
+		"google": "https://www.google.com/search?q=Curtis+T.+Hill,+Jr.+Indiana+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Curtis_Hill"
 	}
 }, {
 	"state": "Iowa",
 	"name": "Tom Miller",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "https://www.iowaattorneygeneral.gov/",
+		"google": "https://www.google.com/search?q=Tom+Miller+Iowa+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Tom_Miller_(politician)"
 	}
 }, {
 	"state": "Kansas",
 	"name": "Derek Schmidt",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://ag.ks.gov/home",
+		"google": "https://www.google.com/search?q=Derek+Schmidt+Kansas+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Derek_Schmidt"
 	}
 }, {
 	"state": "Kentucky",
 	"name": "Andy Beshear",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://ag.ky.gov/Pages/default.aspx",
+		"google": "https://www.google.com/search?q=Andy+Beshear+Kentucky+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Andy_Beshear"
 	}
 }, {
 	"state": "Louisiana",
 	"name": "Jeff Landry",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
-	}
+		"url": "https://www.ag.state.la.us/",
+		"google": "https://www.google.com/search?q=Jeff+Landry+Louisiana+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Jeff_Landry"
+		"social": {
+			"twitter": "https://twitter.com/AGJeffLandry",
+			"facebook": ""
+		}
+	},
 }, {
 	"state": "Maine",
 	"name": "Janet T. Mills",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "https://www.maine.gov/ag/",
+		"google": "https://www.google.com/search?q=Janet+T.+Mills+Maine+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Janet_T._Mills"
 	}
 }, {
 	"state": "Maryland",
 	"name": "Brian Frosh",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://www.marylandattorneygeneral.gov/",
+		"google": "https://www.google.com/search?q=Brian+Frosh+Maryland+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Brian_Frosh"
 	}
 }, {
 	"state": "Massachusetts",
 	"name": "Maura Healey",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://www.maurahealey.com/",
+		"google": "https://www.google.com/search?q=Maura+Healey+Massachusetts+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Maura_Healey",
+		"social": {
+			"twitter": "https://twitter.com/maura_healey",
+			"facebook": ""
+		}
 	}
 }, {
 	"state": "Michigan",
 	"name": "Bill Schuette",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://www.michigan.gov/ag/",
+		"google": "https://www.google.com/search?q=Bill+Schuette+Michigan+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Bill_Schuette"
 	}
 }, {
 	"state": "Minnesota",
@@ -257,206 +265,213 @@
 	"name": "Tim Fox",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "https://dojmt.gov/",
+		"google": "https://www.google.com/search?q=Tim+Fox+Montana+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Tim_Fox_(politician)"
 	}
 }, {
 	"state": "Nebraska",
 	"name": "Doug Peterson",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "https://ago.nebraska.gov/",
+		"google": "https://www.google.com/search?q=Doug+Peterson+Nebraska+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Doug_Peterson_(politician)"
 	}
 }, {
 	"state": "Nevada",
 	"name": "Adam Paul Laxalt",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "https://en.wikipedia.org/wiki/Adam_Laxalt",
+		"google": "https://www.google.com/search?q=Adam+Paul+Laxalt+Nevada+attorney+general&tbm=nws",
+		"wiki": "http://ag.nv.gov/"
 	}
 }, {
 	"state": "New Hampshire",
-	"name": "TBD",
+	"name": "Gordon MacDonald",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "https://www.doj.nh.gov/",
+		"google": "https://www.google.com/search?q=Gordon+MacDonald+New+Hampshire+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Gordon_MacDonald"
 	}
 }, {
 	"state": "New Jersey",
 	"name": "Christopher S. Porrino",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://www.nj.gov/oag/",
+		"google": "https://www.google.com/search?q=Christopher+S.+Porrino+New+Jersey+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Christopher_Porrino"
 	}
 }, {
 	"state": "New Mexico",
 	"name": "Hector Balderas",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://www.nmag.gov/",
+		"google": "https://www.google.com/search?q=Hector+Balderas+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Hector_Balderas"
 	}
 }, {
 	"state": "New York",
 	"name": "Eric Schneiderman",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "https://ag.ny.gov/",
+		"google": "https://www.google.com/search?q=Eric+Schneiderman+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Eric_Schneiderman"
 	}
 }, {
 	"state": "North Carolina",
 	"name": "Josh Stein",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://www.ncdoj.gov/About-DOJ/The-Attorney-General.aspx",
+		"google": "https://www.google.com/search?q=Josh+Stein+North+Carolina+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Josh_Stein"
 	}
 }, {
 	"state": "North Dakota",
 	"name": "Wayne Stenehjem",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "https://attorneygeneral.nd.gov/",
+		"google": "https://www.google.com/search?q=Wayne+Stenehjem+North+Dakota+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Wayne_Stenehjem"
 	}
 }, {
 	"state": "Northern Mariana Islands",
 	"name": "Edward Manibusan",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://www.naag.org/naag/attorneys-general/whos-my-ag/northern_mariana_islands/edward-manibusan.php",
+		"google": "https://www.google.com/search?q=Edward+Manibusan+Northern+Mariana+Islands+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Edward_Manibusan"
 	}
 }, {
 	"state": "Ohio",
 	"name": "Mike DeWine",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://www.ohioattorneygeneral.gov/",
+		"google": "https://www.google.com/search?q=Mike+DeWine+Ohio+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Mike_DeWine"
 	}
 }, {
 	"state": "Oklahoma",
 	"name": "Mike Hunter",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "https://www.ok.gov/oag/",
+		"google": "https://www.google.com/search?q=Mike+Hunter+Oklahoma+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Michael_J._Hunter"
 	}
 }, {
 	"state": "Oregon",
 	"name": "Ellen F. Rosenblum",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://www.doj.state.or.us/pages/index.aspx",
+		"google": "https://www.google.com/search?q=Ellen+F.+Rosenblum+Oregon+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Ellen_Rosenblum"
 	}
 }, {
 	"state": "Pennsylvania",
 	"name": "Josh Shapiro",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "https://www.attorneygeneral.gov/",
+		"google": "https://www.google.com/search?q=Josh+Shapiro+Pennsylvania+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Josh_Shapiro",
+		"social": {
+			"twitter": "https://twitter.com/JoshShapiroPA",
+			"facebook": "https://www.facebook.com/JoshShapiroPA"
+		}
 	}
 }, {
 	"state": "Puerto Rico",
 	"name": "Wanda Vàzquez Garced",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://www.justicia.gobierno.pr/",
+		"google": "https://www.google.com/search?q=Wanda+Vàzquez+Garced+Puerto+Rico+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Secretary_of_Justice_of_Puerto_Rico"
 	}
 }, {
 	"state": "Rhode Island",
 	"name": "Peter Kilmartin",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://www.riag.ri.gov/",
+		"google": "https://www.google.com/search?q=Peter+Kilmartin+Rhode+Island+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Peter_Kilmartin"
 	}
 }, {
 	"state": "South Carolina",
 	"name": "Alan Wilson",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://www.scag.gov/",
+		"google": "https://www.google.com/search?q=Alan+Wilson+South+Carolina+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Alan_Wilson_(South_Carolina_politician",
+		"social": {
+			"twitter": "https://twitter.com/AGAlanWilson"
+		}
 	}
 }, {
 	"state": "South Dakota",
 	"name": "Marty J. Jackley",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://atg.sd.gov/",
+		"google": "https://www.google.com/search?q=Marty+J.+Jackley+South+Dakota+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Marty_Jackley"
 	}
 }, {
 	"state": "Tennessee",
 	"name": "Herbert H. Slatery, III",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "https://www.tn.gov/attorneygeneral",
+		"google": "https://www.google.com/search?q=Herbert+H.+Slatery+Tennessee+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Herbert_Slatery"
 	}
 }, {
 	"state": "Texas",
 	"name": "Ken Paxton",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "https://www.texasattorneygeneral.gov/",
+		"google": "https://www.google.com/search?q=Ken+Paxton+Texas+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Ken_Paxton"
 	}
 }, {
 	"state": "Utah",
 	"name": "Sean Reyes",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "https://attorneygeneral.utah.gov/",
+		"google": "https://www.google.com/search?q=Sean+Reyes+Utah+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Sean_Reyes"
 	}
 }, {
 	"state": "Vermont",
 	"name": "TJ Donovan",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://www.atg.state.vt.us/",
+		"google": "https://www.google.com/search?q=TJ+Donovan+Vermont+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/T._J._Donovan"
 	}
 }, {
 	"state": "Virgin Islands",
 	"name": "Claude E. Walker",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
+		"url": "http://usvidoj.codemeta.com/DivisionContent_1.php?divId=84",
+		"google": "https://www.google.com/search?q=Claude+E.+Walker+Virgin+Islands+attorney+general&tbm=nws",
 		"wiki": ""
 	}
 }, {
@@ -464,44 +479,44 @@
 	"name": "Mark Herring",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://www.oag.state.va.us/",
+		"google": "https://www.google.com/search?q=Mark+Herring+Virginia+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Mark_Herring"
 	}
 }, {
 	"state": "Washington",
 	"name": "Bob Ferguson",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://www.atg.wa.gov/",
+		"google": "https://www.google.com/search?q=Bob+Ferguson+Washington+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Bob_Ferguson_(politician)"
 	}
 }, {
 	"state": "West Virginia",
 	"name": "Patrick Morrisey",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://www.ago.wv.gov/Pages/default.aspx",
+		"google": "https://www.google.com/search?q=Patrick+Morrisey+West+Virginia+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Patrick_Morrisey"
 	}
 }, {
 	"state": "Wisconsin",
 	"name": "Brad Schimel",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "https://www.doj.state.wi.us/",
+		"google": "https://www.google.com/search?q=Brad+Schimel+Wisconsin+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Brad_Schimel"
 	}
 }, {
 	"state": "Wyoming",
 	"name": "Peter K. Michael",
 	"role": "Attorney General",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://ag.wyo.gov/",
+		"google": "https://www.google.com/search?q=Peter+K.+Michael+wyoming+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Peter_K._Michael"
 	}
 }]
