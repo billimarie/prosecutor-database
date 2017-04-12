@@ -21,99 +21,219 @@
 }, {
 	"state": "Alaska",
 	"name": "Jahna Lindemuth",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "http://www.law.state.ak.us/index.html",
+		"google": "https://www.google.com/search?q=jahna+lindemuth+alaska+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Jahna_Lindemuth"
+	}
 }, {
 	"state": "American Samoa",
 	"name": "Talauega Eleasalo V. Ale",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "http://www.naag.org/naag/attorneys-general/whos-my-ag/american-samoa/talauega-eleasalo-v.-ale.php",
+		"google": "https://www.google.com/search?q=Talauega+Eleasalo+V.+Ale+American+Samoa+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Talauega+Eleasalo+V.+Ale"
+	}
 }, {
 	"state": "Arizona",
 	"name": "Mark Brnovich",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "https://www.azag.gov/profile/mark-brnovich",
+		"google": "https://www.google.com/search?q=Mark+Brnovich+Arizona+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Mark_Brnovich"
+	}
 }, {
 	"state": "Arkansas",
 	"name": "Leslie Rutledge",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "https://arkansasag.gov/",
+		"google": "https://www.google.com/search?q=Leslie+Rutledge+arkansas+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Leslie_Rutledge"
+	}
 }, {
 	"state": "California",
 	"name": "Xavier Becerra",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "https://oag.ca.gov/",
+		"google": "https://www.google.com/search?q=Xavier+Becerra+California+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Xavier_Becerra"
+	}
 }, {
 	"state": "Colorado",
 	"name": "Cynthia H. Coffman",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "https://coag.gov/",
+		"google": "https://www.google.com/search?&q=Cynthia+H.+Coffman+Colorado+attorney+general&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Cynthia_Coffman_(politician)"
+	}
 }, {
 	"state": "Connecticut",
 	"name": "George Jepsen",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Delaware",
 	"name": "Matthew Denn",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "District of Columbia",
 	"name": "Karl A. Racine",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Florida",
 	"name": "Pam Bondi",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Georgia",
 	"name": "Chris Carr",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Guam",
 	"name": "Elizabeth Barrett-Anderson",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Hawaii",
 	"name": "Douglas S. Chin",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Idaho",
 	"name": "Lawrence Wasden",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Illinois",
 	"name": "Lisa Madigan",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Indiana",
 	"name": "Curtis T. Hill, Jr.",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Iowa",
 	"name": "Tom Miller",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Kansas",
 	"name": "Derek Schmidt",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Kentucky",
 	"name": "Andy Beshear",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Louisiana",
 	"name": "Jeff Landry",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Maine",
 	"name": "Janet T. Mills",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Maryland",
 	"name": "Brian Frosh",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Massachusetts",
 	"name": "Maura Healey",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Michigan",
 	"name": "Bill Schuette",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Minnesota",
 	"name": "Lori Swanson",
@@ -135,113 +255,253 @@
 }, {
 	"state": "Montana",
 	"name": "Tim Fox",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Nebraska",
 	"name": "Doug Peterson",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Nevada",
 	"name": "Adam Paul Laxalt",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "New Hampshire",
 	"name": "TBD",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "New Jersey",
 	"name": "Christopher S. Porrino",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "New Mexico",
 	"name": "Hector Balderas",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "New York",
 	"name": "Eric Schneiderman",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "North Carolina",
 	"name": "Josh Stein",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "North Dakota",
 	"name": "Wayne Stenehjem",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Northern Mariana Islands",
 	"name": "Edward Manibusan",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Ohio",
 	"name": "Mike DeWine",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Oklahoma",
 	"name": "Mike Hunter",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Oregon",
 	"name": "Ellen F. Rosenblum",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Pennsylvania",
 	"name": "Josh Shapiro",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Puerto Rico",
 	"name": "Wanda Vàzquez Garced",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Rhode Island",
 	"name": "Peter Kilmartin",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "South Carolina",
 	"name": "Alan Wilson",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "South Dakota",
 	"name": "Marty J. Jackley",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Tennessee",
 	"name": "Herbert H. Slatery, III",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Texas",
 	"name": "Ken Paxton",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Utah",
 	"name": "Sean Reyes",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Vermont",
 	"name": "TJ Donovan",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Virgin Islands",
 	"name": "Claude E. Walker",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Virginia",
 	"name": "Mark Herring",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Washington",
 	"name": "Bob Ferguson",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "West Virginia",
 	"name": "Patrick Morrisey",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Wisconsin",
 	"name": "Brad Schimel",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }, {
 	"state": "Wyoming",
 	"name": "Peter K. Michael",
-	"role": "Attorney General"
+	"role": "Attorney General",
+	"websites": {
+		"url": "",
+		"google": "",
+		"wiki": ""
+	}
 }]
