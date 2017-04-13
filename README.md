@@ -6,12 +6,22 @@
 ## Table of Contents
 
 - [Installation](#installation)
+    - [Requirements](#requirements)
     - [`master` branch](#master-branch)
     - [`gh-pages` branch](#gh-pages-branch)
 - [Support](#support)
 - [Contributing](#contributing)
 
 ## Installation
+
+### Requirements
+
+Python and npm (Gulp):
+
+```
+python --version
+npm --version
+```
 
 ### `master` branch
 
