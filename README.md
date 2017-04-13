@@ -1,20 +1,32 @@
 # light-pollution
-> a prosecutor oversight prototype
+> a database of all U.S. prosecutors
 
-**light-pollution** displays local and national prosecutor data. It is a sister project to [**\*sunlight**](https://github.com/billimarie/sunlight).
+**light-pollution** is a prototype of a prosecutor oversight project. It displays local and national prosecutor data.
 
-## Website: [**light-pollution**](https://billimarie.github.io/light-pollution)
+## Table of Contents
 
-A prototype; temporarily hosted through GitHub Pages.
+- [Installation](#Installation)
+- [Support](#Support)
+- [Contributing](#Contributing)
 
-## GitHub pages branch: [`gh-pages`](https://github.com/billimarie/light-pollution/tree/gh-pages)
+## Installation
 
-The `gh-pages` branch contains all the code for the official website.
+```
+git clone git@github.com:billimarie/light-pollution.git
+```
 
-## Research branch: [`research`](https://www.github.com/billimarie/light-pollution)
+To make changes to the individual Attorney General prosecutor pages, edit the `templates/attorney-general-profile.handlebars` and `public\attorney-general\_attorney-general-config.json` files. Finalize the process with Gulp:
 
-The `research` branch houses websites, news articles, Wikipedia links, photographs, and other types of data required to compile a comprehensive database of government attorneys.
+```
+gulp handlebars
+```
 
-## Documentation: [Wiki](https://github.com/billimarie/light-pollution/wiki)
+## Support
 
-The wiki contains documentation regarding how to set up the project, guidelines for contributing, organizational methods, and detailed information regarding on-going prosecutor oversight.
+Before requesting support, [view all current issues](https://github.com/billimarie/light-pollution/issues).
+
+If you have an unlisted problem, feel free to [open a new issue](https://github.com/billimarie/light-pollution/issues/new).
+
+## Contributing
+
+If you'd like to contribute, please [view the guidelines](https://github.com/billimarie/light-pollution/.github/CONTRIBUTING.md). Feel free to [fork this repo](https://github.com/billimarie/light-pollution#fork-destination-box) and make your changes. [Pull requests are warmly welcome](https://github.com/billimarie/light-pollution/compare).
