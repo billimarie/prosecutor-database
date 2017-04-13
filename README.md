@@ -7,13 +7,12 @@
 
 - [Installation](#installation)
     - [Requirements](#requirements)
-    - [Steps](#1-fork-the-repository)
-- [Support](#support)
+    - [Steps](#1-prepare-the-repo)
 - [Contributing](#contributing)
 
-## Installation
+# Installation
 
-### Requirements
+## Requirements
 
 Python and npm (Gulp):
 
@@ -22,9 +21,11 @@ python --version
 npm --version
 ```
 
-### 1. [Fork](https://github.com/billimarie/light-pollution#fork-destination-box) the repository
+## 1. Prepare the repo
 
-### 2. Clone, fetch, and checkout the `master` branch
+[Fork](https://github.com/billimarie/light-pollution#fork-destination-box) the repository.
+
+Clone, Fetch, and Checkout the `master` branch.
 
 ```
 git clone https://www.github.com/[YOUR-USERNAME-HERE]/light-pollution.git
@@ -33,14 +34,24 @@ git fetch
 git checkout master
 ```
 
-For a detailed overview of the fork/clone GitHub workflow, [view the GitHub tutorial](https://help.github.com/articles/fork-a-repo/).
-
-### 3. Make your own branch and update the code
+Make your own branch. Name it after the feature/fix you plan to implement (for example: `Update-District-Attorney-websites`).
 
 ```
 git branch [YOUR-BRANCH-NAME-HERE]
 git checkout [YOUR-BRANCH-NAME-HERE]
 ```
+
+For a detailed overview of the fork/clone GitHub workflow, [view the GitHub tutorial](https://help.github.com/articles/fork-a-repo/).
+
+## 2. Install dependencies
+
+In the root of the project, install npm dependencies.
+
+```
+npm install
+```
+
+## 3. Load site
 
 Boot up a server in the `/public` directory, then navigate to `localhost:8000` in your browser.
 
@@ -49,21 +60,23 @@ cd public
 Python -m SimpleHTTPServer
 ```
 
-Make changes to the code.
+## 4. Make changes to the code
 
-### 4-1. If you DON'T make changes to the individual prosecutor profiles, skip to step 5
+### 4.1 Updating individual prosecutor profiles
 
-### 4-2. If you DO make changes to the individual prosecutor profiles, finalize the process with Gulp
+To update and/or add new information to individual prosecutor pages, edit the related `.handlebars` template and `.json` file.
 
-HINT: To update individual prosecutor pages, edit the related .handlebars template and .json files. For example: to add new information to an individual Attorney General profile, edit `templates/attorney-general-profile.handlebars` and `public/attorney-general/_attorney-general-config.json`.
+For example: edit `templates/attorney-general-profile.handlebars` and `public/attorney-general/_attorney-general-config.json` if you want to change the office hours of an Attorney General.
 
-When you're finished, run Gulp. Make sure you're in the root, where the `gulpfile.js` is located.
+### 4.2 Run Gulp
+
+Build out the website with Gulp. Make sure you're in the root, where the `gulpfile.js` is located.
 
 ```
 gulp handlebars
 ```
 
-### 5. Finished? Just commit and push
+## 5. Finished? Just commit and push
 
 ```
 git add .
@@ -71,20 +84,34 @@ git commit -m "[INSERT YOUR COMMIT MESSAGE HERE (for example: Update index.html:
 git push origin [YOUR-BRANCH-NAME-HERE]
 ```
 
-### 6. Submit a pull request
+## 6. Submit a pull request
 
-Go to the page of your fork on GitHub: https://www.github.com/[YOUR-USERNAME-HERE]/light-pollution. Select your branch and click the pull request button.
+Go to the page of your fork on GitHub.
+
+Select your branch and click the pull request button.
 
 Once accepted, your pull request will be merged with the Github Pages branch (`gh-pages`) and go live on the [website](https://billimarie.github.io/light-pollution).
 
-## Issues
+# Contributing
 
-Before submitting an issue, [view all current issues](https://github.com/billimarie/light-pollution/issues) to limit duplicates.
+## Submit Data and Research
 
-If you have an unlisted problem, feel free to [open a new issue](https://github.com/billimarie/light-pollution/issues/new).
+Everyone is welcome to submit data.
 
-## Contributing
+Once you've found data regarding a U.S. Prosecutor, please submit your findings through the [Light Pollution: Google Form](https://goo.gl/forms/FTztY8EJaPt7KXTn1).
+
+For additional details, visit the [wiki](https://github.com/billimarie/light-pollution/wiki/Contribute-Data,-Research,-and-Suggested-Solutions).
+
+## Update the Website
 
 If you'd like to contribute, please [view the guidelines](https://github.com/billimarie/light-pollution/.github/CONTRIBUTING.md). Everyone is welcome to [fork the repo](https://github.com/billimarie/light-pollution#fork-destination-box) and [submit pull requests](https://github.com/billimarie/light-pollution/compare).
 
 For any additional questions or comments, please contact [@billimarie](https://www.github.com/billimarie).
+
+## Submit Suggestions, Solutions, or Issues
+
+Before submitting an issue, [view all current issues](https://github.com/billimarie/light-pollution/issues) to limit duplicates.
+
+If you discover an unlisted bug, feel free to [open a new issue](https://github.com/billimarie/light-pollution/issues/new).
+
+Have a suggestion? A proposed solution? View the [wiki](https://github.com/billimarie/light-pollution/wiki/Contribute-Data,-Research,-and-Suggested-Solutions#submit-a-suggestion-or-solution) for more information.
