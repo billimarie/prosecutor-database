@@ -77,14 +77,14 @@ Go to the page of your fork on GitHub: https://www.github.com/[YOUR-USERNAME-HER
 
 Once accepted, your pull request will be merged with the Github Pages branch (`gh-pages`) and go live on the [website](https://billimarie.github.io/light-pollution).
 
-## Support
+## Issues
 
-Before requesting support, [view all current issues](https://github.com/billimarie/light-pollution/issues).
+Before submitting an issue, [view all current issues](https://github.com/billimarie/light-pollution/issues) to limit duplicates.
 
 If you have an unlisted problem, feel free to [open a new issue](https://github.com/billimarie/light-pollution/issues/new).
 
-For any additional questions or comments, please contact [@billimarie](https://www.github.com/billimarie).
-
 ## Contributing
 
-If you'd like to contribute, please [view the guidelines](https://github.com/billimarie/light-pollution/.github/CONTRIBUTING.md). Feel free to [fork this repo](https://github.com/billimarie/light-pollution#fork-destination-box) and make your changes. [Pull requests are warmly welcome](https://github.com/billimarie/light-pollution/compare).
+If you'd like to contribute, please [view the guidelines](https://github.com/billimarie/light-pollution/.github/CONTRIBUTING.md). Everyone is welcome to [fork the repo](https://github.com/billimarie/light-pollution#fork-destination-box) and [submit pull requests](https://github.com/billimarie/light-pollution/compare).
+
+For any additional questions or comments, please contact [@billimarie](https://www.github.com/billimarie).
