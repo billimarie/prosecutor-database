@@ -22,16 +22,25 @@ python --version
 npm --version
 ```
 
-### 1. Fetch and update the `master` branch
+### 1. [Fork](https://github.com/billimarie/light-pollution#fork-destination-box) the repository
+
+### 2. Clone, fetch, and checkout the `master` branch
 
 ```
-git clone https://www.github.com/billimarie/light-pollution.git
+git clone https://www.github.com/[YOUR-USERNAME-HERE]/light-pollution.git
 cd light-pollution
 git fetch
 git checkout master
 ```
 
-### 2. Update the code
+For a detailed overview of the fork/clone GitHub workflow, [view the GitHub tutorial](https://help.github.com/articles/fork-a-repo/).
+
+### 3. Make your own branch and update the code
+
+```
+git branch [YOUR-BRANCH-NAME-HERE]
+git checkout [YOUR-BRANCH-NAME-HERE]
+```
 
 Boot up a server in the `/public` directory, then navigate to `localhost:8000` in your browser.
 
@@ -42,31 +51,31 @@ Python -m SimpleHTTPServer
 
 Make changes to the code.
 
-### 3. When you're done updating the code, build out the prosecutor profiles with Gulp (see step 4)
+### 4-1. If you DON'T make changes to the individual prosecutor profiles, skip to step 5
 
-HINT: make sure you're in the root, where `gulpfile.js` is located. If you're in the `/public` directory, just `cd ..`.
+### 4-2. If you DO make changes to the individual prosecutor profiles, finalize the process with Gulp
+
+HINT: To update individual prosecutor pages, edit the related .handlebars template and .json files. For example: to add new information to an individual Attorney General profile, edit `templates/attorney-general-profile.handlebars` and `public/attorney-general/_attorney-general-config.json`.
+
+When you're finished, run Gulp. Make sure you're in the root, where the `gulpfile.js` is located.
 
 ```
 gulp handlebars
 ```
 
-### 3-1. To update individual prosecutor pages, edit the .handlebars template and .json files
-
-For example: to add new information to an individual Attorney General profile, edit `templates/attorney-general-profile.handlebars` and `public/attorney-general/_attorney-general-config.json`.
-
-### 4. Finalize the process with Gulp (see step 3)
-
-Again, make sure you're in the root, where `gulpfile.js` is located.
-
-#### 5. Finished? Just commit and push
+### 5. Finished? Just commit and push
 
 ```
 git add .
 git commit -m "[INSERT YOUR COMMIT MESSAGE HERE (for example: Update index.html: new title)]"
-git push origin master
+git push origin [YOUR-BRANCH-NAME-HERE]
 ```
 
-Once accepted, your pull request will be merged with the Github Pages branch (`gh-pages`).
+### 6. Submit a pull request
+
+Go to the page of your fork on GitHub: https://www.github.com/[YOUR-USERNAME-HERE]/light-pollution. Select your branch and click the pull request button.
+
+Once accepted, your pull request will be merged with the Github Pages branch (`gh-pages`) and go live on the [website](https://billimarie.github.io/light-pollution).
 
 ## Support
 
