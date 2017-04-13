@@ -1,14 +1,58 @@
 # light-pollution
 > a database of all U.S. prosecutors
 
-**light-pollution** is a prototype of a prosecutor oversight project. It displays local and national prosecutor data.
+![Light Pollution: a prototype database of all U.S. Prosecutors](https://github.com/billimarie/light-pollution/blob/master/public/img/light-pollution-front-animation.gif?raw=true)
+
+**light-pollution** is a prototype of a prosecutor community oversight project.
+
+It houses local and national prosecutor data in a [.JSON masterlist](https://github.com/billimarie/light-pollution/blob/master/public/data/prosecutors.json), then displays the information in a simple, clean, and user-friendly website called [Light Pollution](https://billimarie.github.io/light-pollution).
 
 ## Table of Contents
 
+- [How To Use](#how-to-use)
 - [Installation](#installation)
     - [Requirements](#requirements)
     - [Steps](#1-prepare-the-repo)
 - [Contributing](#contributing)
+
+# How To Use
+
+## Using the Website
+
+### Navigation
+
+Navigate to different types of U.S. Prosecutors using the navigation menu:
+
+<p align="center">
+    <img src="https://github.com/billimarie/light-pollution/blob/master/public/img/light-pollution-hover-menu-animation.gif" width="700px" alt="Light Pollution: Attorney General, U.S. Attorney, District Attorney, Municipal, City, and County Attorney" />
+</p>
+
+### Browsing
+
+Browse through the list until you spot a U.S. Prosecutor you would like more information on:
+
+<p align="center">
+    <img src="https://github.com/billimarie/light-pollution/blob/master/public/img/light-pollution-hover-prosecutor-animation.gif" width="350px" alt="Light Pollution: Jeff Sessions, Attorney General of the United States of America" />
+</p>
+
+### Individual Prosecutor Page
+
+Click their name, and you'll be taken to their individual prosecutor page.
+
+The individual prosecutor page template is currently under development. **light-pollution** is actively seeking contributors and would love your help: [Wiki: Contributing](https://github.com/billimarie/light-pollution/wiki/Contribute-Data,-Research,-and-Suggested-Solutions).
+
+### Update Prosecutor Data: Google Forms
+
+Did you come across wrong information? Can't find a prosecutor? Want to edit existing prosecutor data? Submit your data [here](https://goo.gl/forms/JG9gYxSIGE7nB6eK2):
+
+<p align="center">
+    <img src="https://github.com/billimarie/light-pollution/blob/master/public/img/light-pollution-submission-animation.gif" width="700px" alt="Light Pollution: Submit data about a U.S. Prosecutor via Google Forms" /></p>
+
+### Update Prosecutor Data: .JSON Masterlist
+
+You can also update prosecutor data by directly editing the Masterlist.
+
+View the current masterlist of U.S. Prosecutors here: [prosecutors.JSON](https://github.com/billimarie/light-pollution/blob/master/public/data/prosecutors.json)
 
 # Installation
 
