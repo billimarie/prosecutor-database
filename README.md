@@ -7,7 +7,7 @@
 
 - [Installation](#installation)
     - [Requirements](#requirements)
-    - [`master` branch](#master-branch)
+    - [Steps](#1-fork-the-repository)
 - [Support](#support)
 - [Contributing](#contributing)
 
