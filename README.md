@@ -5,9 +5,11 @@
 
 ## Table of Contents
 
-- [Installation](#Installation)
-- [Support](#Support)
-- [Contributing](#Contributing)
+- [Installation](#installation)
+    - [`master` branch](#master-branch)
+    - [`gh-pages` branch](#gh-pages-branch)
+- [Support](#support)
+- [Contributing](#contributing)
 
 ## Installation
 
