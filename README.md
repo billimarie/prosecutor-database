@@ -8,55 +8,12 @@
 
 Inspired by John Pfaff's new book, "Locked In," **light-pollution** has morphed into a community oversight project.
 
-- [How To Use](#how-to-use)
 - [Installation](#installation)
     - [Requirements](#requirements)
     - [Steps](#1-prepare-the-repo)
-- [Contributing](#contributing)
+- [Help Wanted](#help-wanted)
 
-# How To Use
-
-## Using the Website
-
-### Navigation
-
-Navigate to different types of U.S. Prosecutors using the navigation menu:
-
-<p align="center">
-    <img src="https://github.com/billimarie/light-pollution/blob/master/public/img/light-pollution-hover-menu-animation.gif" width="700px" alt="Light Pollution: Attorney General, U.S. Attorney, District Attorney, Municipal, City, and County Attorney" />
-</p>
-
-### Browsing
-
-Browse through the list until you spot a U.S. Prosecutor you would like more information on:
-
-<p align="center">
-    <img src="https://github.com/billimarie/light-pollution/raw/master/public/img/light-pollution-front-animation.gif?raw=true" width="700px" alt="Light Pollution: Click on a U.S. Prosecutor to read their data" />
-</p>
-
-### Individual Prosecutor Page
-
-Click their name, and you'll be taken to their individual prosecutor page.
-
-<p align="center">
-    <img src="https://github.com/billimarie/light-pollution/blob/master/public/img/light-pollution-hover-prosecutor-animation.gif" width="350px" alt="Light Pollution: Jeff Sessions, Attorney General of the United States of America" />
-</p>
-
-The individual prosecutor page template is currently under development. **light-pollution** is actively seeking contributors and would love your help: [Wiki: Contributing](https://github.com/billimarie/light-pollution/wiki/Contribute-Data,-Research,-and-Suggested-Solutions).
-
-### Update Prosecutor Data: Google Forms
-
-Did you come across wrong information? Can't find a prosecutor? Want to edit existing prosecutor data? Submit your data [here](https://goo.gl/forms/JG9gYxSIGE7nB6eK2):
-
-<p align="center">
-    <img src="https://github.com/billimarie/light-pollution/blob/master/public/img/light-pollution-submission-animation.gif" width="700px" alt="Light Pollution: Submit data about a U.S. Prosecutor via Google Forms" />
-</p>
-
-### Update Prosecutor Data: .JSON Masterlist
-
-You can also update prosecutor data by directly editing the Masterlist.
-
-View the current masterlist of U.S. Prosecutors here: [prosecutors.JSON](https://github.com/billimarie/light-pollution/blob/master/public/data/prosecutors.json)
+---
 
 # Installation
 
@@ -140,26 +97,24 @@ Select your branch and click the pull request button.
 
 Once accepted, your pull request will be merged with the Github Pages branch (`gh-pages`) and go live on the [website](https://billimarie.github.io/light-pollution).
 
-# Contributing
+---
 
-## Submit Data and Research
+# Help Wanted
 
-Everyone is welcome to submit data.
+Contributors of all skill levels warmly encouraged to participate.
 
-Once you've found data regarding a U.S. Prosecutor, please submit your findings through the [Light Pollution: Google Form](https://goo.gl/forms/FTztY8EJaPt7KXTn1).
+There are several areas in need of contributors:
 
-For additional details, visit the [wiki](https://github.com/billimarie/light-pollution/wiki/Contribute-Data,-Research,-and-Suggested-Solutions).
-
-## Update the Website
-
-If you'd like to contribute, please [view the guidelines](https://github.com/billimarie/light-pollution/.github/CONTRIBUTING.md). Everyone is welcome to [fork the repo](https://github.com/billimarie/light-pollution#fork-destination-box) and [submit pull requests](https://github.com/billimarie/light-pollution/compare).
-
-For any additional questions or comments, please contact [@billimarie](https://www.github.com/billimarie).
+- [Submit prosecutor data and research via the Google Form](https://github.com/billimarie/light-pollution/wiki/Contribute-Data,-Research,-and-Suggested-Solutions)
+- Create an inline form on the website to replace the Google Form
+- [Populate the .JSON masterlist with ALL THE PROSECUTORS](https://github.com/billimarie/light-pollution/wiki/Contribute-Data,-Research,-and-Suggested-Solutions)
+- [How to Organize Prosecutors: Role vs. Map vs. Zipcode](https://github.com/billimarie/light-pollution/issues/11)
+- [Finalize Individual Prosecutor Pages: Design and Dev Templates](https://github.com/billimarie/light-pollution/issues/9)
 
 ## Submit Suggestions, Solutions, or Issues
 
 Before submitting an issue, [view all current issues](https://github.com/billimarie/light-pollution/issues) to limit duplicates.
 
-If you discover an unlisted bug, feel free to [open a new issue](https://github.com/billimarie/light-pollution/issues/new).
+If you discover an unlisted bug, [open a new issue](https://github.com/billimarie/light-pollution/issues/new).
 
-Have a suggestion? A proposed solution? View the [wiki](https://github.com/billimarie/light-pollution/wiki/Contribute-Data,-Research,-and-Suggested-Solutions#submit-a-suggestion-or-solution) for more information.
+View the [wiki](https://github.com/billimarie/light-pollution/wiki/Contribute-Data,-Research,-and-Suggested-Solutions#submit-a-suggestion-or-solution) for more information.
