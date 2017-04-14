@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/billimarie/light-pollution/blob/master/public/img/light-pollution-title-card-animation.gif" alt="Light Pollution: a prototype database of all U.S. Prosecutors" width="800px" />
+    <img src="https://github.com/billimarie/light-pollution/raw/master/public/img/light-pollution-front-animation.gif" width="800px" alt="Light Pollution: Click on a U.S. Prosecutor to read their data" />
 </p>
 
 # light-pollution :city_sunset:
@@ -97,7 +97,9 @@ Select your branch and click the pull request button.
 
 Once accepted, your pull request will be merged with the Github Pages branch (`gh-pages`) and go live on the [website](https://billimarie.github.io/light-pollution).
 
----
+<p align="center">
+    <img src="https://github.com/billimarie/light-pollution/blob/master/public/img/light-pollution-title-card-animation.gif" alt="Light Pollution: a prototype database of all U.S. Prosecutors" width="800px" />
+</p>
 
 # Help Wanted
 
