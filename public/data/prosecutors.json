@@ -935,6 +935,13 @@
 							"appointed": "2017-03-11"
 					}
 		],
+		"city attorney": [
+			"id": "ca-01",
+			"name": "Mike Feuer",
+			"state": "California",
+			"city": "Los Angeles",
+			"website": "http://www.lacityattorney.org/office"
+		],
 		"elections": [
 			{
 				"id": "e-01",
