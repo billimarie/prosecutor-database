@@ -108,7 +108,7 @@ Contributors of all skill levels warmly encouraged to participate.
 There are several areas in need of contributors:
 
 - [Submit prosecutor data and research via the Google Form](https://github.com/billimarie/light-pollution/wiki/Contribute-Data,-Research,-and-Suggested-Solutions)
-- Create an inline form on the website to replace the Google Form
+- [Create an inline form on the website to replace the Google Form](https://github.com/billimarie/light-pollution/issues/12)
 - [Populate the .JSON masterlist with ALL THE PROSECUTORS](https://github.com/billimarie/light-pollution/wiki/Contribute-Data,-Research,-and-Suggested-Solutions)
 - [How to Organize Prosecutors: Role vs. Map vs. Zipcode](https://github.com/billimarie/light-pollution/issues/11)
 - [Finalize Individual Prosecutor Pages: Design and Dev Templates](https://github.com/billimarie/light-pollution/issues/9)
