@@ -42,9 +42,9 @@ Change directories to where your clone of the light-pollution repo is located.
 cd path/goes/here/light-pollution
 ```
 
-## 2-A. For people afraid of using Command Prompt / Terminal: Download [GitHub Desktop](https://desktop.github.com/)
+## 2.1 For people afraid of using Command Prompt / Terminal: Download [GitHub Desktop](https://desktop.github.com/)
 
-## 2-B. For everyone else: Create a local clone of your fork
+## 2.2 For everyone else: Create a local clone of your fork
 
 Clone, Fetch, and Checkout the `master` branch.
 
@@ -64,7 +64,7 @@ git checkout [YOUR-BRANCH-NAME-HERE]
 
 For a detailed overview of the fork/clone GitHub workflow, [view the GitHub tutorial](https://help.github.com/articles/fork-a-repo/).
 
-## 2. Install dependencies
+## 3. Install dependencies
 
 In the root of the project, install npm dependencies.
 
@@ -72,7 +72,7 @@ In the root of the project, install npm dependencies.
 npm install
 ```
 
-## 3. Load site
+## 4. Load site
 
 Boot up a server in the `/public` directory, then navigate to `localhost:8000` in your browser.
 
@@ -83,15 +83,15 @@ Python -m SimpleHTTPServer
 
 If you're using windows and get an error running SimpleHTTPServer, run `python -m http.server`, instead.
 
-## 4. Make changes to the code
+## 5. Make changes to the code
 
 You can view the local dev version of light-pollution by going to `http://localhost:8000` in your browser.
 
-### 4.1 Updating individual prosecutor profiles
+### 5.1 Updating individual prosecutor profiles
 
 To update and/or add new information to individual prosecutor pages, edit the related `.handlebars` template and `.json` file. (For example: edit `templates/attorney-general-profile.handlebars` and `public/attorney-general/_attorney-general-config.json` if you want to change the office hours of an Attorney General.)
 
-### 4.2 Run Gulp
+### 5.2 Run Gulp
 
 Build out the website with Gulp. Make sure you're in the root, where the `gulpfile.js` is located.
 
@@ -99,7 +99,7 @@ Build out the website with Gulp. Make sure you're in the root, where the `gulpfi
 gulp handlebars
 ```
 
-## 5. Finished? Just commit and push
+## 6. Finished? Just commit and push
 
 ```
 git add .
@@ -107,7 +107,7 @@ git commit -m "[INSERT YOUR COMMIT MESSAGE HERE (for example: Update index.html:
 git push origin [YOUR-BRANCH-NAME-HERE]
 ```
 
-## 6. Submit a pull request
+## 7. Submit a pull request
 
 Go to the page of your fork on GitHub.
 
