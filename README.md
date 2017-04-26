@@ -19,16 +19,32 @@ Inspired by John Pfaff's new book, "Locked In," **light-pollution** has morphed 
 
 ## Requirements
 
-Python and npm (Gulp):
+[Git](https://git-scm.com/download/), Python, and Node (npm, Gulp):
 
 ```
+git --version
 python --version
-npm --version
+node -v
+npm install npm@latest -g
+npm install --global gulp-cli
 ```
+
+If you don't already have a GitHub account, now is the time to sign up.
 
 ## 1. Prepare the repo
 
 [Fork](https://github.com/billimarie/light-pollution#fork-destination-box) the repository.
+
+Change directories to where your clone of the light-pollution repo is located.
+
+## 2. Switch to the Terminal or Command Prompt to initialize Git
+```
+cd path/goes/here/light-pollution
+```
+
+## 2-A. For people afraid of using Command Prompt / Terminal: Download [GitHub Desktop](https://desktop.github.com/)
+
+## 2-B. For everyone else: Create a local clone of your fork
 
 Clone, Fetch, and Checkout the `master` branch.
 
@@ -65,13 +81,15 @@ cd public
 Python -m SimpleHTTPServer
 ```
 
+If you're using windows and get an error running SimpleHTTPServer, run `python -m http.server`, instead.
+
 ## 4. Make changes to the code
+
+You can view the local dev version of light-pollution by going to `http://localhost:8000` in your browser.
 
 ### 4.1 Updating individual prosecutor profiles
 
-To update and/or add new information to individual prosecutor pages, edit the related `.handlebars` template and `.json` file.
-
-For example: edit `templates/attorney-general-profile.handlebars` and `public/attorney-general/_attorney-general-config.json` if you want to change the office hours of an Attorney General.
+To update and/or add new information to individual prosecutor pages, edit the related `.handlebars` template and `.json` file. (For example: edit `templates/attorney-general-profile.handlebars` and `public/attorney-general/_attorney-general-config.json` if you want to change the office hours of an Attorney General.)
 
 ### 4.2 Run Gulp
 

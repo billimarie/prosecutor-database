@@ -525,7 +525,7 @@
 							"id": "sa-35",
 							"state": "Louisiana",
 							"district": "Eastern District of Louisiana",
-							"name": "Duane A. Evans,",
+							"name": "Duane A. Evans",
 							"appointed": "2017-03-11"
 					},
 					{
@@ -934,13 +934,6 @@
 							"name": "John Robert Green",
 							"appointed": "2017-03-11"
 					}
-		],
-		"city attorney": [
-			"id": "ca-01",
-			"name": "Mike Feuer",
-			"state": "California",
-			"city": "Los Angeles",
-			"website": "http://www.lacityattorney.org/office"
 		],
 		"elections": [
 			{
