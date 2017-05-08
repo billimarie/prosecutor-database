@@ -8,12 +8,17 @@
 
 Inspired by John Pfaff's new book, "Locked In," **light-pollution** has morphed into a community oversight project.
 
+- [Contributors](#contributors)
 - [Installation](#installation)
     - [Requirements](#requirements)
     - [Steps](#1-prepare-the-repo)
 - [Help Wanted](#help-wanted)
 
 ---
+
+# Contributors
+
+Created and maintained by @billimarie.
 
 # Installation
 
