@@ -1,10 +1,15 @@
 [{
-	"state": "",
-	"name": "",
+	"name": "Cyrus Vance Jr.",
+	"state": "New York",
 	"role": "District Attorney",
+	"neighborhood": "Manhattan",
+	"county": "New York County",
 	"websites": {
-		"url": "",
-		"google": "",
-		"wiki": ""
+		"url": "http://manhattanda.org",
+		"google": "https://www.google.com/search?q=cyrus+vance+district+attorney&tbm=nws",
+		"wiki": "https://en.wikipedia.org/wiki/Cyrus_Vance_Jr."
+	},
+	"bio": {
+		"wiki-picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/DA_Vance.jpg/500px-DA_Vance.jpg"
 	}
 }]
