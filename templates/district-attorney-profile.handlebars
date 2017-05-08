@@ -2,7 +2,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Wayne Stenehjem | Attorney General: North Dakota | Light Pollution </title>
+		<title>{{name}} | District Attorney: {{state}} | Light Pollution </title>
 		<meta property="og:title" content="Light Pollution: U.S. Prosecutors Database">
 		<meta property="og:description" content="A Prosecutor Oversight prototype. Light Pollution houses the data of government lawyers, including Attorney General, U.S. Attorney, District Attorney, and Municipal Attorney roles.">
 		<meta property="og:image" content="https://raw.githubusercontent.com/billimarie/light-pollution/gh-pages/light-pollution_billimarie_prosecutors_usa.png">
@@ -56,18 +56,19 @@
 
     <div class="jumbotron">
       <div class="container">
-				<h1>Wayne Stenehjem</h1>
-        <h2>Attorney General of North Dakota</h2>
+				<h1>{{name}}</h1>
+        <h2>{{role}} of {{neighborhood}} in {{county}}, {{state}}</h2>
 			</div>
     </div>
 
     <div class="container">
       <div class="row">
         <h1>Information</h1>
-        <h2><a href="https://en.wikipedia.org/wiki/Wayne_Stenehjem" target="_blank">Wikipedia</a></h2>
-        <h2><a href="https://www.google.com/search?q&#x3D;Wayne+Stenehjem+North+Dakota+attorney+general&amp;tbm&#x3D;nws" target="_blank">Google News</a></h2>
-        <h2><a href="https://attorneygeneral.nd.gov/" target="_blank">Website</a></h2>
+        <h2><a href="{{websites.wiki}}" target="_blank">Wikipedia</a></h2>
+        <h2><a href="{{websites.google}}" target="_blank">Google News</a></h2>
+        <h2><a href="{{websites.url}}" target="_blank">Website</a></h2>
         <hr />
+				<img src="{{bio.wiki-picture}}" />
       </div>
     </div>
 

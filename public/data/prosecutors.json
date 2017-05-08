@@ -945,6 +945,16 @@
 				"race": "District Attorney",
 				"desc": "Democratic primary"
 			}
+		],
+		"districtAttorney": [
+			{
+				"id": "da-01",
+				"state": "New York",
+				"role": "District Attorney",
+				"county": "New York County",
+				"neighborhood": "Manhattan",
+				"name": "Cyrus Vance Jr."
+			}
 		]
 	}
 }

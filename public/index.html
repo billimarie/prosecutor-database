@@ -33,7 +33,7 @@
 			<div class="jumbotron">
 				<h1>Light Pollution</h1>
 				<h2>A Collection of U.S. Prosecutors</h2>
-				<p>(Updated April 26th 2017)</p>
+				<p>(Updated May 8th 2017)</p>
 			</div>
 		</header>
 
@@ -112,8 +112,22 @@
 
 			<section id="district-attorney">
 				<h2>District Attorney</h2>
-				<p><strong>District Attorney</strong> data coming soon.</p>
-				<p><a href="https://goo.gl/forms/JG9gYxSIGE7nB6eK2">Submit your district attorney data.</a></p>
+				{{#if prosecutors.districtAttorney}}
+				<ul class="row">
+					{{#each prosecutors.districtAttorney}}
+				<li class="{{id}} col-md-4">
+					<a href="district-attorney/{{link name}}.html">
+						<h3>{{name}}</h3>
+						<h4>{{state}}</h4>
+						<h5><em>{{neighborhood}}, {{county}}</em></h5>
+					</a>
+				</li>
+					{{/each}}
+				</ul>
+				{{else}}
+					<p>No <strong>District Attorney</strong> data available.</p>
+					<p><a href="https://goo.gl/forms/JG9gYxSIGE7nB6eK2">Submit your district attorney data.</a></p>
+				{{/if}}
 			</section>
 
 			<hr />
