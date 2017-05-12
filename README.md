@@ -130,6 +130,7 @@ Contributors of all skill levels warmly encouraged to participate.
 
 There are several areas in need of contributors:
 
+- [Create Node.js RESTful API](https://github.com/billimarie/light-pollution/issues/15)
 - [Submit prosecutor data and research via the Google Form](https://github.com/billimarie/light-pollution/wiki/Contribute-Data,-Research,-and-Suggested-Solutions)
 - [Create an inline form on the website to replace the Google Form](https://github.com/billimarie/light-pollution/issues/12)
 - [Populate the .JSON masterlist with ALL THE PROSECUTORS](https://github.com/billimarie/light-pollution/wiki/Contribute-Data,-Research,-and-Suggested-Solutions)
