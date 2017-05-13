@@ -1,7 +1,7 @@
 # LadyHacks2017
 > Prosecutor Database
 
-Test!
+Original Prototype: [light-pollution](https://www.github.com/billimarie/light-pollution)
 
 For LadyHacks, we'll be focusing on the Philadelphia DA candidates in preparation for Tuesday's election:
 
