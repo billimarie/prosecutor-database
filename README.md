@@ -8,17 +8,21 @@
 
 Inspired by John Pfaff's new book, "Locked In," **light-pollution** has morphed into a community oversight project.
 
-- [Contributors](#contributors)
+- [#LadyHacks2017](#ladyhacks2017)
 - [Installation](#installation)
     - [Requirements](#requirements)
     - [Steps](#1-prepare-the-repo)
+- [Contributors](#contributors)
 - [Help Wanted](#help-wanted)
+    - [Submit Suggestions, Solutions, or Issues](#submit-suggestions-solutions-or-issues)
 
 ---
 
-# Contributors
+# #LadyHacks2017
 
-Created and maintained by @billimarie.
+For LadyHacks, we'll be focusing on the Philadelphia DA candidates in preparation for Tuesday's election.
+
+## [See Open Issues](https://github.com/billimarie/light-pollution/issues?q=is%3Aopen+is%3Aissue+label%3ALADYHACKS)
 
 # Installation
 
@@ -123,6 +127,10 @@ Once accepted, your pull request will be merged with the Github Pages branch (`g
 <p align="center">
     <img src="https://github.com/billimarie/light-pollution/blob/master/public/img/light-pollution-title-card-animation.gif" alt="Light Pollution: a prototype database of all U.S. Prosecutors" width="800px" />
 </p>
+
+# Contributors
+
+Created and maintained by @billimarie.
 
 # Help Wanted
 
