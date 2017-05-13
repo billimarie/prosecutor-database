@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  date: 2017-05-13 12:33:01
+  type: 
+  judgment: MyString
+  ruling: MyText
+  opinion_link: MyString
+
+two:
+  name: MyString
+  date: 2017-05-13 12:33:01
+  type: 
+  judgment: MyString
+  ruling: MyText
+  opinion_link: MyString
