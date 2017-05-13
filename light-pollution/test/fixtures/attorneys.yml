@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  party: MyString
+  status: MyString
+  district: MyString
+
+two:
+  name: MyString
+  party: MyString
+  status: MyString
+  district: MyString
