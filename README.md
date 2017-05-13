@@ -1,7 +1,8 @@
 # LadyHacks2017
 > Prosecutor Database
 
-Original Prototype: [light-pollution](https://www.github.com/billimarie/light-pollution)
+## Vision
+Prosecutor History of Philly DA Candidates
 
 For LadyHacks, we'll be focusing on the Philadelphia DA candidates in preparation for Tuesday's election:
 
@@ -9,7 +10,8 @@ For LadyHacks, we'll be focusing on the Philadelphia DA candidates in preparatio
 - [View Project Board](https://github.com/billimarie/light-pollution/projects/5)
 - [Prototype](https://billimarie.github.io/light-pollution/)
 - [Election Data](https://docs.google.com/spreadsheets/d/1bEnzJggEc8Ar8vKe5UIPkJ1QBL1qdPAQnTPMaPtxeZY/edit#gid=645195078)
-- [Add a Prosecutor (via Google Forms)](https://docs.google.com/forms/d/e/1FAIpQLSfXqxGr4FCaH49h_dH9KHfXHUd2SjPFNvynGIxL2tSGJGalbw/viewform?c=0&w=1)
+- [Philadelphia DA Candidate (Google Spreadsheet)](https://docs.google.com/spreadsheets/d/1SGn67OsBh3K_XsWVpurI0ioEXtVIK_vLmJMuguQdHpc/edit?usp=sharing)
+- [Original Prototype](https://www.github.com/billimarie/light-pollution)
 
 # LadyHacks Agenda
 
