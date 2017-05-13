@@ -20,9 +20,10 @@ Inspired by John Pfaff's new book, "Locked In," **light-pollution** has morphed 
 
 # #LadyHacks2017
 
-For LadyHacks, we'll be focusing on the Philadelphia DA candidates in preparation for Tuesday's election.
+For LadyHacks, we'll be focusing on the Philadelphia DA candidates in preparation for Tuesday's election:
 
-## [See Open Issues](https://github.com/billimarie/light-pollution/issues?q=is%3Aopen+is%3Aissue+label%3ALADYHACKS)
+- [See Open Issues](https://github.com/billimarie/light-pollution/issues?q=is%3Aopen+is%3Aissue+label%3ALADYHACKS)
+- [View Project Board](https://github.com/billimarie/light-pollution/projects/5)
 
 # Installation
 
