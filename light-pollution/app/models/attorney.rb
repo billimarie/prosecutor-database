@@ -1,0 +1,2 @@
+class Attorney < ApplicationRecord
+end
