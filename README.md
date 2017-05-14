@@ -8,19 +8,12 @@
 
 Inspired by John Pfaff's new book, "Locked In," **light-pollution** has morphed into a community oversight project.
 
-- [#LadyHacks2017](#ladyhacks2017)
 - [Installation](#installation)
     - [Requirements](#requirements)
     - [Steps](#1-prepare-the-repo)
 - [Contributors](#contributors)
 - [Help Wanted](#help-wanted)
     - [Submit Suggestions, Solutions, or Issues](#submit-suggestions-solutions-or-issues)
-
----
-
-# #LadyHacks2017
-
-For LadyHacks, we'll be focusing on the Philadelphia DA candidates in preparation for Tuesday's election: [LadyHacks2017 Repo](https://www.github.com/billimarie/ladyhacks2017)
 
 ---
 
