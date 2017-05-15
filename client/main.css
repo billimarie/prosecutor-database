@@ -1,4 +1,17 @@
-/* Bootstrap Overrides */
+/*===================
+  Bootstrap Overrides
+===================*/
+/* Typography */
+body {
+  font-family: 'Open Sans', 'Verdana', sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', 'Helvetica', sans-serif !important;
+}
+h1, h2 {
+  text-transform: uppercase;
+  font-weight: 900;
+}
 /* Row Gutters */
 @media screen and (max-width: 767px) {
   header .jumbotron {
@@ -98,6 +111,7 @@
 }
 #prosecutor-list ul {
   padding: 0;
+  margin: 0 auto;
 }
 #prosecutor-list li {
   list-style: none;
@@ -131,6 +145,17 @@
     top: 0px !important;
     -webkit-filter: none !important;
   	filter: none !important;
+  }
+  .view-attorneys ul.nav-tabs li,
+  .view-attorneys ul.nav-tabs li.active {
+    display: block;
+    width: 100%;
+  }
+  .view-attorneys ul.nav-tabs li a button,
+  .view-attorneys ul.nav-tabs li.active a button,
+  .view-attorneys ul.nav-tabs li a,
+  .view-attorneys ul.nav-tabs li.active a {
+    width: 100%;
   }
 }
 #ribbon {
