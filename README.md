@@ -70,6 +70,8 @@ git checkout -b [YOUR-INITIALS-HERE]/feature-name-here
 ```
 meteor
 
+meteor npm install
+
 meteor mongo
 ```
 

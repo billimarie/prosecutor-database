@@ -30,23 +30,21 @@
   {{> header}}
   {{> nav}}
 
+  <section class="find-prosecutor jumbotron">
+    <div class="container view-attorneys text-center">
+      {{> currentProsecutors}}
+    </div>
+  </section>
+
   <div class="container">
 
-    <div class="row text-center">
-      <section class="find-prosecutor jumbotron">
-        <div class="container">
-          {{> currentProsecutors}}
-        </div>
-      </section>
-    </div>
-
-    <div class="row text-center">
+    <section class="row text-center">
       {{> legalHistory}}
-    </div>
+    </section>
 
-    <div class="row text-center">
+    <section class="row text-center">
       {{> election}}
-    </div>
+    </section>
 
   </div>
 
@@ -154,7 +152,6 @@
 </template>
 
 <template name="currentProsecutors">
-  <div class="view-attorneys">
 
     <div class="row margin-btm-med">
       <h2>Find A Prosecutor</h2>
@@ -264,8 +261,6 @@
         </div>
       </div>
     </div>
-
-  </div>
 </template>
 
 <template name="legalHistory">
@@ -331,7 +326,7 @@
 						<li><a href="index.html">Attorney General</a></li>
 						<li><a href="index.html#us-attorney">U.S. Attorney</a></li>
 						<li><a href="index.html#district-attorney">District Attorney</a></li>
-						<li><a href="index.html#municipal-attorney">Municipal/County Attorney</a></li>
+						<li><a href="index.html#municipal-attorney">Municipal/City Attorney</a></li>
 						<li><a href="#election">Elections</a></li>
 					</ul>
 				</div>
