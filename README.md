@@ -4,7 +4,7 @@
 
 # light-pollution :city_sunset:
 
-**light-pollution** is a database of elected and appointed State attorneys in the United States (Attorney Generals, U.S. Attorneys, District Attorneys, Municipal/City Attorneys). It showcases prosecutorial history at the local, state, and federal level.
+**light-pollution** is a database of elected and appointed State attorneys in the United States (Attorney Generals, U.S. Attorneys, District Attorneys, Municipal/City Attorneys). It showcases prosecutor history at the local, state, and federal level.
 
 ## Table of Contents
 
@@ -20,7 +20,9 @@
 
 # Demo
 
-View the GitHub Pages demo: [**light-pollution**](https://billimarie.github.io/light-pollution)
+**View the new Heroku demo: [http://light-pollution.herokuapp.com/](http://light-pollution.herokuapp.com/)**
+
+View the old GitHub Pages demo: [https://billimarie.github.io/light-pollution](https://billimarie.github.io/light-pollution)
 
 <p align="center">
     <img src="https://github.com/billimarie/light-pollution/blob/gh-pages/img/light-pollution-front-animation.gif?raw=true" width="800px" alt="Light Pollution: Click on a U.S. Prosecutor to read their data" />
@@ -117,7 +119,6 @@ There are several areas in need of contributors:
 - [Submit prosecutor data and research via the Google Form](https://github.com/billimarie/light-pollution/wiki/Contribute-Data,-Research,-and-Suggested-Solutions)
 - [Create an inline form on the website to replace the Google Form](https://github.com/billimarie/light-pollution/issues/12)
 - [Populate the .JSON masterlist with ALL THE PROSECUTORS](https://github.com/billimarie/light-pollution/wiki/Contribute-Data,-Research,-and-Suggested-Solutions)
-- [How to Organize Prosecutors: Role vs. Map vs. Zipcode](https://github.com/billimarie/light-pollution/issues/11)
 - [Finalize Individual Prosecutor Pages: Design and Dev Templates](https://github.com/billimarie/light-pollution/issues/9)
 
 ## Submit Suggestions, Solutions, or Issues
