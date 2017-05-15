@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/billimarie/light-pollution/raw/master/public/img/light-pollution-front-animation.gif" width="800px" alt="Light Pollution: Click on a U.S. Prosecutor to read their data" />
+    <img src="https://raw.githubusercontent.com/billimarie/light-pollution/gh-pages/img/light-pollution-title-card-animation.gif" alt="Light Pollution: a prototype database of all U.S. Prosecutors" width="800px" />
 </p>
 
 # light-pollution :city_sunset:
@@ -8,6 +8,7 @@
 
 ## Table of Contents
 
+- [Demo](#demo)
 - [Installation](#installation)
     - [Requirements](#requirements)
     - [Steps](#1-prepare-the-repo)
@@ -15,11 +16,21 @@
 - [Help Wanted](#help-wanted)
     - [Submit Suggestions, Solutions, or Issues](#submit-suggestions-solutions-or-issues)
 
+---
+
+# Demo
+
+View the GitHub Pages demo: [**light-pollution**](https://billimarie.github.io/light-pollution)
+
+<p align="center">
+    <img src="https://github.com/billimarie/light-pollution/blob/gh-pages/img/light-pollution-front-animation.gif?raw=true" width="800px" alt="Light Pollution: Click on a U.S. Prosecutor to read their data" />
+</p>
+
 # Installation
 
 ## Requirements
 
-[Git](https://git-scm.com/download/), Meteor
+[Git](https://git-scm.com/download/), [Meteor](https://www.meteor.com)
 
 ```
 git --version
@@ -89,10 +100,6 @@ Go to the page of your fork on GitHub.
 Select your branch and click the pull request button.
 
 Once accepted, your pull request will be merged with the production branch (`master`) and go live on the [website](https://billimarie.github.io/light-pollution).
-
-<p align="center">
-    <img src="https://github.com/billimarie/light-pollution/blob/master/public/img/light-pollution-title-card-animation.gif" alt="Light Pollution: a prototype database of all U.S. Prosecutors" width="800px" />
-</p>
 
 # Contributors
 
