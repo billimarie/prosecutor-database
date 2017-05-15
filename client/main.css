@@ -128,9 +128,9 @@
 /* CSS Ribbon */
 @media screen and (max-width: 991px) {
   #ribbon .container {
-    top: 0px;
-    -webkit-filter: none;
-  	filter: none;
+    top: 0px !important;
+    -webkit-filter: none !important;
+  	filter: none !important;
   }
 }
 #ribbon {
@@ -138,7 +138,7 @@
 	height: 100px;
 	margin: 0 auto;
 	position: fixed;
-  right: 50px;
+  right: 65px;
 	overflow: hidden;
   z-index:99999;
 }
