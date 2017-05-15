@@ -126,6 +126,13 @@
   background-color:transparent;
 }
 /* CSS Ribbon */
+@media screen and (max-width: 991px) {
+  #ribbon .container {
+    top: 0px;
+    -webkit-filter: none;
+  	filter: none;
+  }
+}
 #ribbon {
 	width: 110px;
 	height: 100px;
