@@ -9,8 +9,29 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', 'Helvetica', sans-serif !important;
 }
 h1, h2 {
-  text-transform: uppercase;
-  font-weight: 900;
+  text-transform: uppercase !important;
+  font-weight: 900 !important;
+}
+header .jumbotron {
+  background-image: -webkit-linear-gradient(top,#fff 0,#f8f8f8 100%) !important;
+  background-image: -o-linear-gradient(top,#fff 0,#f8f8f8 100%) !important;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#f8f8f8)) !important;
+  background-image: linear-gradient(to bottom,#fff 0,#f8f8f8 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff8f8f8', GradientType=0) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false) !important;
+  background-repeat: repeat-x !important;
+  border-radius: 4px !important;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 5px rgba(0,0,0,.075) !important;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 5px rgba(0,0,0,.075) !important;
+  border-bottom: 1px solid #eee !important;
+  padding-top: 25% !important;
+  padding-bottom: 25% !important;
+}
+header h1 {
+
+}
+header .jumbotron h2 {
+  font-weight: 100 !important;
 }
 /* Row Gutters */
 @media screen and (max-width: 767px) {
@@ -99,7 +120,7 @@ h1, h2 {
 }
 /* Prosecutor List */
 /* Even Spacing */
-#prosecutor-list a {
+#prosecutor-list li.single-attorney a {
   padding: 5px 15px 20px 15px !important;
 }
 .find-prosecutor.jumbotron {
@@ -119,7 +140,6 @@ h1, h2 {
 }
 #prosecutor-list a {
   display: inline-block;
-  padding: 5px 15px;
   border-radius: 8px;
   width: 100%;
   background-color: #eee;

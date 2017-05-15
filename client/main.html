@@ -30,7 +30,7 @@
   {{> header}}
   {{> nav}}
 
-  <section class="find-prosecutor jumbotron">
+  <section id="prosecutor-list" class="find-prosecutor jumbotron">
     <div class="container view-attorneys text-center">
       {{> currentProsecutors}}
     </div>
@@ -76,11 +76,12 @@
 		<div class="jumbotron">
       <div class="container">
   			<h1>Light Pollution</h1>
-  			<h2>An Open-Source, Independent Prosecutor Oversight App</h2>
-  			<p><em>Light Pollution</em> showcases the prosecutor data of State actors at the local, state, and federal level (Attorney Generals, U.S. Attorneys, District Attorneys, City Attorneys, and Municipal Attorneys).</p>
-        <a href="https://goo.gl/forms/JG9gYxSIGE7nB6eK2" target="_blank"><button type="button" class="btn btn-primary btn-lg">Add Prosecutor Data</button></a>
+  			<h2>U.S. Prosecutor Data</h2>
+  			<p>(Updated May 15th 2017)</p>
+        <a href="#prosecutor-list"><button type="button" class="btn btn-primary btn-lg">View All</button></a>
+        <a href="https://goo.gl/forms/JG9gYxSIGE7nB6eK2" target="_blank"><button type="button" class="btn btn-primary btn-lg">Add/Update</button></a>
       </div>
-		</div>
+    </div>
 	</header>
 </template>
 
@@ -153,7 +154,6 @@
 </template>
 
 <template name="currentProsecutors">
-
     <div class="row margin-btm-med">
       <h2>Find A Prosecutor</h2>
     </div>
@@ -184,7 +184,7 @@
           {{#if attorneyGeneral}}
           <ul class="row">
               {{#each attorneyGeneral}}
-              <li class="col-md-4">
+              <li class="col-md-4 single-attorney">
                 <a href="#">
                   <h3 class="name">{{name}}</h3>
                   <h4 class="state">{{state}}</h4>
@@ -202,7 +202,7 @@
           {{#if usAttorney}}
           <ul class="row">
             {{#each usAttorney}}
-          <li class="{{id}} col-md-4">
+          <li class="col-md-4 single-attorney">
             <a href="#">
               <h3>{{name}}</h3>
               <h4>{{state}}</h4>
@@ -222,7 +222,7 @@
           {{#if districtAttorney}}
           <ul class="row">
             {{#each districtAttorney}}
-          <li class="{{id}} col-md-4">
+          <li class="col-md-4 single-attorney">
             <a href="#">
               <h3>{{name}}</h3>
               <h4>{{state}}</h4>
@@ -246,7 +246,7 @@
           {{#if allAttorneys}}
           <ul class="row">
             {{#each allAttorneys}}
-          <li class="{{id}} col-md-4">
+          <li class="col-md-4 single-attorney">
             <a href="#">
               <h3>{{name}}</h3>
               <h4>{{state}}</h4>
