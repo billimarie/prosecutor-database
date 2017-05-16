@@ -20,13 +20,19 @@
 
 # Demo
 
-**View the new Heroku demo: [http://light-pollution.herokuapp.com/](http://light-pollution.herokuapp.com/)**
+## [NEW! Heroku Demo](http://light-pollution.herokuapp.com/)
 
-View the old GitHub Pages demo: [https://billimarie.github.io/light-pollution](https://billimarie.github.io/light-pollution)
+<p align="center">
+    <img src="https://cloud.githubusercontent.com/assets/6895471/26085135/e60ac342-39af-11e7-8371-a20be752d8b9.gif" width="800px" alt="Light Pollution: U.S. Prosecutor database" />
+</p>
+
+## [GitHub Pages Demo (old)](https://billimarie.github.io/light-pollution)
 
 <p align="center">
     <img src="https://github.com/billimarie/light-pollution/blob/gh-pages/img/light-pollution-front-animation.gif?raw=true" width="800px" alt="Light Pollution: Click on a U.S. Prosecutor to read their data" />
 </p>
+
+---
 
 # Installation
 
@@ -104,6 +110,8 @@ Go to the page of your fork on GitHub.
 Select your branch and click the pull request button.
 
 Once accepted, your pull request will be merged with the production branch (`master`) and go live on the [website](https://billimarie.github.io/light-pollution).
+
+---
 
 # Contributors
 
