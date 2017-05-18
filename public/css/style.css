@@ -1,0 +1,114 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 45px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+a:hover {
+  cursor: pointer;
+}
+header, footer {
+  text-align: center;
+}
+header .jumbotron {
+  background-image: -webkit-linear-gradient(top,#fff 0,#f8f8f8 100%);
+  background-image: -o-linear-gradient(top,#fff 0,#f8f8f8 100%);
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#f8f8f8));
+  background-image: linear-gradient(to bottom,#fff 0,#f8f8f8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff8f8f8', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  background-repeat: repeat-x;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 5px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 5px rgba(0,0,0,.075);
+  border-bottom: 1px solid #eee;
+  padding-top: 25%;
+  padding-bottom: 25%;
+}
+.navbar-default {
+  background-color: #fff;
+  background-image: none;
+}
+header h1 {
+  font-weight:800;
+}
+header h2 {
+  font-weight:300;
+}
+header h1, header h2 {
+  margin: 0;
+  text-transform: uppercase;
+}
+header p {
+  font-weight: 100;
+  padding-top: 10px;
+  font-style: italic;
+  color: #777;
+}
+#navbar .glyphicon {
+  font-size: 16px;
+}
+#prosecutorMasterList h2 {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+#prosecutorMasterList ul {
+  padding: 0;
+}
+#prosecutorMasterList li {
+  list-style: none;
+  padding: 0;
+}
+#prosecutorMasterList a {
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 8px;
+  width: 100%;
+  background-color: #eee;
+  border: 3px solid #fff;
+  color: #333;
+  text-decoration: none;
+}
+#prosecutorMasterList a:hover {
+  background-color: #ddd;
+  color: #111;
+}
+section {
+  padding-top: 70px;
+}
+hr {
+  margin-top: 70px;
+}
+footer {
+  margin-top: 70px;
+  padding: 10px;
+  color: #666;
+}
+footer .col-md-6 ul {
+  list-style: none;
+  padding: 0;
+}
+footer .col-md-6 ul li {
+  list-style: none;
+  display: block;
+  padding: 5px 0;
+}
+#about {
+  float: none;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+#about p, #about ul li {
+  font-size: 18px;
+}
+#about p {
+  margin: 20px auto;
+}
+.page-header.stats {
+  border-bottom: none;
+  padding: 0;
+  margin: 30px 0;
+}
+/* http://tholman.com/github-corners/ */
+.github-corner:hover .octo-arm {animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}

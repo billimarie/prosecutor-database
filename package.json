@@ -1,0 +1,28 @@
+{
+  "name": "light-pollution",
+  "version": "0.0.2",
+  "description": "A database of U.S. prosecutors.",
+  "keywords": [
+    "prosecutors",
+    "government",
+    "politics",
+    "database"
+  ],
+  "repository": "https://github.com/billimarie/light-pollution.git",
+  "homepage": "https://billimarie.github.io/light-pollution/",
+  "author": "Billimarie Lubiano Robinson <work@billimarie.com>",
+  "license": "MIT",
+  "dependencies": {
+    "handlebars-helpers": "^0.8.2"
+  },
+  "main": "index",
+  "engines": {
+    "node": ">= 0.4.1"
+  },
+  "scripts": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-rename": "^1.2.2"
+  }
+}
