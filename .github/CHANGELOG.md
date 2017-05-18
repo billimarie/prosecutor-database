@@ -1,5 +1,5 @@
 # Changelog
-Maintained by yours truly (@billimarie)
+Maintained by yours truly ([@billimarie](https://www.github.com/billimarie))
 
 ## [Unreleased]
 ### New
