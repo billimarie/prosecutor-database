@@ -143,4 +143,4 @@ View the [wiki](https://github.com/billimarie/light-pollution/wiki/Contribute-Da
 
 This project would not be possible without the support of many individuals and organizations, including, but not limited to:
 
-![shuttleworth funded](https://user-images.githubusercontent.com/6895471/35476336-29f78180-037c-11e8-800d-6fc8501a09b7.jpg)
+<img src="https://user-images.githubusercontent.com/6895471/35476336-29f78180-037c-11e8-800d-6fc8501a09b7.jpg" width="250px" border="0" />
