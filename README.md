@@ -4,11 +4,15 @@ The **U.S. Prosecutor Database** (formerly *light-pollution*), is a collection o
 
 ## STATUS: User Discovery
 
-We are currently in the **User Discovery** phase.
-
-If you would like to assist with moving this project forward, please send me an email (see: [GitHub profile](https://www.github.com/billimarie)) and/or fill out this User Discovery form:
+We are currently in the **User Discovery** phase. You can help us by filling out our User Discovery form:
 
 ### [U.S. Prosecutor Database : User Discovery (Google Form)](https://goo.gl/forms/4jHgKZobi0Y3wJH63)
+
+## JOIN US
+
+Every Sunday, I host remote Datathon sessions for our small but tight-knit group of prisoners rights activists.
+
+If you'd like to volunteer and help with the US Prosecutor Database, or if you're curious about attending a Datathon session, please send me an email (see: [GitHub profile](https://www.github.com/billimarie)).
 
 ## Acknowledgements
 
