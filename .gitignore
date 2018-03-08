@@ -2,3 +2,6 @@
 node_modules/
 npm-debug.log*
 *.log
+
+# Windows Batch Start
+start.bat
