@@ -1,6 +1,14 @@
 # Changelog
 Maintained by yours truly ([@billimarie](https://www.github.com/billimarie))
 
+## 0.0.6
+### New
+- Adds links to social media, website, Wikipedia, Google news
+- Renders relevant Cases
+
+### Updates
+- Bootstrap mark-up for basic data
+
 ## 0.0.5
 ### New
 - Routes: individual attorney pages (yay!)
