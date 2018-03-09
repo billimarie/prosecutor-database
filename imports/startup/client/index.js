@@ -23,28 +23,6 @@ Template.registerHelper( 'findAttorneyType', (attorneyType) => {
       "role": "Municipal Attorney"
     } );
   }
-  // attorneyGeneral() {
-  //   return Attorneys.find( {
-  //     "role" : "Attorney General"
-  //   } );
-  // },
-  // usAttorney() {
-  //   return Attorneys.find( {
-  //     "role": "U.S. Attorney"
-  //   } );
-  // },
-  // districtAttorney() {
-  //   return Attorneys.find( {
-  //     "role": "District Attorney"
-  //   }, {
-  //     sort: {name: 1}
-  //   } );
-  // },
-  // municipalAttorney() {
-  //   return Attorneys.find( {
-  //     "role": "Municipal Attorney"
-  //   } );
-  // }
 });
 
 Template.currentProsecutors.helpers({

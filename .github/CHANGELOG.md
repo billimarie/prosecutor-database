@@ -1,7 +1,22 @@
 # Changelog
 Maintained by yours truly ([@billimarie](https://www.github.com/billimarie))
 
+## 0.0.5
+### New
+- Routes: individual attorney pages (yay!)
+- Template folders: attorney-views, experiments, pages, sections
+
+### Updates
+- Fleshes out README.md
+- Meteor release and various packages
+- Template partials
+- Helpers (needs work)
+
+### Gone
+- Header/Jumbotron mistake
+
 ## 0.0.4
+### Updates
 - README.md "Acknowledgements" section
 - Renamed the repo ("light pollution" => "U.S. Prosecutor Database" / "prosecutor-database")
 
