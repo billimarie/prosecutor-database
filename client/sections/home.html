@@ -1,0 +1,22 @@
+<template name="home">
+
+  {{> homeHero}}
+
+  <section id="prosecutor-list" class="find-prosecutor">
+    <div class="container view-attorneys text-center">
+      {{> currentProsecutors}}
+    </div>
+  </section>
+
+  <div class="container">
+
+    <section class="row text-center">
+      {{> legalHistory}}
+    </section>
+
+    <section class="row text-center">
+      {{> election}}
+    </section>
+
+  </div>
+</template>

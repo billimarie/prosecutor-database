@@ -5,28 +5,73 @@ import { Attorneys } from '../../api/attorneys.js';
 
 import '/client/main.html';
 
-Template.currentProsecutors.helpers({
-  attorneyGeneral() {
+Template.registerHelper( 'findAttorneyType', (attorneyType) => {
+  if (attorneyType === "Attorney General") {
     return Attorneys.find( {
       "role" : "Attorney General"
     } );
-  },
-  usAttorney() {
+  } else if (attorneyType === "US Attorney") {
     return Attorneys.find( {
       "role": "U.S. Attorney"
     } );
-  },
-  districtAttorney() {
+  } else if (attorneyType === "District Attorney") {
     return Attorneys.find( {
       "role": "District Attorney"
     } );
-  },
-  municipalAttorney() {
+  } else if(attorneyType === "Municipal Attorney") {
     return Attorneys.find( {
       "role": "Municipal Attorney"
     } );
-  },
+  }
+  // attorneyGeneral() {
+  //   return Attorneys.find( {
+  //     "role" : "Attorney General"
+  //   } );
+  // },
+  // usAttorney() {
+  //   return Attorneys.find( {
+  //     "role": "U.S. Attorney"
+  //   } );
+  // },
+  // districtAttorney() {
+  //   return Attorneys.find( {
+  //     "role": "District Attorney"
+  //   }, {
+  //     sort: {name: 1}
+  //   } );
+  // },
+  // municipalAttorney() {
+  //   return Attorneys.find( {
+  //     "role": "Municipal Attorney"
+  //   } );
+  // }
+});
+
+Template.currentProsecutors.helpers({
   allAttorneys() {
     return Attorneys.find({});
   }
+});
+
+Router.route('/', {
+  name: 'home',
+  template: 'home'
+});
+
+Router.route('/attorney/:name', {
+  name: 'attorneyView',
+  template: 'attorneyView',
+  data: function(){
+    var currentAttorney = this.params.name;
+    return Attorneys.findOne({ name: currentAttorney });
+  }
+});
+
+Router.route('/about', {
+  name: 'about',
+  template: 'about'
+})
+
+Router.configure({
+  layoutTemplate: 'main'
 });

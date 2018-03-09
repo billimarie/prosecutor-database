@@ -1,0 +1,44 @@
+<template name="form">
+  <div class="row">
+    <div class="col-md-6" style="float: none;  margin: 0 auto;">
+      <form class="jumbotron">
+        <h2>Hello</h2>
+        <div class="form-group form-group-lg">
+          <label for="ctapFullName">Full Name</label>
+          <input type="text" class="form-control" id="formFullName" placeholder="Full Name">
+        </div>
+        <div class="form-group form-group-lg">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+        </div>
+        <div class="form-group form-group-lg" style="float: left; width: 30%;">
+          <label for="formState">State</label>
+          <select id="formState" class="form-control">
+            <option>CA</option>
+            <option>NY</option>
+            <option>NJ</option>
+            <option>TX</option>
+            <option>PA</option>
+          </select>
+        </div>
+        <div class="form-group form-group-lg" style="float: right; width: 60%;">
+          <label for="formZipCode">Zip Code</label>
+          <input type="text" class="form-control" id="formZipCode" placeholder="Zip Code">
+        </div>
+        <div class="form-group form-group-lg" style="clear:both">
+          <label for="formMessage">Message</label>
+          <textarea id="formMessage" class="form-control" rows="3"></textarea>
+        </div>
+        <div class="form-group form-group-lg">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              Subscribe for light-pollution and other civic tech project updates
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-default btn-block btn-lg">Submit</button>
+      </form>
+    </div>
+  </div>
+</template>
