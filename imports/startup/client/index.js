@@ -31,6 +31,12 @@ Template.currentProsecutors.helpers({
   }
 });
 
+Template.attorneyView.helpers({
+  allRelevantCases() {
+    return Attorneys.find().fetch();
+  }
+});
+
 Router.route('/', {
   name: 'home',
   template: 'home'

@@ -326,3 +326,32 @@ h1, h2 {
   border: 1px dashed #da5050;
   /*border-right: 1px dashed #da5050;*/
 }
+
+/* Social Media */
+ul.icons {
+  display: block;
+  list-style: none;
+  margin: 20px auto 0;
+  padding-left: 0;
+  text-align: center;
+}
+  ul.icons li {
+    list-style-type: none;
+    display: inline-block;
+  }
+  ul.icons li + li {
+    padding: 0 10px;
+  }
+    ul.icons li a {
+      font-size: 50px;
+      color: #b8201f;
+    }
+
+/* Case List */
+ul.case-list {
+  list-style: none;
+  padding-left: 0;
+}
+  ul.case-list {
+    list-style-type: none;
+  }
