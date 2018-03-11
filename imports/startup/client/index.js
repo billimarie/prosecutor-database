@@ -5,6 +5,10 @@ import { Attorneys } from '../../api/attorneys.js';
 
 import '/client/main.html';
 
+/**
+ * HELPERS
+ */
+
 Template.registerHelper( 'findAttorneyType', (attorneyType) => {
   if (attorneyType === "Attorney General") {
     return Attorneys.find( {
@@ -37,6 +41,9 @@ Template.attorneyView.helpers({
   }
 });
 
+/**
+ * ROUTES
+ */
 Router.route('/', {
   name: 'home',
   template: 'home'

@@ -1,6 +1,22 @@
 # Changelog
 Maintained by yours truly ([@billimarie](https://www.github.com/billimarie))
 
+## 0.0.7
+### New
+- Adds additional attorneys (Kim Foxx, Larry Krasner)
+- Adds Elections collection
+- Creates public folder (images)
+- New text search functionality
+
+### Updates
+- Updates footer links
+- Imports headshots
+- Templates folder for housing templates
+- Rebuilds main layout (search and filters, attorney list)
+
+### Removes
+- Comments out Legal History, Election sections
+
 ## 0.0.6
 ### New
 - Adds links to social media, website, Wikipedia, Google news
