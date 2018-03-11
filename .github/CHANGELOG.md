@@ -16,6 +16,7 @@ Maintained by yours truly ([@billimarie](https://www.github.com/billimarie))
 
 ### Removes
 - Comments out Legal History, Election sections
+- Deletes retrieval limit
 
 ## 0.0.6
 ### New
