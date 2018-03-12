@@ -8,6 +8,7 @@ Maintained by yours truly ([@billimarie](https://www.github.com/billimarie))
 ### Updates
 - Fixes broken route (attorneyView, currentAttorney)
 - Copy editing for About page
+- Updates vote ribbon link
 
 ### Removes
 - Navbar glyphicons (replaced with Font Awesome)

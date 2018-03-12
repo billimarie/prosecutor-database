@@ -1,9 +1,113 @@
 <template name="election">
-  <section class="election">
-    <div class="container">
-      <h2>Upcoming Elections</h2>
-      <p><strong>Election</strong> data coming soon.</p>
-      <p><a href="https://goo.gl/forms/S8JJM5kkpv9CTRdf1" target="_blank">Submit prosecutor election data.</a></p>
+  <div class="row">
+    <!--<p><a href="https://goo.gl/forms/S8JJM5kkpv9CTRdf1" target="_blank">Submit prosecutor election data.</a></p> -->
+    <div class="col-md-4">
+
+      <div class="margin-btm-med">
+        <h2>Upcoming Elections</h2>
+      </div>
+
+      <div class="row margin-btm-lg">
+        <form>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label class="input-group-text" for="electionStates">
+                <h3>Select a State</h3>
+              </label>
+            </div>
+            <select class="custom-select" id="electionStates">
+              <option selected>State</option>
+              <option value="AL">Alabama</option>
+            	<option value="AK">Alaska</option>
+            	<option value="AZ">Arizona</option>
+            	<option value="AR">Arkansas</option>
+            	<option value="CA">California</option>
+            	<option value="CO">Colorado</option>
+            	<option value="CT">Connecticut</option>
+            	<option value="DE">Delaware</option>
+            	<option value="DC">District Of Columbia</option>
+            	<option value="FL">Florida</option>
+            	<option value="GA">Georgia</option>
+            	<option value="HI">Hawaii</option>
+            	<option value="ID">Idaho</option>
+            	<option value="IL">Illinois</option>
+            	<option value="IN">Indiana</option>
+            	<option value="IA">Iowa</option>
+            	<option value="KS">Kansas</option>
+            	<option value="KY">Kentucky</option>
+            	<option value="LA">Louisiana</option>
+            	<option value="ME">Maine</option>
+            	<option value="MD">Maryland</option>
+            	<option value="MA">Massachusetts</option>
+            	<option value="MI">Michigan</option>
+            	<option value="MN">Minnesota</option>
+            	<option value="MS">Mississippi</option>
+            	<option value="MO">Missouri</option>
+            	<option value="MT">Montana</option>
+            	<option value="NE">Nebraska</option>
+            	<option value="NV">Nevada</option>
+            	<option value="NH">New Hampshire</option>
+            	<option value="NJ">New Jersey</option>
+            	<option value="NM">New Mexico</option>
+            	<option value="NY">New York</option>
+            	<option value="NC">North Carolina</option>
+            	<option value="ND">North Dakota</option>
+            	<option value="OH">Ohio</option>
+            	<option value="OK">Oklahoma</option>
+            	<option value="OR">Oregon</option>
+            	<option value="PA">Pennsylvania</option>
+            	<option value="RI">Rhode Island</option>
+            	<option value="SC">South Carolina</option>
+            	<option value="SD">South Dakota</option>
+            	<option value="TN">Tennessee</option>
+            	<option value="TX">Texas</option>
+            	<option value="UT">Utah</option>
+            	<option value="VT">Vermont</option>
+            	<option value="VA">Virginia</option>
+            	<option value="WA">Washington</option>
+            	<option value="WV">West Virginia</option>
+            	<option value="WI">Wisconsin</option>
+            	<option value="WY">Wyoming</option>
+            </select>
+          </div>
+
+          <div class="input-group mb-3">
+            <label class="input-group-text" for="electionDates">
+              <h3>Date Range</h3>
+            </label>
+            <div class="input-group-prepend">
+              <div>
+                <input id="elecitonStartDate" type="date">
+                <label for="electionStartDate">Start</label>
+              </div>
+              <div>
+                <input id="elecitonEndDate" type="date">
+                <label for="electionEndDate">End</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="input-group mb-3">
+            <label class="input-group-text" for="electionRoles">
+              <h3>Filter by Role</h3>
+            </label>
+            <div class="input-group-prepend">
+              <div class="input-group-text" id="electionRoles">
+                <input type="checkbox" id="attorneyGeneral" aria-label="Checkbox: Attorney General" name="Attorney General" value="Attorney General">
+                <label for="attorneyGeneral">Attorney General</label><br />
+                <input type="checkbox" id="usAttorney" aria-label="Checkbox: US Attorney" name="US Attorney" value="US Attorney" />
+                <label for="usAttorney">US Attorney</label><br />
+                <input type="checkbox" id="districtAttorney" aria-label="Checkbox: District Attorney" name="District Attorney" value="District Attorney">
+                <label for="districtAttorney">District Attorney</label><br />
+                <input type="checkbox" id="municipalAttorney" aria-label="Checkbox: Municipal Attorney" name="Municipal Attorney" value="Municipal Attorney" />
+                <label for="municipalAttorney">Municipal Attorney</label>
+              </div>
+            </div>
+          </div>
+        </form>
+
+      </div>
+
     </div>
-  </section>
+  </div>
 </template>
