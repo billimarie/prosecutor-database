@@ -5,7 +5,7 @@ Template.search.onCreated( () => {
   template.searching = new ReactiveVar( false );
 
   template.autorun( () => {
-    template.subscribe( 'Attorneys', template.searchQuery.get(), () => {
+    template.subscribe( 'searchAttorneys', template.searchQuery.get(), () => {
       setTimeout( () => {
         template.searching.set( false );
       }, 300 );
@@ -19,12 +19,6 @@ Template.search.helpers({
   },
   query() {
     return Template.instance().searchQuery.get();
-  },
-  Attorneys() {
-    let Attorneys = Attorneys.find();
-    if ( Attorneys ) {
-      return Attorneys;
-    }
   }
 });
 

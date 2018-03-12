@@ -1,6 +1,6 @@
 <template name="currentProsecutors">
   <div class="row">
-    <div class="col-md-4 pull-left">
+    <div class="col-md-4">
       <div class="margin-btm-med">
         <h2>Find A Prosecutor</h2>
       </div>
@@ -33,7 +33,7 @@
       </div>
     </div>
 
-    <div class="col-md-8 pull-right">
+    <div class="col-md-8">
       <div class="container-fluid">
         <div id="prosecutor-list" class="tab-content">
           <div role="tabpanel" class="tab-pane fade" id="attorney-general">
@@ -41,7 +41,7 @@
             <ul class="row">
                 {{#each findAttorneyType 'Attorney General'}}
                 <li class="col-md-4 single-attorney">
-                  <a href="#">
+                  <a href="{{pathFor 'attorneyView'}}">
                     <h3 class="name">{{name}}</h3>
                     <h4 class="state">{{state}}</h4>
                     <h4 class="role">{{role}}</h4>
@@ -59,7 +59,7 @@
             <ul class="row">
               {{#each findAttorneyType 'US Attorney'}}
             <li class="col-md-4 single-attorney">
-              <a href="#">
+              <a href="{{pathFor 'attorneyView'}}">
                 <h3>{{name}}</h3>
                 <h4>{{state}}</h4>
                 <h4>{{role}}</h4>

@@ -2,7 +2,16 @@ import { check } from 'meteor/check'; // NOTE: double-"check" ;) if this is need
 
 import { Attorneys } from '../../imports/api/attorneys.js';
 
-Meteor.publish('Attorneys', function( search ) {
+/**
+ * CURRENT ATTORNEY
+ */
+Meteor.publish('Attorneys', function(currentAttorney){
+  return Attorneys.find({ name: currentAttorney });
+});
+/**
+ * SEARCH
+ */
+Meteor.publish('searchAttorneys', function( search ) {
 
     check( search, Match.OneOf( String, null, undefined ));
 
@@ -20,7 +29,7 @@ Meteor.publish('Attorneys', function( search ) {
         ]
       };
 
-      projection.limit = 100;
+      // projection.limit = 100;
 
     }
 

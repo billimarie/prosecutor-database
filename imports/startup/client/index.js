@@ -31,12 +31,12 @@ Template.registerHelper( 'findAttorneyType', (attorneyType) => {
 
 Template.currentProsecutors.helpers({
   allAttorneys() {
-    return Attorneys.find({});
+    return Attorneys.find().fetch();
   }
 });
 
 Template.attorneyView.helpers({
-  allRelevantCases() {
+  Attorneys() {
     return Attorneys.find().fetch();
   }
 });
@@ -49,18 +49,25 @@ Router.route('/', {
   template: 'home'
 });
 
-Router.route('/attorney/:name', {
+Router.route('/:state/:role/:name', {
   name: 'attorneyView',
   template: 'attorneyView',
-  data: function(){
-    var currentAttorney = this.params.name;
-    return Attorneys.findOne({ name: currentAttorney });
+  data: function() {
+    return Attorneys.findOne( { name: this.params.name } );
+  },
+  waitOn: function() {
+    return Meteor.subscribe('Attorneys', this.params.name);
   }
 });
 
 Router.route('/about', {
   name: 'about',
   template: 'about'
+});
+
+Router.route('/contributors', {
+  name: 'contributors',
+  template: 'contributors'
 })
 
 Router.configure({

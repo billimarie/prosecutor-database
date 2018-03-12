@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Open Sans', 'Verdana', sans-serif !important;
+  font-size: 1.8rem !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -210,6 +211,7 @@ h1, h2 {
   right: 65px;
   overflow: hidden;
   z-index: 99999;
+  top: 0;
 }
 
 #ribbon .base p {
@@ -355,3 +357,8 @@ ul.case-list {
   ul.case-list {
     list-style-type: none;
   }
+
+/* Basic Page */
+.container.basic-page {
+  margin-top: 50px;
+}

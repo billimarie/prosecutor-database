@@ -1,6 +1,17 @@
 # Changelog
 Maintained by yours truly ([@billimarie](https://www.github.com/billimarie))
 
+## 0.0.8
+### New
+- Creates Contributor page
+
+### Updates
+- Fixes broken route (attorneyView, currentAttorney)
+- Copy editing for About page
+
+### Removes
+- Navbar glyphicons (replaced with Font Awesome)
+
 ## 0.0.7
 ### New
 - Adds additional attorneys (Kim Foxx, Larry Krasner)
