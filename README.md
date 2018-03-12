@@ -1,5 +1,7 @@
+![light-pollution](https://user-images.githubusercontent.com/6895471/37301837-23c2bd92-2600-11e8-8e6f-db072f9d34f1.gif)
+
 # U.S. Prosecutor Database
-## **DEMO:** [https://light-pollution.herokuapp.com/](https://light-pollution.herokuapp.com/)
+> **DEMO:** [https://light-pollution.herokuapp.com/](https://light-pollution.herokuapp.com/)
 
 The **U.S. Prosecutor Database** (formerly *light-pollution*), is a collection of elected and appointed State attorneys in the United States. It showcases prosecutor history at the local, state, and federal level:
 * Attorney Generals
