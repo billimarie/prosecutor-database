@@ -68,7 +68,12 @@ Router.route('/about', {
 Router.route('/contributors', {
   name: 'contributors',
   template: 'contributors'
-})
+});
+
+Router.route('/glossary', {
+  name: 'glossary',
+  template: 'glossary'
+});
 
 Router.configure({
   layoutTemplate: 'main'

@@ -4,11 +4,13 @@ Maintained by yours truly ([@billimarie](https://www.github.com/billimarie))
 ## 0.0.8
 ### New
 - Creates Contributor page
+- Creates Glossary page
 
 ### Updates
 - Fixes broken route (attorneyView, currentAttorney)
 - Copy editing for About page
 - Updates vote ribbon link
+- Updates municipal, county, and/or city attorney data fetch
 
 ### Removes
 - Navbar glyphicons (replaced with Font Awesome)
