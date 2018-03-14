@@ -1,5 +1,28 @@
 <template name="currentProsecutors">
   <div class="row">
+    <div class="margin-btm-med">
+      <h2>Recently Updated</h2>
+    </div>
+    <div class="margin-btm-med">
+      {{#if recentAttorneys}}
+        <ul class="row">
+          {{#each recentAttorneys}}
+            <li class="col-sm-4 single-attorney">
+              <a href="{{pathFor 'attorneyView'}}">
+                <div class="thumbnail col-xs-6" style="background-image:url('{{headshot}}')"></div>
+                <h3>{{name}}</h3>
+                <h4>{{state}}</h4>
+                <h4>{{role}}</h4>
+                <h5><em>{{county}}</em></h5>
+              </a>
+            </li>
+          {{/each}}
+        </ul>
+      {{/if}}
+    </div>
+  </div>
+
+  <div class="row">
     <div class="col-md-4">
       <div class="margin-btm-med">
         <h2>Find A Prosecutor</h2>

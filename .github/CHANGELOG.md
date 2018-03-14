@@ -1,13 +1,24 @@
 # Changelog
 Maintained by yours truly ([@billimarie](https://www.github.com/billimarie))
 
+## 0.0.9
+### New
+- Creates section for Recent Articles (`attorneyView`)
+- Creates section for Recently Updated Attorneys (`home`)
+
+### Updates
+- JSON structure (`articles`)
+
+### Removes
+- Updated date on home hero
+
 ## 0.0.8
 ### New
 - Creates Contributor page
 - Creates Glossary page
 
 ### Updates
-- Fixes broken route (attorneyView, currentAttorney)
+- Fixes broken route (`attorneyView`, `currentAttorney`)
 - Copy editing for About page
 - Updates vote ribbon link
 - Updates municipal, county, and/or city attorney data fetch

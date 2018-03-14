@@ -346,6 +346,10 @@ ul.icons {
   }
     ul.icons li a {
       font-size: 50px;
+      color: lightgray;
+    }
+    ul.icons li a[href^="http://"],
+    ul.icons li a[href^="https://"] {
       color: #b8201f;
     }
 
@@ -362,3 +366,29 @@ ul.case-list {
 .container.basic-page {
   margin-top: 50px;
 }
+
+/* Thumbnail */
+div.thumbnail {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 275px;
+  background-position: 50% 0%;
+}
+@media (min-width: 768px) {
+  div.thumbnail {
+    background-position: 50% 50%;
+  }
+}
+/* Article View */
+section.articles {
+}
+  section.articles ul {
+    list-style: none;
+    padding: 0;
+  }
+  section.articles ul li {
+    list-style-type: none;
+  }
+    section.articles ul li h3 {
+      font-weight: 600;
+    }

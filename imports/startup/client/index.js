@@ -32,6 +32,9 @@ Template.registerHelper( 'findAttorneyType', (attorneyType) => {
 Template.currentProsecutors.helpers({
   allAttorneys() {
     return Attorneys.find().fetch();
+  },
+  recentAttorneys() {
+    return Attorneys.find({}, {sort: {timestamp : 1}, limit: 6 }).fetch();
   }
 });
 

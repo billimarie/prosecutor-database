@@ -5,7 +5,7 @@ import { Attorneys } from '../../imports/api/attorneys.js';
 /**
  * CURRENT ATTORNEY
  */
-Meteor.publish('Attorneys', function(currentAttorney){
+Meteor.publish('Attorneys', function( currentAttorney ) {
   return Attorneys.find({ name: currentAttorney });
 });
 /**
