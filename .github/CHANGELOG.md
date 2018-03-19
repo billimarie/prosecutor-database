@@ -1,6 +1,13 @@
 # Changelog
 Maintained by yours truly ([@billimarie](https://www.github.com/billimarie))
 
+## 0.0.10
+### New
+- Mailing list section on (`home`)
+
+### Removes
+- Public images folder (moved to CDN)
+
 ## 0.0.9
 ### New
 - Creates section for Recent Articles (`attorneyView`)
