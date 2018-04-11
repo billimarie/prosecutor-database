@@ -1,0 +1,19 @@
+{
+  "name": "prosecutor-database-api",
+  "version": "0.0.1",
+  "description": "GraphQL API for reading of prosecutor database",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Maxx Lehmann",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2"
+  }
+}
