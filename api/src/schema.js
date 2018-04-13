@@ -28,12 +28,20 @@ const schema = buildSchema(`
 
   type Query {
     attorneyGeneral(id: String): AttorneyGeneral
+    usAttorney(id: String): UsAttorney
+    districtAttorney(id: String): DistrictAttorney
   }
 `);
 
 var global = {
   attorneyGeneral({id}) {
     return AttorneyGenerals.filter(general => general.id === id)[0];
+  },
+  usAttorney({id}) {
+    return UsAttorneys.filter(general => general.id === id)[0];
+  },
+  districtAttorney({id}) {
+    return DistrictAttorneys.filter(general => general.id === id)[0];
   },
 };
 
