@@ -28,21 +28,27 @@ const schema = buildSchema(`
 
   type Query {
     attorneyGeneral(id: String): AttorneyGeneral
+    attorneyGenerals: [AttorneyGeneral]
     usAttorney(id: String): UsAttorney
+    usAttorneys: [UsAttorney]
     districtAttorney(id: String): DistrictAttorney
+    districtAttorneys: [DistrictAttorney]
   }
 `);
 
 var global = {
-  attorneyGeneral({id}) {
+  attorneyGeneral: ({id}) => {
     return AttorneyGenerals.filter(general => general.id === id)[0];
   },
-  usAttorney({id}) {
+  attorneyGenerals: (args) => AttorneyGenerals,
+  usAttorney: ({id}) => {
     return UsAttorneys.filter(general => general.id === id)[0];
   },
-  districtAttorney({id}) {
+  usAttorneys: (args) => UsAttorneys,
+  districtAttorney: ({id}) => {
     return DistrictAttorneys.filter(general => general.id === id)[0];
   },
+  districtAttorneys: (args) => DistrictAttorneys,
 };
 
 module.exports = { schema, global }
