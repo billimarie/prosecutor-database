@@ -37,18 +37,12 @@ const schema = buildSchema(`
 `);
 
 var global = {
-  attorneyGeneral: ({id}) => {
-    return AttorneyGenerals.filter(general => general.id === id)[0];
-  },
-  attorneyGenerals: (args) => AttorneyGenerals,
-  usAttorney: ({id}) => {
-    return UsAttorneys.filter(general => general.id === id)[0];
-  },
-  usAttorneys: (args) => UsAttorneys,
-  districtAttorney: ({id}) => {
-    return DistrictAttorneys.filter(general => general.id === id)[0];
-  },
-  districtAttorneys: (args) => DistrictAttorneys,
+  attorneyGeneral: ({id}) => AttorneyGenerals.find(g => g.id === id),
+  attorneyGenerals: () => AttorneyGenerals,
+  usAttorney: ({id}) => UsAttorneys.find(g => g.id === id),
+  usAttorneys: () => UsAttorneys,
+  districtAttorney: ({id}) => DistrictAttorneys.find(g => g.id === id),
+  districtAttorneys: () => DistrictAttorneys,
 };
 
 module.exports = { schema, global }
