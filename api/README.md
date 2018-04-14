@@ -6,8 +6,11 @@ Prosecutor Database API made with node/express and GraphQL
 
 `
 git clone {repository}
+
 cd {repository}/api
+
 npm install
+
 npm start
 `
 
@@ -15,7 +18,7 @@ npm start
 
 ### Local
 
-In a browser, navigate to localhost:5000/graphql to use the Graphiql client to test the API.
+In a browser, navigate to [localhost:5000/graphql](localhost:5000/graphql) to use the Graphiql client to test the API.
 
 ### Prod
 
