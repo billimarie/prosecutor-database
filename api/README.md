@@ -13,4 +13,11 @@ npm start
 
 ## Usage
 
-In a browser, navigate to localhost:4000/graphql to use the Graphiql client to test the API.
+### Local
+
+In a browser, navigate to localhost:5000/graphql to use the Graphiql client to test the API.
+
+### Prod
+
+Deployed on Heroku:
+[https://prosecutor-database-api.herokuapp.com/graphql](https://prosecutor-database-api.herokuapp.com/graphql)
