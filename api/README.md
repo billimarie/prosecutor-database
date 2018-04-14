@@ -4,15 +4,12 @@ Prosecutor Database API made with node/express and GraphQL
 
 ## Installation
 
-`
+```
 git clone {repository}
-
 cd {repository}/api
-
 npm install
-
 npm start
-`
+```
 
 ## Usage
 
