@@ -1,7 +1,5 @@
-![light-pollution](https://user-images.githubusercontent.com/6895471/37301837-23c2bd92-2600-11e8-8e6f-db072f9d34f1.gif)
-
 # U.S. Prosecutor Database
-> **DEMO:** [https://light-pollution.herokuapp.com/](https://light-pollution.herokuapp.com/)
+## 2018 Updates Can Be Found On Our Live Twitter Sessions: [@USProsecutorDB](https://twitter.com/USProsecutorDB)
 
 The **U.S. Prosecutor Database** (formerly *light-pollution*), is a collection of elected and appointed State attorneys in the United States. It showcases prosecutor history at the local, state, and federal level:
 * Attorney Generals
@@ -9,24 +7,18 @@ The **U.S. Prosecutor Database** (formerly *light-pollution*), is a collection o
 * District Attorneys
 * Municipal/City Attorneys
 
-## **STATUS:** User Discovery
-
-We are currently in the **User Discovery** phase. You can help us by filling out our User Discovery form:
-
-### [U.S. Prosecutor Database: User Discovery (Google Form)](https://goo.gl/forms/4jHgKZobi0Y3wJH63)
-
 ## **JOIN US:** Remote Datathon Sessions
 
-Every Sunday, I host remote Datathon sessions. We meet via Skype to:
+Every Sunday, we meet via Skype to:
 * Discuss recent prosecutor news, primary results, and campaigns
 * Brainstorm ways to hold prosecutors accountable
 * Manually search Google by hand for prosecutor data
 
 **You don't have to be a developer or a prisoners' rights activist to join.** We're looking for all types of people with all types of expertise to collaborate with.
 
-With that being said, we'd love any developers to join us if you've got a solution for automating and/or scripting our labor intensive search process.
+We'd love any developers to join us if you've got a solution for automating and/or scripting our labor intensive search process.
 
-If you'd like to volunteer and help with the US Prosecutor Database, or if you're curious about attending a Datathon session, send me an email (see: [GitHub profile](https://www.github.com/billimarie)) and [RSVP on Facebook](https://www.facebook.com/events/211788386222953/).
+If you'd like to volunteer and help with the US Prosecutor Database, or if you're curious about attending a Datathon session, send an email (see: [GitHub profile](https://www.github.com/billimarie)) and follow [@USProsecutorDB on Twitter](https://twitter.com/USProsecutorDB).
 
 ## Acknowledgements
 
