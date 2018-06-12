@@ -35,6 +35,15 @@ Template.currentProsecutors.helpers({
   },
   recentAttorneys() {
     return Attorneys.find({}, {sort: {timestamp : 1}, limit: 6 }).fetch();
+    dateExists(date) {
+      return date !== null;
+    },
+    unixToMMddYYYY(unix) {
+      var month = new Date(appointed * 1000).getMonth();
+      var day = new Date(appointed * 1000).getDate();
+      var year = new Date(appointed * 1000).getFullYear();
+      return month + '-' + date + '-' + year;
+    },
   }
 });
 
