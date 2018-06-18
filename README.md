@@ -19,8 +19,8 @@ The **U.S. Prosecutor Database** is a collection of elected and appointed State 
 ### Project
 This repository and project can be divided into two sections:
 
-1.) The App (GitHub Repo v. Pantheon)
-2.) The Data
+1. The App (GitHub Repo v. Pantheon)
+2. The Data
 
 ## The App
 
@@ -29,8 +29,8 @@ Though the repo itself is utilizing Meteor.js, our local community group has **m
 I'm hoping to remedy this situation. If you would like to help or offer suggestions, please send me an email: work@billimarie.com.
 
 If you'd like to contribute to the project, there are two ways currently to get involved:
-* Join a remote Sunday Session (see "How You Can Help")
-* Begin scraping data and submitting it as a .csv or .txt file (see "The Data")
+* Join a remote Sunday Session (see ["How You Can Help"](#how-you-can-help))
+* Begin scraping data and submitting it as a .csv or .txt file (see ["The Data"](#the-data))
 
 ## The Data
 
@@ -81,9 +81,9 @@ Here are the states that are next on our data scraping list:
 ## How You Can Help
 
 We need developers to assist with the following:
-* Data Scraping (see: "The Data")
+* Data Scraping (see: ["The Data"](#the-data))
 * UX/UI Design (please email)
-* Better Exposed Filters + Simple Hierarchal Select integration (Drupal 8 / AJAX; please attend a Sunday Session; see "Join Us: Remote Sunday Sessions")
+* Better Exposed Filters + Simple Hierarchal Select integration (Drupal 8 / AJAX; please attend a Sunday Session; see ["Join Us: Remote Sunday Sessions"](#join-us-remote-sunday-sessions))
 
 ### How To Stay Updated
 
