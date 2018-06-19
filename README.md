@@ -1,40 +1,109 @@
 # U.S. Prosecutor Database
-> June 18th 2018
+> Last Updated: June 19th 2018 (Juneteenth)
 
-## Important
-**Please do not contribute to the project (comments, pull requests, issues, etc.) before reading the ENTIRE README.md**
+**If you are interested in contributing data, see [3. Data Collection](#4-data-collection) for detailed instructions.**
 
-Hi everyone,
+## Table of Contents
+1. Introduction
+2. The USPD App
+3. The USPD Data
+4. Data Collection
+5. Post-Carceral: Stay Updated, Volunteer
+6. Acknowledgements
 
-Thanks for checking out the US Prosecutor Database.
+## 1. Introduction
 
-### Vision
+The U.S. Prosecutor Database is a collection of .csv and .json data for currently elected and appointed government attorneys at the local, state, and federal level. This includes Attorney Generals, U.S. Attorneys, District/State Attorneys, and Municipal/County/City Attorneys.
 
-The **U.S. Prosecutor Database** is a collection of elected and appointed State attorneys in the United States. It showcases prosecutor history at the local, state, and federal level:
-* Attorney Generals
-* U.S. Attorneys
-* District Attorneys
-* Municipal/City Attorneys
+Our goal is to showcase prosecutorial demographics, culture, and history. This goal is in service to the Post-Carceral vision:
 
-### Project
-This repository and project can be divided into two sections:
+* Cultivate a community of holding prosecutors accountable as a voting public
+* Change the political and cultural landscape of this nation's real lawmakers
+* Assisting prosecutors who aim to end mass incarceration and commit to decarceration
 
-1. The App (GitHub Repo v. Pantheon)
-2. The Data
+Unfortunately, this data does not already exist. It is our mission to collect this information so that we can not only showcase reality, but contribute to radically changing this political picture for future generations to come.
 
-## The App
+## 2. The USPD App
 
-Though the repo itself is utilizing Meteor.js, our local community group has **migrated away from this GitHub repo toward a CMS (Drupal 8) dev site that is hosted remotely on Pantheon**. This is why the repo has not been updated in months.
+Our online community, Post-Carceral, has created a web app which renders this data for easy access.
 
-I'm hoping to remedy this situation. If you would like to help or offer suggestions, please send me an email: work@billimarie.com.
+Please contact [Billimarie](https://www.github.com/billimarie) if you are interested in contributing as a web developer or web designer.
 
-If you'd like to contribute to the project, there are two ways currently to get involved:
-* Join a remote Sunday Session (see ["How You Can Help"](#how-you-can-help))
-* Begin scraping data and submitting it as a .csv or .txt file (see ["The Data"](#the-data))
+## 3. The USPD Data
 
-## The Data
+This repository houses the data we are aiming to collect.
 
-I recently taught myself some Python in order to scrape data from district attorney association websites. Here is the Python script I've been tweaking for each state:
+The **Basic Prosecutor Profile** consists of 7 fields:
+* Name
+* Location (State, County)
+* Role
+* Website
+* Office Info (Address)
+* Contact Info (Phone, Fax, Email)
+* Optional: headshot / profile image
+
+The **Full Prosecutor Profile** has several additional fields, including Demographics (Age, Race, Gender, Party). Feel free to collect this data in your pull request.
+
+## 4. Data Collection
+
+Here are detailed instructions on how you can contribute to the repo as a data collector.
+
+### Setting Up Locally
+
+1. Clone this repo to your local environment
+`git clone git@github.com:billimarie/prosecutor-database.git`
+
+2. Create a new branch for your work (ex: `ny-da`)
+`git checkout -b [state]-[role]`
+
+3. Install Node modules
+`npm install`
+
+4. Install the `csvtojson` module globally
+`npm install -g csvtojson`
+
+### Gathering Data
+
+As noted, a dataset of all U.S. Prosecutors does not exist. Therefore, in order to create it, we work in a scope of location (state, county) and role. You will see this component echoed as State-Role. **Your branch should only consist of data from one state, one role.** It is okay to submit multiple pull requests, as long as you keep your work isolated in this manner.
+
+There are one of two options you can choose for cultivating your dataset:
+
+#### 1. Manually Collecting Prosecutor Names By Hand
+
+1. Create a new .csv file as `[state]-[role].csv`. Add the **Basic Prosecutor Profile** columns:
+
+* Name
+* Location (State, County)
+* Role
+* Website
+* Office Info (Address)
+* Contact Info (Phone, Fax, Email)
+* Optional: headshot / profile image
+
+*Note: You can always add additional columns, as long as it conforms to the Full Prosecutor Profile (Demographics: Age, Race, Gender, Party).*
+
+2. Google your chosen state's prosecutor association.
+
+3. Collect the data in your .csv file.
+
+4. Run the csvtojson Node module (ex: `ny-da.csv > ny-da.json`).
+`csvtojson [state-role].csv > [state-role].json`
+
+5. Be mindful of isolating your work. **One state, one role, one branch.**
+
+6. Add, Commit, and Submit a Pull Request.
+
+```
+git add .
+git commit -m "Added [state] [role] as .csv and .json"
+git push origin [branch]
+```
+
+#### 2. Creating A Python Script To Scrape The Data
+
+The second option (data scraping via Python script) is often not ideal as each state's method for collecting and rendering basic prosecutor data (name, role, office, website) is wildly non-uniform. It will most likely require more work to tweak the following script to the state's prosecutor association website,. versus simply collecting the data by hand. However, this is a good avenue to try if you come across some semblance of uniformity and/or want to see how scraping works.
+
+Here is the Python script I've been tweaking for each state:
 
 ```
 #!/usr/bin/python3
@@ -62,30 +131,42 @@ for url in urls:
     print(website)
 ```
 
-Please feel free to submit a pull request if you can enhance this script (or provide a newer, better, faster version). Please keep in mind that the following information is what we aim to scrape:
+Please feel free to submit a pull request if you can enhance this script (or provide a newer, better, faster version).
+
+Once you scrape from a website, continue with the following:
+
+1. Make sure the data you scraped is organized in an .csv file (`[state]-[role].csv`). Add the **Basic Prosecutor Profile** columns:
+
 * Name
 * Location (State, County)
+* Role
 * Website
 * Office Info (Address)
 * Contact Info (Phone, Fax, Email)
 * Optional: headshot / profile image
 
-Here are the states that are next on our data scraping list:
-* Wisconsin
-* Rhode Island
-* Colorado
-* New Mexico
-* Texas
-* Ohio
+*Note: You can always add additional columns, as long as it conforms to the Full Prosecutor Profile (Demographics: Age, Race, Gender, Party).*
 
-## How You Can Help
+2. Run the csvtojson Node module (ex: ny-da.csv > ny-da.json).
+`csvtojson [state-role].csv > [state-role].json`
 
-We need developers to assist with the following:
-* Data Scraping (see: ["The Data"](#the-data))
-* UX/UI Design (please email)
-* Better Exposed Filters + Simple Hierarchal Select integration (Drupal 8 / AJAX; please attend a Sunday Session; see ["Join Us: Remote Sunday Sessions"](#join-us-remote-sunday-sessions))
+3. Be mindful of isolating your work. **One state, one role, one branch.**
 
-### How To Stay Updated
+4. Add, Commit, and Submit a Pull Request.
+
+```
+git add .
+git commit -m "Added [state] [role] as .csv and .json"
+git push origin [branch]
+```
+
+#### Brainstorming Other Means Of Data Collection
+
+If a new method for collecting this data is discovered, please create a new issue where we can discuss it as a community.
+
+## 5. Post-Carceral
+
+### Stay Updated
 
 **[Sign up for our weekly mailing list](https://t.co/bvfPitdu2g).** I send emails to everyone every Monday, after our remote Sunday sessions.
 
@@ -93,7 +174,7 @@ You can also find USPD updates on our Twitter: [@USProsecutorDB](https://twitter
 
 To get involved in a remote Sunday session, follow [@postcarceral](https://twitter.com/postcarceral) (this is our general prisoners' rights group responsible for housing the USPD project).
 
-### **JOIN US:** Remote Sunday Sessions
+### Volunteer
 
 Every Sunday, we meet via Skype to:
 * Discuss recent prosecutor news, primary results, and campaigns
@@ -103,11 +184,9 @@ Every Sunday, we meet via Skype to:
 
 **You don't have to be a developer or a prisoners' rights activist to join.** We're looking for all types of people with all types of expertise to collaborate with.
 
-We'd love any developers to join us if you've got a solution for automating and/or scripting our labor intensive search process.
+If you'd like to volunteer and help with the US Prosecutor Database, or if you're curious about attending a Datathon session, send an email to [Billimarie](https://www.github.com/billimarie) and follow [@USProsecutorDB on Twitter](https://twitter.com/USProsecutorDB).
 
-If you'd like to volunteer and help with the US Prosecutor Database, or if you're curious about attending a Datathon session, send an email (see: [GitHub profile](https://www.github.com/billimarie)) and follow [@USProsecutorDB on Twitter](https://twitter.com/USProsecutorDB).
-
-## Acknowledgements
+## 6. Acknowledgements
 
 This project would not be possible without the support of many individuals and organizations, including, but not limited to:
 
