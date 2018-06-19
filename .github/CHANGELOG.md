@@ -1,6 +1,18 @@
 # Changelog
 Maintained by yours truly ([@billimarie](https://www.github.com/billimarie))
 
+## 0.1.0
+### New
+- Created new data collection repo
+
+### Updates
+- Detailed introduction and instructions (README.md)
+- package.json
+- package-lock.json
+
+### Removes
+- Wiped entire app structure
+
 ## 0.0.10
 ### New
 - Mailing list section on (`home`)
