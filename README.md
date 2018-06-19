@@ -4,28 +4,28 @@
 **If you are interested in contributing data, see [4. Data Collection](#4-data-collection) for detailed instructions.**
 
 ## Table of Contents
-### [1. Introduction](#1-introduction)
-### [2. The USPD App](#2-the-uspd-app)
-### [3. The USPD Data](#3-the-uspd-data)
-### [4. Data Collection](#4-data-collection)
-### [5. Our Group: Post-Carceral](#5-our-group-post-carceral)
-### [6. Acknowledgements](#6-acknowledgements)
+### [Introduction](#1-introduction)
+### [The USPD App](#2-the-uspd-app)
+### [The USPD Data](#3-the-uspd-data)
+### [Data Collection](#4-data-collection)
+### [Our Group: Post-Carceral](#5-our-group-post-carceral)
+### [Acknowledgements](#6-acknowledgements)
 
 ## 1. Introduction
 
 The **U.S. Prosecutor Database** is a collection of .csv and .json data for currently elected and appointed government attorneys at the local, state, and federal level. This includes Attorney Generals, U.S. Attorneys, District/State Attorneys, and Municipal/County/City Attorneys.
 
-Our goal is to showcase prosecutorial demographics, culture, and history. This open-source goal is in service to the Post-Carceral vision, which is to:
+Our goal is to showcase prosecutorial demographics, culture, and history. This goal is in service to [the **Post-Carceral** mission](#5-our-group-post-carceral), which is to:
 
 * Cultivate a community of holding prosecutors accountable as a voting public
 * Change the political and cultural landscape of this nation's real lawmakers
 * Assisting prosecutors who aim to end mass incarceration and commit to decarceration
 
-Unfortunately, this prosecutor data does not already exist. It is our mission to collect this information so that we can not only showcase reality using open-source, collaborative methods, but contribute to radically changing this political picture for future generations, as well.
+Unfortunately, this prosecutor data does not already exist. [The **Post-Carceral** vision](#5-our-group-post-carceral) is to collect this information so that we can not only showcase reality using open-source, collaborative methods, but contribute to radically shifting this political picture for future generations, as well.
 
 ## 2. The USPD App
 
-Our online community, Post-Carceral, has created a separate web app which renders this data for easy access. Though this repository is dedicated to housing the USPD Data (and NOT the USPD App), please contact [Billimarie](https://www.github.com/billimarie) if you are interested in learning more.
+Our online community, [**Post-Carceral**](#5-our-group-post-carceral), has created a separate web app which renders this data for easy access. Though this repository is dedicated to housing the USPD Data (and NOT the USPD App), please contact [Billimarie](https://www.github.com/billimarie) if you are interested in learning more.
 
 ## 3. The USPD Data
 
@@ -44,9 +44,9 @@ The **Full Prosecutor Profile** has several additional fields, including Demogra
 
 ## 4. Data Collection
 
-Here are detailed instructions on how you can contribute to the repo as a data collector.
+Here are detailed instructions on how you can collect and contribute data to the project.
 
-### Setting Up Locally
+### SETTING UP LOCALLY
 
 #### 1. Clone this repo to your local environment
 ```
@@ -63,20 +63,26 @@ git checkout -b [state]-[role]
 npm install
 ```
 
-### 4. Install the `csvtojson` module globally
+#### 4. Install the `csvtojson` module globally
 ```
 npm install -g csvtojson
 ```
 
-### Gathering Data
+### GATHERING DATA
 
 As previously noted, a dataset of all U.S. Prosecutors does not exist. Therefore, in order to create it, we work in a narrow scope: LOCATION (State) and ROLE (ex: District Attorney). You will see this emphasized repeatedly as *State-Role*. **Your branch should only consist of data from one state, one role.** It is okay to submit multiple pull requests, as long as you keep your work isolated in this manner.
 
 There are one of two options you can choose for cultivating your dataset:
+* Manually collecting prosecutor names by hand
+* Creating a Python script to scrape the data
 
-#### Manually Collecting Prosecutor Names By Hand
+To manually collect prosecutor names by hand, [complete the steps, below](#step-1).
 
-##### 1. Create a new .csv file as `[state]-[role].csv`. Add the **Basic Prosecutor Profile** columns:
+It is not recommended to go the data scraping route, as there is no uniform data to scrape from. This method is often not ideal as it will **require more energy than simply collecting the data by hand**. However, this is a good avenue to try if you come across some semblance of uniformity and/or want to see how scraping works. To scrape data, complete the steps below after [running the Python script](#optional-python-script).
+
+#### STEP 1
+
+Create a new .csv file as `[state]-[role].csv`. Add the **Basic Prosecutor Profile** columns:
 
 * Name
 * Location (State, County)
@@ -88,29 +94,39 @@ There are one of two options you can choose for cultivating your dataset:
 
 *Note: You can always add additional columns, as long as it conforms to the Full Prosecutor Profile (Demographics: Age, Race, Gender, Party).*
 
-##### 2. Google your chosen state's prosecutor association.
+#### STEP 2
 
-##### 3. Collect the data in your .csv file.
+Google your chosen state's prosecutor association.
 
-##### 4. Run the csvtojson Node module (ex: `ny-da.csv > ny-da.json`).
+#### STEP 3
+
+Collect the data in your .csv file. **Remember: One State, One Role, One Branch.**
+
+#### STEP 4
+
+Run the csvtojson Node module (ex: `ny-da.csv > ny-da.json`):
+
 ```
 csvtojson [state-role].csv > [state-role].json
 ```
 
-##### 5. Be mindful of isolating your work. **One state, one role, one branch.**
+#### STEP 5
 
-##### 6. Add, Commit, and Submit a Pull Request.
+Be mindful of isolating your work. **As always: One State, One Role, One Branch.**
+
+#### STEP 6
+
+Add, Commit, and Submit a Pull Request:
+
 ```
 git add .
 git commit -m "Added [state] [role] as .csv and .json"
 git push origin [branch]
 ```
 
-#### Creating A Python Script To Scrape The Data
+#### OPTIONAL: Python Script
 
-The second option (data scraping via Python script) is often not ideal as each state's method for collecting and rendering basic prosecutor data (name, role, office, website) is wildly non-uniform. In most instances, tweaking the script will require more energy than simply collecting the data by hand. However, this is a good avenue to try if you come across some semblance of uniformity and/or want to see how scraping works.
-
-Here is the Python script I've been tweaking for each state:
+Again, **it is highly recommended you collect the data by hand**. If you are adamant on data scraping, here is the Python script I've been tweaking for each state:
 
 ```
 #!/usr/bin/python3
@@ -139,8 +155,6 @@ for url in urls:
 ```
 
 Please feel free to submit a pull request if you can enhance this script (or provide a newer, better, faster version).
-
-Once you scrape from a website (ex: run `python da-ny.py`), [continue with aforementioned steps](#manually-collecting-prosecutor-names-by-hand).
 
 #### Brainstorming Other Means Of Data Collection
 
