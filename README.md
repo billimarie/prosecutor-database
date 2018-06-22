@@ -74,8 +74,6 @@ npm install
 npm install -g csvtojson
 ```
 
-[Back to Top](#us-prosecutor-database)
-
 ### GATHERING DATA
 
 As previously noted, a dataset of all U.S. Prosecutors does not exist. Therefore, in order to create it, we work in a narrow scope: LOCATION (State) and ROLE (ex: District Attorney). You will see this emphasized repeatedly as *State-Role*. **Your branch should only consist of data from one state, one role.** It is okay to submit multiple pull requests, as long as you keep your work isolated in this manner.
