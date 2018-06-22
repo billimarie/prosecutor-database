@@ -1,6 +1,16 @@
 # Changelog
 Maintained by yours truly ([@billimarie](https://www.github.com/billimarie))
 
+## 0.1.1
+### New
+- Created new GitHub Pages site: [USPD Guide](https://billimarie.github.io/prosecutor-database)
+
+### Updates
+- Detailed instructions for contributors who are not programmers
+
+### Removes
+- Original Light Pollution GitHub Pages site (see: handlebars.js)
+
 ## 0.1.0
 ### New
 - Created new data collection repo
