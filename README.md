@@ -1,5 +1,5 @@
 # U.S. Prosecutor Database
-> Last Updated: June 19th 2018 (Juneteenth)
+> Last Updated: June 22nd 2018
 
 **If you are interested in contributing data, see [4. Data Collection](#4-data-collection) for detailed instructions.**
 
@@ -23,9 +23,13 @@ Our goal is to showcase prosecutorial demographics, culture, and history. This g
 
 Unfortunately, this prosecutor data does not already exist. [The **Post-Carceral** vision](#5-our-group-post-carceral) is to collect this information so that we can not only showcase reality using open-source, collaborative methods, but contribute to radically shifting this political picture for future generations, as well.
 
+[Back to Top](#us-prosecutor-database)
+
 ## 2. The USPD App
 
 Our online community, [**Post-Carceral**](#5-our-group-post-carceral), has created a separate web app which renders this data for easy access. Though this repository is dedicated to housing the USPD Data (and NOT the USPD App), please contact [Billimarie](https://www.github.com/billimarie) if you are interested in learning more.
+
+[Back to Top](#us-prosecutor-database)
 
 ## 3. The USPD Data
 
@@ -41,6 +45,8 @@ The **Basic Prosecutor Profile** consists of 7 fields:
 * Optional: headshot / profile image
 
 The **Full Prosecutor Profile** has several additional fields, including Demographics (Age, Race, Gender, Party). Though it would be extremely helpful for each pull request to include a Full Prosecutor Profile, it is not expected.
+
+[Back to Top](#us-prosecutor-database)
 
 ## 4. Data Collection
 
@@ -67,6 +73,8 @@ npm install
 ```
 npm install -g csvtojson
 ```
+
+[Back to Top](#us-prosecutor-database)
 
 ### GATHERING DATA
 
@@ -124,6 +132,8 @@ git commit -m "Added [state] [role] as .csv and .json"
 git push origin [branch]
 ```
 
+[Back to Top](#us-prosecutor-database)
+
 #### OPTIONAL: Python Script
 
 Again, **it is highly recommended you collect the data by hand**. If you are adamant on data scraping, here is the Python script I've been tweaking for each state:
@@ -156,6 +166,8 @@ for url in urls:
 
 Please feel free to submit a pull request if you can enhance this script (or provide a newer, better, faster version).
 
+[Back to Top](#us-prosecutor-database)
+
 #### Brainstorming Other Means Of Data Collection
 
 If a new method for collecting this data is discovered, please **create a new issue** where we can discuss it as a community.
@@ -180,6 +192,8 @@ Every Sunday, we meet via Skype for a group session where we:
 * Collect data
 
 If you'd like to join our Sunday group sessions, send an email to [Billimarie](https://www.github.com/billimarie).
+
+[Back to Top](#us-prosecutor-database)
 
 ## 6. Acknowledgements
 
