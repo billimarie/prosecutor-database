@@ -1,9 +1,13 @@
 # U.S. Prosecutor Database
 > Last Updated: June 22nd 2018
 
-**If you are interested in contributing data, see [4. Data Collection](#4-data-collection) for detailed instructions.**
+## Note for Contributors
+If you are not a developer, you can start with the beginning docs: [How to search, Google, and collect information into a simple document](https://billimarie.github.io/prosecutor-database#google).
+
+If you are a developer, you can see [the "Data Collection" section](#4-data-collection) for detailed instructions on **manual data entry** (recommended) and **Python scraping** (not recommended).
 
 ## Table of Contents
+### [Note for Contributors](#note-for-contributors)
 ### [Introduction](#1-introduction)
 ### [The USPD App](#2-the-uspd-app)
 ### [The USPD Data](#3-the-uspd-data)
