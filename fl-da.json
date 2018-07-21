@@ -1,8 +1,26 @@
 [
-{"Name\tLocation \tRole\tWebsite\tOffice Info \tContact Info \tHeadshot":"Glenn Hess\t14th Judicial Circuit (Calhoun County) \tState Attorney\thttp://sa14.fl.gov/calhoun-county/\t\"20859 Central Avenue","field2":"East #210\nPO BOX 503\nBlounstown","field3":"FL 32424\"\tPhone:�(850) 674-4580\thttp://sa14.fl.gov/wp-content/uploads/2016/06/Ghess.jpg"}
-,
-{"Name\tLocation \tRole\tWebsite\tOffice Info \tContact Info \tHeadshot":"Fax:�(850) 674-5028"}
-,
-{"Name\tLocation \tRole\tWebsite\tOffice Info \tContact Info \tHeadshot":""},
-{"Name\tLocation \tRole\tWebsite\tOffice Info \tContact Info \tHeadshot":""}
-]
+    {
+        "Name":"Glenn Hess",
+        "Location": "14th Judicial Circuit (Calhoun County)",
+        "Role": "State Attorney",
+        "Website": "http://sa14.fl.gov/calhoun-county/",
+        "Office Info":
+        {
+            "Street": "20859 Central Avenue",
+            "Street2":"East #210",
+            "PO Box": "PO BOX 503",
+            "Town" : "Blounstown",
+            "State": "FL",
+            "ZIP": "32424"
+        },
+
+
+
+        "Contact Info":
+            {
+                "Phone": "(850) 674-4580",
+                "Fax": "(850) 674-5028"
+            },
+        "Headshot": "http://sa14.fl.gov/wp-content/uploads/2016/06/Ghess.jpg"
+    }
+   ]
