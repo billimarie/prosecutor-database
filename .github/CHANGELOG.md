@@ -1,6 +1,10 @@
 # Changelog
 Maintained by yours truly ([@billimarie](https://www.github.com/billimarie))
 
+## 0.1.2
+### Updates
+- .csv and .json data
+
 ## 0.1.1
 ### New
 - Created new GitHub Pages site: [USPD Guide](https://billimarie.github.io/prosecutor-database)
