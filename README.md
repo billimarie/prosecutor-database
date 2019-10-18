@@ -1,7 +1,9 @@
 # U.S. Prosecutor Database
-> Last Updated: June 22nd 2018
+> Last Updated: October 17th 2019
 
 ## Note for Contributors
+Though this repo isn't actively being maintained, I'm more than happy to accept pull requests.
+
 If you are not a developer, you can start with the beginning docs: [How to search, Google, and collect information into a simple document](https://billimarie.github.io/prosecutor-database#google).
 
 If you are a developer, you can see [the "Data Collection" section](#4-data-collection) for detailed instructions on **manual data entry** (recommended) and **Python scraping** (not recommended).
