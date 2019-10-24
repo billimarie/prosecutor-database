@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Brian Wright",
+    "langcode": "en",
+    "role": "Commonwealth's Attorney",
+    "county": "Adair",
+    "officeInfo": "630 Campbellsville Street\nP.O. Box 658\nColumbia, KY 42539\nP.O. Box 2002\nMays Landing, NJ 08330",
+    "phone": "(606) 787-1479",
+    "fax": "(606) 787-5001"
+  },
+  {
+    "title": "Jennifer Hutchison-Corbin",
+    "langcode": "en",
+    "role": "County Attorney",
+    "county": "Adair",
+    "officeInfo": "424 Public Square\nSuite 22\nColumbia, KY 42728",
+    "phone": "(270) 384-3216",
+    "fax": "(270) 384-9273"
+  },
+  {
+    "title": "Corey Morgan",
+    "langcode": "en",
+    "role": "Commonwealth's Attorney",
+    "county": "Allen",
+    "officeInfo": "107 Robey Street, Suite 1\nP.O. Box 472\nFranklin, KY 42135",
+    "phone": "(270) 586-5326",
+    "fax": "(270) 586-4101"
+  },
+  {
+    "title": "Hallye M. Arterburn",
+    "langcode": "en",
+    "role": "County Attorney",
+    "county": "Allen",
+    "officeInfo": "201 W. Main Street, Suite 203\nScottsville, KY 42164",
+    "phone": "(270) 237-3117",
+    "fax": "(270) 237-3234"
+  },
+  {
+    "title": "Hon. Laura Witt",
+    "langcode": "en",
+    "role": "Commonwealth's Attorney",
+    "county": "Anderson",
+    "officeInfo": "544 Main Street\nShelbyville, KY 40065",
+    "phone": "(502) 647-3019",
+    "fax": "(502) 647-9916"
+  },
+  {
+    "title": "Bobbi Jo Lewis",
+    "langcode": "en",
+    "role": "County Attorney",
+    "county": "Anderson",
+    "officeInfo": "216 South Main Street\nLawrenceburg, KY 40342",
+    "phone": "(502) 839-5164",
+    "fax": "(502) 859-0100"
+  },
+  {
+    "title": "Mike Stacy",
+    "langcode": "en",
+    "role": "Commonwealth's Attorney",
+    "county": "Ballard",
+    "officeInfo": "133 North Fourth Street\nP.O. Box 788\nWickliffe, KY 42087",
+    "phone": "(270) 335-5656",
+    "fax": "(270) 335-3807"
+  },
+  {
+    "title": "Vicki Hayden",
+    "langcode": "en",
+    "role": "county Attorney",
+    "county": "Ballard",
+    "officeInfo": "132 N. 4th St., Ballard Co. Courthouse\nP.O. Box 530\nWickliffe, KY 42087",
+    "phone": "(270) 335-3504",
+    "fax": "(270) 335-5012"
+  },
+  {
+    "title": "John Gardner",
+    "langcode": "en",
+    "role": "commonwealth's Attorney",
+    "county": "Barren",
+    "officeInfo": "221 South Green Street\nGlasgow, KY 42141",
+    "phone": "(270) 651-3838",
+    "fax": "(270) 651-1957"
+  },
+  {
+    "title": "Kathryn Thomas",
+    "langcode": "en",
+    "role": "county Attorney",
+    "county": "Barren",
+    "officeInfo": "220 West Main Street\nGlasgow, KY 42141",
+    "phone": "(270) 651-8766",
+    "fax": "(270) 651-5871"
+  },
+  {
+    "title": "Ronnie Goldy",
+    "langcode": "en",
+    "role": "commonwealth's Attorney",
+    "county": "Bath",
+    "officeInfo": "44 West Main Street\nMt. Sterling, KY 40353",
+    "phone": "(859) 498-0911",
+    "fax": "(859) 498-7273"
+  },
+  {
+    "title": "Kim. Hunt Prince",
+    "langcode": "en",
+    "role": "County Attorney",
+    "county": "Bath",
+    "officeInfo": "100 North Court Street\nP.O. Box 539\nOwingsville, KY 40360",
+    "phone": "(606) 674-6663",
+    "fax": "(606) 674-2259"
+  }
+]
