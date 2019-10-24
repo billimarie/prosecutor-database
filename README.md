@@ -1,5 +1,5 @@
 # U.S. Prosecutor Database
-> Last Updated: October 17th 2019
+> Last Updated: October 24th 2019
 
 ## Note for Contributors
 Though this repo isn't actively being maintained, I'm more than happy to accept pull requests.
