@@ -87,8 +87,8 @@
                 <h4>{{state}}</h4>
                 <h4>{{role}}</h4>
                 <h5><em>{{district}}</em></h5>
-                <h6 {{#if dateExists appointed}} {{/if}}>
-                  Appointed: {{unixToMMddYYYY appointed}}
+                <h6>
+                  Appointed: {{#if dateExists appointed}} {{unixToMMddYYYY appointed}} {{/if}}
                 </h6>
               </a>
             </li>

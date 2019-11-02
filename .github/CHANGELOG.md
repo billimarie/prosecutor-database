@@ -1,5 +1,45 @@
 # Changelog
-Maintained by yours truly ([@billimarie](https://www.github.com/billimarie))
+Maintained by [@billimarie](https://www.github.com/billimarie).
+
+## 0.2.0
+### New
+- Reverts repo back to original Meteor.js app
+
+### Updates
+- Updates ancient NPM, Meteor packages
+- Changed from MIT license to GNU GPLv3
+- Separates `GraphQL` into its own branch
+- 
+
+---
+
+## 0.1.2
+### Updates
+- .csv and .json data
+
+## 0.1.1
+### New
+- Created new GitHub Pages site: [USPD Guide](https://billimarie.github.io/prosecutor-database)
+
+### Updates
+- Detailed instructions for contributors who are not programmers
+
+### Removes
+- Original Light Pollution GitHub Pages site (see: handlebars.js)
+
+## 0.1.0
+### New
+- Created new data collection repo
+
+### Updates
+- Detailed introduction and instructions (README.md)
+- package.json
+- package-lock.json
+
+### Removes
+- Wiped entire app structure
+
+---
 
 ## 0.0.10
 ### New

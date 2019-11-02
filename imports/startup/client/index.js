@@ -34,16 +34,19 @@ Template.currentProsecutors.helpers({
     return Attorneys.find().fetch();
   },
   recentAttorneys() {
-    return Attorneys.find({}, {sort: {timestamp : 1}, limit: 6 }).fetch();
-    dateExists(date) {
-      return date !== null;
-    },
-    unixToMMddYYYY(unix) {
-      var month = new Date(appointed * 1000).getMonth();
-      var day = new Date(appointed * 1000).getDate();
-      var year = new Date(appointed * 1000).getFullYear();
-      return month + '-' + date + '-' + year;
-    },
+    return Attorneys.find( {}, {
+        sort: { timestamp : 1 },
+        limit: 6
+      }).fetch();
+    // dateExists(date) {
+    //   return date !== null;
+    // },
+    // unixToMMddYYYY(unix) {
+    //   var month = new Date(appointed * 1000).getMonth();
+    //   var day = new Date(appointed * 1000).getDate();
+    //   var year = new Date(appointed * 1000).getFullYear();
+    //   return month + '-' + date + '-' + year;
+    // }
   }
 });
 
@@ -56,10 +59,15 @@ Template.attorneyView.helpers({
 /**
  * ROUTES
  */
-Router.route('/', {
+
+Router.route('/', function() {
+  this.render('Home');
+});
+
+/* Router.route('/', {
   name: 'home',
   template: 'home'
-});
+}); */
 
 Router.route('/:state/:role/:name', {
   name: 'attorneyView',
