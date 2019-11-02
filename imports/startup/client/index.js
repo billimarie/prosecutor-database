@@ -60,14 +60,10 @@ Template.attorneyView.helpers({
  * ROUTES
  */
 
-Router.route('/', function() {
-  this.render('Home');
-});
-
-/* Router.route('/', {
+Router.route('/', {
   name: 'home',
   template: 'home'
-}); */
+});
 
 Router.route('/:state/:role/:name', {
   name: 'attorneyView',

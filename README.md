@@ -38,9 +38,13 @@ Unfortunately, this prosecutor database does not already exist. [The **Post-Carc
 - If you would like to submit directly to this repo instead, here are advanced instructions on manual data mining and entry: [Data Collection](#3-data-collection). Includes both manual .json/.csv collection as well as Python scraping.
 
 ### Contribute to App Development
+
+For development:
 1. cd to repo
 2. `meteor run`
 3. `meteor mongo`
+
+For production:
 
 ### Brainstorming Other Means Of Data Collection
 
