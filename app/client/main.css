@@ -137,12 +137,6 @@ h1, h2 {
 
 /* Prosecutor List */
 
-/* Even Spacing */
-
-#prosecutor-list li.single-attorney a {
-  padding: 5px 15px 20px 15px !important;
-}
-
 #prosecutor-list h2 {
   text-transform: uppercase;
   font-weight: 800;

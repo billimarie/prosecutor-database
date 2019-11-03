@@ -5,6 +5,7 @@ Maintained by [@billimarie](https://www.github.com/billimarie).
 ### New
 - Swaps out Bootstrap 3 for Bootstrap 4 (CSS, JS)
 - Returns to Meteor.js app
+- Separates the app from manual data collection
 
 ### Updates
 - Heroku deployment (production)

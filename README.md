@@ -4,8 +4,9 @@
 ## Table of Contents
 ### [1. Overview](#1-overview)
 ### [2. How You Can Help](#3-how-you-can-help)
-#### [Submit Data](#submit-data)
-#### [Contribute to App Development](#contribute-to-app-development)
+#### [Beginner](#beginner)
+#### [Intermediate](#intermediate)
+#### [Advanced](#advanced)
 #### [Brainstorming Other Means Of Data Collection](#brainstorming-other-means-of-data-collection)
 ### [3. Data Collection](#3-data-collection)
 ### [4. Join Us: Post-Carceral](#4-join-us-post-carceral)
@@ -17,15 +18,17 @@
 
 ## 1. Overview
 
-The **U.S. Prosecutor Database** is a collection of .csv and .json data for currently elected and appointed government attorneys at the local, state, and federal level. This includes Attorney Generals, U.S. Attorneys, District/State Attorneys, and Municipal/County/City Attorneys.
+The **United States Prosecutor Database** is a website housing the data of current &amp; previous elected/appointed government attorneys at the local, state, &amp; federal level. This includes (but is not limited to):
+- Attorney Generals
+- U.S. Attorneys
+- District/State Attorneys
+- Municipal/County/City Attorneys
 
-Our goal is to showcase prosecutorial demographics, culture, and history. This goal is in service to [the **Post-Carceral** mission](#5-our-group-post-carceral), which is to:
+Our goal is to showcase prosecutorial news articles, demographics, trends, office culture, &amp; history. This goal is in service to [the **Post-Carceral** mission](#5-join-us-post-carceral), which is to:
 
 * Cultivate a community of holding prosecutors accountable as a voting public
 * Change the political and cultural landscape of this nation's real lawmakers
-* Assisting prosecutors who aim to end mass incarceration and commit to decarceration
-
-Unfortunately, this prosecutor database does not already exist. [The **Post-Carceral** vision](#5-our-group-post-carceral) is to collect this information so that we can not only showcase reality using open-source, collaborative methods, but contribute to radically shifting this political picture for future generations, as well.
+* Assist prosecutors who are aiming to end mass incarceration with a commitment to decarceration
 
 [Back to Top](#us-prosecutor-database)
 
@@ -33,18 +36,25 @@ Unfortunately, this prosecutor database does not already exist. [The **Post-Carc
 
 ## 2. How You Can Help
 
-### Submit Data
-- Start with the beginner docs: [How to search, Google, and collect information into a simple document](https://billimarie.github.io/prosecutor-database#google).
-- If you would like to submit directly to this repo instead, here are advanced instructions on manual data mining and entry: [Data Collection](#3-data-collection). Includes both manual .json/.csv collection as well as Python scraping.
+Unfortunately, a complete &amp; comprehensive dataset of prosecutors does not already exist.
 
-### Contribute to App Development
+You can help by: manually collecting data into a spreadsheet ("beginner"), manually collecting data &amp; pushing it to the `csv-json-data` folder ("intermediate"), and/or updating the app ("advanced").
 
-For development:
-1. cd to repo
-2. `meteor run`
-3. `meteor mongo`
+### Beginner
+[How to search, Google, and collect information into a simple document](https://billimarie.github.io/prosecutor-database#google).
 
-For production:
+### Intermediate
+Instructions on how to pull down the repo, begin the manual data mining/entry process, then submit a pull request: [Data Collection](#3-data-collection). It includes both manual .json/.csv collection as well as Python scraping.
+
+### Advanced
+To help build the app:
+
+1. cd to repo/app
+2. `npm install`
+3. `meteor run`
+4. `meteor mongo`
+
+Production: https://us-prosecutor-database.herokuapp.com/
 
 ### Brainstorming Other Means Of Data Collection
 
@@ -56,10 +66,6 @@ If you think of a new method for collecting and retrieving prosecutor data, plea
 
 ## 3. Data Collection
 
-Once again, if you are a beginner, see the [How to search, Google, and collect information into a simple document](https://billimarie.github.io/prosecutor-database#google) page.
-
-To submit directly to this repo, read ahead.
-
 ### SETTING UP LOCALLY
 
 #### 1. Clone this repo to your local environment
@@ -67,17 +73,22 @@ To submit directly to this repo, read ahead.
 git clone git@github.com:billimarie/prosecutor-database.git
 ```
 
+#### 3. Switch to the csv-json-data folder
+```
+cd [repo]/csv-json-data
+```
+
 #### 2. Create a new branch for your work (ex: `ny-da`)
 ```
 git checkout -b [state]-[role]
 ```
 
-#### 3. Install Node modules
+#### 3. Install Node modules (only have to do this once)
 ```
 npm install
 ```
 
-#### 4. Install the `csvtojson` module globally
+#### 4. Install the `csvtojson` module globally (only have to do this once)
 ```
 npm install -g csvtojson
 ```
@@ -104,7 +115,7 @@ Create a new .csv file as `[state]-[role].csv`. Add the **Basic Prosecutor Profi
 * Website
 * Office Info (Address)
 * Contact Info (Phone, Fax, Email)
-* Optional: headshot / profile image
+* Optional: headshot / profile image (url)
 
 *Note: You can always add additional columns, as long as it conforms to the Full Prosecutor Profile (Demographics: Age, Race, Gender, Party).*
 
@@ -118,7 +129,7 @@ Collect the data in your .csv file. **Remember: One State, One Role, One Branch.
 
 #### STEP 4
 
-Run the csvtojson Node module (ex: `ny-da.csv > ny-da.json`):
+Run the `csvtojson` Node module (ex: `ny-da.csv > ny-da.json`):
 
 ```
 csvtojson [state-role].csv > [state-role].json

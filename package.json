@@ -1,8 +1,8 @@
 {
   "name": "us-prosecutor-database",
   "private": true,
-  "version": "0.2.0",
-  "description": "The United States Prosecutor Database is an open-source app displaying the data of elected and appointed government lawyers in the United States (including Attorney Generals, U.S. Attorneys, District Attorneys, Municipal/City Attorneys, and more). It showcases prosecutorial history at the local, state, and federal level.",
+  "version": "0.2.1",
+  "description": "The United States Prosecutor Database (App) is an open-source app displaying the data of elected and appointed government lawyers in the United States (including Attorney Generals, U.S. Attorneys, District Attorneys, Municipal/City Attorneys, and more). It showcases prosecutorial history at the local, state, and federal level.",
   "keywords": [
     "prosecutors",
     "government",
