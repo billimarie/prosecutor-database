@@ -59,34 +59,6 @@ h1, h2 {
 .home-hero .jumbotron {
   margin-bottom: 0;
 }
-/* Mailing List */
-.mailing-list {
-  background-color: #333;
-  padding: 2rem;
-}
-  .mailing-list .row {
-    text-align: center;
-  }
-  .mailing-list label {
-    color: #eee;
-  }
-  .mailing-list input.email {
-    display: inline;
-    padding: 0 0.4em;
-    min-height: 32px;
-    /* min-width: 130px; */
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-  }
-  .mailing-list .clear {
-    display: inline;
-  }
-    .mailing-list input.submit {
-      background-color: #da5050;
-      border: 0;
-      border-radius: 3px;
-    }
 
 /* Navbar Links */
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
@@ -98,6 +70,7 @@ h1, h2 {
 
 .view-attorneys .nav-tabs {
   border-bottom: 0;
+  display: inline-flex;
 }
 
 .view-attorneys .nav-tabs>li.active>a>button, .view-attorneys .nav-tabs>li.active>a:focus>button, .view-attorneys .nav-tabs>li.active>a:hover>button {

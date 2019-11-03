@@ -4,9 +4,9 @@
 ## Table of Contents
 ### [1. Overview](#1-overview)
 ### [2. How You Can Help](#3-how-you-can-help)
-#### [Submit Data](submit-data)
-#### [Contribute to App Development](contribute-to-app-development)
-#### [Brainstorming Other Means Of Data Collection](brainstorming-other-means-of-data-collection)
+#### [Submit Data](#submit-data)
+#### [Contribute to App Development](#contribute-to-app-development)
+#### [Brainstorming Other Means Of Data Collection](#brainstorming-other-means-of-data-collection)
 ### [3. Data Collection](#3-data-collection)
 ### [4. Join Us: Post-Carceral](#4-join-us-post-carceral)
 #### [Stay Updated](#stay-updated)
@@ -180,7 +180,7 @@ Please feel free to submit a pull request if you can enhance this script (or pro
 
 ### Stay Updated
 
-- **[Sign up for our weekly mailing list](https://t.co/bvfPitdu2g).** I send emails to everyone every Monday, after our remote Sunday sessions.
+- [Sign up for our mailing list](http://eepurl.com/dqPQdL).
 - You can also find USPD updates on our Twitter: [@USProsecutorDB](https://twitter.com/USProsecutorDB).
 - To get involved in a remote Sunday session, follow [@postcarceral](https://twitter.com/postcarceral). This is our general prisoners' rights group responsible for housing the USPD project.
 

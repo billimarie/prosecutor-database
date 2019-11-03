@@ -1,6 +1,14 @@
 # Changelog
 Maintained by [@billimarie](https://www.github.com/billimarie).
 
+## 0.2.1
+### New
+- Updates Bootstrap 3 to Bootstrap 4 (CSS, JS)
+
+### Updates
+- Heroku deployment (production)
+- mLab integration (MongoDB)
+
 ## 0.2.0
 ### New
 - Reverts repo back to original Meteor.js app
@@ -9,7 +17,6 @@ Maintained by [@billimarie](https://www.github.com/billimarie).
 - Updates ancient NPM, Meteor packages
 - Changed from MIT license to GNU GPLv3
 - Separates `GraphQL` into its own branch
-- 
 
 ---
 
