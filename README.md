@@ -1,5 +1,5 @@
 # U.S. Prosecutor Database
-> Last Updated: November 2nd 2019
+> Last Updated: November 3rd 2019
 
 ## Table of Contents
 - [1. Overview](#1-overview)
@@ -66,7 +66,7 @@ If you think of a new method for collecting and retrieving prosecutor data, plea
 
 ## 3. Data Collection
 
-### SETTING UP LOCALLY
+### Local Environment
 
 #### 1. Clone this repo to your local environment
 ```
@@ -93,7 +93,7 @@ npm install
 npm install -g csvtojson
 ```
 
-### GATHERING DATA
+### Collecting Data
 
 As previously noted, a dataset of all U.S. Prosecutors does not exist. Therefore, in order to create it, we work in a narrow scope: LOCATION (State) and ROLE (ex: District Attorney). You will see this emphasized repeatedly as *State-Role*. **Your branch should only consist of data from one state, one role.** It is okay to submit multiple pull requests, as long as you keep your work isolated in this manner.
 
@@ -105,10 +105,8 @@ To manually collect prosecutor names by hand, [complete the steps, below](#step-
 
 It is not recommended to go the data scraping route, as there is no uniform data to scrape from. This method is often not ideal as it will **require more energy than simply collecting the data by hand**. However, this is a good avenue to try if you come across some semblance of uniformity and/or want to see how scraping works. To scrape data, complete the steps below after [running the Python script](#optional-python-script).
 
-#### STEP 1
-
-Create a new .csv file as `[state]-[role].csv`. Add the **Basic Prosecutor Profile** columns:
-
+#### 1. Create a new .csv file as `[state]-[role].csv`. Add the **Basic Prosecutor Profile** columns:
+```
 * Name
 * Location (State, County)
 * Role
@@ -116,32 +114,19 @@ Create a new .csv file as `[state]-[role].csv`. Add the **Basic Prosecutor Profi
 * Office Info (Address)
 * Contact Info (Phone, Fax, Email)
 * Optional: headshot / profile image (url)
+```
 
-*Note: You can always add additional columns, as long as it conforms to the Full Prosecutor Profile (Demographics: Age, Race, Gender, Party).*
+#### 2. Search for your chosen state's prosecutor association.
 
-#### STEP 2
+#### 3. Collect the data in your .csv file. **Remember: One State, One Role, One Branch.**
 
-Google your chosen state's prosecutor association.
-
-#### STEP 3
-
-Collect the data in your .csv file. **Remember: One State, One Role, One Branch.**
-
-#### STEP 4
-
-Run the `csvtojson` Node module (ex: `ny-da.csv > ny-da.json`):
+#### 4. Run the `csvtojson` Node module (ex: `ny-da.csv > ny-da.json`):
 
 ```
 csvtojson [state-role].csv > [state-role].json
 ```
 
-#### STEP 5
-
-Be mindful of isolating your work. **As always: One State, One Role, One Branch.**
-
-#### STEP 6
-
-Add, Commit, and Submit a Pull Request:
+#### 5. Add, Commit, and Submit a Pull Request:
 
 ```
 git add .
@@ -149,9 +134,9 @@ git commit -m "Added [state] [role] as .csv and .json"
 git push origin [branch]
 ```
 
-#### OPTIONAL: Python Script
+#### OPTIONAL: Scrape data with a Python Script
 
-Again, **it is highly recommended you collect the data by hand**. If you are adamant on data scraping, here is the Python script I've been tweaking for each state:
+Again, **it is highly recommended you collect the data by hand**. If you are adamant on data scraping, here's the Python script I created a few years ago. You can use it as a base and adjust the logic according to each state's system. Please feel free to submit a pull request if you can enhance this script (or provide a newer, better, faster version).
 
 ```
 #!/usr/bin/python3
@@ -179,8 +164,6 @@ for url in urls:
     print(website)
 ```
 
-Please feel free to submit a pull request if you can enhance this script (or provide a newer, better, faster version).
-
 [Back to Top](#us-prosecutor-database)
 
 ---
@@ -197,14 +180,9 @@ Please feel free to submit a pull request if you can enhance this script (or pro
 
 ### Volunteer
 
-**You don't have to be a developer or a prisoners' rights activist to join.** We're looking for all types of people with all types of expertise to collaborate with.
+You don't have to be a developer or a prisoners' rights activist to join. We're looking for all types of people with all types of interestes & expertise to collaborate with.
 
-Every Sunday, we meet via Skype for a group session where we:
-* Discuss recent prosecutor news, primary results, and campaigns
-* Brainstorm ways to hold prosecutors accountable
-* Collect data
-
-If you'd like to join our Sunday group sessions, send an email to [Billimarie](https://www.github.com/billimarie).
+**Datathons**: On Sundays, we hang out remotely and discuss recent prosecutor news, primary results, & campaigns. We also brainstorm new ways to collect data (considering the strange logic of the prosecutorial system, especially as it differes between localities & regions). If you'd like to join, send me an email.
 
 [Back to Top](#us-prosecutor-database)
 
