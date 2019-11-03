@@ -3,11 +3,13 @@ Maintained by [@billimarie](https://www.github.com/billimarie).
 
 ## 0.2.1
 ### New
-- Updates Bootstrap 3 to Bootstrap 4 (CSS, JS)
+- Swaps out Bootstrap 3 for Bootstrap 4 (CSS, JS)
+- Returns to Meteor.js app
 
 ### Updates
 - Heroku deployment (production)
 - mLab integration (MongoDB)
+- Fixes annoying jump on filtering system
 
 ## 0.2.0
 ### New
