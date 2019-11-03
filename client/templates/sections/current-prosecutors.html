@@ -3,21 +3,21 @@
   <div class="row my-5">
     <div class="container mx-auto text-center">
       <h3>Filter by Role</h3>
-       <ul class="nav nav-tabs btn-group" role="group">
-         <li role="presentation">
-           <a href="#attorney-general" aria-controls="attorney-general" role="tab" data-toggle="tab"><button type="button" class="btn btn-lg">Attorney General</button></a>
+       <ul class="nav nav-pills btn-group" role="tablist">
+         <li class="nav-item">
+           <a data-target="#attorney-general" data-toggle="pill"><button class="btn btn-lg" type="button">Attorney General</button></a>
          </li>
-         <li role="presentation">
-           <a href="#us-attorney" aria-controls="us-attorney" role="tab" data-toggle="tab"><button type="button" class="btn btn-lg">U.S. Attorney</button></a>
+         <li class="nav-item">
+           <a data-target="#us-attorney" data-toggle="pill"><button class="btn btn-lg" type="button">U.S. Attorney</button></a>
          </li>
-         <li role="presentation">
-           <a href="#district-attorney" aria-controls="district-attorney" role="tab" data-toggle="tab"><button type="button" class="btn btn-lg">District Attorney</button></a>
+         <li class="nav-item">
+           <a data-target="#district-attorney" data-toggle="pill"><button class="btn btn-lg" type="button">District Attorney</button></a>
          </li>
-         <li role="presentation">
-           <a href="#municipal-attorney" aria-controls="municipal-attorney" role="tab" data-toggle="tab"><button type="button" class="btn btn-lg">Municipal Attorney</button></a>
+         <li class="nav-item">
+           <a data-target="#municipal-attorney" data-toggle="pill"><button class="btn btn-lg" type="button">Municipal Attorney</button></a>
          </li>
-         <li role="presentation" class="active">
-           <a href="#view-all" aria-controls="view-all" role="tab" data-toggle="tab"><button type="button" class="btn btn-primary btn-lg">View All</button></a>
+         <li class="nav-item active">
+           <a data-target="#view-all" data-toggle="pill"><button class="btn btn-primary btn-lg" type="button">View All</button></a>
          </li>
        </ul>
      </div>
@@ -25,14 +25,12 @@
 
   <div class="row my-5">
     <div class="container">
-      <div class="col-md-12">
-        <div class="container-fluid">
           <div id="prosecutor-list" class="tab-content">
-            <div role="tabpanel" class="tab-pane fade" id="attorney-general">
+            <div id="attorney-general" class="tab-pane">
               {{#if findAttorneyType 'Attorney General'}}
               <ul>
                 {{#each findAttorneyType 'Attorney General'}}
-                <li class="card mb-3 single-attorney">
+                <li class="card col-sm-3 single-attorney">
                   <a href="{{pathFor 'attorneyView'}}">
                     <!-- div class="thumbnail col-xs-6" style="background-image:url('{{headshot}}')"></div -->
                     <h3 class="card-header">{{name}}</h3>
@@ -55,11 +53,11 @@
               {{/if}}
             </div>
 
-            <div role="tabpanel" class="tab-pane fade" id="us-attorney">
+            <div id="us-attorney" class="tab-pane">
               {{#if findAttorneyType 'US Attorney'}}
               <ul>
                 {{#each findAttorneyType 'US Attorney'}}
-                <li class="card mb-3 single-attorney">
+                <li class="card col-sm-3 single-attorney">
                   <a href="{{pathFor 'attorneyView'}}">
                     <!-- div class="thumbnail col-xs-6" style="background-image:url('{{headshot}}')"></div -->
                     <h3 class="card-header">{{name}}</h3>
@@ -82,11 +80,38 @@
               {{/if}}
             </div>
 
-            <div role="tabpanel" class="tab-pane fade" id="municipal-attorney">
+            <div id="district-attorney" class="tab-pane">
+              {{#if findAttorneyType 'District Attorney'}}
+              <ul>
+                {{#each findAttorneyType 'District Attorney'}}
+                <li class="card col-sm-3 single-attorney">
+                  <a href="{{pathFor 'attorneyView'}}">
+                    <!-- div class="thumbnail col-xs-6" style="background-image:url('{{headshot}}')"></div -->
+                    <h3 class="card-header">{{name}}</h3>
+                    <img style="height: 200px; width: 100%; display: block;" src="{{headshot}}" alt="{{name}}, {{role}} of {{state}}">
+                    <div class="card-body">
+                      <h4 class="card-title">{{role}}</h4>
+                      <h5 class="card-subtitle">{{state}}</h5>
+                      <div class="card-text">
+                        {{#if county}}<p class="card-text">{{county}}</p>{{/if}}
+                        {{#if district}}<p class="card-text">{{district}}</p>{{/if}}
+                      </div>
+                    </div>
+                    <div class="card-footer text-muted">{{#if dateExists appointed}}<p class="card-text">{{unixToMMddYYYY appointed}}</p>{{/if}}</div>
+                  </a>
+                </li>
+               {{/each}}
+              </ul>
+              {{else}}
+              <p>No <strong>District Attorney</strong> data available.</p>
+              {{/if}}
+            </div>
+
+            <div id="municipal-attorney" class="tab-pane">
               {{#if findAttorneyType 'Municipal Attorney'}}
               <ul>
                 {{#each findAttorneyType 'Municipal Attorney'}}
-                <li class="card mb-3 single-attorney">
+                <li class="card col-sm-3 single-attorney">
                   <a href="{{pathFor 'attorneyView'}}">
                     <!-- div class="thumbnail col-xs-6" style="background-image:url('{{headshot}}')"></div -->
                     <h3 class="card-header">{{name}}</h3>
@@ -109,11 +134,11 @@
               {{/if}}
             </div>
 
-            <div role="tabpanel" class="tab-pane fade in active" id="view-all">
+            <div id="view-all" class="tab-pane active">
               {{#if allAttorneys}}
               <ul>
                 {{#each allAttorneys}}
-                <li class="card mb-3 single-attorney">
+                <li class="card  single-attorney">
                   <a href="{{pathFor 'attorneyView'}}">
                     <!-- div class="thumbnail col-xs-6" style="background-image:url('{{headshot}}')"></div -->
                     <h3 class="card-header">{{name}}</h3>
@@ -137,34 +162,6 @@
             </div>
 
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="row my-5">
-    <div class="container mx-auto text-center">
-      <h3>Recently Updated</h3>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="container">
-        {{#if recentAttorneys}}
-          <ul>
-            {{#each recentAttorneys}}
-              <li class="col-sm-3 single-attorney">
-                <a href="{{pathFor 'attorneyView'}}">
-                  <div class="thumbnail col-xs-6" style="background-image:url('{{headshot}}')"></div>
-                  <h3>{{name}}</h3>
-                  <h4>{{state}}</h4>
-                  <h4>{{role}}</h4>
-                  <h5><em>{{county}}</em></h5>
-                </a>
-              </li>
-            {{/each}}
-          </ul>
-        {{/if}}
     </div>
   </div>
 

@@ -60,6 +60,11 @@ h1, h2 {
   margin-bottom: 0;
 }
 
+/* ? */
+.find-prosecutor.jumbotron {
+  background-color: transparent;
+}
+
 /* Navbar Links */
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   color: rgb(184, 32, 31) !important;
@@ -68,12 +73,14 @@ h1, h2 {
 
 /* Button Group + Tabs */
 
-.view-attorneys .nav-tabs {
+.view-attorneys .nav-pills {
   border-bottom: 0;
   display: inline-flex;
 }
 
-.view-attorneys .nav-tabs>li.active>a>button, .view-attorneys .nav-tabs>li.active>a:focus>button, .view-attorneys .nav-tabs>li.active>a:hover>button {
+.view-attorneys .nav-pills > li.active > a > button,
+.view-attorneys .nav-pills > li.active >a:focus > button,
+.view-attorneys .nav-pills > li.active > a:hover > button {
   background-image: -webkit-linear-gradient(top, #337ab7 0, #265a88 100%);
   background-image: -o-linear-gradient(top, #337ab7 0, #265a88 100%);
   background-image: -webkit-gradient(linear, left top, left bottom, from(#337ab7), to(#265a88));
@@ -88,14 +95,15 @@ h1, h2 {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075);
 }
 
-.view-attorneys .nav-tabs>li.active>a, .view-attorneys .nav-tabs>li.active>a:focus {
+.view-attorneys .nav-pills > li.active >a,
+.view-attorneys .nav-pills > li.active > a:focus {
   border: 1px solid #adadad;
   background-position: 0 15px;
   padding: 0;
   outline: none;
 }
 
-.view-attorneys .nav-tabs>li>a>button {
+.view-attorneys .nav-pills > li > a > button {
   text-shadow: 0 1px 0 #fff;
   background-image: -webkit-linear-gradient(top, #fff 0, #e0e0e0 100%);
   background-image: -o-linear-gradient(top, #fff 0, #e0e0e0 100%);
@@ -108,22 +116,22 @@ h1, h2 {
   border-color: #ccc;
 }
 
-.view-attorneys .nav-tabs>li>a {
+.view-attorneys .nav-pills > li > a {
   padding: 0;
 }
 
-.view-attorneys .nav-tabs>li>a:hover {
+.view-attorneys .nav-pills > li > a:hover {
   border: 1px solid transparent;
   padding: 0;
   outline: none;
 }
 
-.view-attorneys .nav-tabs>li>a>button:hover {
+.view-attorneys .nav-pills > li > a > button:hover {
   background-color: #e0e0e0;
   background-position: 0 -15px;
 }
 
-.view-attorneys .nav-tabs>li.active>a>button:hover {
+.view-attorneys .nav-pills > li.active > a > button:hover {
   background: #265a88;
 }
 
@@ -133,10 +141,6 @@ h1, h2 {
 
 #prosecutor-list li.single-attorney a {
   padding: 5px 15px 20px 15px !important;
-}
-
-.find-prosecutor.jumbotron {
-  background-color: transparent;
 }
 
 #prosecutor-list h2 {
@@ -180,19 +184,22 @@ h1, h2 {
   background-color: transparent;
 }
 
-/* CSS Ribbon */
-
 @media screen and (max-width: 991px) {
+  /* CSS Ribbon */
   #ribbon .container {
     top: 0px !important;
     -webkit-filter: none !important;
     filter: none !important;
   }
-  .view-attorneys ul.nav-tabs li, .view-attorneys ul.nav-tabs li.active {
+  .view-attorneys ul.nav-pills li,
+  .view-attorneys ul.nav-pills li.active {
     display: block;
     width: 100%;
   }
-  .view-attorneys ul.nav-tabs li a button, .view-attorneys ul.nav-tabs li.active a button, .view-attorneys ul.nav-tabs li a, .view-attorneys ul.nav-tabs li.active a {
+  .view-attorneys ul.nav-pills li a button,
+  .view-attorneys ul.nav-pills li.active a button,
+  .view-attorneys ul.nav-pills li a,
+  .view-attorneys ul.nav-pills li.active a {
     width: 100%;
   }
 }
