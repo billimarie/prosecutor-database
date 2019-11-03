@@ -1,5 +1,10 @@
 <template name="search">
-  <input type="text" name="search" class="form-control" width="250px" placeholder="Find an prosecutor.">
+  <div class="input-group input-group-lg">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroup-sizing-lg">Find</span>
+    </div>
+    <input type="text" name="search" class="form-control" placeholder="Type in a name, state, or role." aria-label="Large" aria-describedby="inputGroup-sizing-lg">
+  </div>
 
   <ul class="list-group">
     {{#if searching}}

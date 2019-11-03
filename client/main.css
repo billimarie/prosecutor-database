@@ -5,39 +5,30 @@
 /* Typography */
 
 body {
-  font-family: 'Open Sans', 'Verdana', sans-serif !important;
-  font-size: 1.8rem !important;
+  font-family: 'Open Sans', 'Verdana', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', 'Helvetica', sans-serif !important;
+  font-family: 'Montserrat', 'Helvetica', sans-serif;
 }
 
 h1, h2 {
-  text-transform: uppercase !important;
-  font-weight: 900 !important;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 
+.navbar-brand {
+  font-weight: 900;
+  font-size: 1em;
+}
+/* Navigation Items */
+.nav-link {
+  font-size: 1em;
+}
+
+/* Hero */
 .jumbotron {
-  background-image: -webkit-linear-gradient(top, #fff 0, #f8f8f8 100%) !important;
-  background-image: -o-linear-gradient(top, #fff 0, #f8f8f8 100%) !important;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f8f8f8)) !important;
-  background-image: linear-gradient(to bottom, #fff 0, #f8f8f8 100%) !important;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff8f8f8', GradientType=0) !important;
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false) !important;
-  background-repeat: repeat-x !important;
-  border-radius: 4px !important;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075) !important;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075) !important;
-  border-bottom: 1px solid #eee !important;
-  padding-top: 128px !important;
-  padding-bottom: 48px !important;
-}
-
-.jumbotron h1 {}
-
-.jumbotron h2 {
-  font-weight: 100 !important;
+  text-align: center;
 }
 
 /* Row Gutters */
@@ -53,9 +44,6 @@ h1, h2 {
   .jumbotron {
     padding-top: 100px;
     padding-bottom: 100px;
-  }
-  .jumbotron h2 {
-    font-size: 47px;
   }
 }
 

@@ -16,7 +16,7 @@ Template.registerHelper( 'findAttorneyType', (attorneyType) => {
     } );
   } else if (attorneyType === "US Attorney") {
     return Attorneys.find( {
-      "role": "U.S. Attorney"
+      "role": "US Attorney"
     } );
   } else if (attorneyType === "District Attorney") {
     return Attorneys.find( {

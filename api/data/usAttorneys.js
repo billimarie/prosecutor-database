@@ -1,18 +1,5 @@
 const UsAttorneys = [
-  {
-    "id": "sa-01",
-    "state": "Alabama",
-    "district": "Middle District of Alabama",
-    "name": "A. Clark Morris",
-    "appointed": 1489190400
-  },
-  {
-    "id": "sa-02",
-    "state": "Alabama",
-    "district": "Northern District of Alabama",
-    "name": "Robert O. Posey",
-    "appointed": 1484870400
-  },
+  
   {
     "id": "sa-03",
     "state": "Alabama",

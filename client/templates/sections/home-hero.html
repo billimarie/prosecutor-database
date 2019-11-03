@@ -2,9 +2,20 @@
 	<section class="home-hero">
 		<div class="jumbotron">
 	    <div class="container">
-				<h1>The United States Prosecutor Database</h1>
-	      <a href="#prosecutor-list"><button type="button" class="btn btn-primary btn-lg">View All</button></a>
-	      <a href="https://goo.gl/forms/JG9gYxSIGE7nB6eK2" target="_blank"><button type="button" class="btn btn-primary btn-lg">Add/Update</button></a>
+
+				<div class="row my-5">
+					<div class="col">
+						<h1>The United States Prosecutor Database</h1>
+					</div>
+				</div>
+
+				<div class="row my-5">
+					<div class="col">
+			    	{{ > search}}
+						<p>Press <strong>'enter'</strong> to submit. Search by <strong>name</strong>, <strong>state</strong>, or <strong>role</strong> (examples: <em>"Foxx,"</em> <em>"California",</em> or <em>"District Attorney"</em>)</p>
+					</div>
+				</div>
+
 	    </div>
 	  </div>
 	</section>
