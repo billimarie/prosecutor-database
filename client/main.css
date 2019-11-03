@@ -152,6 +152,7 @@ h1, h2 {
 #prosecutor-list li {
   list-style: none;
   padding: 0;
+  display: inline-block;
 }
 
 #prosecutor-list a {

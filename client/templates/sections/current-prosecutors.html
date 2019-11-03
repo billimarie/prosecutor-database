@@ -25,97 +25,85 @@
 
   <div class="row my-5">
     <div class="container">
-      <div class="col-md-8">
+      <div class="col-md-12">
         <div class="container-fluid">
           <div id="prosecutor-list" class="tab-content">
             <div role="tabpanel" class="tab-pane fade" id="attorney-general">
               {{#if findAttorneyType 'Attorney General'}}
-              <div class="col-sm-4 col-md-4">
+              <ul>
                 {{#each findAttorneyType 'Attorney General'}}
-                <div class="card mb-3">
-                 <h3 class="card-header">{{name}}</h3>
-                 <div class="card-body">
-                   <h5 class="card-title">{{role}}</h5>
-                   <h6 class="card-subtitle text-muted">{{state}}</h6>
-                 </div>
-                 <img style="height: 200px; width: 100%; display: block;" src="{{headshot}}" alt="{{name}}, {{role}} of {{state}}">
-                 <div class="card-body">
-                   {{#if county}}<p class="card-text">{{county}}</p>{{/if}}
-                   {{#if district}}<p class="card-text">{{district}}</p>{{/if}}
-                   {{#if dateExists appointed}}<p class="card-text">{{unixToMMddYYYY appointed}}</p>{{/if}}
-                 </div>
-                 <!-- <div class="card-body">
-                   <a href="#" class="card-link">Card link</a>
-                   <a href="#" class="card-link">Another link</a>
-                 </div> -->
-                 <div class="card-footer text-muted">
-                   2 days ago
-                 </div>
-               </div>
+                <li class="card mb-3 single-attorney">
+                  <a href="{{pathFor 'attorneyView'}}">
+                    <!-- div class="thumbnail col-xs-6" style="background-image:url('{{headshot}}')"></div -->
+                    <h3 class="card-header">{{name}}</h3>
+                    <img style="height: 200px; width: 100%; display: block;" src="{{headshot}}" alt="{{name}}, {{role}} of {{state}}">
+                    <div class="card-body">
+                      <h4 class="card-title">{{role}}</h4>
+                      <h5 class="card-subtitle">{{state}}</h5>
+                      <div class="card-text">
+                        {{#if county}}<p class="card-text">{{county}}</p>{{/if}}
+                        {{#if district}}<p class="card-text">{{district}}</p>{{/if}}
+                      </div>
+                    </div>
+                    <div class="card-footer text-muted">{{#if dateExists appointed}}<p class="card-text">{{unixToMMddYYYY appointed}}</p>{{/if}}</div>
+                  </a>
+                </li>
                {{/each}}
-              </div>
+              </ul>
               {{else}}
               <p>No <strong>Attorney General</strong> data available.</p>
               {{/if}}
             </div>
 
             <div role="tabpanel" class="tab-pane fade" id="us-attorney">
-              {{#if findAttorneyType 'US General'}}
-              <div class="col-sm-4 col-md-4">
-                {{#each findAttorneyType 'US General'}}
-                <div class="card mb-3">
-                 <h3 class="card-header">{{name}}</h3>
-                 <div class="card-body">
-                   <h5 class="card-title">{{role}}</h5>
-                   <h6 class="card-subtitle text-muted">{{state}}</h6>
-                 </div>
-                 <img style="height: 200px; width: 100%; display: block;" src="{{headshot}}" alt="{{name}}, {{role}} of {{state}}">
-                 <div class="card-body">
-                   {{#if county}}<p class="card-text">{{county}}</p>{{/if}}
-                   {{#if district}}<p class="card-text">{{district}}</p>{{/if}}
-                   {{#if dateExists appointed}}<p class="card-text">{{unixToMMddYYYY appointed}}</p>{{/if}}
-                 </div>
-                 <!-- <div class="card-body">
-                   <a href="#" class="card-link">Card link</a>
-                   <a href="#" class="card-link">Another link</a>
-                 </div> -->
-                 <div class="card-footer text-muted">
-                   2 days ago
-                 </div>
-               </div>
+              {{#if findAttorneyType 'US Attorney'}}
+              <ul>
+                {{#each findAttorneyType 'US Attorney'}}
+                <li class="card mb-3 single-attorney">
+                  <a href="{{pathFor 'attorneyView'}}">
+                    <!-- div class="thumbnail col-xs-6" style="background-image:url('{{headshot}}')"></div -->
+                    <h3 class="card-header">{{name}}</h3>
+                    <img style="height: 200px; width: 100%; display: block;" src="{{headshot}}" alt="{{name}}, {{role}} of {{state}}">
+                    <div class="card-body">
+                      <h4 class="card-title">{{role}}</h4>
+                      <h5 class="card-subtitle">{{state}}</h5>
+                      <div class="card-text">
+                        {{#if county}}<p class="card-text">{{county}}</p>{{/if}}
+                        {{#if district}}<p class="card-text">{{district}}</p>{{/if}}
+                      </div>
+                    </div>
+                    <div class="card-footer text-muted">{{#if dateExists appointed}}<p class="card-text">{{unixToMMddYYYY appointed}}</p>{{/if}}</div>
+                  </a>
+                </li>
                {{/each}}
-              </div>
+              </ul>
               {{else}}
               <p>No <strong>U.S. Attorney</strong> data available.</p>
               {{/if}}
             </div>
 
             <div role="tabpanel" class="tab-pane fade" id="municipal-attorney">
-              {{#if findAttorneyType 'Municipal General'}}
-              <div class="col-sm-4 col-md-4">
-                {{#each findAttorneyType 'Municipal General'}}
-                <div class="card mb-3">
-                 <h3 class="card-header">{{name}}</h3>
-                 <div class="card-body">
-                   <h5 class="card-title">{{role}}</h5>
-                   <h6 class="card-subtitle text-muted">{{state}}</h6>
-                 </div>
-                 <img style="height: 200px; width: 100%; display: block;" src="{{headshot}}" alt="{{name}}, {{role}} of {{state}}">
-                 <div class="card-body">
-                   {{#if county}}<p class="card-text">{{county}}</p>{{/if}}
-                   {{#if district}}<p class="card-text">{{district}}</p>{{/if}}
-                   {{#if dateExists appointed}}<p class="card-text">{{unixToMMddYYYY appointed}}</p>{{/if}}
-                 </div>
-                 <!-- <div class="card-body">
-                   <a href="#" class="card-link">Card link</a>
-                   <a href="#" class="card-link">Another link</a>
-                 </div> -->
-                 <div class="card-footer text-muted">
-                   2 days ago
-                 </div>
-               </div>
+              {{#if findAttorneyType 'Municipal Attorney'}}
+              <ul>
+                {{#each findAttorneyType 'Municipal Attorney'}}
+                <li class="card mb-3 single-attorney">
+                  <a href="{{pathFor 'attorneyView'}}">
+                    <!-- div class="thumbnail col-xs-6" style="background-image:url('{{headshot}}')"></div -->
+                    <h3 class="card-header">{{name}}</h3>
+                    <img style="height: 200px; width: 100%; display: block;" src="{{headshot}}" alt="{{name}}, {{role}} of {{state}}">
+                    <div class="card-body">
+                      <h4 class="card-title">{{role}}</h4>
+                      <h5 class="card-subtitle">{{state}}</h5>
+                      <div class="card-text">
+                        {{#if county}}<p class="card-text">{{county}}</p>{{/if}}
+                        {{#if district}}<p class="card-text">{{district}}</p>{{/if}}
+                      </div>
+                    </div>
+                    <div class="card-footer text-muted">{{#if dateExists appointed}}<p class="card-text">{{unixToMMddYYYY appointed}}</p>{{/if}}</div>
+                  </a>
+                </li>
                {{/each}}
-              </div>
+              </ul>
               {{else}}
               <p>No <strong>Municipal, City, and/or County Attorney</strong> data available.</p>
               {{/if}}
@@ -123,32 +111,28 @@
 
             <div role="tabpanel" class="tab-pane fade in active" id="view-all">
               {{#if allAttorneys}}
-              <div class="col-sm-4 col-md-4">
+              <ul>
                 {{#each allAttorneys}}
-                <div class="card mb-3">
-                 <h3 class="card-header">{{name}}</h3>
-                 <div class="card-body">
-                   <h5 class="card-title">{{role}}</h5>
-                   <h6 class="card-subtitle text-muted">{{state}}</h6>
-                 </div>
-                 <img style="height: 200px; width: 100%; display: block;" src="{{headshot}}" alt="{{name}}, {{role}} of {{state}}">
-                 <div class="card-body">
-                   {{#if county}}<p class="card-text">{{county}}</p>{{/if}}
-                   {{#if district}}<p class="card-text">{{district}}</p>{{/if}}
-                   {{#if dateExists appointed}}<p class="card-text">{{unixToMMddYYYY appointed}}</p>{{/if}}
-                 </div>
-                 <!-- <div class="card-body">
-                   <a href="#" class="card-link">Card link</a>
-                   <a href="#" class="card-link">Another link</a>
-                 </div> -->
-                 <div class="card-footer text-muted">
-                   2 days ago
-                 </div>
-               </div>
+                <li class="card mb-3 single-attorney">
+                  <a href="{{pathFor 'attorneyView'}}">
+                    <!-- div class="thumbnail col-xs-6" style="background-image:url('{{headshot}}')"></div -->
+                    <h3 class="card-header">{{name}}</h3>
+                    <img style="height: 200px; width: 100%; display: block;" src="{{headshot}}" alt="{{name}}, {{role}} of {{state}}">
+                    <div class="card-body">
+                      <h4 class="card-title">{{role}}</h4>
+                      <h5 class="card-subtitle">{{state}}</h5>
+                      <div class="card-text">
+                        {{#if county}}<p class="card-text">{{county}}</p>{{/if}}
+                        {{#if district}}<p class="card-text">{{district}}</p>{{/if}}
+                      </div>
+                    </div>
+                    <div class="card-footer text-muted">{{#if dateExists appointed}}<p class="card-text">{{unixToMMddYYYY appointed}}</p>{{/if}}</div>
+                  </a>
+                </li>
                {{/each}}
-              </div>
+              </ul>
               {{else}}
-              <p>No data available at the moment. Please check again later.</p>
+              <p>Error: no data available. Please try again later.</p>
               {{/if}}
             </div>
 
@@ -169,7 +153,7 @@
         {{#if recentAttorneys}}
           <ul>
             {{#each recentAttorneys}}
-              <li class="col-sm-4 single-attorney">
+              <li class="col-sm-3 single-attorney">
                 <a href="{{pathFor 'attorneyView'}}">
                   <div class="thumbnail col-xs-6" style="background-image:url('{{headshot}}')"></div>
                   <h3>{{name}}</h3>
