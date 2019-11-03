@@ -2,7 +2,7 @@
 ## APP
 > Last Updated: November 2nd 2019
 
-This is the `app` branch.
+This is the `app` branch for Heroku deployments.
 
 ### Installation
 
