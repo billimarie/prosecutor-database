@@ -2,17 +2,17 @@
 > Last Updated: November 2nd 2019
 
 ## Table of Contents
-### [1. Overview](#1-overview)
-### [2. How You Can Help](#3-how-you-can-help)
-#### [Beginner](#beginner)
-#### [Intermediate](#intermediate)
-#### [Advanced](#advanced)
-#### [Brainstorming Other Means Of Data Collection](#brainstorming-other-means-of-data-collection)
-### [3. Data Collection](#3-data-collection)
-### [4. Join Us: Post-Carceral](#4-join-us-post-carceral)
-#### [Stay Updated](#stay-updated)
-#### [Volunteer](#volunteer)
-### [5. License](#5-license)
+- [1. Overview](#1-overview)
+- [2. How You Can Help](#2-how-you-can-help)
+  * [2.1 Beginner](#beginner)
+  * [2.2 Intermediate](#intermediate)
+  * [2.3 Advanced](#advanced)
+  * [2.4 Brainstorming Other Means Of Data Collection](#brainstorming-other-means-of-data-collection)
+- [3. Data Collection](#3-data-collection)
+- [4. Join Us: Post-Carceral](#4-join-us-post-carceral)
+  * [4.1 Stay Updated](#stay-updated)
+  * [4.2 Volunteer](#volunteer)
+- [5. License](#5-license)
 
 ---
 
@@ -217,6 +217,6 @@ The USPD is an open-source community project built to house data about current a
 - Apply the same license & copyright usage
 - Make public any changes, updates, or improvements upon USPD
 
-For more information, please view the [LICENSE.md](license.md) file.
+For more information, please view the [LICENSE.md](/.github/license.md) file.
 
 [Back to Top](#us-prosecutor-database)
