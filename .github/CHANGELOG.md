@@ -51,6 +51,32 @@ Maintained by [@billimarie](https://www.github.com/billimarie).
 
 ---
 
+## 0.1.2
+### Updates
+- .csv and .json data
+
+## 0.1.1
+### New
+- Created new GitHub Pages site: [USPD Guide](https://billimarie.github.io/prosecutor-database)
+
+### Updates
+- Detailed instructions for contributors who are not programmers
+
+### Removes
+- Original Light Pollution GitHub Pages site (see: handlebars.js)
+
+## 0.1.0
+### New
+- Created new data collection repo
+
+### Updates
+- Detailed introduction and instructions (README.md)
+- package.json
+- package-lock.json
+
+### Removes
+- Wiped entire app structure
+
 ## 0.0.10
 ### New
 - Mailing list section on (`home`)
