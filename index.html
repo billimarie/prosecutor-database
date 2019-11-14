@@ -1,494 +1,541 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>U.S. Prosecutor Database</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="" />
-	<meta name="keywords" content="prosecutor database, US Prosecutor Database, database, prosecutor, open-source, civic tec" />
-	<meta name="author" content="Billimarie Lubiano Robinson" />
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>U.S. Prosecutor Database</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="" />
+    <meta name="keywords" content="prosecutor database, US Prosecutor Database, database, prosecutor, open-source, civic tec" />
+    <meta name="author" content="Billimarie Lubiano Robinson" />
 
   <!-- Facebook and Twitter integration -->
-	<meta property="og:title" content="U.S. Prosecutor Database"/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content="https://billimarie.github.io/prosecutor-database"/>
-	<meta property="og:site_name" content="U.S. Prosecutor Database"/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="U.S. Prosecutor Database" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="https://billimarie.github.io/prosecutor-database" />
-	<meta name="twitter:card" content="" />
+    <meta property="og:title" content="U.S. Prosecutor Database"/>
+    <meta property="og:image" content=""/>
+    <meta property="og:url" content="https://billimarie.github.io/prosecutor-database"/>
+    <meta property="og:site_name" content="U.S. Prosecutor Database"/>
+    <meta property="og:description" content=""/>
+    <meta name="twitter:title" content="U.S. Prosecutor Database" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="https://billimarie.github.io/prosecutor-database" />
+    <meta name="twitter:card" content="" />
 
-	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400" rel="stylesheet">
 
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
 
-	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
-	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="css/style.css">
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116682336-2"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116682336-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-	  gtag('config', 'UA-116682336-2');
-	</script>
+      gtag('config', 'UA-116682336-2');
+    </script>
 
 
-	</head>
-	<body>
+    </head>
+    <body>
 
-	<div class="colorlib-loader"></div>
+    <div class="colorlib-loader"></div>
 
-	<div id="page">
-		<nav class="colorlib-nav" role="navigation">
-			<div class="top-menu">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-2">
-							<div id="colorlib-logo"><a href="index.html">USPD</a></div>
-						</div>
-						<div class="col-md-10 text-right menu-1">
-							<ul>
-								<li class="active"><a href="index.html">Home</a></li>
-								<li><a href="#weekly-wins">Weekly Wins</a></li>
-								<li><a href="glossary.html">Glossary</a></li>
-								<li><a href="https://github.com/billimarie/prosecutor-database" target="_blank">GitHub</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</nav>
+    <div id="page">
+        <nav class="colorlib-nav" role="navigation">
+            <div class="top-menu">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div id="colorlib-logo"><a href="index.html">USPD</a></div>
+                        </div>
+                        <div class="col-md-10 text-right menu-1">
+                            <ul>
+                                <li class="active"><a href="index.html">Home</a></li>
+                                <li><a href="#weekly-wins">Weekly Wins</a></li>
+                                <li><a href="glossary.html">Glossary</a></li>
+                                <li><a href="https://github.com/billimarie/prosecutor-database" target="_blank">GitHub</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
 
-		<section id="home" class="video-hero" style="height: 700px">
-		<div class="overlay" style="linear-gradient(135deg, #262626 0%, #303133 100%); background: #262626;background: -moz-linear-gradient(-45deg, #262626 0%, #303133 100%);background: -webkit-gradient(left top, right bottom, color-stop(0%, #262626), color-stop(100%, #303133));background: -webkit-linear-gradient(-45deg, #262626 0%, #303133 100%);background: -o-linear-gradient(-45deg, #262626 0%, #303133 100%);background: -ms-linear-gradient(-45deg, #262626 0%, #303133 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#303133', endColorstr='#798eea', GradientType=1 );"></div>
-			<div class="display-t text-center">
-				<div class="display-tc">
-					<div class="container">
-						<div class="col-md-12 col-md-offset-0">
-							<div class="animate-box">
-								<h2>The U.S. Prosecutor Database</h2>
-								<p>An Open-Source Dataset of all Prosecutors in the United States</p>
-								<p><a href="https://github.com/billimarie/prosecutor-database" class="btn btn-primary btn-lg btn-custom">Contribute</a></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+        <section id="home" class="video-hero" style="height: 700px">
+        <div class="overlay" style="linear-gradient(135deg, #262626 0%, #303133 100%); background: #262626;background: -moz-linear-gradient(-45deg, #262626 0%, #303133 100%);background: -webkit-gradient(left top, right bottom, color-stop(0%, #262626), color-stop(100%, #303133));background: -webkit-linear-gradient(-45deg, #262626 0%, #303133 100%);background: -o-linear-gradient(-45deg, #262626 0%, #303133 100%);background: -ms-linear-gradient(-45deg, #262626 0%, #303133 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#303133', endColorstr='#798eea', GradientType=1 );"></div>
+            <div class="display-t text-center">
+                <div class="display-tc">
+                    <div class="container">
+                        <div class="col-md-12 col-md-offset-0">
+                            <div class="animate-box">
+                                <h2>The U.S. Prosecutor Database</h2>
+                                <p>An Open-Source Dataset of all Prosecutors in the United States</p>
+                                <p><a href="https://github.com/billimarie/prosecutor-database" class="btn btn-primary btn-lg btn-custom">Contribute</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-		<div class="colorlib-featured">
-			<div class="row animate-box">
-				<div class="featured-wrap">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-4 animate-box">
-								<article>
-									<h2>Creating a List</h2>
-									<p class="admin"><span>Everyone</span></p>
-									<p>How to search, Google, and collect information into a simple document (like a Word doc or Spreadsheet).</p>
-									<p><a href="#google" class="btn btn-primary btn-lg btn-custom">Begin</a></p>
-								</article>
-							</div>
-							<div class="col-md-4 animate-box">
-								<article>
-									<h2>Using Git and GitHub to Submit Information</h2>
-									<p class="admin"><span>Beginner</span></p>
-									<p>Once you've created a list of prosecutors, here's how you can submit it to our open-source database.</p>
-									<p><a href="https://github.com/billimarie/prosecutor-database#4-data-collection" class="btn btn-primary btn-lg btn-custom">GitHub README.md</a></p>
-								</article>
-							</div>
-							<div class="col-md-4 animate-box">
-								<article>
-									<h2>Using Python to Get Information</h2>
-									<p class="admin"><span>Intermediate Developers</span></p>
-									<p>Not recommended. If you're interested in data scraping, you can tweak our Python scripts to get information from a variety of websites for entry into the U.S. Prosecutor Database.</p>
-									<p><a href="https://github.com/billimarie/prosecutor-database#optional-python-script" class="btn btn-primary btn-lg btn-custom">GitHub README.md</a></p>
-								</article>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+        <div class="colorlib-featured">
+            <div class="row animate-box">
+                <div class="featured-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 animate-box">
+                                <article>
+                                    <h2>Creating a List</h2>
+                                    <p class="admin"><span>Everyone</span></p>
+                                    <p>How to search, Google, and collect information into a simple document (like a Word doc or Spreadsheet).</p>
+                                    <p><a href="#google" class="btn btn-primary btn-lg btn-custom">Begin</a></p>
+                                </article>
+                            </div>
+                            <div class="col-md-4 animate-box">
+                                <article>
+                                    <h2>Using Git and GitHub to Submit Information</h2>
+                                    <p class="admin"><span>Beginner</span></p>
+                                    <p>Once you've created a list of prosecutors, here's how you can submit it to our open-source database.</p>
+                                    <p><a href="#data-mining" class="btn btn-primary btn-lg btn-custom">GitHub README.md</a></p>
+                                </article>
+                            </div>
+                            <div class="col-md-4 animate-box">
+                                <article>
+                                    <h2>Using Python to Get Information</h2>
+                                    <p class="admin"><span>Intermediate Developers</span></p>
+                                    <p>Not recommended. If you're interested in data scraping, you can tweak our Python scripts to get information from a variety of websites for entry into the U.S. Prosecutor Database.</p>
+                                    <p><a href="https://github.com/billimarie/prosecutor-database#optional-python-script" class="btn btn-primary btn-lg btn-custom">GitHub README.md</a></p>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-		<section id="contribute" class="video-hero" style="height: 500px; background-image: url(images/cover_img_1.jpg);  background-size:cover; background-position: center center;background-attachment:fixed;" data-section="home">
-		<div class="overlay"></div>
-			<div class="display-t display-t2 text-center">
-				<div class="display-tc display-tc2">
-					<div class="container">
-						<div class="col-md-12 col-md-offset-0">
-							<div class="animate-box">
-								<h2>How to search, Google, and collect information into a simple document</h2>
-								<p class="breadcrumbs"><span>Skill Level: Everyone</span></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+        <section id="contribute" class="video-hero" style="height: 500px; background-image: url(images/cover_img_1.jpg);  background-size:cover; background-position: center center;background-attachment:fixed;" data-section="home">
+        <div class="overlay"></div>
+            <div class="display-t display-t2 text-center">
+                <div class="display-tc display-tc2">
+                    <div class="container">
+                        <div class="col-md-12 col-md-offset-0">
+                            <div class="animate-box">
+                                <h2>How to search, Google, and collect information into a simple document</h2>
+                                <p class="breadcrumbs"><span>Skill Level: Everyone</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-		<div class="colorlib-blog colorlib-bg-white">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center colorlib-heading animate-box">
-						<h2>Completed States</h2>
-						<p>If you'd like to <a href="https://www.github.com/billimarie/prosecutor-database">contribute</a>, please note we have completed Basic Prosecutor Profiles for the following states at the District Attorney level:</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-3 text-center colorlib-heading animate-box">
-						<h3>Arizona</h3>
-					</div>
-					<div class="col-md-3 text-center colorlib-heading animate-box">
-						<h3>California</h3>
-					</div>
-					<div class="col-md-3 text-center colorlib-heading animate-box">
-						<h3>Florida</h3>
-					</div>
-					<div class="col-md-3 text-center colorlib-heading animate-box">
-						<h3>Louisiana</h3>
-					</div>
-				</div>
-			</div>
-		</div>
+    
+        <div class="colorlib-blog colorlib-bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center colorlib-heading animate-box">
+                        <h2>Completed States</h2>
+                        <p>If you'd like to <a href="https://www.github.com/billimarie/prosecutor-database">contribute</a>, please note we have completed Basic Prosecutor Profiles for the following states at the District Attorney level:</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 text-center colorlib-heading animate-box">
+                        <h3>Arizona</h3>
+                    </div>
+                    <div class="col-md-3 text-center colorlib-heading animate-box">
+                        <h3>California</h3>
+                    </div>
+                    <div class="col-md-3 text-center colorlib-heading animate-box">
+                        <h3>Florida</h3>
+                    </div>
+                    <div class="col-md-3 text-center colorlib-heading animate-box">
+                        <h3>Louisiana</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-		<section id="google" class="video-hero" style="height: 500px; background-image: url(images/cover_img_1.jpg);  background-size:cover; background-position: center center;background-attachment:fixed;" data-section="home">
-		<div class="overlay"></div>
-			<div class="display-t display-t2 text-center">
-				<div class="display-tc display-tc2">
-					<div class="container">
-						<div class="col-md-12 col-md-offset-0">
-							<div class="animate-box">
-								<h2>How to search, Google, and collect information into a simple document</h2>
-								<p class="breadcrumbs"><span>Skill Level: Everyone</span></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+        <section id="google" class="video-hero" style="height: 500px; background-image: url(images/cover_img_1.jpg);  background-size:cover; background-position: center center;background-attachment:fixed;" data-section="home">
+        <div class="overlay"></div>
+            <div class="display-t display-t2 text-center">
+                <div class="display-tc display-tc2">
+                    <div class="container">
+                        <div class="col-md-12 col-md-offset-0">
+                            <div class="animate-box">
+                                <h2>How to search, Google, and collect information into a simple document</h2>
+                                <p class="breadcrumbs"><span>Skill Level: Everyone</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-		<div class="colorlib-work-featured colorlib-bg-white">
-			<div class="container">
-				<div class="row mobile-wrap">
-					<div class="col-md-12 animate-box">
-						<div class="desc">
-							<h2>Update the Google Spreadsheet</h2>
-							<div class="features">
-								<span class="icon"><i class="icon-lightbulb"></i></span>
-								<div class="f-desc">
-									<p>Open the <a href="https://docs.google.com/spreadsheets/d/1Hfe50vvVT21wk4-Z6FzcSX-L3Vw02pR1Zm378Xu2J7A/edit?usp=sharing" target="_blank">USPD Basic Prosecutor Profile</a> spreadsheet. (If you can't access it, please email <a href="mailto:work@billimarie.com?subject=USPD%20Access">Billimarie</a>.)</p>
-								</div>
-							</div>
-							<div class="features">
-								<span class="icon"><i class="icon-circle-compass"></i></span>
-								<div class="f-desc">
-									<p><a href="#weekly-wins">Pick a State</a> to focus on. Create a new sheet (left side, bottom of page; there's a plus sign you can click). Name your new Google Sheet after the state you're focused on (example: CA for California).</p>
-								</div>
-							</div>
-							<div class="features">
-								<span class="icon"><i class="icon-beaker"></i></span>
-								<div class="f-desc">
-									<p>Update the "NAME" column with all of the prosecutor names.</p>
-									<p>Then, update the "BODY" column with Basic Prosecutor Profile information:</p>
-									<ul>
-										<li>Location (County)</li>
-										<li>Office Address</li>
-										<li>Contact (phone, email, fax)</li>
-										<li>Website</li>
-									</ul>
-								</div>
-							</div>
-							<div class="features">
-								<span class="icon"><i class="icon-paper-clip"></i></span>
-								<div class="f-desc">
-									<p>That's it! Be sure to email <a href="mailto:work@billimarie.com?subject=USPD%20List">Billimarie when you're finished.</p>
-								</div>
-							</div>
-							<p><a href="https://docs.google.com/spreadsheets/d/1Hfe50vvVT21wk4-Z6FzcSX-L3Vw02pR1Zm378Xu2J7A/edit?usp=sharing" class="btn btn-primary btn-outline with-arrow">Start collaborating <i class="icon-arrow-right3"></i></a></p>
-						</div>
-					</div>
-				</div>
-				<div class="row mobile-wrap">
-					<div class="col-md-12 animate-box">
-						<div class="desc">
-							<h2>Search Google</h2>
-							<div class="features">
-								<span class="icon"><i class="icon-lightbulb"></i></span>
-								<div class="f-desc">
-									<p>To get the names of District Attorneys, look up the state's District Attorney Association. (Example: "Delaware District Attorney Association")</p>
-								</div>
-							</div>
-							<div class="features">
-								<span class="icon"><i class="icon-circle-compass"></i></span>
-								<div class="f-desc">
-									<p>If there is no District Attorney association, look for the state's election results.</p>
-								</div>
-							</div>
-							<div class="features">
-								<span class="icon"><i class="icon-beaker"></i></span>
-								<div class="f-desc">
-									<p>Please note: only three states elect their District Attorneys (Alaska, Connecticut, and New Jersey). Everywhere else holds prosecutor elections.</p>
-								</div>
-							</div>
-							<p><a href="#" class="btn btn-primary btn-outline with-arrow">Start collaborating <i class="icon-arrow-right3"></i></a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+        <div class="colorlib-work-featured colorlib-bg-white">
+            <div class="container">
+                <div class="row mobile-wrap">
+                    <div class="col-md-12 animate-box">
+                        <div class="desc">
+                            <h2>Update the Google Spreadsheet</h2>
+                            <div class="features">
+                                <span class="icon"><i class="icon-lightbulb"></i></span>
+                                <div class="f-desc">
+                                    <p>Open the <a href="https://docs.google.com/spreadsheets/d/1Hfe50vvVT21wk4-Z6FzcSX-L3Vw02pR1Zm378Xu2J7A/edit?usp=sharing" target="_blank">USPD Basic Prosecutor Profile</a> spreadsheet. (If you can't access it, please email <a href="mailto:work@billimarie.com?subject=USPD%20Access">Billimarie</a>.)</p>
+                                </div>
+                            </div>
+                            <div class="features">
+                                <span class="icon"><i class="icon-circle-compass"></i></span>
+                                <div class="f-desc">
+                                    <p><a href="#weekly-wins">Pick a State</a> to focus on. Create a new sheet (left side, bottom of page; there's a plus sign you can click). Name your new Google Sheet after the state you're focused on (example: CA for California).</p>
+                                </div>
+                            </div>
+                            <div class="features">
+                                <span class="icon"><i class="icon-beaker"></i></span>
+                                <div class="f-desc">
+                                    <p>Update the "NAME" column with all of the prosecutor names.</p>
+                                    <p>Then, update the "BODY" column with Basic Prosecutor Profile information:</p>
+                                    <ul>
+                                        <li>Location (County)</li>
+                                        <li>Office Address</li>
+                                        <li>Contact (phone, email, fax)</li>
+                                        <li>Website</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="features">
+                                <span class="icon"><i class="icon-paper-clip"></i></span>
+                                <div class="f-desc">
+                                    <p>That's it! Be sure to email <a href="mailto:work@billimarie.com?subject=USPD%20List">Billimarie when you're finished.</p>
+                                </div>
+                            </div>
+                            <p><a href="https://docs.google.com/spreadsheets/d/1Hfe50vvVT21wk4-Z6FzcSX-L3Vw02pR1Zm378Xu2J7A/edit?usp=sharing" class="btn btn-primary btn-outline with-arrow">Start collaborating <i class="icon-arrow-right3"></i></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mobile-wrap">
+                    <div class="col-md-12 animate-box">
+                        <div class="desc">
+                            <h2>Search Google</h2>
+                            <div class="features">
+                                <span class="icon"><i class="icon-lightbulb"></i></span>
+                                <div class="f-desc">
+                                    <p>To get the names of District Attorneys, look up the state's District Attorney Association. (Example: "Delaware District Attorney Association")</p>
+                                </div>
+                            </div>
+                            <div class="features">
+                                <span class="icon"><i class="icon-circle-compass"></i></span>
+                                <div class="f-desc">
+                                    <p>If there is no District Attorney association, look for the state's election results.</p>
+                                </div>
+                            </div>
+                            <div class="features">
+                                <span class="icon"><i class="icon-beaker"></i></span>
+                                <div class="f-desc">
+                                    <p>Please note: only three states elect their District Attorneys (Alaska, Connecticut, and New Jersey). Everywhere else holds prosecutor elections.</p>
+                                </div>
+                            </div>
+                            <p><a href="#" class="btn btn-primary btn-outline with-arrow">Start collaborating <i class="icon-arrow-right3"></i></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-		<section id="weekly-wins" class="video-hero" style="height: 500px; background-image: url(images/cover_img_1.jpg);  background-size:cover; background-position: center center;background-attachment:fixed;" data-section="home">
-		<div class="overlay"></div>
-			<div class="display-t display-t2 text-center">
-				<div class="display-tc display-tc2">
-					<div class="container">
-						<div class="col-md-12 col-md-offset-0">
-							<div class="animate-box">
-								<h2>Weekly Wins</h2>
-								<p>Below is a brief summary of how far we've progressed.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+    
+        <section id="data-mining" class="video-hero" style="height: 500px; background-image: url(images/cover_img_1.jpg);  background-size:cover; background-position: center center;background-attachment:fixed;" data-section="home">
+            <div class="overlay"></div>
+                <div class="display-t display-t2 text-center">
+                    <div class="display-tc display-tc2">
+                        <div class="container">
+                            <div class="col-md-12 col-md-offset-0">
+                                <div class="animate-box">
+                                    <h2>Instructions on how to pull down the repository and begin the manual data mining and entry process</h2>
+                                    <p class="breadcrumbs"><span>Skill Level: Intermediate</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-		<div class="colorlib-blog colorlib-bg-white">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center colorlib-heading animate-box">
-						<h2>Completed States</h2>
-						<p>If you'd like to <a href="https://www.github.com/billimarie/prosecutor-database">contribute</a>, please note we have completed Basic Prosecutor Profiles for the following states at the District Attorney level:</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-3 text-center colorlib-heading animate-box">
-						<h3>Arizona</h3>
-					</div>
-					<div class="col-md-3 text-center colorlib-heading animate-box">
-						<h3>California</h3>
-					</div>
-					<div class="col-md-3 text-center colorlib-heading animate-box">
-						<h3>Florida</h3>
-					</div>
-					<div class="col-md-3 text-center colorlib-heading animate-box">
-						<h3>Louisiana</h3>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-3 text-center colorlib-heading animate-box">
-						<h3>Mississippi</h3>
-					</div>
-					<div class="col-md-3 text-center colorlib-heading animate-box">
-						<h3>New Jersey</h3>
-					</div>
-					<div class="col-md-3 text-center colorlib-heading animate-box">
-						<h3>New York</h3>
-					</div>
-					<div class="col-md-3 text-center colorlib-heading animate-box">
-						<h3>Pennsylvania</h3>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4 animate-box">
-						<article>
-							<h2><a href="#">Tutorials, Repository</a></h2>
-							<p class="admin"><span>June 19th, 2018</span></p>
-							<p>Hosting Tutorials over the phone; updating GitHub Repo, GitHub Pages.</p>
-						</article>
-					</div>
-					<div class="col-md-4 animate-box">
-						<article>
-							<h2><a href="#">Florida District Attorneys</a></h2>
-							<p class="admin"><span>June 17th, 2018</span></p>
-							<p>Importing batch data.</p>
-						</article>
-					</div>
-						<div class="col-md-4 animate-box">
-							<article>
-								<h2><a href="#">Articles, News, Organizations</a></h2>
-								<p class="admin"><span>June 10th, 2018</span></p>
-								<p>Discussing avenues for getting the USPD out</p>
-							</article>
-						</div>
-					</div>
+            <div class="colorlib-work-featured colorlib-bg-white">
+                <div class="container">
+                    <div class="row mobile-wrap">
+                        <div class="col-md-12 animate-box">
+                            <div class="desc">
+                                <h2>Data Collection</h2>
+                                <div class="features">
+                                    <span class="icon"><i class="icon-lightbulb"></i></span>
+                                    <div class="f-desc">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </div>
+                                <div class="features">
+                                    <span class="icon"><i class="icon-circle-compass"></i></span>
+                                    <div class="f-desc">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </div>
+                                <div class="features">
+                                    <span class="icon"><i class="icon-beaker"></i></span>
+                                    <div class="f-desc">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </div>
+                                <p><a href="#" class="btn btn-primary btn-outline with-arrow">Start collaborating <i class="icon-arrow-right3"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section id="weekly-wins" class="video-hero" style="height: 500px; background-image: url(images/cover_img_1.jpg);  background-size:cover; background-position: center center;background-attachment:fixed;" data-section="home">
+                <div class="overlay"></div>
+                    <div class="display-t display-t2 text-center">
+                        <div class="display-tc display-tc2">
+                            <div class="container">
+                                <div class="col-md-12 col-md-offset-0">
+                                    <div class="animate-box">
+                                        <h2>Weekly Wins</h2>  
+                                        <p>Below is a brief summary of how far we've progressed.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        <div class="colorlib-blog colorlib-bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center colorlib-heading animate-box">
+                        <h2>Completed States</h2>
+                        <p>If you'd like to <a href="https://www.github.com/billimarie/prosecutor-database">contribute</a>, please note we have completed Basic Prosecutor Profiles for the following states at the District Attorney level:</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 text-center colorlib-heading animate-box">
+                        <h3>Arizona</h3>
+                    </div>
+                    <div class="col-md-3 text-center colorlib-heading animate-box">
+                        <h3>California</h3>
+                    </div>
+                    <div class="col-md-3 text-center colorlib-heading animate-box">
+                        <h3>Florida</h3>
+                    </div>
+                    <div class="col-md-3 text-center colorlib-heading animate-box">
+                        <h3>Louisiana</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 text-center colorlib-heading animate-box">
+                        <h3>Mississippi</h3>
+                    </div>
+                    <div class="col-md-3 text-center colorlib-heading animate-box">
+                        <h3>New Jersey</h3>
+                    </div>
+                    <div class="col-md-3 text-center colorlib-heading animate-box">
+                        <h3>New York</h3>
+                    </div>
+                    <div class="col-md-3 text-center colorlib-heading animate-box">
+                        <h3>Pennsylvania</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 animate-box">
+                        <article>
+                            <h2><a href="#">Tutorials, Repository</a></h2>
+                            <p class="admin"><span>June 19th, 2018</span></p>
+                            <p>Hosting Tutorials over the phone; updating GitHub Repo, GitHub Pages.</p>
+                        </article>
+                    </div>
+                    <div class="col-md-4 animate-box">
+                        <article>
+                            <h2><a href="#">Florida District Attorneys</a></h2>
+                            <p class="admin"><span>June 17th, 2018</span></p>
+                            <p>Importing batch data.</p>
+                        </article>
+                    </div>
+                        <div class="col-md-4 animate-box">
+                            <article>
+                                <h2><a href="#">Articles, News, Organizations</a></h2>
+                                <p class="admin"><span>June 10th, 2018</span></p>
+                                <p>Discussing avenues for getting the USPD out</p>
+                            </article>
+                        </div>
+                    </div>
 
-					<div class="row">
-						<div class="col-md-4 animate-box">
-							<article>
-								<h2><a href="#">U.S. Prosecutor Datathon</a></h2>
-								<p class="admin"><span>April 15th, 2018</span></p>
-								<p>Volunteer introductions, updating Basic Prosecutor Profiles</p>
-							</article>
-						</div>
-						<div class="col-md-4 animate-box">
-							<article>
-								<h2><a href="#">Pennsylvania District Attorneys</a></h2>
-								<p class="admin"><span>May 27th, 2018</span></p>
-								<p>Manual data entry.</p>
-							</article>
-						</div>
-						<div class="col-md-4 animate-box">
-							<article>
-								<h2><a href="#">Researching prosecutor studies, papers, etc.</a></h2>
-								<p class="admin"><span>June 3rd, 2018</span></p>
-								<p>Reading white papers, taking notes.</p>
-							</article>
-						</div>
-					</div>
+                    <div class="row">
+                        <div class="col-md-4 animate-box">
+                            <article>
+                                <h2><a href="#">U.S. Prosecutor Datathon</a></h2>
+                                <p class="admin"><span>April 15th, 2018</span></p>
+                                <p>Volunteer introductions, updating Basic Prosecutor Profiles</p>
+                            </article>
+                        </div>
+                        <div class="col-md-4 animate-box">
+                            <article>
+                                <h2><a href="#">Pennsylvania District Attorneys</a></h2>
+                                <p class="admin"><span>May 27th, 2018</span></p>
+                                <p>Manual data entry.</p>
+                            </article>
+                        </div>
+                        <div class="col-md-4 animate-box">
+                            <article>
+                                <h2><a href="#">Researching prosecutor studies, papers, etc.</a></h2>
+                                <p class="admin"><span>June 3rd, 2018</span></p>
+                                <p>Reading white papers, taking notes.</p>
+                            </article>
+                        </div>
+                    </div>
 
-					<div class="row">
-						<div class="col-md-4 animate-box">
-							<article>
-								<h2><a href="#">U.S. Prosecutor Datathon</a></h2>
-								<p class="admin"><span>March 25th, 2018</span></p>
-								<p>Building Basic Prosecutor Profile for Florida and Pennsylvania District Attorneys as well as Attorney Generals</p>
-							</article>
-						</div>
-						<div class="col-md-4 animate-box">
-							<article>
-								<h2><a href="#">Creating Dev Site</a></h2>
-								<p class="admin"><span>April 1st, 2018</span></p>
-								<p>Creating a local developer site for rendering out open-source prosecutor data.</p>
-							</article>
-						</div>
-						<div class="col-md-4 animate-box">
-							<article>
-								<h2><a href="#">Updating Dev Site</a></h2>
-								<p class="admin"><span>April 8th, 2018</span></p>
-								<p>Building out taxonomies for locations based upon counties, searching for prosecutor articles.</p>
-							</article>
-						</div>
-					</div>
+                    <div class="row">
+                        <div class="col-md-4 animate-box">
+                            <article>
+                                <h2><a href="#">U.S. Prosecutor Datathon</a></h2>
+                                <p class="admin"><span>March 25th, 2018</span></p>
+                                <p>Building Basic Prosecutor Profile for Florida and Pennsylvania District Attorneys as well as Attorney Generals</p>
+                            </article>
+                        </div>
+                        <div class="col-md-4 animate-box">
+                            <article>
+                                <h2><a href="#">Creating Dev Site</a></h2>
+                                <p class="admin"><span>April 1st, 2018</span></p>
+                                <p>Creating a local developer site for rendering out open-source prosecutor data.</p>
+                            </article>
+                        </div>
+                        <div class="col-md-4 animate-box">
+                            <article>
+                                <h2><a href="#">Updating Dev Site</a></h2>
+                                <p class="admin"><span>April 8th, 2018</span></p>
+                                <p>Building out taxonomies for locations based upon counties, searching for prosecutor articles.</p>
+                            </article>
+                        </div>
+                    </div>
 
-					<div class="row">
-						<div class="col-md-4 animate-box">
-							<article>
-								<h2><a href="#">U.S. Prosecutor Primary Election Data</a></h2>
-								<p class="admin"><span>March 4th, 2018</span></p>
-								<p>Gathering data based on primary elections.</p>
-							</article>
-						</div>
-						<div class="col-md-4 animate-box">
-							<article>
-								<h2><a href="#">U.S. Prosecutor Primary Election Data</a></h2>
-								<p class="admin"><span>March 11th, 2018</span></p>
-								<p>Gathering data based on primary elections.</p>
-							</article>
-						</div>
-						<div class="col-md-4 animate-box">
-							<article>
-								<h2><a href="#">Researching Prosecutorial Misconduct</a></h2>
-								<p class="admin"><span>March 18th, 2018</span></p>
-								<p>Building internal legal knowledge regarding prosecutorial misconduct.</p>
-							</article>
-						</div>
-					</div>
+                    <div class="row">
+                        <div class="col-md-4 animate-box">
+                            <article>
+                                <h2><a href="#">U.S. Prosecutor Primary Election Data</a></h2>
+                                <p class="admin"><span>March 4th, 2018</span></p>
+                                <p>Gathering data based on primary elections.</p>
+                            </article>
+                        </div>
+                        <div class="col-md-4 animate-box">
+                            <article>
+                                <h2><a href="#">U.S. Prosecutor Primary Election Data</a></h2>
+                                <p class="admin"><span>March 11th, 2018</span></p>
+                                <p>Gathering data based on primary elections.</p>
+                            </article>
+                        </div>
+                        <div class="col-md-4 animate-box">
+                            <article>
+                                <h2><a href="#">Researching Prosecutorial Misconduct</a></h2>
+                                <p class="admin"><span>March 18th, 2018</span></p>
+                                <p>Building internal legal knowledge regarding prosecutorial misconduct.</p>
+                            </article>
+                        </div>
+                    </div>
 
-					<div class="row">
-						<div class="col-md-4 animate-box">
-							<article>
-								<h2><a href="#">U.S. Prosecutor Demographics Research</a></h2>
-								<p class="admin"><span>April 30th, 2017</span></p>
-								<p>We researched the demographic and political landscape of the U.S. prosecutors at federal, state, and local levels.</p>
-							</article>
-						</div>
-						<div class="col-md-4 animate-box">
-							<article>
-								<h2><a href="#">"Justice League" at LadyHacks</a></h2>
-								<p class="admin"><span>May 13th, 2017</span></p>
-								<p>Led a team of women-identified developers in gathering prosecutor data for the upcoming Philadelphia District Attorney election.</p>
-							</article>
-						</div>
-						<div class="col-md-4 animate-box">
-							<article>
-								<h2><a href="#">U.S. Prosecutor Election Data</a></h2>
-								<p class="admin"><span>May 21st, 2017</span></p>
-								<p>Beginning of collecting data based on elections.</p>
-							</article>
-						</div>
-					</div>
+                    <div class="row">
+                        <div class="col-md-4 animate-box">
+                            <article>
+                                <h2><a href="#">U.S. Prosecutor Demographics Research</a></h2>
+                                <p class="admin"><span>April 30th, 2017</span></p>
+                                <p>We researched the demographic and political landscape of the U.S. prosecutors at federal, state, and local levels.</p>
+                            </article>
+                        </div>
+                        <div class="col-md-4 animate-box">
+                            <article>
+                                <h2><a href="#">"Justice League" at LadyHacks</a></h2>
+                                <p class="admin"><span>May 13th, 2017</span></p>
+                                <p>Led a team of women-identified developers in gathering prosecutor data for the upcoming Philadelphia District Attorney election.</p>
+                            </article>
+                        </div>
+                        <div class="col-md-4 animate-box">
+                            <article>
+                                <h2><a href="#">U.S. Prosecutor Election Data</a></h2>
+                                <p class="admin"><span>May 21st, 2017</span></p>
+                                <p>Beginning of collecting data based on elections.</p>
+                            </article>
+                        </div>
+                    </div>
 
-					<div class="row">
-						<div class="col-md-4 animate-box">
-							<article>
-								<h2><a href="https://github.com/billimarie/prosecutor-database/tree/921f0d0e29b63f527ac0f4b10f8a1abbd45a4ec4" target="_blank">Init Repo</a></h2>
-								<p class="admin"><span>April 7th, 2017</span></p>
-								<p>Created a new project to house U.S. Prosecutor data. Originally called <em>light pollution</em>.</p>
-							</article>
-						</div>
-					</div>
+                    <div class="row">
+                        <div class="col-md-4 animate-box">
+                            <article>
+                                <h2><a href="https://github.com/billimarie/prosecutor-database/tree/921f0d0e29b63f527ac0f4b10f8a1abbd45a4ec4" target="_blank">Init Repo</a></h2>
+                                <p class="admin"><span>April 7th, 2017</span></p>
+                                <p>Created a new project to house U.S. Prosecutor data. Originally called <em>light pollution</em>.</p>
+                            </article>
+                        </div>
+                    </div>
 
-			</div>
-		</div>
+            </div>
+        </div>
 
-		<footer id="colorlib-footer">
-			<div>
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12 text-center">
-							<p>
-								The U.S. Prosecutor Database is an open-source dataset of prosecutors at the federal, state, and local levels.<br /><br />
-								 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved<br /><br />Website template made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> | <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a>, <a href="http://pexels.com/" target="_blank">Pexels</a>
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-	</div>
+        <footer id="colorlib-footer">
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <p>
+                                The U.S. Prosecutor Database is an open-source dataset of prosecutors at the federal, state, and local levels.<br /><br />
+                                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved<br /><br />Website template made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> | <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a>, <a href="http://pexels.com/" target="_blank">Pexels</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
 
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
-	</div>
+    <div class="gototop js-top">
+        <a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
+    </div>
 
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Stellar Parallax -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- YTPlayer -->
-	<script src="js/jquery.mb.YTPlayer.min.js"></script>
-	<!-- Owl carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
-	<!-- Counters -->
-	<script src="js/jquery.countTo.js"></script>
-	<!-- Main -->
-	<script src="js/main.js"></script>
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Stellar Parallax -->
+    <script src="js/jquery.stellar.min.js"></script>
+    <!-- YTPlayer -->
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <!-- Owl carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/magnific-popup-options.js"></script>
+    <!-- Counters -->
+    <script src="js/jquery.countTo.js"></script>
+    <!-- Main -->
+    <script src="js/main.js"></script>
 
-	</body>
+    </body>
 </html>
