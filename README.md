@@ -1,5 +1,5 @@
 # U.S. Prosecutor Database
-> Last Updated: November 3rd 2019
+> Last Updated: November 22nd 2019
 
 ## Live App: https://us-prosecutor-database.herokuapp.com/
 ## App Branch: https://github.com/billimarie/prosecutor-database/tree/app
@@ -44,13 +44,15 @@ Unfortunately, a complete &amp; comprehensive dataset of prosecutors does not al
 
 You can help by: manually collecting data into a spreadsheet ("beginner"), manually collecting data &amp; pushing it to the `csv-json-data` folder ("intermediate"), and/or updating the app ("advanced").
 
-### Beginner
+### Beginner (no GitHub experience)
 [How to search, Google, and collect information into a simple document](https://billimarie.github.io/prosecutor-database#google).
 
-### Intermediate
+### Intermediate (GitHub experience)
 Instructions on how to pull down the repo, begin the manual data mining/entry process, then submit a pull request: [Data Collection](#3-data-collection). It includes both manual .json/.csv collection as well as Python scraping.
 
-### Advanced
+Additionally, we now have a `headshots` folder for hosting prosecutor pictures. Feel free to submit a pull request if you've gathered this data in your own fork. After merging, I'll upload your images to mLab so the Heroku app can sync up.
+
+### Advanced (Developer experience)
 To help build the app:
 
 1. cd to repo/app
