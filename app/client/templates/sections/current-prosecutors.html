@@ -5,156 +5,52 @@
       <h3>Filter by Role</h3>
        <ul class="nav nav-pills btn-group" role="tablist">
          <li class="nav-item">
-           <a data-target="#attorney-general" data-toggle="pill"><button class="btn btn-lg" type="button">Attorney General</button></a>
+           <a data-target="#attorney-general" data-toggle="pill"><button class="filterBtn btn btn-lg" value="Attorney General" type="button">Attorney General</button></a>
          </li>
          <li class="nav-item">
-           <a data-target="#us-attorney" data-toggle="pill"><button class="btn btn-lg" type="button">U.S. Attorney</button></a>
+           <a data-target="#us-attorney" data-toggle="pill"><button class="filterBtn btn btn-lg" value="US Attorney" type="button">U.S. Attorney</button></a>
          </li>
          <li class="nav-item">
-           <a data-target="#district-attorney" data-toggle="pill"><button class="btn btn-lg" type="button">District Attorney</button></a>
+           <a data-target="#district-attorney" data-toggle="pill"><button class="filterBtn btn btn-lg" value="District Attorney" type="button">District Attorney</button></a>
          </li>
          <li class="nav-item">
-           <a data-target="#municipal-attorney" data-toggle="pill"><button class="btn btn-lg" type="button">Municipal Attorney</button></a>
+           <a data-target="#municipal-attorney" data-toggle="pill"><button class="filterBtn btn btn-lg" value="Municipal Attorney" type="button">Municipal Attorney</button></a>
          </li>
          <li class="nav-item active">
-           <a data-target="#view-all" data-toggle="pill"><button class="btn btn-primary btn-lg" type="button">View All</button></a>
+           <a data-target="#view-all" data-toggle="pill"><button class="filterBtn btn btn-primary btn-lg" type="button">View All</button></a>
          </li>
        </ul>
      </div>
    </div>
-
-  <div class="container-fluid mx-auto text-center">
-      <div id="prosecutor-list" class="tab-content">
-        <div id="attorney-general" class="tab-pane">
-          {{#if findAttorneyType 'Attorney General'}}
-          <ul>
-            {{#each findAttorneyType 'Attorney General'}}
-            <li class="card col-sm-3 single-attorney">
-              <a href="{{pathFor 'attorneyView'}}">
-                <h3 class="card-header">{{name}}</h3>
-                <div class="thumbnail" style="background-image:url('{{headshot}}')"></div>
-                <div class="card-body">
-                  <h4 class="card-title">{{role}}</h4>
-                  <h5 class="card-subtitle">{{state}}</h5>
-                  <div class="card-text">
-                    {{#if county}}<p class="card-text">{{county}}</p>{{/if}}
-                    {{#if district}}<p class="card-text">{{district}}</p>{{/if}}
-                  </div>
-                </div>
-                <div class="card-footer text-muted">Appointed: <!--{{#if dateExists appointed}}<p class="card-text">{{unixToMMddYYYY appointed}}</p>{{/if}} --></div>
-              </a>
-            </li>
-           {{/each}}
-          </ul>
-          {{else}}
-          <p>No <strong>Attorney General</strong> data available.</p>
-          {{/if}}
-        </div>
-
-        <div id="us-attorney" class="tab-pane">
-          {{#if findAttorneyType 'US Attorney'}}
-          <ul>
-            {{#each findAttorneyType 'US Attorney'}}
-            <li class="card col-sm-3 single-attorney">
-              <a href="{{pathFor 'attorneyView'}}">
-                <h3 class="card-header">{{name}}</h3>
-                <div class="card-body">
-                  <h4 class="card-title">{{role}}</h4>
-                  <h5 class="card-subtitle">{{state}}</h5>
-                  <div class="card-text">
-                    {{#if county}}<p class="card-text">{{county}}</p>{{/if}}
-                    {{#if district}}<p class="card-text">{{district}}</p>{{/if}}
-                  </div>
-                </div>
-                <div class="card-footer text-muted">Appointed: <!--{{#if dateExists appointed}}<p class="card-text">{{unixToMMddYYYY appointed}}</p>{{/if}} --></div>
-              </a>
-            </li>
-           {{/each}}
-          </ul>
-          {{else}}
-          <p>No <strong>U.S. Attorney</strong> data available.</p>
-          {{/if}}
-        </div>
-
-        <div id="district-attorney" class="tab-pane">
-          {{#if findAttorneyType 'District Attorney'}}
-          <ul>
-            {{#each findAttorneyType 'District Attorney'}}
-            <li class="card col-sm-3 single-attorney">
-              <a href="{{pathFor 'attorneyView'}}">
-                <h3 class="card-header">{{name}}</h3>
-                <div class="thumbnail" style="background-image:url('{{headshot}}')"></div>
-                <div class="card-body">
-                  <h4 class="card-title">{{role}}</h4>
-                  <h5 class="card-subtitle">{{state}}</h5>
-                  <div class="card-text">
-                    {{#if county}}<p class="card-text">{{county}}</p>{{/if}}
-                    {{#if district}}<p class="card-text">{{district}}</p>{{/if}}
-                  </div>
-                </div>
-                <div class="card-footer text-muted">Appointed: <!--{{#if dateExists appointed}}<p class="card-text">{{unixToMMddYYYY appointed}}</p>{{/if}} --></div>
-              </a>
-            </li>
-           {{/each}}
-          </ul>
-          {{else}}
-          <p>No <strong>District Attorney</strong> data available.</p>
-          {{/if}}
-        </div>
-
-        <div id="municipal-attorney" class="tab-pane">
-          {{#if findAttorneyType 'Municipal Attorney'}}
-          <ul>
-            {{#each findAttorneyType 'Municipal Attorney'}}
-            <li class="card col-sm-3 single-attorney">
-              <a href="{{pathFor 'attorneyView'}}">
-                <h3 class="card-header">{{name}}</h3>
-                <div class="thumbnail" style="background-image:url('{{headshot}}')"></div>
-                <div class="card-body">
-                  <h4 class="card-title">{{role}}</h4>
-                  <h5 class="card-subtitle">{{state}}</h5>
-                  <div class="card-text">
-                    {{#if county}}<p class="card-text">{{county}}</p>{{/if}}
-                    {{#if district}}<p class="card-text">{{district}}</p>{{/if}}
-                  </div>
-                </div>
-                <div class="card-footer text-muted">Appointed: <!--{{#if dateExists appointed}}<p class="card-text">{{unixToMMddYYYY appointed}}</p>{{/if}} --></div>
-              </a>
-            </li>
-           {{/each}}
-          </ul>
-          {{else}}
-          <p>No <strong>Municipal, City, and/or County Attorney</strong> data available.</p>
-          {{/if}}
-        </div>
-
-        <div id="view-all" class="tab-pane active">
-          {{#if allAttorneys}}
-          <ul>
-            {{#each allAttorneys}}
-            <li class="card col-sm-3 single-attorney">
-              <a href="{{pathFor 'attorneyView'}}">
-                <h3 class="card-header">{{name}}</h3>
-                <div class="thumbnail" style="background-image:url('{{headshot}}')"></div>
-                <div class="card-body">
-                  <h4 class="card-title">{{role}}</h4>
-                  <h5 class="card-subtitle">{{state}}</h5>
-                  <div class="card-text">
-                    {{#if county}}<p class="card-text">{{county}}</p>{{/if}}
-                    {{#if district}}<p class="card-text">{{district}}</p>{{/if}}
-                  </div>
-                </div>
-                <div class="card-footer text-muted">Appointed: <!--{{#if dateExists appointed}}<p class="card-text">{{unixToMMddYYYY appointed}}</p>{{/if}} --></div>
-              </a>
-            </li>
-           {{/each}}
-          </ul>
-          {{else}}
-          <p>Error: no data available. Please try again later.</p>
-          {{/if}}
-        </div>
-
+      
+      <div class="container-fluid mx-auto text-center">
+          <div id="prosecutor-list" class="tab-content">
+            {{> paginatedAttorneys }}
+          </div>
       </div>
-    </div>
 
+</template>
+
+<!-- Format/Template for a single paginated item (Attorney cards) -->
+<template name="prosecutorItem">
+    <li class="card col-sm-3 single-attorney">
+        <a href="{{pathFor 'attorneyView'}}">
+          <h3 class="card-header">{{name}}</h3>
+          <div class="thumbnail" style="background-image:url('{{headshot}}')"></div>
+          <div class="card-body">
+            <h4 class="card-title">{{role}}</h4>
+            <h5 class="card-subtitle">{{state}}</h5>
+            <div class="card-text">
+              {{#if county}}<p class="card-text">{{county}}</p>{{/if}}
+              {{#if district}}<p class="card-text">{{district}}</p>{{/if}}
+            </div>
+          </div>
+          <div class="card-footer text-muted">Appointed: <!--{{#if dateExists appointed}}<p class="card-text">{{unixToMMddYYYY appointed}}</p>{{/if}} --></div>
+        </a>
+      </li>
+</template>
+
+<template name="paginatedAttorneys">
+  {{> pages}}
+  {{> pagesNav}}
 </template>

@@ -387,3 +387,8 @@ section.articles {
     section.articles ul li h3 {
       font-weight: 600;
     }
+/* Pagination Nav */
+.pagination {
+  justify-content: center;
+  margin: 10px !important;
+}
