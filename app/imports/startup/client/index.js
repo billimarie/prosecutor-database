@@ -1,7 +1,7 @@
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
 
-import { Attorneys } from '../../api/attorneys.js';
+import { Attorneys, AttorneyPages } from '../../api/attorneys.js';
 
 import '/client/main.html';
 
@@ -9,27 +9,50 @@ import '/client/main.html';
  * HELPERS
  */
 
-Template.registerHelper( 'findAttorneyType', (attorneyType) => {
-  if (attorneyType === "Attorney General") {
-    return Attorneys.find( {
-      "role" : "Attorney General"
-    } );
-  } else if (attorneyType === "US Attorney") {
-    return Attorneys.find( {
-      "role": "US Attorney"
-    } );
-  } else if (attorneyType === "District Attorney") {
-    return Attorneys.find( {
-      "role": "District Attorney"
-    } );
-  } else if(attorneyType === "Municipal Attorney") {
-    return Attorneys.find( {
-      "role": "Municipal Attorney"
-    } );
+ // have to manipulate the Pagination object (AttorneyPages), not
+ // the collection (Attorneys) itself for the collection to be
+ // properly filtered
+Template.currentProsecutors.events({
+  'click .filterBtn': function(e) {
+    var attorneyType = e.target.value;
+    if (attorneyType === "Attorney General") {
+      return AttorneyPages.set({
+        filters: {
+          role: "Attorney General"
+        }
+      });
+    } else if (attorneyType === "US Attorney") {
+      return AttorneyPages.set({
+        filters: {
+          role: "US Attorney"
+        }
+      });
+    } else if (attorneyType === "District Attorney") {
+      return AttorneyPages.set({
+        filters: {
+          role: "District Attorney"
+        }
+      });
+    } else if(attorneyType === "Municipal Attorney") {
+      return AttorneyPages.set({
+        filters: {
+          role: "Municipal Attorney"
+        }
+      });
+    }
+    // "View All" selected
+    else {
+      return AttorneyPages.set({
+        filters: {}
+      })
+    }
   }
-});
+})
 
-Template.currentProsecutors.helpers({
+// reference the items to be paginated (prosecutorItem)
+// not entirely sure how this would affect the recentAttorneys
+// functionality
+Template.prosecutorItem.helpers({
   allAttorneys() {
     return Attorneys.find().fetch();
   },
