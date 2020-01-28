@@ -8,9 +8,9 @@
 ## Table of Contents
 - [1. Overview](#1-overview)
 - [2. How You Can Help](#2-how-you-can-help)
-  * [2.1 Beginner](#beginner)
-  * [2.2 Intermediate](#intermediate)
-  * [2.3 Advanced](#advanced)
+  * [2.1 Beginner](#beginner-no-github-experience)
+  * [2.2 Intermediate](#intermediate-github-experience)
+  * [2.3 Advanced](#advanced-developer-experience)
   * [2.4 Brainstorming Other Means Of Data Collection](#brainstorming-other-means-of-data-collection)
 - [3. Data Collection](#3-data-collection)
 - [4. Join Us: Post-Carceral](#4-join-us-post-carceral)
