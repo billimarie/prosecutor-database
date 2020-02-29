@@ -179,7 +179,40 @@ h1, h2 {
 }
 
 @media screen and (max-width: 991px) {
+  .navbar {
+    z-index: 100;
+  }
   /* CSS Ribbon */
+  #ribbon {
+    width: 100%;
+    height: 50px;
+    background: rgb(199, 59, 60);
+    top: 0;
+    margin: 0;
+    overflow: hidden;
+    position: fixed;
+    z-index: 99;
+    display: block;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  #ribbon .base p {
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    padding-top: 1px;
+    padding-left: 6px;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  }
+
+  #ribbon .container a {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  
   #ribbon .container {
     top: 0px !important;
     -webkit-filter: none !important;
@@ -198,155 +231,157 @@ h1, h2 {
   }
 }
 
-#ribbon {
-  width: 110px;
-  height: 100px;
-  margin: 0 auto;
-  position: fixed;
-  right: 65px;
-  overflow: hidden;
-  z-index: 99999;
-  top: 0;
-}
+@media screen and (min-width: 992px) {
+  #ribbon {
+    width: 110px;
+    height: 100px;
+    margin: 0 auto;
+    position: fixed;
+    right: 65px;
+    overflow: hidden;
+    z-index: 99999;
+    top: 0;
+  }
 
-#ribbon .base p {
-  color: #fff;
-  text-align: center;
-  font-weight: 900;
-  padding-top: 1px;
-  padding-left: 6px;
-  font-size: 25px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
-}
+  #ribbon .base p {
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    padding-top: 1px;
+    padding-left: 6px;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  }
 
-#ribbon .container {
-  position: relative;
-  top: -40px;
-  width: 100px;
-  height: 95px;
-  overflow: hidden;
-  margin: 0 auto;
-  padding: 0;
-  -webkit-filter: grayscale(100%);
-  /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-}
+  #ribbon .container {
+    position: relative;
+    top: -40px;
+    width: 100px;
+    height: 95px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
 
-#ribbon .container:hover {
-  top: 0px;
-  -webkit-filter: none;
-  filter: none;
-  cursor: pointer;
-  transition: all 300ms linear;
-}
+  #ribbon .container:hover {
+    top: 0px;
+    -webkit-filter: none;
+    filter: none;
+    cursor: pointer;
+    transition: all 300ms linear;
+  }
 
-#ribbon .container a {
-  height: 100%;
-  position: absolute;
-  width: 100%;
-  z-index: 3;
-}
+  #ribbon .container a {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+  }
 
-#ribbon .base {
-  height: 40px;
-  width: 100px;
-  background: rgb(199, 59, 60);
-  background: -moz-linear-gradient(top, rgba(199, 59, 60, 1) 0%, rgba(184, 32, 31, 1) 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(199, 59, 60, 1)), color-stop(100%, rgba(184, 32, 31, 1)));
-  background: -webkit-linear-gradient(top, rgba(199, 59, 60, 1) 0%, rgba(184, 32, 31, 1) 100%);
-  background: -o-linear-gradient(top, rgba(199, 59, 60, 1) 0%, rgba(184, 32, 31, 1) 100%);
-  background: -ms-linear-gradient(top, rgba(199, 59, 60, 1) 0%, rgba(184, 32, 31, 1) 100%);
-  background: linear-gradient(top, rgba(199, 59, 60, 1) 0%, rgba(184, 32, 31, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c73b3c', endColorstr='#b8201f', GradientType=0);
-  position: relative;
-  z-index: 2;
-  border-left: 1px solid #631a15;
-  border-right: 1px solid #631a15;
-}
+  #ribbon .base {
+    height: 40px;
+    width: 100px;
+    background: rgb(199, 59, 60);
+    background: -moz-linear-gradient(top, rgba(199, 59, 60, 1) 0%, rgba(184, 32, 31, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(199, 59, 60, 1)), color-stop(100%, rgba(184, 32, 31, 1)));
+    background: -webkit-linear-gradient(top, rgba(199, 59, 60, 1) 0%, rgba(184, 32, 31, 1) 100%);
+    background: -o-linear-gradient(top, rgba(199, 59, 60, 1) 0%, rgba(184, 32, 31, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(199, 59, 60, 1) 0%, rgba(184, 32, 31, 1) 100%);
+    background: linear-gradient(top, rgba(199, 59, 60, 1) 0%, rgba(184, 32, 31, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c73b3c', endColorstr='#b8201f', GradientType=0);
+    position: relative;
+    z-index: 2;
+    border-left: 1px solid #631a15;
+    border-right: 1px solid #631a15;
+  }
 
-#ribbon .base:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  width: 86px;
-  left: 6px;
-  height: 36px;
-  border-left: 1px dashed #631a15;
-  border-right: 1px dashed #631a15;
-}
+  #ribbon .base:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 86px;
+    left: 6px;
+    height: 36px;
+    border-left: 1px dashed #631a15;
+    border-right: 1px dashed #631a15;
+  }
 
-#ribbon .base:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  width: 86px;
-  left: 7px;
-  height: 36px;
-  border-left: 1px dashed #da5050;
-  border-right: 1px dashed #da5050;
-}
+  #ribbon .base:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 86px;
+    left: 7px;
+    height: 36px;
+    border-left: 1px dashed #da5050;
+    border-right: 1px dashed #da5050;
+  }
 
-#ribbon .point {
-  width: 100px;
-  height: 100px;
-  background: #b8201f;
-  position: absolute;
-  top: -30px;
-  left: 0;
-  z-index: 1;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-  border: 1px solid #631a15;
-}
+  #ribbon .point {
+    width: 100px;
+    height: 100px;
+    background: #b8201f;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    z-index: 1;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border: 1px solid #631a15;
+  }
 
-#ribbon .point:after {
-  content: '';
-  position: absolute;
-  top: 6px;
-  width: 86px;
-  left: 7px;
-  height: 87px;
-  border: 1px dashed #631a15;
-  /*border-right: 1px dashed #631a15;*/
-}
+  #ribbon .point:after {
+    content: '';
+    position: absolute;
+    top: 6px;
+    width: 86px;
+    left: 7px;
+    height: 87px;
+    border: 1px dashed #631a15;
+    /*border-right: 1px dashed #631a15;*/
+  }
 
-#ribbon .point:before {
-  content: '';
-  position: absolute;
-  top: 6px;
-  width: 86px;
-  left: 8px;
-  height: 88px;
-  border: 1px dashed #da5050;
-  /*border-right: 1px dashed #da5050;*/
+  #ribbon .point:before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    width: 86px;
+    left: 8px;
+    height: 88px;
+    border: 1px dashed #da5050;
+    /*border-right: 1px dashed #da5050;*/
+  }
 }
 
 /* Social Media */
 ul.icons {
-  display: block;
-  list-style: none;
-  margin: 20px auto 0;
-  padding-left: 0;
-  text-align: center;
+display: block;
+list-style: none;
+margin: 20px auto 0;
+padding-left: 0;
+text-align: center;
 }
-  ul.icons li {
-    list-style-type: none;
-    display: inline-block;
+ul.icons li {
+  list-style-type: none;
+  display: inline-block;
+}
+ul.icons li + li {
+  padding: 0 10px;
+}
+  ul.icons li a {
+    font-size: 50px;
+    color: lightgray;
   }
-  ul.icons li + li {
-    padding: 0 10px;
+  ul.icons li a[href^="http://"],
+  ul.icons li a[href^="https://"] {
+    color: #b8201f;
   }
-    ul.icons li a {
-      font-size: 50px;
-      color: lightgray;
-    }
-    ul.icons li a[href^="http://"],
-    ul.icons li a[href^="https://"] {
-      color: #b8201f;
-    }
 
 /* Case List */
 ul.case-list {
