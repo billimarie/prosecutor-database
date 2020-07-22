@@ -57,10 +57,12 @@ Additionally, we now have a `headshots` folder for hosting prosecutor pictures. 
 ### Advanced (Developer experience)
 To help build the app:
 
-1. cd to repo/app
-2. `npm install`
-3. `meteor run`
-4. `meteor mongo`
+1. install `npm` ([see official docs](https://www.npmjs.com/get-npm))
+2. install `meteor` ([see official docs](https://www.meteor.com/install))
+3. `cd` into repo's `app` folder
+4. `meteor npm install`
+5. `meteor run`
+6. `meteor mongo`
 
 Production: https://us-prosecutor-database.herokuapp.com/
 
