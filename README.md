@@ -1,5 +1,7 @@
 # U.S. Prosecutor Database
-> Last Updated: November 22nd 2019
+> Last Updated: July 22nd 2020
+
+**NOTE:** Thanks for your interest in contributing. Would you like to help maintain this project? Please contat me (email on profile).
 
 ## Live App: https://us-prosecutor-database.herokuapp.com/
 ## App Branch: https://github.com/billimarie/prosecutor-database/tree/app
