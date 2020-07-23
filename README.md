@@ -1,13 +1,18 @@
 # U.S. Prosecutor Database
 > Last Updated: July 22nd 2020
 
-**NOTE:** Thanks for your interest in contributing. Would you like to help maintain this project? Please contat me (email on profile).
+Thanks for your interest in contributing to the U.S. Prosecutor Database.
 
-## Live App: https://us-prosecutor-database.herokuapp.com/
-## App Branch: https://github.com/billimarie/prosecutor-database/tree/app
-## Data Branch: https://github.com/billimarie/prosecutor-database/tree/csv-json-data
+Would you like to help maintain this project? You can send me an email (link in profile).
+
+**Live App:** https://us-prosecutor-database.herokuapp.com/
+
+**App Branch:** https://github.com/billimarie/prosecutor-database/tree/app
+
+**Data Branch:** https://github.com/billimarie/prosecutor-database/tree/csv-json-data
 
 ## Table of Contents
+- [0. History: Why Prosecutors?](#0-history-why-prosecutors)
 - [1. Overview](#1-overview)
 - [2. How You Can Help](#2-how-you-can-help)
   * [2.1 Beginner](#beginner-no-github-experience)
@@ -21,6 +26,25 @@
 - [5. License](#5-license)
 
 ---
+
+## 0. History: Why Prosecutors?
+
+The U.S. Prosecutor Database was a programming project idea I had while co-founding CLASP (the Community Legal & Advocacy Services Project), a nonprofit prisoners' rights project.
+
+Inspired by [Arbitrary Justice: The Power of the American Prosecutor](https://www.amazon.com/Arbitrary-Justice-Power-American-Prosecutor/dp/0195384733) by the legendary Angela Davis, I decided to start compiling a list of basic information about current & previous prosecutors. This proved to be harder than originally thought. Due to the severe lack of a complete/comprehensive dataset, I asked friends to help. We started mining what we could. Eventually, people found the open-source project on GitHub & began contributing as well.
+
+*The goal of this project is to inspire engagement from the public when it comes to prosecutor oversight, elections, & cases. **Ending Mass Incarceration starts with Prosecutorial Oversight.***
+
+John Pfaff, the author of Locked In, believes one of the reasons why prisoners' rights advocates have forgotten to hold prosecutors accountable is simply because *there is no data available*. We overlook the role of prosecutors since they are less visible.
+
+Some key statistics to help you understand the severity of this unaccounted power dynamic: 
+- 97% of prisoners are held in state prisons--not private prisons.
+- In 46 states, prosecutors are elected—& 85% run without opposition.
+- Since the 1990's, violent crime & arrests for violent crime have declined—but the number of felony cases filed in state courts continue to jump drastically higher than they should. "The probability that a prosecutor would file felony charges against an arrestee basically doubled," Pfaff writes, "& that change pushed prison populations up even as crime dropped."
+- 95% of cases end in plea bargains worked out behind closed doors.
+- Unsurprisingly, as you look at the data for the last twenty or so years, tens of thousands more prosecutors were hired even after crime stopped rising.
+
+The United States Prosecutor Database is one attempt to demystify the power of local, state, & federal prosecutors. My hope is you feel inspired to vote based upon prosecutorial data rather than campaign slogans, as we can help shift the tide away from mass incarceration toward a post-carceral world.
 
 ## 1. Overview
 
