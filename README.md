@@ -1,5 +1,5 @@
 # U.S. Prosecutor Database
-> Last Updated: July 22nd 2020
+> Last Updated: August 7th 2020
 
 Thanks for your interest in contributing to the U.S. Prosecutor Database.
 
@@ -19,6 +19,7 @@ Would you like to help maintain this project? You can send me an email (link in 
   * [2.2 Intermediate](#intermediate-github-experience)
   * [2.3 Advanced](#advanced-developer-experience)
   * [2.4 Brainstorming Other Means Of Data Collection](#brainstorming-other-means-of-data-collection)
+  * [2.5 Troubleshooting](#troubleshooting)
 - [3. Data Collection](#3-data-collection)
 - [4. Join Us: Post-Carceral](#4-join-us-post-carceral)
   * [4.1 Stay Updated](#stay-updated)
@@ -79,20 +80,33 @@ Instructions on how to pull down the repo, begin the manual data mining/entry pr
 Additionally, we now have a `headshots` folder for hosting prosecutor pictures. Feel free to submit a pull request if you've gathered this data in your own fork. After merging, I'll upload your images to mLab so the Heroku app can sync up.
 
 ### Advanced (Developer experience)
-To help build the app:
+To run the app locally on your machine:
 
-1. install `npm` ([see official docs](https://www.npmjs.com/get-npm))
-2. install `meteor` ([see official docs](https://www.meteor.com/install))
+1. install `node` & `npm` ([see official docs](https://www.npmjs.com/get-npm))
+2. install `meteor` via terminal: `curl https://install.meteor.com/ | sh ` ([see official docs](https://www.meteor.com/install))
 3. `cd` into repo's `app` folder
-4. `meteor npm install`
-5. `meteor run`
-6. `meteor mongo`
+4. `npm install`
+5. `meteor run` & open `http://localhost:3000/` in your browser
+
+To play around with data:
+1. in a new (simultaneous) terminal tab: `meteor mongo`
+2. verify that the `show collections` command produces the `Attorneys` collection
+3. insert a new document using the `api` folder .js files as a base. Make sure it contains the `name`, `state`, & `role`--otherwise it won't work. Example: `db.Attorneys.insertOne({"id": "ag-01","state": "Alabama","name": "Steve Marshall","role": "Attorney General"})`
+4. check on the app in your browser; it should automatically refresh
 
 Production: https://us-prosecutor-database.herokuapp.com/
 
 ### Brainstorming Other Means Of Data Collection
 
 If you think of a new method for collecting and retrieving prosecutor data, please **create a new issue**. Good luck!
+
+### Troubleshooting
+
+Typical issues we've come across while setting up:
+
+#### `xcrun error` (Mac OS)
+
+Make sure you have [Xcode](https://developer.apple.com/downloads/index.action) installed. Run `xcode-select --install`.
 
 [Back to Top](#us-prosecutor-database)
 
