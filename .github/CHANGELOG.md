@@ -1,33 +1,46 @@
 # Changelog
 Maintained by [@billimarie](https://www.github.com/billimarie).
 
+## 0.3.1
+
+### New
+- Issue thread for contributing data: [ONGOING: District & State Attorney Data](https://github.com/billimarie/prosecutor-database/issues/80)
+
+### Updates
+- Separated README & DOCS
+
+### Removes
+- Deleted `app` & `csv-json-data`
+
 ## 0.3.0
 
 ### New
-- Swaps out mLab for MongoDB Atlas
+- Swapped out mLab for MongoDB Atlas
 
 ### Updates
-- Syncs GitHub + Heroku (`app` branch)
+- Synced GitHub + Heroku (`app` branch)
+
+---
 
 ## 0.2.1
 ### New
-- Swaps out Bootstrap 3 for Bootstrap 4 (CSS, JS)
-- Returns to Meteor.js app
-- Separates the app from manual data collection
+- Swapped out Bootstrap 3 for Bootstrap 4 (CSS, JS)
+- Returned to Meteor.js app
+- Separated the app from manual data collection
 
 ### Updates
 - Heroku deployment (production)
 - mLab integration (MongoDB)
-- Fixes annoying jump on filtering system
+- Fixed annoying jump on filtering system
 
 ## 0.2.0
 ### New
-- Reverts repo back to original Meteor.js app
+- Reverted repo back to original Meteor.js app
 
 ### Updates
-- Updates ancient NPM, Meteor packages
+- Updated ancient NPM, Meteor packages
 - Changed from MIT license to GNU GPLv3
-- Separates `GraphQL` into its own branch
+- Separated `GraphQL` into its own branch
 
 ---
 
