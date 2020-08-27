@@ -21,6 +21,6 @@
     "@babel/runtime": "^7.0.0-beta.40",
     "babel-runtime": "^6.20.0",
     "meteor-node-stubs": "~0.2.4",
-    "simpl-schema": "^1.5.6"
+    "simpl-schema": "^1.9.0"
   }
 }

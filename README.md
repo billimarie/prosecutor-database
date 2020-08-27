@@ -1,6 +1,6 @@
 # U.S. Prosecutor Database
 ## APP
-> Last Updated: November 2nd 2019
+> Last Updated: August 26th 2020
 
 This is the `app` branch.
 
