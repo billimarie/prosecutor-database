@@ -17,7 +17,11 @@
               {{#each recentAttorneys}}
                 <li class="col-sm-3 single-attorney">
                   <a href="{{pathFor 'attorneyView'}}">
-                    <div class="thumbnail" style="background-image:url('{{headshot}}')"></div>
+                    {{#if headshot}}
+                      <div class="thumbnail" style="background-image:url('{{headshot}}')"></div>
+                    {{else}}
+                      <div class="thumbnail" style="background-image:url('images/anon-prosecutor.jpg')"></div>
+                    {{/if}}
                     <h3>{{name}}</h3>
                     <h4>{{state}}</h4>
                     <h4>{{role}}</h4>

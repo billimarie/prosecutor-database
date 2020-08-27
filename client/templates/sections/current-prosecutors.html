@@ -32,7 +32,11 @@
             <li class="card col-sm-3 single-attorney">
               <a href="{{pathFor 'attorneyView'}}">
                 <h3 class="card-header">{{name}}</h3>
-                <div class="thumbnail" style="background-image:url('{{headshot}}')"></div>
+                {{#if headshot}}
+                  <div class="thumbnail" style="background-image:url('{{headshot}}')"></div>
+                {{else}}
+                  <div class="thumbnail" style="background-image:url('images/anon-prosecutor.jpg')"></div>
+                {{/if}}
                 <div class="card-body">
                   <h4 class="card-title">{{role}}</h4>
                   <h5 class="card-subtitle">{{state}}</h5>
@@ -83,7 +87,11 @@
             <li class="card col-sm-3 single-attorney">
               <a href="{{pathFor 'attorneyView'}}">
                 <h3 class="card-header">{{name}}</h3>
-                <div class="thumbnail" style="background-image:url('{{headshot}}')"></div>
+                {{#if headshot}}
+                  <div class="thumbnail" style="background-image:url('{{headshot}}')"></div>
+                {{else}}
+                  <div class="thumbnail" style="background-image:url('images/anon-prosecutor.jpg')"></div>
+                {{/if}}
                 <div class="card-body">
                   <h4 class="card-title">{{role}}</h4>
                   <h5 class="card-subtitle">{{state}}</h5>
@@ -109,7 +117,11 @@
             <li class="card col-sm-3 single-attorney">
               <a href="{{pathFor 'attorneyView'}}">
                 <h3 class="card-header">{{name}}</h3>
-                <div class="thumbnail" style="background-image:url('{{headshot}}')"></div>
+                {{#if headshot}}
+                  <div class="thumbnail" style="background-image:url('{{headshot}}')"></div>
+                {{else}}
+                  <div class="thumbnail" style="background-image:url('images/anon-prosecutor.jpg')"></div>
+                {{/if}}
                 <div class="card-body">
                   <h4 class="card-title">{{role}}</h4>
                   <h5 class="card-subtitle">{{state}}</h5>
@@ -135,7 +147,11 @@
             <li class="card col-sm-3 single-attorney">
               <a href="{{pathFor 'attorneyView'}}">
                 <h3 class="card-header">{{name}}</h3>
-                <div class="thumbnail" style="background-image:url('{{headshot}}')"></div>
+                {{#if headshot}}
+                  <div class="thumbnail" style="background-image:url('{{headshot}}')"></div>
+                {{else}}
+                  <div class="thumbnail" style="background-image:url('images/anon-prosecutor.jpg')"></div>
+                {{/if}}
                 <div class="card-body">
                   <h4 class="card-title">{{role}}</h4>
                   <h5 class="card-subtitle">{{state}}</h5>

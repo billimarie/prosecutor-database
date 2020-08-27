@@ -4,10 +4,14 @@
       <div class="jumbotron">
         <div class="container">
           <div class="row">
-            <div class="col-xs-4">
-              <img src="{{headshot}}" class="thumbnail" width="100%"/>
+            <div class="col-md-4">
+              {{#if headshot}}
+                <img src="{{headshot}}" class="thumbnail" width="100%" />
+              {{else}}
+                <img src="/images/anon-prosecutor.jpg" class="thumbnail" width="100%" />
+              {{/if}}
             </div>
-            <div class="col-sm-8">
+            <div class="col-md-8" style="text-align: left;">
               <h1>{{name}}</h1>
               <h2>{{role}}</h2>
               <h3><strong>{{state}}</strong> ({{county}})</h3>
@@ -76,7 +80,7 @@
       <div class="container">
         <div class="row">
           <div class="page-header">
-            <h2><strong>Relevant Cases</strong> <small>Cases available online</small></h2>
+            <h2><strong>Relevant Cases</strong><br /><small>Cases available online</small></h2>
             <ul class="case-list">
               {{#each relevantCases}}
                 <li>
