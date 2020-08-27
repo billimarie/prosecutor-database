@@ -1,13 +1,11 @@
 # README
 > Last Updated: August 27th 2020
 
-Thanks for volunteering to build the U.S. Prosecutor Database.
+Thanks for volunteering to build the U.S. Prosecutor Database. ([view the web app](https://us-prosecutor-database.herokuapp.com/))
 
-View the web app: [U.S. Prosecutor Database](https://us-prosecutor-database.herokuapp.com/)
+**Our top priority is gathering data for DISTRICT & STATE ATTORNEYS.** [Instructions](#instructions) are below.
 
-**Our top priority is gathering data for DISTRICT & STATE ATTORNEYS, only.** [Instructions](#instructions) are below.
-
-You can read about [why](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md#0-history-why-prosecutors) we've chosen to [highlight prosecutor data](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md#0-history-why-prosecutors) as well as a [brief summary](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md#1-overview) of the web app on the repo's [**DOCS.md**](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md).
+You can read about [why](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md#0-history-why-prosecutors) we've chosen to [highlight prosecutor data](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md#0-history-why-prosecutors) as well as a [brief summary](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md#1-overview) of our project via the [**DOCS.md**](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md).
 
 ---
 
@@ -29,6 +27,7 @@ You can read about [why](https://github.com/billimarie/prosecutor-database/blob/
 
 ### Maintainers
 Would you like to help maintain this project? Email me (link in profile).
+
 <a href="https://github.com/billimarie" target="_blank"><img src="https://avatars1.githubusercontent.com/u/6895471?s=60&v=4" width="50px"></a>
 
 ### Contributors
