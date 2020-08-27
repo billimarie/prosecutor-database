@@ -18,9 +18,9 @@
     "start": "meteor run"
   },
   "dependencies": {
-    "@babel/runtime": "^7.0.0-beta.40",
+    "@babel/runtime": "^7.11.2",
     "babel-runtime": "^6.20.0",
-    "meteor-node-stubs": "~0.2.4",
-    "simpl-schema": "^1.9.0"
+    "meteor-node-stubs": "~1.0.1",
+    "simpl-schema": "^1.5.6"
   }
 }

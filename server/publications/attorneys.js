@@ -1,4 +1,4 @@
-import { check } from 'meteor/check'; // NOTE: double-"check" ;) if this is needed
+import { check } from 'meteor/check'; // NOTE: double-"check" if this is needed
 
 import { Attorneys } from '../../imports/api/attorneys.js';
 

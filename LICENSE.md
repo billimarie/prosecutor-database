@@ -1,5 +1,5 @@
 # USPD
-> Copyright (c) 2017 - 2019 Billimarie Lubiano Robinson
+> Copyright (c) 2017 - 2020 Billimarie Lubiano Robinson
 
 # GNU GENERAL PUBLIC LICENSE
 > Version 3, 29 June 2007

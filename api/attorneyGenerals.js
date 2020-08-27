@@ -7,7 +7,8 @@ const AttorneyGenerals = [
   {
       "id": "ag-01",
       "state": "Alabama",
-      "name": "Steve Marshall"
+      "name": "Steve Marshall",
+      "role": "Attorney General"
   },
   {
       "id": "ag-02",
