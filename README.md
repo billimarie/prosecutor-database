@@ -15,18 +15,24 @@ You can read about [why](https://github.com/billimarie/prosecutor-database/blob/
 
 1.) Search our [live web app](https://us-prosecutor-database.herokuapp.com/) for counties & states which do *not* have District or State Attorney information.
 
-2.) After choosing a state & county (or counties) to focus on, create a *private* copy of our [U.S. Prosecutor Google Sheet]().
+2.) After choosing a state & county (or counties) to focus on, create a *private* copy of our [U.S. Prosecutor Google Sheet](https://docs.google.com/spreadsheets/d/1Itwl8_jQpuXPjRH70fffEUSHvInfqbRKXg0iPEx8iCE/edit?usp=sharing). You can do this by going to `File > Download` then uploading it to your Google Drive.
 
 3.) Manually search for the prosecutor information available online, then populate the sheet with the data you can find.
 
-3.) Once you've finished, [reply to this issue](https://github.com/billimarie/prosecutor-database/issues/80).
+3.) Once you've finished, [reply to this issue](https://github.com/billimarie/prosecutor-database/issues/80). A maintainer will ask you to share your new Google Sheet with their email (link in profile).
 
-4.) Your data will be added to the database, & your GitHub profile will be added to the contributors gallery.
+4.) Your data will be added to the database, & your GitHub profile will be added to the [Contributors](#contributors) gallery.
 
 ---
 
-## Contributors
-As of August 27th, 2020. Feel free to email me if I missed you.
+## Community
+
+### Maintainers
+Would you like to help maintain this project? Email me (link in profile).
+<a href="https://github.com/billimarie" target="_blank"><img src="https://avatars1.githubusercontent.com/u/6895471?s=60&v=4" width="50px"></a>
+
+### Contributors
+As of August 27th, 2020. Email me if I missed you (link in profile).
 
 <a href="https://github.com/billimarie" target="_blank"><img src="https://avatars1.githubusercontent.com/u/6895471?s=60&v=4" width="50px"></a> <a href="https://github.com/dbhatia247" target="_blank"><img src="https://avatars2.githubusercontent.com/u/28025453?s=60&v=4" width="50px"></a> <a href="https://github.com/maxxgl" target="_blank"><img src="https://avatars0.githubusercontent.com/u/20944914?s=60&v=4" width="50px"></a> <a href="https://github.com/taylor-brudos" target="_blank"><img src="https://avatars3.githubusercontent.com/u/39247698?s=60&v=4" width="50px"></a> <a href="https://github.com/ryanwardle" target="_blank"><img src="https://avatars2.githubusercontent.com/u/37915565?s=60&v=4" width="50px"></a> <a href="https://github.com/Thai56" target="_blank"><img src="https://avatars1.githubusercontent.com/u/16358617?s=60&v=4" width="50px"></a> <a href="https://github.com/wnorrad" target="_blank"><img src="https://avatars0.githubusercontent.com/u/29986200?s=60&v=4" width="50px"></a> <a href="https://github.com/rcalimlim" target="_blank"><img src="https://avatars0.githubusercontent.com/u/13503461?s=60&v=4" width="50px"></a> <a href="https://github.com/jeremyfiel" target="_blank"><img src="https://avatars3.githubusercontent.com/u/32110157?s=60&v=4" width="50px"></a> <a href="https://github.com/davidth4ever2" target="_blank"><img src="https://avatars3.githubusercontent.com/u/2314743?s=60&v=4" width="50px"></a> <a href="https://github.com/baconbones" target="_blank"><img src="https://avatars0.githubusercontent.com/u/40526815?s=60&v=4" width="50px"></a> <a href="https://github.com/MilesHamilton" target="_blank"><img src="https://avatars3.githubusercontent.com/u/46730797?s=60&v=4" width="50px"></a> <a href="https://github.com/Cybeeee" target="_blank"><img src="https://avatars1.githubusercontent.com/u/40544593?s=60&v=4" width="50px"></a> <a href="https://github.com/aminamos" target="_blank"><img src="https://avatars0.githubusercontent.com/u/26092352?s=120&v=4" width="50px"></a> <a href="https://github.com/VirtualVulture" target="_blank"><img src="https://avatars1.githubusercontent.com/u/17329142?s=88&v=4" width="50px"></a> <a href="https://github.com/emilyedalton" target="_blank"><img src="https://avatars2.githubusercontent.com/u/42655908?s=88&u=89b9dc741860701a302a79e1f69779caae643d0e&v=4" width="50px"></a> <a href="https://github.com/matthewgallo" target="_blank"><img src="https://avatars2.githubusercontent.com/u/10215203?s=88&u=342de932ab4cc7469eb92562d0e191dcdb6596ed&v=4" width="50px"></a>
 
