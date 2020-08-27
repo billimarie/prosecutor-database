@@ -6,6 +6,9 @@ Maintained by [@billimarie](https://www.github.com/billimarie).
 ### New
 - Swaps out mLab for MongoDB Atlas
 
+### Updates
+- Syncs GitHub + Heroku (`app` branch)
+
 ## 0.2.1
 ### New
 - Swaps out Bootstrap 3 for Bootstrap 4 (CSS, JS)
