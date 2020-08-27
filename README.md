@@ -23,6 +23,8 @@ You can read about [why](https://github.com/billimarie/prosecutor-database/blob/
 
 4.) Your data will be added to the database, & your GitHub profile will be added to the contributors gallery.
 
+---
+
 ## Contributors
 Coming soon.
 
