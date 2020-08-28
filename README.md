@@ -1,11 +1,15 @@
 # README
-> Last Updated: August 27th 2020
+> Last Updated: August 28th 2020
 
 Thanks for volunteering to build the U.S. Prosecutor Database. ([view the web app](https://us-prosecutor-database.herokuapp.com/))
 
-**Our top priority is gathering data for DISTRICT & STATE ATTORNEYS.** See the [instructions](#instructions), below. You can also read about [why](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md#0-history-why-prosecutors) we've chosen to [highlight prosecutor data](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md#0-history-why-prosecutors) as well as a [brief summary](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md#1-overview) of our project via the [**DOCS.md**](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md).
+There are three ways you can help:
 
-Interested in contributing to the web app? You'll find dev notes in the [**DOCS.md**](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md), as well. Currently, our stack is: Node.js, Meteor.js, MongoDB, Heroku.
+1.) **Our top priority is gathering data for DISTRICT & STATE ATTORNEYS.** See the [instructions](#instructions), below. You can also read about [why](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md#0-history-why-prosecutors) we've chosen to [highlight prosecutor data](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md#0-history-why-prosecutors) as well as a [brief summary](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md#1-overview) of our project via the [**DOCS.md**](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md).
+
+2.) **Interested in contributing to the web app?** You'll find dev notes in the [**DOCS.md**](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md), as well. Currently, our stack is: Node.js, Meteor.js, MongoDB, Heroku.
+
+3.) **Finally, we need help with documentation for the GitHub page**: https://billimarie.github.io/prosecutor-database. You can use this DOCS.md file as a reference to update the outdated GitHub page.
 
 ---
 
