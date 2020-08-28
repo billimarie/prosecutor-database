@@ -2,12 +2,12 @@
 > Last Updated: August 28th 2020
 
 ## Table of Contents
-- [1. History: Why Prosecutors?](#0-history-why-prosecutors)
-- [2. Overview](#1-overview)
+- [1. History: Why Prosecutors?](#1-history-why-prosecutors)
+- [2. Overview](#2-overview)
 - [3. Data Collection](#3-data-collection)
 - [4. Web App Development](#4-web-app-development)
-- [5. Join Us: Post-Carceral](#4-join-us-post-carceral)
-- [6. License](#5-license)
+- [5. Join Us: Post-Carceral](#5-join-us-post-carceral)
+- [6. License](#6-license)
 
 ---
 
