@@ -9,7 +9,7 @@
 
 **[Our History](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md#1-overview)**
 
---
+---
 
 ## Hacktoberfest Goal: [Add 100 District Attorneys](https://github.com/billimarie/prosecutor-database/issues/80)
 
