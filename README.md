@@ -1,13 +1,12 @@
-# README
-> Last Updated: September 5th 2020
+# U.S. Prosecutor Database
+> Last Updated: September 7th 2020
 
-**[View the live web app](https://us-prosecutor-database.herokuapp.com/)**
-
-**[View the Hacktoberfest issue](https://github.com/billimarie/prosecutor-database/issues/80)**
-
-**[What do Prosecutors have to do with Police Brutality?](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md#0-history-why-prosecutors)**
-
-**[Our History](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md#1-overview)**
+## Important Links
+- **[View the live web app](https://us-prosecutor-database.herokuapp.com/)**
+- **[View the Hacktoberfest issue](https://github.com/billimarie/prosecutor-database/issues/80)**
+- **[What do Prosecutors have to do with Police Brutality?](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md#0-history-why-prosecutors)**
+- **[Our History](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md#1-overview)**
+- **[Read the Docs](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md)**
 
 ---
 
