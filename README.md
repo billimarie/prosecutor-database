@@ -3,20 +3,22 @@
 
 [![Hacktober Issues](https://img.shields.io/github/hacktoberfest/2020/billimarie/prosecutor-database?style=plastic)](https://github.com/billimarie/prosecutor-database/issues?q=is%3Aissue+label%3AHacktober)
 
-## Important Links
-- **[View the live web app](https://us-prosecutor-database.herokuapp.com/)**
-- **[View the Hacktoberfest issue](https://github.com/billimarie/prosecutor-database/issues/80)**
-- **[What do Prosecutors have to do with Police Brutality?](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md#0-history-why-prosecutors)**
-- **[Our History](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md#1-overview)**
-- **[Read the Docs](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md)**
-
----
+# 🔥 Hacktoberfest Status: *98 District Attorneys to go!* 🔥
 
 ## Hacktoberfest Goal: [Add 100 District Attorneys](https://github.com/billimarie/prosecutor-database/issues/80)
 
 This October, hundreds of beginner, intermediate, & advanced developers will be contributing to open-source projects across the world. The U.S. Prosecutor Database is one of many repos open to open-source contributions from people of all skill levels & backgrounds.
 
 For Hacktoberfest 2020, our goal is to **ADD 100 DISTRICT ATTORNEYS** to the web app. [Here's how you can help](https://github.com/billimarie/prosecutor-database/issues/80).
+
+---
+
+## Important Links
+- **[View the live web app](https://us-prosecutor-database.herokuapp.com/)**
+- **[View the Hacktoberfest issue](https://github.com/billimarie/prosecutor-database/issues/80)**
+- **[What do Prosecutors have to do with Police Brutality?](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md#0-history-why-prosecutors)**
+- **[Our History](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md#1-overview)**
+- **[Read the Docs](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md)**
 
 ---
 
