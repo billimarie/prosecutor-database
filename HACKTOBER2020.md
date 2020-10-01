@@ -97,4 +97,4 @@ git push origin hacktober2020
 
 2.) Go to your forked repository, and press "Pull Request". Select "hacktober2020" for the branch for your forked repo and the main repo. Press "Create Pull Request" and type a title and description for your PR.
 
-3.) Celebrate! 🎉 You'll receive a comment verifying I received your pull request. Once your PR has been merged, it'll be up on the [live web app](https://us-prosecutor-database.herokuapp.com/).
+3.) Celebrate! 🎉 You'll receive a comment verifying I received your pull request. Once your PR has been merged, it'll be up on the [live web app](https://us-prosecutor-database.herokuapp.com/), & your GitHub profile will be added to the [Contributors](https://github.com/billimarie/prosecutor-database/blob/master/README.md#contributors) gallery.
