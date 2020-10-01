@@ -87,15 +87,14 @@ csvtojson [your-file-name-here].csv > [your-file-name-here].json
 
 ### Instructions For Submitting Your Pull Request
 
-1.) Time to **add**, **commit**, & **submit** your pull request:
+1-A.) Time to **add**, **commit**, & **submit** your pull request:
 ```
 git add .
 git commit -m "[Your commit message goes here]"
 git push origin hacktober2020
 ```
+1-B.) Did you get an error when trying to submit your PR? Try Step 1 in **Instructions For Setting Up Git / GitHub in Terminal / Command Line**. You might be getting an error because your SSH key isn't connected to GitHub.
 
-2.) Go to your forked repository, and press "Pull Request". Select "hacktober2020" for the branch for your forked repo and the main repo. Type a title and description for the pull request, and press "Create Pull Request"
+2.) Go to your forked repository, and press "Pull Request". Select "hacktober2020" for the branch for your forked repo and the main repo. Press "Create Pull Request" and type a title and description for your PR.
 
-3-A.) Celebrate! 🎉 You'll receive a comment verifying I received your pull request. Once your PR has been merged, it'll be up on the [live web app](https://us-prosecutor-database.herokuapp.com/).
-
-3-B.) Did you get an error when trying to submit your PR? Try Step 1 in **Instructions For Setting Up Git / GitHub in Terminal / Command Line**. You might be getting an error because your SSH key isn't connected to GitHub.
+3.) Celebrate! 🎉 You'll receive a comment verifying I received your pull request. Once your PR has been merged, it'll be up on the [live web app](https://us-prosecutor-database.herokuapp.com/).
