@@ -147,10 +147,21 @@ h1, h2 {
   margin: 0 auto;
 }
 
+
+#prosecutor-list ul:not([role="tablist"]) {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 #prosecutor-list li {
   list-style: none;
   padding: 0;
-  display: inline-block;
+}
+
+#prosecutor-list ul:not([role="tablist"]) li {
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: row;
 }
 
 #prosecutor-list a {
@@ -161,6 +172,13 @@ h1, h2 {
   border: 3px solid #fff;
   color: #333;
   text-decoration: none;
+}
+
+#prosecutor-list ul:not([role="tablist"]) a {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0,0,0,0.125);
+  margin-right: 0.5em;
 }
 
 #prosecutor-list a:hover {
