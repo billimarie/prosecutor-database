@@ -147,10 +147,21 @@ h1, h2 {
   margin: 0 auto;
 }
 
+
+#prosecutor-list ul:not([role="tablist"]) {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 #prosecutor-list li {
   list-style: none;
   padding: 0;
-  display: inline-block;
+}
+
+#prosecutor-list ul:not([role="tablist"]) li {
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: row;
 }
 
 #prosecutor-list a {
@@ -161,6 +172,13 @@ h1, h2 {
   border: 3px solid #fff;
   color: #333;
   text-decoration: none;
+}
+
+#prosecutor-list ul:not([role="tablist"]) a {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0,0,0,0.125);
+  margin-right: 0.5em;
 }
 
 #prosecutor-list a:hover {
@@ -376,10 +394,6 @@ ul.icons li + li {
 }
   ul.icons li a {
     font-size: 50px;
-    color: lightgray;
-  }
-  ul.icons li a[href^="http://"],
-  ul.icons li a[href^="https://"] {
     color: #b8201f;
   }
 
@@ -422,3 +436,19 @@ section.articles {
     section.articles ul li h3 {
       font-weight: 600;
     }
+
+.article-card {
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  padding: 10px;
+  margin: 10px;
+}
+
+.article-card>img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.article-card>p{
+  text-overflow: ellipsis
+}

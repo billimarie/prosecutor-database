@@ -48,22 +48,25 @@ cat ~/.ssh/id_rsa.pub
 
 ### Instructions For Setting Up Your Local Environment
 
-1.) Clone this repo to your local environment:
+1.) [Fork this repo](https://github.com/billimarie/prosecutor-database/fork)
+
+
+2.) Clone the forked repo to your local environment:
 ```
-git clone git@github.com:billimarie/prosecutor-database.git
+git clone git@github.com:[your username]/prosecutor-database.git
 ```
 
-2.) Make sure your branch is up-to-date with everyone else's work:
+3.) Make sure your branch is up-to-date with everyone else's work:
 ```
 git fetch origin hacktober2020
 ```
 
-3.) Create your branch:
+4.) Create your branch:
 ```
 git checkout hacktober2020
 ```
 
-4.) Install the npm packages. 
+5.) Install the npm packages. 
 ```
 npm install
 ```
@@ -84,13 +87,14 @@ csvtojson [your-file-name-here].csv > [your-file-name-here].json
 
 ### Instructions For Submitting Your Pull Request
 
-1.) Time to **add**, **commit**, & **submit** your pull request:
+1-A.) Time to **add**, **commit**, & **submit** your pull request:
 ```
 git add .
 git commit -m "[Your commit message goes here]"
-git push origin hacktober2020
+git push origin hacktober2020:master
 ```
+1-B.) Did you get an error when trying to submit your PR? Try Step 1 in **Instructions For Setting Up Git / GitHub in Terminal / Command Line**. You might be getting an error because your SSH key isn't connected to GitHub.
 
-2-A.) Celebrate! 🎉 You'll receive a comment verifying I received your pull request. Once your PR has been merged, it'll be up on the [live web app](https://us-prosecutor-database.herokuapp.com/).
+2.) Go to your forked repository, and press "Pull Request". Select "hacktober2020" for the branch for your forked repo and the main repo. Press "Create Pull Request" and type a title and description for your PR.
 
-2-B.) Did you get an error when trying to submit your PR? Try Step 1 in **Instructions For Setting Up Git / GitHub in Terminal / Command Line**. You might be getting an error because your SSH key isn't connected to GitHub.
+3.) Celebrate! 🎉 You'll receive a comment verifying I received your pull request. Once your PR has been merged, it'll be up on the [live web app](https://us-prosecutor-database.herokuapp.com/), & your GitHub profile will be added to the [Contributors](https://github.com/billimarie/prosecutor-database/blob/master/README.md#contributors) gallery.

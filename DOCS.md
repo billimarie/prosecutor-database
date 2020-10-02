@@ -5,7 +5,8 @@
 - [1. History: Why Prosecutors?](#1-history-why-prosecutors)
 - [2. Overview](#2-overview)
 - [3. Data Collection](#3-data-collection)
-- [4. Web App Development](#4-web-app-development)
+- [4-A. Web App Development](#4-a-web-app-development)
+- [4-B. Adding Data to Your Local Environment](#4-b-adding-data-to-your-local-environment)
 - [5. Join Us: Post-Carceral](#5-join-us-post-carceral)
 - [6. License](#6-license)
 
@@ -68,7 +69,7 @@ Please keep in mind: **the top priority is collecting data from electable Distri
 
 ---
 
-## 4. Web App Development
+## 4-A. Web App Development
 
 To run the app locally on your machine:
 
@@ -78,11 +79,54 @@ To run the app locally on your machine:
 4. `npm install`
 5. `meteor run` & open `http://localhost:3000/` in your browser
 
+## 4-B. Adding Data to your local environment
+
 To play around with data:
+
 1. in a new (simultaneous) terminal tab: `meteor mongo`
 2. verify that the `show collections` command produces the `Attorneys` collection
 3. insert a new document using the `api` folder .js files as a base. Make sure it contains the `name`, `state`, & `role`--otherwise it won't work. Example: `db.Attorneys.insertOne({"id": "ag-01","state": "Alabama","name": "Steve Marshall","role": "Attorney General"})`
 4. check on the app in your browser; it should automatically refresh
+
+### JSON Structure
+
+```
+"name": "Rachael Rollins",
+"role": "District Attorney",
+"state": "Massachusetts",
+"county": "Suffolk",
+"party": "democrat",
+"ageRange": "40-50",
+"gender": "female",
+"race": "black",
+"appointed": "1601640275", // Unix Time Stamp: https://www.unixtimestamp.com/index.php
+"headshot": "https://images.squarespace-cdn.com/content/v1/5c671e8e2727be4ad82ff1e9...",
+"websites": {
+  "url": "https://www.suffolkdistrictattorney.com/about-the-office/meet-district...",
+  "wiki": "https://en.wikipedia.org/wiki/Rachael_Rollins",
+  "facebook": "https://www.facebook.com/Rollins4DA",
+  "twitter": "https://twitter.com/DARollins",
+ },
+"office": {
+  "address": {
+    "poBox": "",
+    "courthouse": "Suffolk County District Attorney",
+    "street": "1 Bulfinch Place",
+    "city": "Boston",
+    "zipcode": "02114",
+    "phone": "(617) 619-4000"
+  },
+  "email": ""
+},
+"articles": [
+  0: {
+    "title": "Suffolk DA Rachael Rollins releases list of police officers with ‘ques...",
+    "url": "https://www.boston.com/news/local-news/2020/09/26/rachael-rollins-rele...",
+    "summary": "Suffolk County District Attorney Rachael Rollins Friday night released...",
+    "featuredImage": "https://www.boston.com/wp-content/uploads/2020/06/CV3ZAWH2OJHFRFOWGSND..."
+  }
+ ]
+```
 
 Production: https://us-prosecutor-database.herokuapp.com/
 

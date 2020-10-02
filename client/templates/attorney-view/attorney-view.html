@@ -32,41 +32,55 @@
               <div class="row">
                 <div class="col-md-12">
                   <ul class="icons">
+                    {{#if websites.url}}
                     <li>
                       <a href="{{websites.url}}" target="_blank">
                         <i class="fas fa-external-link-alt"></i>
                       </a>
                     </li>
+                    {{/if}}
+                    {{#if websites.wiki}}
                     <li>
                       <a href="{{websites.wiki}}" target="_blank">
                         <i class="fab fa-wikipedia-w"></i>
                       </a>
                     </li>
+                    {{/if}}
+                    {{#if websites.googleNews}}
                     <li>
                       <a href="{{websites.googleNews}}" target="_blank">
                         <i class="fas fa-newspaper"></i>
                       </a>
                     </li>
+                    {{/if}}
+                    {{#if websites.facebook}}
                     <li>
                       <a href="{{websites.facebook}}" target="_blank">
                         <i class="fab fa-facebook-square"></i>
                       </a>
                     </li>
+                    {{/if}}
+                    {{#if websites.twitter}}
                     <li>
                       <a href="{{websites.twitter}}" target="_blank">
                         <i class="fab fa-twitter-square"></i>
                       </a>
                     </li>
+                    {{/if}}
+                    {{#if websites.instagram}}
                     <li>
                       <a href="{{websites.instagram}}" target="_blank">
                         <i class="fab fa-instagram"></i>
                       </a>
                     </li>
+                    {{/if}}
+                    {{#if websites.linkedin}}
                     <li>
                       <a href="{{websites.linkedin}}" target="_blank">
                         <i class="fab fa-linkedin"></i>
                       </a>
                     </li>
+                    {{/if}}
                   </ul>
                 </div>
               </div>

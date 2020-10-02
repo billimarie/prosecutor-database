@@ -15,8 +15,8 @@
           {{#if recentAttorneys}}
             <ul>
               {{#each recentAttorneys}}
-                <li class="col-sm-3 single-attorney">
-                  <a href="{{pathFor 'attorneyView'}}">
+                <li class="col-sm-6 col-md-4 col-lg-3 single-attorney">
+                  <a class="card" href="{{pathFor 'attorneyView'}}">
                     {{#if headshot}}
                       <div class="thumbnail" style="background-image:url('{{headshot}}')"></div>
                     {{else}}
