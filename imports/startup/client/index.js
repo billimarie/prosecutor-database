@@ -1,5 +1,6 @@
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
+import moment from 'moment';
 
 import { Attorneys } from '../../api/attorneys.js';
 
@@ -48,6 +49,13 @@ Template.currentProsecutors.helpers({
     //   return month + '-' + date + '-' + year;
     // }
   }
+});
+
+// Register Date format helper
+Template.registerHelper('formatDate', function(unixTimeStamp) {
+    // js takes dates in milliseconds
+    var date = new Date(unixTimeStamp * 1000);
+    return moment(date).format('MM-DD-YYYY');
 });
 
 Template.attorneyView.helpers({
