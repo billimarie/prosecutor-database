@@ -394,10 +394,6 @@ ul.icons li + li {
 }
   ul.icons li a {
     font-size: 50px;
-    color: lightgray;
-  }
-  ul.icons li a[href^="http://"],
-  ul.icons li a[href^="https://"] {
     color: #b8201f;
   }
 
