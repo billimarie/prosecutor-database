@@ -1,6 +1,7 @@
 .DS_STORE
 node_modules/
 npm-debug.log*
+.idea
 *.log
 
 # Windows Batch Start

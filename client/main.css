@@ -436,3 +436,19 @@ section.articles {
     section.articles ul li h3 {
       font-weight: 600;
     }
+
+.article-card {
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  padding: 10px;
+  margin: 10px;
+}
+
+.article-card>img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.article-card>p{
+  text-overflow: ellipsis
+}
