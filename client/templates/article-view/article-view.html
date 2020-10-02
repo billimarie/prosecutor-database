@@ -3,29 +3,24 @@
     <div class="container">
       <div class="row">
         <h2 class="text-center">Recent Articles</h2>
-        <ul>
           {{#each articles}}
-            <li class="col-sm-6">
               <div class="row">
-                <div class="col-sm-6">
+                  <div class="col-lg-4 col-md-6" style="box-shadow: 0 5px 10px rgba(0,0,0,0.1); padding: 10px; margin: 10px;">
                   {{#if featuredImage}}
-                  <div style="background-image:url('{{featuredImage}}')" class="thumbnail"></div>
+                      <img src="{{featuredImage}}" style="margin-left: auto; margin-right: auto; display: block;" width="100%" />
                   {{else}}
-                  <div style="background-image:url('public/images/default-article.jpg')"  class="thumbnail"></div>
+                      <img src="/images/default-article.jpg" style="margin-left: auto; margin-right: auto; display: block;" width="75%" />
                   {{/if}}
-                </div>
-                <div class="col-sm-6">
-                  <h3><a href="{{url}}" target="blank">{{title}}</a></h3>
-                </div>
+                      <hr>
+                 {{#if url}}
+                    <h3 style="padding-top: 1px;"><a href="{{url}}" target="blank">{{title}}</a></h3>
+                 {{else}}
+                    <h3 style="padding-top: 1px; font-weight: bold">{{title}}</h3>
+                {{/if}}
+                      <p style="text-overflow: ellipsis">{{summary}}</p>
+                  </div>
               </div>
-              <div class="row">
-                <div class="col-xs-12">
-                  <p>{{summary}}</p>
-                </div>
-              </div>
-            </li>
           {{/each}}
-        </ul>
       </div>
     </div>
   </section>
