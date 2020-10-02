@@ -9,9 +9,9 @@
               <div class="row">
                 <div class="col-sm-6">
                   {{#if featuredImage}}
-                  <div src="{{featuredImage}}" class="thumbnail"/>
+                  <div style="background-image:url('{{featuredImage}}')" class="thumbnail"></div>
                   {{else}}
-                  <div src="/images/default-article.jpg" class="thumbnail"/>
+                  <div style="background-image:url('public/images/default-article.jpg')"  class="thumbnail"></div>
                   {{/if}}
                 </div>
                 <div class="col-sm-6">
