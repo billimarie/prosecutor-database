@@ -30,6 +30,8 @@ Template.registerHelper( 'findAttorneyType', (attorneyType) => {
   }
 });
 
+// TODO: Consider combining lines 35 - 60 (re: unix timestamp)
+
 Template.currentProsecutors.helpers({
   allAttorneys() {
     return Attorneys.find().fetch();
@@ -50,7 +52,6 @@ Template.currentProsecutors.helpers({
     // }
   }
 });
-
 // Register Date format helper
 Template.registerHelper('formatDate', function(unixTimeStamp) {
     // js takes dates in milliseconds
