@@ -1,5 +1,5 @@
 # U.S. Prosecutor Database
-> Last Updated: October 1st 2020
+> Last Updated: October 2nd, 2020
 
 [![Hacktober Issues](https://img.shields.io/github/hacktoberfest/2020/billimarie/prosecutor-database?style=plastic)](https://github.com/billimarie/prosecutor-database/issues?q=is%3Aissue+label%3AHacktober)
 
