@@ -5,8 +5,8 @@
 - [1. History: Why Prosecutors?](#1-history-why-prosecutors)
 - [2. Overview](#2-overview)
 - [3. Data Collection](#3-data-collection)
-- [4-A. Web App Development](#4-web-app-development)
-- [4-B. Adding Data to your local environment](#4b-adding-data-to-your-local-environment)
+- [4-A. Web App Development](#4-a-web-app-development)
+- [4-B. Adding Data to Your Local Environment](#4-b-adding-data-to-your-local-environment)
 - [5. Join Us: Post-Carceral](#5-join-us-post-carceral)
 - [6. License](#6-license)
 
