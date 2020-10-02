@@ -79,7 +79,7 @@ To run the app locally on your machine:
 4. `npm install`
 5. `meteor run` & open `http://localhost:3000/` in your browser
 
-# 4-B. Adding Data to your local environment
+## 4-B. Adding Data to your local environment
 
 To play around with data:
 
@@ -88,7 +88,7 @@ To play around with data:
 3. insert a new document using the `api` folder .js files as a base. Make sure it contains the `name`, `state`, & `role`--otherwise it won't work. Example: `db.Attorneys.insertOne({"id": "ag-01","state": "Alabama","name": "Steve Marshall","role": "Attorney General"})`
 4. check on the app in your browser; it should automatically refresh
 
-## JSON Structure
+### JSON Structure
 
 ```
 "name": "Rachael Rollins",
