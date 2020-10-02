@@ -25,3 +25,4 @@ aldeed:collection2-core
 dynamic-import@0.5.2
 underscore@1.0.10
 jquery
+http
