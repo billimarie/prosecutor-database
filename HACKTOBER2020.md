@@ -91,7 +91,7 @@ csvtojson [your-file-name-here].csv > [your-file-name-here].json
 ```
 git add .
 git commit -m "[Your commit message goes here]"
-git push origin hacktober2020
+git push origin hacktober2020:master
 ```
 1-B.) Did you get an error when trying to submit your PR? Try Step 1 in **Instructions For Setting Up Git / GitHub in Terminal / Command Line**. You might be getting an error because your SSH key isn't connected to GitHub.
 
