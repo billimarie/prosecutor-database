@@ -5,11 +5,11 @@
         <h2 class="text-center">Recent Articles</h2>
           {{#each articles}}
               <div class="row">
-                  <div class="col-lg-4 col-md-6" style="box-shadow: 0 5px 10px rgba(0,0,0,0.1); padding: 10px; margin: 10px;">
+                  <div class="col-lg-4 col-md-6 article-card">
                   {{#if featuredImage}}
-                      <img src="{{featuredImage}}" style="margin-left: auto; margin-right: auto; display: block;" width="100%" />
+                      <img src="{{featuredImage}}" style="width:100%" />
                   {{else}}
-                      <img src="/images/default-article.jpg" style="margin-left: auto; margin-right: auto; display: block;" width="75%" />
+                      <img src="/images/default-article.jpg" style="width:75%" />
                   {{/if}}
                       <hr>
                  {{#if url}}
@@ -17,7 +17,7 @@
                  {{else}}
                     <h3 style="padding-top: 1px; font-weight: bold">{{title}}</h3>
                 {{/if}}
-                      <p style="text-overflow: ellipsis">{{summary}}</p>
+                      <p>{{summary}}</p>
                   </div>
               </div>
           {{/each}}
