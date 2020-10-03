@@ -1,0 +1,27 @@
+<template name="recentlyUpdated">
+    <div class="row">
+        {{#if recentUpdates 10}}
+        <table class="table">
+            <caption>Recently added prosecutors</caption>
+            <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Role</th>
+                <th scope="col">State</th>
+            </tr>
+            </thead>
+            <tbody>
+            {{#each recentUpdates}}
+            <tr>
+                <th scope="row">
+                    <a href="{{pathFor 'attorneyView'}}">{{name}}</a>
+                </th>
+                <td>{{role}}</td>
+                <td>{{state}}</td>
+            </tr>
+            {{/each}}
+            </tbody>
+        </table>
+        {{/if}}
+    </div>
+</template>

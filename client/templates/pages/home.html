@@ -11,27 +11,7 @@
       <div class="row mx-auto text-center">
         <h4>Recently Updated</h4>
       </div>
-      <div class="row my-5">
-          {{#if recentAttorneys}}
-            <ul>
-              {{#each recentAttorneys}}
-                <li class="col-sm-6 col-md-4 col-lg-3 single-attorney">
-                  <a class="card" href="{{pathFor 'attorneyView'}}">
-                    {{#if headshot}}
-                      <div class="thumbnail" style="background-image:url('{{headshot}}')"></div>
-                    {{else}}
-                      <div class="thumbnail" style="background-image:url('images/anon-prosecutor.jpg')"></div>
-                    {{/if}}
-                    <h3>{{name}}</h3>
-                    <h4>{{state}}</h4>
-                    <h4>{{role}}</h4>
-                    <h5><em>{{county}}</em></h5>
-                  </a>
-                </li>
-              {{/each}}
-            </ul>
-          {{/if}}
-      </div>
+      {{> recentlyUpdated}}
     </div>
   </section>
 
