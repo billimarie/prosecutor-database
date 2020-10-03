@@ -35,21 +35,6 @@ Template.registerHelper( 'findAttorneyType', (attorneyType) => {
 Template.currentProsecutors.helpers({
   allAttorneys() {
     return Attorneys.find().fetch();
-  },
-  recentAttorneys() {
-    return Attorneys.find( {}, {
-        sort: { timestamp : 1 },
-        limit: 6
-      }).fetch();
-    // dateExists(date) {
-    //   return date !== null;
-    // },
-    // unixToMMddYYYY(unix) {
-    //   var month = new Date(appointed * 1000).getMonth();
-    //   var day = new Date(appointed * 1000).getDate();
-    //   var year = new Date(appointed * 1000).getFullYear();
-    //   return month + '-' + date + '-' + year;
-    // }
   }
 });
 // Register Date format helper
@@ -58,6 +43,17 @@ Template.registerHelper('formatDate', function(unixTimeStamp) {
     var date = new Date(unixTimeStamp * 1000);
     return moment(date).format('MM-DD-YYYY');
 });
+
+Template.recentlyUpdated.helpers({
+  recentUpdates(count) {
+    return Attorneys
+        .find({}, {
+          fields: { name: 1, role: 1, state: 1 },
+          sort: { '_id' : -1 },
+          limit: count
+        }).fetch();
+  }
+})
 
 Template.attorneyView.helpers({
   Attorneys() {
