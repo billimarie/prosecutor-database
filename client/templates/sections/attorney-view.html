@@ -89,12 +89,12 @@
         </div>
       </div>
 
-      {{> articleView}}
-
       <div class="container">
-        <div class="row my-5">
+        {{> articleView}}
+
+        <section class="row my-5">
           <div class="page-header">
-            <h2><strong>Relevant Cases</strong><br /><small>Cases available online</small></h2>
+            <h2>Relevant Cases</h2>
             <ul class="case-list">
               {{#each relevantCases}}
                 <li>
@@ -108,7 +108,27 @@
               {{/each}}
             </ul>
           </div>
-        </div>
+        </section>
+
+        <section class="row my-5">
+          <div class="page-header">
+            <h2>Previous Prosecutors</h2>
+            <p>A list of previous prosecutors who occupied this role.</p>
+            <ul class="case-list">
+              {{#each previous}}
+                <li>
+                  <h3>
+                    <a href="{{this.url}}" target="_blank">
+                      {{this.name}}
+                    </a>
+                    <p><em>From {{this.appointed}} to {{this.exited}}</em></p>
+                  </h3>
+                </li>
+              {{/each}}
+            </ul>
+          </div>
+        </section>
+
       </div>
     {{/each}}
   {{/if}}
