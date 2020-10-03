@@ -1,6 +1,15 @@
 # Changelog
 Maintained by [@billimarie](https://www.github.com/billimarie).
 
+## 0.3.2
+
+### New
+- Issue thread for Hacktoberfest: [HACKTOBER: Add District Attorney Data](https://github.com/billimarie/prosecutor-database/issues/80)
+- Default generic article thumbnail
+
+### Updates
+- Recently Updated section into limited table view
+
 ## 0.3.1
 
 ### New

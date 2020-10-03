@@ -29,8 +29,8 @@
           {{#if findAttorneyType 'Attorney General'}}
           <ul>
             {{#each findAttorneyType 'Attorney General'}}
-            <li class="card col-sm-3 single-attorney">
-              <a href="{{pathFor 'attorneyView'}}">
+            <li class="col-sm-6 col-md-4 col-lg-3 single-attorney">
+              <a class="card" href="{{pathFor 'attorneyView'}}">
                 <h3 class="card-header">{{name}}</h3>
                 {{#if headshot}}
                   <div class="thumbnail" style="background-image:url('{{headshot}}')"></div>
@@ -59,9 +59,14 @@
           {{#if findAttorneyType 'US Attorney'}}
           <ul>
             {{#each findAttorneyType 'US Attorney'}}
-            <li class="card col-sm-3 single-attorney">
-              <a href="{{pathFor 'attorneyView'}}">
+            <li class="col-sm-6 col-md-4 col-lg-3 single-attorney">
+              <a class="card" href="{{pathFor 'attorneyView'}}">
                 <h3 class="card-header">{{name}}</h3>
+                {{#if headshot}}
+                  <div class="thumbnail" style="background-image:url('{{headshot}}')"></div>
+                {{else}}
+                  <div class="thumbnail" style="background-image:url('images/anon-prosecutor.jpg')"></div>
+                {{/if}}
                 <div class="card-body">
                   <h4 class="card-title">{{role}}</h4>
                   <h5 class="card-subtitle">{{state}}</h5>
@@ -84,8 +89,8 @@
           {{#if findAttorneyType 'District Attorney'}}
           <ul>
             {{#each findAttorneyType 'District Attorney'}}
-            <li class="card col-sm-3 single-attorney">
-              <a href="{{pathFor 'attorneyView'}}">
+            <li class="col-sm-6 col-md-4 col-lg-3 single-attorney">
+              <a class="card" href="{{pathFor 'attorneyView'}}">
                 <h3 class="card-header">{{name}}</h3>
                 {{#if headshot}}
                   <div class="thumbnail" style="background-image:url('{{headshot}}')"></div>
@@ -114,8 +119,8 @@
           {{#if findAttorneyType 'Municipal Attorney'}}
           <ul>
             {{#each findAttorneyType 'Municipal Attorney'}}
-            <li class="card col-sm-3 single-attorney">
-              <a href="{{pathFor 'attorneyView'}}">
+            <li class="col-sm-6 col-md-4 col-lg-3 single-attorney">
+              <a class="card" href="{{pathFor 'attorneyView'}}">
                 <h3 class="card-header">{{name}}</h3>
                 {{#if headshot}}
                   <div class="thumbnail" style="background-image:url('{{headshot}}')"></div>
@@ -144,8 +149,8 @@
           {{#if allAttorneys}}
           <ul>
             {{#each allAttorneys}}
-            <li class="card col-sm-3 single-attorney">
-              <a href="{{pathFor 'attorneyView'}}">
+            <li class="col-sm-6 col-md-4 col-lg-3 single-attorney">
+              <a class="card" href="{{pathFor 'attorneyView'}}">
                 <h3 class="card-header">{{name}}</h3>
                 {{#if headshot}}
                   <div class="thumbnail" style="background-image:url('{{headshot}}')"></div>

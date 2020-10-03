@@ -1,5 +1,6 @@
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
+import moment from 'moment';
 
 import { Attorneys } from '../../api/attorneys.js';
 
@@ -29,26 +30,30 @@ Template.registerHelper( 'findAttorneyType', (attorneyType) => {
   }
 });
 
+// TODO: Consider combining lines 35 - 60 (re: unix timestamp)
+
 Template.currentProsecutors.helpers({
   allAttorneys() {
     return Attorneys.find().fetch();
-  },
-  recentAttorneys() {
-    return Attorneys.find( {}, {
-        sort: { timestamp : 1 },
-        limit: 6
-      }).fetch();
-    // dateExists(date) {
-    //   return date !== null;
-    // },
-    // unixToMMddYYYY(unix) {
-    //   var month = new Date(appointed * 1000).getMonth();
-    //   var day = new Date(appointed * 1000).getDate();
-    //   var year = new Date(appointed * 1000).getFullYear();
-    //   return month + '-' + date + '-' + year;
-    // }
   }
 });
+// Register Date format helper
+Template.registerHelper('formatDate', function(unixTimeStamp) {
+    // js takes dates in milliseconds
+    var date = new Date(unixTimeStamp * 1000);
+    return moment(date).format('MM-DD-YYYY');
+});
+
+Template.recentlyUpdated.helpers({
+  recentUpdates(count) {
+    return Attorneys
+        .find({}, {
+          fields: { name: 1, role: 1, state: 1 },
+          sort: { '_id' : -1 },
+          limit: 5
+        }).fetch();
+  }
+})
 
 Template.attorneyView.helpers({
   Attorneys() {
@@ -59,6 +64,10 @@ Template.attorneyView.helpers({
 /**
  * ROUTES
  */
+
+Meteor.call("getPoliceDonation", function(error, result) {
+  let {signed,declinedToSign,noResponse} = result;
+});
 
 Router.route('/', {
   name: 'home',

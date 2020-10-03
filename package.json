@@ -1,7 +1,7 @@
 {
   "name": "us-prosecutor-database",
   "private": true,
-  "version": "0.2.1",
+  "version": "0.3.2",
   "description": "The United States Prosecutor Database (App) is an open-source app displaying the data of elected and appointed government lawyers in the United States (including Attorney Generals, U.S. Attorneys, District Attorneys, Municipal/City Attorneys, and more). It showcases prosecutorial history at the local, state, and federal level.",
   "keywords": [
     "prosecutors",
@@ -20,6 +20,7 @@
   "dependencies": {
     "@babel/runtime": "^7.11.2",
     "babel-runtime": "^6.20.0",
+    "cheerio": "^1.0.0-rc.3",
     "meteor-node-stubs": "~1.0.1",
     "moment": "^2.29.0",
     "simpl-schema": "^1.5.6"

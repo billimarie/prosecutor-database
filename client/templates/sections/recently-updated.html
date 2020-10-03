@@ -1,0 +1,35 @@
+<template name="recentlyUpdated">
+    <div class="row my-5">
+        <div class="container mx-auto text-center">
+            <h3>Recently Updated</h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="container mx-auto">
+            {{#if recentUpdates}}
+            <table class="table">
+                <caption>Recently added prosecutors</caption>
+                <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Role</th>
+                    <th scope="col">State</th>
+                </tr>
+                </thead>
+                <tbody>
+                {{#each recentUpdates}}
+                <tr>
+                    <th scope="row">
+                        <a href="{{pathFor 'attorneyView'}}">{{name}}</a>
+                    </th>
+                    <td>{{role}}</td>
+                    <td>{{state}}</td>
+                </tr>
+                {{/each}}
+                </tbody>
+            </table>
+            {{/if}}
+        </div>
+    </div>
+</template>
