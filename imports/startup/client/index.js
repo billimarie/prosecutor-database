@@ -50,7 +50,7 @@ Template.recentlyUpdated.helpers({
         .find({}, {
           fields: { name: 1, role: 1, state: 1 },
           sort: { '_id' : -1 },
-          limit: count
+          limit: 5
         }).fetch();
   }
 })
