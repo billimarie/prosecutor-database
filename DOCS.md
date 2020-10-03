@@ -1,5 +1,5 @@
 # DOCS
-> Last Updated: August 28th 2020
+> Last Updated: October 3rd 2020
 
 ## Table of Contents
 - [1. History: Why Prosecutors?](#1-history-why-prosecutors)
@@ -55,17 +55,17 @@ Our goal is to showcase prosecutorial news articles, demographics, trends, offic
 
 ## 3. Data Collection
 
-Please keep in mind: **the top priority is collecting data from electable District & State attorneys.** Here's how you can collect data for the web app:
+Here's a link to our Hacktoberfest 2020 goal: **[Add 100 District Attorneys](https://github.com/billimarie/prosecutor-database/issues/80)** It contains *very* detailed steps on how to contribute data. For basic instructions, see below:
 
-1.) Search our live web app for counties & states which do not have District or State Attorney information.
+1.) Search our [live web app](https://us-prosecutor-database.herokuapp.com/) for counties & states which do not have District Attorney information (or have missing information in their District Attorney profile).
 
-2.) After choosing a state & county (or counties) to focus on, create a private copy of our U.S. Prosecutor Google Sheet. You can do this by going to File > Download then uploading it to your Google Drive.
+2.) After choosing a state & county (or counties) to focus on, create a private copy of our [U.S. Prosecutor Google Sheet](https://docs.google.com/spreadsheets/d/1Itwl8_jQpuXPjRH70fffEUSHvInfqbRKXg0iPEx8iCE/edit?usp=sharing). You can do this by going to File > Download then uploading it to your Google Drive.
 
 3.) Manually search for the prosecutor information available online, then populate the sheet with the data you can find.
 
-3.) Once you've finished, reply to this issue. A maintainer will ask you to share your new Google Sheet with their email (link in profile).
+3.) Convert your file (.CSV) into JSON. You can do this through Terminal / Command Line: `npm install -g csvtojson` & `csvtojson [your-file-name-here].csv > [your-file-name-here].json`.
 
-4.) Your data will be added to the database, & your GitHub profile will be added to the Contributors gallery.
+4.) Submit a pull request. Your data will be added to the database, & your GitHub profile will be added to the Contributors gallery.
 
 ---
 
