@@ -1,5 +1,4 @@
-import { Template } from 'meteor/templating';
-import { ReactiveVar } from 'meteor/reactive-var';
+import { Template }  from 'meteor/templating';
 import moment from 'moment';
 
 import { Attorneys } from '../../api/attorneys.js';
@@ -10,33 +9,6 @@ import '/client/main.html';
  * HELPERS
  */
 
-Template.registerHelper( 'findAttorneyType', (attorneyType) => {
-  if (attorneyType === "Attorney General") {
-    return Attorneys.find( {
-      "role" : "Attorney General"
-    } );
-  } else if (attorneyType === "US Attorney") {
-    return Attorneys.find( {
-      "role": "US Attorney"
-    } );
-  } else if (attorneyType === "District Attorney") {
-    return Attorneys.find( {
-      "role": "District Attorney"
-    } );
-  } else if(attorneyType === "Municipal Attorney") {
-    return Attorneys.find( {
-      "role": "Municipal Attorney"
-    } );
-  }
-});
-
-// TODO: Consider combining lines 35 - 60 (re: unix timestamp)
-
-Template.currentProsecutors.helpers({
-  allAttorneys() {
-    return Attorneys.find().fetch();
-  }
-});
 // Register Date format helper
 Template.registerHelper('formatDate', function(unixTimeStamp) {
     // js takes dates in milliseconds
