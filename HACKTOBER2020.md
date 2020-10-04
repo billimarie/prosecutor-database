@@ -91,21 +91,28 @@ csvtojson [your-file-name-here].csv > [your-file-name-here].json
 
 ### Instructions For Submitting Your Pull Request
 
-1-A.) Time to **add**, **commit**, & **submit** your pull request:
+1.) Time to **add**, **commit**, & **submit** your pull request:
 ```
 git add .
 git commit -m "[Your commit message goes here]"
 git push origin hacktober2020:master
 ```
-1-B.) Did you get an error when trying to submit your PR? Try Step 1 in **Instructions For Setting Up Git / GitHub in Terminal / Command Line**. You might be getting an error because your SSH key isn't connected to GitHub.
 
-1-C.) If the error looks like the following, try ```git push``` 
+2.) Celebrate! 🎉 You'll receive a comment verifying I received your pull request. Once your PR has been merged, it'll be up on the [live web app](https://us-prosecutor-database.herokuapp.com/), & your GitHub profile will be added to the [Contributors](https://github.com/billimarie/prosecutor-database/blob/master/README.md#contributors) gallery.
+
+## Troubleshooting
+
+### Errors while trying to submit a pull request
+
+1.) **Have you connected your SSH key to GitHub?** If not, go to "Step 1" in *Instructions For Setting Up Git / GitHub in Terminal / Command Line* (above). You might be getting an error because your SSH key isn't connected to GitHub.
+
+2.) **Are you getting a `failed to push` error?** It looks like this:
+
 ```
-To github.com:shariq1989/prosecutor-database.git
+To github.com:[your-username-here]/prosecutor-database.git
  ! [rejected]        hacktober2020 -> master (non-fast-forward)
-error: failed to push some refs to 'git@github.com:shariq1989/prosecutor-database.git'
+error: failed to push some refs to 'git@github.com:[your-username-here]/prosecutor-database.git'
 hint: Updates were rejected because a pushed branch tip is behind its remote
 ```
-2.) Go to your forked repository, and press "Pull Request". Select "hacktober2020" for the branch for your forked repo and the main repo. Press "Create Pull Request" and type a title and description for your PR.
 
-3.) Celebrate! 🎉 You'll receive a comment verifying I received your pull request. Once your PR has been merged, it'll be up on the [live web app](https://us-prosecutor-database.herokuapp.com/), & your GitHub profile will be added to the [Contributors](https://github.com/billimarie/prosecutor-database/blob/master/README.md#contributors) gallery.
+If you see this in your terminal / command line, try `git push`. After pushing, go to your forked repository on GitHub.com & press "Pull Request." Select `hacktober2020` for the branch for your forked repo and the main repo. Press "Create Pull Request" and type a title and description for your PR.
