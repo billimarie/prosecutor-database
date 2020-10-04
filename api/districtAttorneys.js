@@ -29,7 +29,7 @@ const DistrictAttorneys = [
     "state": "New Jersey",
     "role": "Acting Prosecutor",
     "county": "Hackensack (Bergen County)"
-  }
+  },
 ]
 
 module.exports = DistrictAttorneys;
