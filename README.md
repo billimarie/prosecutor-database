@@ -30,7 +30,6 @@ For Hacktoberfest 2020, our goal is to **ADD 100 DISTRICT ATTORNEYS** to the web
 <a href="https://github.com/billimarie" target="_blank"><img src="https://avatars1.githubusercontent.com/u/6895471?s=60&v=4" width="50px"></a>
 
 ### Contributors
-> As of October 1st, 2020. Email me if I missed you (link in profile).
 
 **Interested in contributing to the web app?** You'll find dev notes in the [**DOCS.md**](https://github.com/billimarie/prosecutor-database/blob/master/DOCS.md). Our stack is: Node.js, Meteor.js, MongoDB, Heroku.
 
