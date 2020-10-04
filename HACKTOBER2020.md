@@ -50,23 +50,27 @@ cat ~/.ssh/id_rsa.pub
 
 1.) [Fork this repo](https://github.com/billimarie/prosecutor-database/fork)
 
-
 2.) Clone the forked repo to your local environment:
 ```
 git clone git@github.com:[your username]/prosecutor-database.git
 ```
 
-3.) Make sure your branch is up-to-date with everyone else's work:
+3.) Enter the repo:
+```
+cd prosecutor-database
+```
+
+4.) Make sure your branch is up-to-date with everyone else's work:
 ```
 git fetch origin hacktober2020
 ```
 
-4.) Create your branch:
+5.) Create your branch:
 ```
 git checkout hacktober2020
 ```
 
-5.) Install the npm packages. 
+6.) Install the npm packages. 
 ```
 npm install
 ```
@@ -95,6 +99,13 @@ git push origin hacktober2020:master
 ```
 1-B.) Did you get an error when trying to submit your PR? Try Step 1 in **Instructions For Setting Up Git / GitHub in Terminal / Command Line**. You might be getting an error because your SSH key isn't connected to GitHub.
 
+1-C.) If the error looks like the following, try ```git push``` 
+```
+To github.com:shariq1989/prosecutor-database.git
+ ! [rejected]        hacktober2020 -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:shariq1989/prosecutor-database.git'
+hint: Updates were rejected because a pushed branch tip is behind its remote
+```
 2.) Go to your forked repository, and press "Pull Request". Select "hacktober2020" for the branch for your forked repo and the main repo. Press "Create Pull Request" and type a title and description for your PR.
 
 3.) Celebrate! 🎉 You'll receive a comment verifying I received your pull request. Once your PR has been merged, it'll be up on the [live web app](https://us-prosecutor-database.herokuapp.com/), & your GitHub profile will be added to the [Contributors](https://github.com/billimarie/prosecutor-database/blob/master/README.md#contributors) gallery.
