@@ -3,7 +3,7 @@
 
 [![Hacktober Issues](https://img.shields.io/github/hacktoberfest/2020/billimarie/prosecutor-database?style=plastic)](https://github.com/billimarie/prosecutor-database/issues?q=is%3Aissue+label%3AHacktober)
 
-# 🔥 Hacktoberfest Status: *92 District Attorneys to go!* 🔥
+# 🔥 Hacktoberfest Status: *91 District Attorneys to go!* 🔥
 
 ## Hacktoberfest Goal: [Add 100 District Attorneys](https://github.com/billimarie/prosecutor-database/issues/80)
 
