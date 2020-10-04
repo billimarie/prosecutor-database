@@ -1,0 +1,11 @@
+name,role,state,county,party,ageRange,gender,race,appointed,headshot,websites__url,websites__wiki,websites__googleNews,websites__facebook,websites__twitter,office__address__poBox,office__address__courthouse,office__address__street,office__address__city,office__address__zipcode,office__address__phone,office__email,articles__title,articles__url,articles__summary,articles__featuredImage,relevantCases,openData,previous
+Craig Carpenito ,U.S. Attorney,New Jersey,,republican,40-50,male,white,01-04-2018,https://www.justice.gov/sites/default/files/styles/width_3/public/pages/images/2018/01/30/u.s._attorney_craig_carpenito.jpg?itok=k5ws3rBe,https://www.justice.gov/usao-nj/meet-us-attorney,https://en.wikipedia.org/wiki/Craig_Carpenito,,http://www.facebook.com/pages/Philadelphia-PA/City-of-Philadelphia/23587514958,https://twitter.com/USAO_NJ,,"Peter W. Rodino, Jr. Federal Building","970 Broad Street, 7th Floor",Newark,7102,(973) 645-2700,USANJ.Citizenscomplaint@usdoj.gov,,,,,,,William Fitzpatrick
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Instructions:,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"1.) Using the USPD web app, choose a state & county (or counties) to search. Pick a locale that doesn't show up. Stick with District & State Attorneys.",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2.) Download this template & upload it to your own Google Drive. Make sure it is private.,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"3.) Fill in as much information as you can find. If you can't find anything, it's okay if you leave columns blank!",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"4.) When finished, leave a comment on this GitHub issue (or send a maintainer an email; their contact information is on the README.md): https://github.com/billimarie/prosecutor-database/issues/80",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"5.) Your data will be added to the database, & your GitHub profile will be added to the Contributors gallery (if you'd like).",,,,,,,,,,,,,,,,,,,,,,,,,,,,
