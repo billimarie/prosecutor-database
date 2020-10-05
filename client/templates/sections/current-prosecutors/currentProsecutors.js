@@ -34,21 +34,15 @@ Template.currentProsecutors.helpers({
     attorneys() {
         const selectedRoleFilters = Template.instance().state.get("selectedRoleFilters")
         const selectedRaceFilters = Template.instance().state.get("selectedRaceFilters")
-        return selectedRoleFilters.length > 0
-            ? Attorneys.find({"role": {$in: selectedRoleFilters}}).fetch()
-            : Attorneys.find().fetch()
-        /**
-         if (selectedRoleFilters.length > 0 && selectedRaceFilters.length > 0) {
-            Attorneys.find({"role": {$in: selectedRoleFilters}, "race": {$in: selectedRaceFilters}}).fetch()
+        if (selectedRoleFilters.length > 0 && selectedRaceFilters.length > 0) {
+            return Attorneys.find({"role": {$in: selectedRoleFilters}, "race": {$in: selectedRaceFilters}}).fetch()
         } else if (selectedRoleFilters.length > 0 && selectedRaceFilters.length === 0) {
-            Attorneys.find({"role": {$in: selectedRoleFilters}}).fetch()
+            return Attorneys.find({"role": {$in: selectedRoleFilters}}).fetch()
         } else if (selectedRoleFilters.length === 0 && selectedRaceFilters.length > 0) {
-            Attorneys.find({"race": {$in: selectedRaceFilters}}).fetch()
+            return Attorneys.find({"race": {$in: selectedRaceFilters}}).fetch()
         } else {
-            Attorneys.find().fetch()
+            return Attorneys.find().fetch()
         }
-         **/
-
     },
 });
 
