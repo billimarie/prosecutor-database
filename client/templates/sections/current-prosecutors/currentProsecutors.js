@@ -7,7 +7,8 @@ import './current-prosecutors.html';
 Template.currentProsecutors.onCreated(function () {
     this.state = new ReactiveDict();
     this.state.setDefault({
-        selectedRoleFilters: []
+        selectedRoleFilters: [],
+        selectedRaceFilters: []
     });
 });
 
@@ -32,6 +33,7 @@ Template.currentProsecutors.helpers({
     },
     attorneys() {
         const selectedRoleFilters = Template.instance().state.get("selectedRoleFilters")
+        const selectedRaceFilters = Template.instance().state.get("selectedRaceFilters")
         return selectedRoleFilters.length > 0
             ? Attorneys.find({"role": {$in: selectedRoleFilters}}).fetch()
             : Attorneys.find().fetch()
