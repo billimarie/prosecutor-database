@@ -81,7 +81,7 @@ npm install
 
 2.) Once you find a missing District Attorney (or missing Profile Information about a District Attorney), visit our Google Sheet: [US Prosecutor Database - Profile Template](https://docs.google.com/spreadsheets/d/1Itwl8_jQpuXPjRH70fffEUSHvInfqbRKXg0iPEx8iCE/edit?usp=sharing). You can *add it to your own Google Drive* or *download it directly to your computer* as a CSV file.
 
-3.) Time to Google! (Or Bing, or DuckDuckGo.) Use your favorite search engine to find information about District Attorneys in the state you chose. Start populating your [Basic Prosecutor Profile](https://docs.google.com/spreadsheets/d/1Itwl8_jQpuXPjRH70fffEUSHvInfqbRKXg0iPEx8iCE/edit?usp=sharing) sheet (aka, your CSV data) with whatever data you can verify.
+3.) Time to Google! (Or Bing, or DuckDuckGo.) Use your favorite search engine to find information about District Attorneys in the state you chose. Start populating your [Basic Prosecutor Profile](https://docs.google.com/spreadsheets/d/1Itwl8_jQpuXPjRH70fffEUSHvInfqbRKXg0iPEx8iCE/edit?usp=sharing) sheet (aka, your CSV data) with whatever data you can verify. **Help: you can help with the import by deleting any columns that you don't collect; for example, a lot of people leave the `articles` columns blank. Please delete any columns which you don't collect information for. Thanks in advance!**
 
 4.) Once you've finished populating your sheet, save/download the .CSV file to the repo folder. Then, install & run the `csvtojson` package (a CSV to JSON converter tool). This which will convert your [Basic Profile sheet](https://docs.google.com/spreadsheets/d/1Itwl8_jQpuXPjRH70fffEUSHvInfqbRKXg0iPEx8iCE/edit?usp=sharing) .CSV file into a code format called JSON.
 ```
