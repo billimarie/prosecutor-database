@@ -34,7 +34,11 @@ Template.currentProsecutors.helpers({
     attorneys() {
         const selectedRoleFilters = Template.instance().state.get("selectedRoleFilters")
         const selectedRaceFilters = Template.instance().state.get("selectedRaceFilters")
-        if (selectedRoleFilters.length > 0 && selectedRaceFilters.length > 0) {
+        return selectedRoleFilters.length > 0
+            ? Attorneys.find({"role": {$in: selectedRoleFilters}}).fetch()
+            : Attorneys.find().fetch()
+        /**
+         if (selectedRoleFilters.length > 0 && selectedRaceFilters.length > 0) {
             Attorneys.find({"role": {$in: selectedRoleFilters}, "race": {$in: selectedRaceFilters}}).fetch()
         } else if (selectedRoleFilters.length > 0 && selectedRaceFilters.length === 0) {
             Attorneys.find({"role": {$in: selectedRoleFilters}}).fetch()
@@ -43,6 +47,8 @@ Template.currentProsecutors.helpers({
         } else {
             Attorneys.find().fetch()
         }
+         **/
+
     },
 });
 
