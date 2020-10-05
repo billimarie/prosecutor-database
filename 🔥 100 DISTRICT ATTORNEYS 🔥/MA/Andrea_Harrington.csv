@@ -1,0 +1,11 @@
+name,role,state,county,party,ageRange,gender,race,appointed,headshot,websites__url,websites__wiki,websites__googleNews,websites__facebook,websites__twitter,office__address__poBox,office__address__courthouse,office__address__street,office__address__city,office__address__zipcode,office__address__phone,office__email,articles__title,articles__url,articles__summary,articles__featuredImage,relevantCases,openData,previous
+Andrea Harrington,District Attorney,Massachusetts,Berkshire,democrat,40-50,female,white,2018,https://www.wamc.org/sites/wamc/files/styles/x_large/public/201905/andrea_harrington.jpg,https://www.mass.gov/orgs/berkshire-district-attorneys-office,,,https://www.facebook.com/andreaharringtonforberkshireDA/,https://twitter.com/harringtonforda,,,7 North Street,Pittsfield,1201,(413) 443-5951,Contact.BerkshireDA@mass.gov,,,,,https://www.masslive.com/news/2020/06/berkshire-da-to-argue-supreme-court-appeal-will-call-for-dangerous-suspects-awaiting-trial-to-remain-in-jail-during-coronavirus-pandemic.html,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Instructions:,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"1.) Using the USPD web app, choose a state & county (or counties) to search. Pick a locale that doesn't show up. Stick with District & State Attorneys.",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2.) Download this template & upload it to your own Google Drive. Make sure it is private.,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"3.) Fill in as much information as you can find. If you can't find anything, it's okay if you leave columns blank!",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"4.) When finished, leave a comment on this GitHub issue (or send a maintainer an email; their contact information is on the README.md): https://github.com/billimarie/prosecutor-database/issues/80",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"5.) Your data will be added to the database, & your GitHub profile will be added to the Contributors gallery (if you'd like).",,,,,,,,,,,,,,,,,,,,,,,,,,,,
