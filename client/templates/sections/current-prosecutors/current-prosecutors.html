@@ -22,7 +22,7 @@
       <ul>
         {{#each attorney in attorneys}}
         <li class="col-sm-6 col-md-4 col-lg-3 single-attorney">
-          <a class="card" href="{{pathFor 'attorneyView'}}">
+          <a class="card" href="{{pathFor 'attorneyView' data=attorney}}">
             <h3 class="card-header">{{attorney.name}}</h3>
             {{#if attorney.headshot}}
             <div class="thumbnail" style="background-image:url('{{attorney.headshot}}')"></div>
