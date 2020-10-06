@@ -21,7 +21,7 @@
                 {{#each recentUpdates}}
                 <tr>
                     <th scope="row">
-                        <a href="{{pathFor 'attorneyView'}}">{{name}}</a>
+                        <a href="{{pathFor 'attorneyView' state=state role=role name=name}}">{{name}}</a>
                     </th>
                     <td>{{role}}</td>
                     <td>{{state}}</td>
