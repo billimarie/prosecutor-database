@@ -46,11 +46,21 @@
 </body>
 
 <template name="main">
-  {{> ribbon}}
+    <div>
+        <div>
+            {{> ribbon}}
+        </div>
 
-  {{> nav}}
+        <div>
+            {{> nav}}
+        </div>
 
-  {{> yield}}
+        <main>
+            {{> yield}}
+        </main>
 
-  {{> footer}}
+        <div>
+            {{> footer}}
+        </div>
+    </div>
 </template>

@@ -1,89 +1,86 @@
 <template name="currentProsecutors">
 
-  <div class="row my-5">
+<div class="row my-5">
     <div class="col-sm">
-      <div class="container mx-auto text-center">
-        <h3>Role</h3>
-          <div class="mx-auto text-left" style="width: fit-content;">
-            {{#each filter in roleFilters}}
-              <div class="checkbox">
-                <label>
-                  <input class="role-filter" name={{filter}} type="checkbox">
-                    {{filter}}
-                </label>
-              </div>
-          {{/each}}
-      </div>
-    </div>
-  </div>
-  <div class="col-sm">
-    <div class="container mx-auto text-center">
-      <h3>Race/Ethnicity</h3>
-      <div class="mx-auto text-left" style="width: fit-content;">
-        {{#each filter in raceFilters}}
-          <div class="checkbox">
-            <label>
-              <input class="race-filter" name={{filter}} type="checkbox">
-                {{filter}}
-            </label>
-          </div>
-        {{/each}}
-      </div>
-    </div>
-  </div>
-  <div class="col-sm">
-    <div class="container mx-auto text-center">
-      <h3>Age</h3>
-      <div class="mx-auto text-left" style="width: fit-content;">
-        {{#each filter in ageFilters}}
-          <div class="checkbox">
-            <label>
-              <input class="age-filter" name={{filter}} type="checkbox">
-                {{filter}}
-            </label>
-          </div>
-        {{/each}}
-
-        <input  type="range" min="18" max="100" class="slider" id="slider-range" aria-label="Checkbox: Municipal Attorney" name="age" value="age" />
-              <label for="slider-range">Age</label>
-
+        <div class="container mx-auto text-center">
+            <h3>Role</h3>
+            <div class="mx-auto text-left" style="width: fit-content;">
+                {{#each filter in roleFilters}}
+                    <div class="checkbox">
+                        <label>
+                            <input class="role-filter" name={{filter}} type="checkbox">
+                            {{filter}}
+                        </label>
+                    </div>
+                {{/each}}
+            </div>
         </div>
-      </div>
     </div>
-  </div>
+    <div class="col-sm">
+        <div class="container mx-auto text-center">
+            <h3>Race/Ethnicity</h3>
+            <div class="mx-auto text-left" style="width: fit-content;">
+                {{#each filter in raceFilters}}
+                    <div class="checkbox">
+                        <label>
+                            <input class="race-filter" name={{filter}} type="checkbox">
+                            {{filter}}
+                        </label>
+                    </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+<div class="col-sm">
+<div class="container mx-auto text-center">
+    <h3>Age</h3>
+<div class="mx-auto text-left" style="width: fit-content;">
+{{#each filter in ageFilters}}
+        <div class="checkbox">
+            <label>
+                <input class="age-filter" name={{filter}} type="checkbox">
+                {{filter}}
+            </label>
+        </div>
 
-    <div class="container-fluid mx-auto text-center">
-      {{#if attorneys}}
-        <div id="prosecutor-list">
-          <ul>
-            {{#each attorney in attorneys}}
-              <li class="col-sm-6 col-md-4 col-lg-3 single-attorney">
-                <a class="card" href="{{pathFor 'attorneyView' data=attorney}}">
-                  <h3 class="card-header">{{attorney.name}}</h3>
-                  {{#if attorney.headshot}}
-                    <div class="thumbnail" style="background-image:url('{{attorney.headshot}}')"></div>
-                  {{else}}
-                    <div class="thumbnail" style="background-image:url('images/anon-prosecutor.jpg')"></div>
-                  {{/if}}
-                <div class="card-body">
-                  <h4 class="card-title">{{attorney.role}}</h4>
-                  <h5 class="card-subtitle">{{attorney.state}}</h5>
-                  <div class="card-text">
-                    {{#if attorney.county}}<p class="card-text">{{attorney.county}}</p>{{/if}}
-                    {{#if attorney.district}}<p class="card-text">{{attorney.district}}</p>{{/if}}
-                  </div>
+
+        <div class="container-fluid mx-auto text-center">
+            {{#if attorneys}}
+                <div id="prosecutor-list">
+                    <ul>
+                        {{#each attorney in attorneys}}
+                            <li class="col-sm-6 col-md-4 col-lg-3 single-attorney">
+                                <a class="card"
+                                   href="{{pathFor 'attorneyView' state=attorney.state role=attorney.role
+                                                   name=attorney.name}}">
+                                    <h3 class="card-header">{{attorney.name}}</h3>
+                                    {{#if attorney.headshot}}
+                                        <div class="thumbnail"
+                                             style="background-image:url('{{attorney.headshot}}')"></div>
+                                    {{else}}
+                                        <div class="thumbnail"
+                                             style="background-image:url('images/anon-prosecutor.jpg')"></div>
+                                    {{/if}}
+                                    <div class="card-body">
+                                        <h4 class="card-title">{{attorney.role}}</h4>
+                                        <h5 class="card-subtitle">{{attorney.state}}</h5>
+                                        <div class="card-text">
+                                            {{#if attorney.county}}<p class="card-text">{{attorney.county}}</p>{{/if}}
+                                            {{#if attorney.district}}
+                                                <p class="card-text">{{attorney.district}}</p>{{/if}}
+                                        </div>
+                                    </div>
+                                    <div class="card-footer text-muted">{{#if attorney.appointed}}
+                                        Appointed: <p class="card-text">
+                                        {{formatDate attorney.appointed}}</p>{{/if}}</div>
+                                </a>
+                            </li>
+                        {{/each}}
+                    </ul>
                 </div>
-                <div class="card-footer text-muted">{{#if attorney.appointed}}
-                  Appointed: <p class="card-text">
-                  {{formatDate attorney.appointed}}</p>{{/if}}</div>
-              </a>
-            </li>
-          {{/each}}
-        </ul>
-      </div>
-    {{else}}
-      <p>No data available.</p>
-    {{/if}}
-  </div>
+            {{else}}
+                <p>No data available.</p>
+            {{/if}}
+        </div>
 
-</template>
+    </template>

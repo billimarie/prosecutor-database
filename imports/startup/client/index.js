@@ -1,9 +1,11 @@
-import { Template }  from 'meteor/templating';
+// import { Template }  from 'meteor/templating';
+import { BlazeRenderer, FlowRouter } from 'meteor/ostrio:flow-router-extra';
 import moment from 'moment';
 
 import { Attorneys } from '../../api/attorneys.js';
 
-import '/client/main.html';
+// import '/client/main.html';
+// import '/client/templates/loading.html';
 
 /**
  * HELPERS
@@ -37,39 +39,79 @@ Template.attorneyView.helpers({
  * ROUTES
  */
 
-Router.route('/', {
-  name: 'home',
-  template: 'home'
+FlowRouter.route('/', {
+    name: 'home',
+    conf: {
+        forceReRender: true
+    },
+    whileWaiting() {
+        this.render('main', 'loading');
+    },
+    waitOn() {
+        return import('/client/templates/pages/home.html');
+    },
+    action() {
+        this.render('main', 'home');
+    }
 });
 
-Router.route('/:state/:role/:name', {
-  name: 'attorneyView',
-  template: 'attorneyView',
-  data: function() {
-    return Attorneys.findOne( { name: this.params.name } );
-  },
-  waitOn: function() {
-    return Meteor.subscribe('Attorneys', this.params.name);
-  }
+FlowRouter.route('/:state/:role/:name', {
+    name: 'attorneyView',
+    whileWaiting() {
+        this.render('main', 'loading');
+    },
+    waitOn(params) {
+        return [
+            import('/client/templates/sections/attorney-view.html'),
+            Meteor.subscribe('Attorneys', params.name)
+        ];
+    },
+    data(params) {
+        return Attorneys.findOne({ name: params.name })
+    },
+    action(params, qs, data) {
+        this.render('main', 'attorneyView', data)
+    }
+})
+
+FlowRouter.route('/about', {
+    name: 'about',
+    whileWaiting() {
+        this.render('main', 'loading');
+    },
+    waitOn() {
+        return import('/client/templates/pages/about.html')
+    },
+    action() {
+        this.render('main', 'about');
+    }
 });
 
-Router.route('/about', {
-  name: 'about',
-  template: 'about'
+FlowRouter.route('/contributors', {
+    name: 'contributors',
+    whileWaiting() {
+        this.render('main', 'loading');
+    },
+    waitOn() {
+        // TODO this template is missing
+        return import('/client/templates/pages/contributors.html')
+    },
+    action() {
+        this.render('main', 'contributors');
+    }
 });
 
-Router.route('/contributors', {
-  name: 'contributors',
-  template: 'contributors'
-});
-
-Router.route('/glossary', {
-  name: 'glossary',
-  template: 'glossary'
-});
-
-Router.configure({
-  layoutTemplate: 'main'
+FlowRouter.route('/glossary', {
+    name: 'glossary',
+    whileWaiting() {
+        this.render('main', 'loading');
+    },
+    waitOn() {
+        return import('/client/templates/pages/glossary.html')
+    },
+    action() {
+        this.render('main', 'glossary');
+    }
 });
 
 // TBD
