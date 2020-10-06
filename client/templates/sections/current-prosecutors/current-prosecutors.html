@@ -31,6 +31,22 @@
                 </div>
             </div>
         </div>
+        <div class="col-sm">
+            <div class="container mx-auto text-center">
+                <h3>Age</h3>
+                <div class="mx-auto text-left" style="width: fit-content;">
+                    {{#each filter in ageFilters}}
+                        <div class="checkbox">
+                            <label>
+                                {{filter.start}}
+                                <input type="range" class="age-filter"  value={{filter}} >
+                                {{filter.end}}
+                            </label>
+                        </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="container-fluid mx-auto text-center">
