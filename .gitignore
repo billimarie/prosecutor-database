@@ -9,3 +9,6 @@ start.bat
 
 # Production
 production.json
+
+# VSCode configuration
+.vscode/
