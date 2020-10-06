@@ -452,3 +452,12 @@ section.articles {
 .article-card>p{
   text-overflow: ellipsis
 }
+
+/* Attorney Card */
+.single-attorney .card-header {
+  height: 95px;
+}
+
+.single-attorney .card-footer {
+  height: 75px;
+}
