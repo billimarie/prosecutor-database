@@ -8,7 +8,8 @@ Template.currentProsecutors.onCreated(function () {
     this.state = new ReactiveDict();
     this.state.setDefault({
         selectedRoleFilters: [],
-        selectedRaceFilters: []
+        selectedRaceFilters: [],
+        selectedPartyFilters: []
     });
 });
 
@@ -31,18 +32,33 @@ Template.currentProsecutors.helpers({
             'White'
         ]
     },
+    partyFilters() {
+      return [
+        'Democrat',
+        'Republican',
+        'Other'
+      ]
+    },
     attorneys() {
         const selectedRoleFilters = Template.instance().state.get("selectedRoleFilters")
         const selectedRaceFilters = Template.instance().state.get("selectedRaceFilters")
-        if (selectedRoleFilters.length > 0 && selectedRaceFilters.length > 0) {
-            return Attorneys.find({"role": {$in: selectedRoleFilters}, "race": {$in: selectedRaceFilters}}).fetch()
-        } else if (selectedRoleFilters.length > 0 && selectedRaceFilters.length === 0) {
-            return Attorneys.find({"role": {$in: selectedRoleFilters}}).fetch()
-        } else if (selectedRoleFilters.length === 0 && selectedRaceFilters.length > 0) {
-            return Attorneys.find({"race": {$in: selectedRaceFilters}}).fetch()
-        } else {
-            return Attorneys.find().fetch()
+        const selectedPartyFilters = Template.instance().state.get("selectedPartyFilters")
+
+        let filter = {}
+
+        if (selectedRoleFilters.length) {
+          filter.role = {$in: selectedRoleFilters}
         }
+
+        if (selectedRaceFilters.length) {
+          filter.race = {$in: selectedRaceFilters}
+        }
+
+        if (selectedPartyFilters.length) {
+          filter.party = {$in: selectedPartyFilters}
+        }
+
+        return Attorneys.find(filter).fetch()
     },
 });
 
@@ -62,5 +78,13 @@ Template.currentProsecutors.events({
             ? selectedRaceFilters.filter((value) => value !== filter)
             : [...selectedRaceFilters, filter]
         instance.state.set("selectedRaceFilters", newSelectedRaceFilters)
-    }
+    },
+    "change .party-filter"(event, instance) {
+      const filter = event.currentTarget.name
+      const selectedPartyFilters = instance.state.get("selectedPartyFilters")
+      const newSelectedPartyFilters = selectedPartyFilters.includes(filter)
+          ? selectedPartyFilters.filter((value) => value !== filter)
+          : [...selectedPartyFilters, filter]
+      instance.state.set("selectedPartyFilters", newSelectedPartyFilters)
+  }
 })
