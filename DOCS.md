@@ -1,5 +1,5 @@
 # DOCS
-> Last Updated: October 3rd 2020
+> Last Updated: October 5th 2020
 
 ## Table of Contents
 - [1. History: Why Prosecutors?](#1-history-why-prosecutors)
@@ -55,6 +55,8 @@ Our goal is to showcase prosecutorial news articles, demographics, trends, offic
 
 ## 3. Data Collection
 
+### Please use the `hacktober-data` branch
+
 Here's a link to our Hacktoberfest 2020 goal: **[Add 100 District Attorneys](https://github.com/billimarie/prosecutor-database/issues/80)** It contains *very* detailed steps on how to contribute data. For basic instructions, see below:
 
 1.) Search our [live web app](https://us-prosecutor-database.herokuapp.com/) for counties & states which do not have District Attorney information (or have missing information in their District Attorney profile).
@@ -70,6 +72,8 @@ Here's a link to our Hacktoberfest 2020 goal: **[Add 100 District Attorneys](htt
 ---
 
 ## 4-A. Web App Development
+
+### Please use the `hacktober-app` branch
 
 To run the app locally on your machine:
 

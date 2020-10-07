@@ -37,10 +37,6 @@ Template.attorneyView.helpers({
  * ROUTES
  */
 
-Meteor.call("getPoliceDonation", function(error, result) {
-  let {signed,declinedToSign,noResponse} = result;
-});
-
 Router.route('/', {
   name: 'home',
   template: 'home'
@@ -74,4 +70,9 @@ Router.route('/glossary', {
 
 Router.configure({
   layoutTemplate: 'main'
+});
+
+// TBD
+Meteor.call("getPoliceDonation", function(error, result) {
+  let {signed,declinedToSign,noResponse} = result;
 });

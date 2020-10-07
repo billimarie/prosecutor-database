@@ -1,31 +1,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>United States Prosecutor Database: an Open-Source and Independent Prosecutor Oversight App</title>
-  <meta property="og:title" content="U.S. Prosecutor Database is an Open-Source and Independent Prosecutor Oversight App">
-  <meta property="og:description" content="U.S. Prosecutor Database is a database of elected and appointed government lawyers in the United States (including Attorney Generals, U.S. Attorneys, District Attorneys, and Municipal/City Attorneys). It showcases prosecutor history at the local, state, and federal level.">
-  <meta property="og:image" content="https://raw.githubusercontent.com/billimarie/light-pollution/gh-pages/img/light-pollution_billimarie_prosecutors_usa.png">
+  <!--ESSENTIAL SEO TAGS-->
+  <title>U.S. Prosecutor Database: A Prosecutor Oversight App</title>
+  <meta name="description"
+    content="U.S. Prosecutor Database is a database of elected and appointed government lawyers in the United States. It showcases its history at all the three levels." />
+  <meta name="keywords"
+    content="US prosecutors database, U.S. prosecutors list, US attorneys office, federal prosecutor, US attorney's office, United States attorney, US district attorney, United States attorney general, United States attorneys office, assistant United States attorney, US attorney office, US attorneys, United States attorney's office, attorney USA, US attorney general, prosecutor">
+  <meta name="robots" content="index, follow">
+  <meta property="og:image"
+    content="https://raw.githubusercontent.com/billimarie/light-pollution/gh-pages/img/light-pollution_billimarie_prosecutors_usa.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta property="og:site_name" content="U.S. Prosecutor Database: an Open-Source and Independent Prosecutor Oversight App">
-  <meta name="twitter:image:alt" content="U.S. Prosecutor Database: an Open-Source and Independent Prosecutor Oversight App">
+  <meta property="og:site_name" content="U.S. Prosecutor Database: A Prosecutor Oversight App">
+  <meta name="twitter:image:alt" content="U.S. Prosecutor Database: A Prosecutor Oversight App">
+  <!--STYLESHEETS-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/spacelab/bootstrap.min.css" />
   <link rel="stylesheet" href="main.css" />
+  <!--FONTS-->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,800" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600i,700" rel="stylesheet">
+  <!--ICON PACK-->
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <!--GOOGLE ANALYTICS-->
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
     ga('create', 'UA-83031492-3', 'auto');
     ga('send', 'pageview');
   </script>
 </head>
 
 <body>
-
   <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -33,7 +43,6 @@
   <!--<script src="js/handlebars.js"></script>
   <script src="js/helpers.js"></script>
   <script src="js/prosecutorList.js"></script>-->
-
 </body>
 
 <template name="main">
