@@ -1,11 +1,10 @@
 // import { Template }  from 'meteor/templating';
-import { BlazeRenderer, FlowRouter } from 'meteor/ostrio:flow-router-extra';
+import { FlowRouter } from 'meteor/ostrio:flow-router-extra';
 import moment from 'moment';
 
 import { Attorneys } from '../../api/attorneys.js';
 
-// import '/client/main.html';
-// import '/client/templates/loading.html';
+import '/client/main.html';
 
 /**
  * HELPERS
