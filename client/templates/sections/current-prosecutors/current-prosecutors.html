@@ -1,36 +1,51 @@
 <template name="currentProsecutors">
 
   <div class="row my-5">
-    <div class="col-sm">
-      <div class="container mx-auto text-center">
-        <h3>Role</h3>
-          <div class="mx-auto text-left" style="width: fit-content;">
-            {{#each filter in roleFilters}}
-              <div class="checkbox">
-                <label>
-                  <input class="role-filter" name={{filter}} type="checkbox">
-                    {{filter}}
-                </label>
+      <div class="col-sm">
+          <div class="container mx-auto text-center">
+              <h3>Role</h3>
+              <div class="mx-auto text-left" style="width: fit-content;">
+                  {{#each filter in roleFilters}}
+                      <div class="checkbox">
+                          <label>
+                              <input class="role-filter" name={{filter}} type="checkbox">
+                              {{filter}}
+                          </label>
+                      </div>
+                  {{/each}}
               </div>
-          {{/each}}
-      </div>
-    </div>
-  </div>
-  <div class="col-sm">
-    <div class="container mx-auto text-center">
-      <h3>Race/Ethnicity</h3>
-      <div class="mx-auto text-left" style="width: fit-content;">
-        {{#each filter in raceFilters}}
-          <div class="checkbox">
-            <label>
-              <input class="race-filter" name={{filter}} type="checkbox">
-                {{filter}}
-            </label>
           </div>
-        {{/each}}
       </div>
+      <div class="col-sm">
+          <div class="container mx-auto text-center">
+              <h3>Race/Ethnicity</h3>
+              <div class="mx-auto text-left" style="width: fit-content;">
+                  {{#each filter in raceFilters}}
+                      <div class="checkbox">
+                          <label>
+                              <input class="race-filter" name={{filter}} type="checkbox">
+                              {{filter}}
+                          </label>
+                      </div>
+                  {{/each}}
+              </div>
+          </div>
+      </div>
+      <div class="col-sm">
+        <div class="container mx-auto text-center">
+            <h3>Party Affiliation</h3>
+            <div class="mx-auto text-left" style="width: fit-content;">
+                {{#each filter in partyFilters}}
+                    <div class="checkbox">
+                        <label>
+                            <input class="party-filter" name={{filter}} type="checkbox">
+                            {{filter}}
+                        </label>
+                    </div>
+                {{/each}}
+            </div>
+        </div>
     </div>
-  </div>
   <div class="col-sm">
     <div class="container mx-auto text-center">
       <h3>Age</h3>
