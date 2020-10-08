@@ -1,0 +1,2 @@
+npm install -g csvtojson
+csvtojson prosecutorDatabase.csv > prosecutorDatabase.json

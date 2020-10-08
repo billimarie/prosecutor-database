@@ -1,0 +1,27 @@
+name,role,state,county,party,ageRange,gender,race,appointed,headshot,websites__url,websites__wiki,websites__googleNews,websites__facebook,websites__twitter,office__address__poBox,office__address__courthouse,office__address__street,office__address__city,office__address__zipcode,office__address__phone,office__email,articles__title,articles__url,articles__summary,articles__featuredImage
+Larry Krasner,District Attorney,Pennsylvania,Philadelphia,"democrat
+republican
+other","18-25
+25-30
+30-40
+40-50
+50-60
+60-70
+70+","male
+female
+other","white
+black
+latino or hispanic
+east asian
+south asian
+native american
+multiracial",FALSE,http://www.phila.gov/districtattorney/PublishingImages/LKDA.jpg,http://www.phila.gov/districtattorney/pages/default.aspx,https://en.wikipedia.org/wiki/Larry_Krasner,,http://www.facebook.com/pages/Philadelphia-PA/City-of-Philadelphia/23587514958,https://twitter.com/philadao,,The Widener Building,3 South Penn Square,Philadelphia,19107,(215) 686-8000,justice@phila.gov,[Paste title of article here],[Link],[Brief summary of article goes here],[Grab URL for an image. Okay to leave blank if you're unsure.]
+Sim Gill,District Attorney,Utah,Salt Lake,democrat,50-60,male,indian,FALSE,https://utahdemocrats.org/wp-content/uploads/2015/10/sim-gill2.jpg,https://utahdemocrats.org/our-dems/sim-gill/,https://en.wikipedia.org/wiki/Sim_Gill,,https://www.facebook.com/sim.gill.963,https://twitter.com/SimGillDA,,35 East,500 South  ,Salt Lake City,84111,(385) 468-7700,districtAttorney@slco.org,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Instructions:,,,,,,,,,,,,,,,,,,,,,,,,,
+"1.) Using the USPD web app, choose a state & county (or counties) to search. Pick a locale that doesn't show up. Stick with District & State Attorneys.",,,,,,,,,,,,,,,,,,,,,,,,,
+2.) Download this template & upload it to your own Google Drive. Make sure it is private.,,,,,,,,,,,,,,,,,,,,,,,,,
+3.) Fill in as much information as you can find.,,,,,,,,,,,,,,,,,,,,,,,,,
+"4.) When finished, leave a comment on this GitHub issue (or send a maintainer an email; their contact information is on the README.md): https://github.com/billimarie/prosecutor-database/issues/80",,,,,,,,,,,,,,,,,,,,,,,,,
+"5.) Your data will be added to the database, & your GitHub profile will be added to the Contributors gallery (if you'd like).",,,,,,,,,,,,,,,,,,,,,,,,,
