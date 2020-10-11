@@ -50,23 +50,27 @@ cat ~/.ssh/id_rsa.pub
 
 1.) [Fork this repo](https://github.com/billimarie/prosecutor-database/fork)
 
-
 2.) Clone the forked repo to your local environment:
 ```
 git clone git@github.com:[your username]/prosecutor-database.git
 ```
 
-3.) Make sure your branch is up-to-date with everyone else's work:
+3.) Enter the repo:
+```
+cd prosecutor-database
+```
+
+4.) Make sure your branch is up-to-date with everyone else's work:
 ```
 git fetch origin hacktober2020
 ```
 
-4.) Create your branch:
+5.) Create your branch:
 ```
 git checkout hacktober2020
 ```
 
-5.) Install the npm packages. 
+6.) Install the npm packages. 
 ```
 npm install
 ```
@@ -77,7 +81,7 @@ npm install
 
 2.) Once you find a missing District Attorney (or missing Profile Information about a District Attorney), visit our Google Sheet: [US Prosecutor Database - Profile Template](https://docs.google.com/spreadsheets/d/1Itwl8_jQpuXPjRH70fffEUSHvInfqbRKXg0iPEx8iCE/edit?usp=sharing). You can *add it to your own Google Drive* or *download it directly to your computer* as a CSV file.
 
-3.) Time to Google! (Or Bing, or DuckDuckGo.) Use your favorite search engine to find information about District Attorneys in the state you chose. Start populating your [Basic Prosecutor Profile](https://docs.google.com/spreadsheets/d/1Itwl8_jQpuXPjRH70fffEUSHvInfqbRKXg0iPEx8iCE/edit?usp=sharing) sheet (aka, your CSV data) with whatever data you can verify.
+3.) Time to Google! (Or Bing, or DuckDuckGo.) Use your favorite search engine to find information about District Attorneys in the state you chose. Start populating your [Basic Prosecutor Profile](https://docs.google.com/spreadsheets/d/1Itwl8_jQpuXPjRH70fffEUSHvInfqbRKXg0iPEx8iCE/edit?usp=sharing) sheet (aka, your CSV data) with whatever data you can verify. **Help: you can help with the import by deleting any columns that you don't collect; for example, a lot of people leave the `articles` columns blank. Please delete any columns which you don't collect information for. Thanks in advance!**
 
 4.) Once you've finished populating your sheet, save/download the .CSV file to the repo folder. Then, install & run the `csvtojson` package (a CSV to JSON converter tool). This which will convert your [Basic Profile sheet](https://docs.google.com/spreadsheets/d/1Itwl8_jQpuXPjRH70fffEUSHvInfqbRKXg0iPEx8iCE/edit?usp=sharing) .CSV file into a code format called JSON.
 ```
@@ -87,14 +91,28 @@ csvtojson [your-file-name-here].csv > [your-file-name-here].json
 
 ### Instructions For Submitting Your Pull Request
 
-1-A.) Time to **add**, **commit**, & **submit** your pull request:
+1.) Time to **add**, **commit**, & **submit** your pull request:
 ```
 git add .
 git commit -m "[Your commit message goes here]"
 git push origin hacktober2020:master
 ```
-1-B.) Did you get an error when trying to submit your PR? Try Step 1 in **Instructions For Setting Up Git / GitHub in Terminal / Command Line**. You might be getting an error because your SSH key isn't connected to GitHub.
 
-2.) Go to your forked repository, and press "Pull Request". Select "hacktober2020" for the branch for your forked repo and the main repo. Press "Create Pull Request" and type a title and description for your PR.
+2.) Celebrate! 🎉 You'll receive a comment verifying I received your pull request. Once your PR has been merged, it'll be up on the [live web app](https://us-prosecutor-database.herokuapp.com/), & your GitHub profile will be added to the [Contributors](https://github.com/billimarie/prosecutor-database/blob/master/README.md#contributors) gallery.
 
-3.) Celebrate! 🎉 You'll receive a comment verifying I received your pull request. Once your PR has been merged, it'll be up on the [live web app](https://us-prosecutor-database.herokuapp.com/), & your GitHub profile will be added to the [Contributors](https://github.com/billimarie/prosecutor-database/blob/master/README.md#contributors) gallery.
+## Troubleshooting
+
+### Errors while trying to submit a pull request
+
+1.) **Have you connected your SSH key to GitHub?** If not, go to "Step 1" in *Instructions For Setting Up Git / GitHub in Terminal / Command Line* (above). You might be getting an error because your SSH key isn't connected to GitHub.
+
+2.) **Are you getting a `failed to push` error?** It looks like this:
+
+```
+To github.com:[your-username-here]/prosecutor-database.git
+ ! [rejected]        hacktober2020 -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:[your-username-here]/prosecutor-database.git'
+hint: Updates were rejected because a pushed branch tip is behind its remote
+```
+
+If you see this in your terminal / command line, try `git push`. After pushing, go to your forked repository on GitHub.com & press "Pull Request." Select `hacktober2020` for the branch for your forked repo and the main repo. Press "Create Pull Request" and type a title and description for your PR.
