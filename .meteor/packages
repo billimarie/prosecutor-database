@@ -27,3 +27,4 @@ underscore@1.0.10
 jquery
 http
 reactive-dict
+meteortesting:mocha
