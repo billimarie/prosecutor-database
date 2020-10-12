@@ -465,15 +465,17 @@ section.articles {
 /* Mocha Tests Styling (atmospherejs.com/meteortesting/mocha) */
 div#mocha {
   background: white;
-  border-right: 2px solid black;
-  height: 100%;
+  border-bottom: 2px solid black;
+  width: 100%;
   left: 0;
   margin: 0;
   overflow: auto;
   padding: 1rem;
   position: fixed;
-  resize: horizontal;
   top: 0;
-  width: 20px;
   z-index: 1000;
+}
+
+ul#mocha-stats {
+  position: relative;
 }
