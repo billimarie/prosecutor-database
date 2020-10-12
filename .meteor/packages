@@ -29,3 +29,4 @@ http
 reactive-dict
 meteortesting:mocha
 xolvio:cleaner
+dburles:factory
