@@ -466,12 +466,13 @@ section.articles {
 div#mocha {
   background: white;
   border-bottom: 2px solid black;
-  width: 100%;
+  /* height: 100%; */
   left: 0;
   margin: 0;
   overflow: auto;
   padding: 1rem;
-  position: fixed;
+  /* position: fixed; */
+  resize: vertical;
   top: 0;
   z-index: 1000;
 }
