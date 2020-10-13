@@ -1,0 +1,507 @@
+/*===================
+  Bootstrap Overrides
+===================*/
+
+/* Typography */
+
+body {
+	font-family: "Open Sans", "Verdana", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Montserrat", "Helvetica", sans-serif;
+}
+
+h1,
+h2 {
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+.navbar-brand {
+	font-weight: 900;
+	font-size: 1em;
+}
+/* Navigation Items */
+.nav-link {
+	font-size: 1em;
+}
+
+/* Hero */
+.jumbotron {
+	text-align: center;
+}
+
+/* Row Gutters */
+
+@media screen and (max-width: 767px) {
+	.jumbotron {
+		padding-top: 65px;
+		padding-bottom: 25px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.jumbotron {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+}
+
+.row.margin-btm-med {
+	margin-bottom: 25px;
+}
+
+.row.margin-btm-lg {
+	margin-bottom: 50px;
+}
+
+/* Home Hero */
+.home-hero .jumbotron {
+	margin-bottom: 0;
+}
+
+/* ? */
+.find-prosecutor.jumbotron {
+	background-color: transparent;
+}
+
+/* Navbar Links */
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+	color: rgb(184, 32, 31) !important;
+	transition: color 300ms linear;
+}
+
+/* Button Group + Tabs */
+
+.view-attorneys .nav-pills {
+	border-bottom: 0;
+	display: inline-flex;
+}
+
+.view-attorneys .nav-pills > li.active > a > button,
+.view-attorneys .nav-pills > li.active > a:focus > button,
+.view-attorneys .nav-pills > li.active > a:hover > button {
+	background-image: -webkit-linear-gradient(top, #337ab7 0, #265a88 100%);
+	background-image: -o-linear-gradient(top, #337ab7 0, #265a88 100%);
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		from(#337ab7),
+		to(#265a88)
+	);
+	background-image: linear-gradient(to bottom, #337ab7 0, #265a88 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff265a88', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	background-repeat: repeat-x;
+	border-color: #245580;
+	color: #fff !important;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15),
+		0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15),
+		0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.view-attorneys .nav-pills > li.active > a,
+.view-attorneys .nav-pills > li.active > a:focus {
+	border: 1px solid #adadad;
+	background-position: 0 15px;
+	padding: 0;
+	outline: none;
+}
+
+.view-attorneys .nav-pills > li > a > button {
+	text-shadow: 0 1px 0 #fff;
+	background-image: -webkit-linear-gradient(top, #fff 0, #e0e0e0 100%);
+	background-image: -o-linear-gradient(top, #fff 0, #e0e0e0 100%);
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		from(#fff),
+		to(#e0e0e0)
+	);
+	background-image: linear-gradient(to bottom, #fff 0, #e0e0e0 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe0e0e0', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	background-repeat: repeat-x;
+	border-color: #dbdbdb;
+	border-color: #ccc;
+}
+
+.view-attorneys .nav-pills > li > a {
+	padding: 0;
+}
+
+.view-attorneys .nav-pills > li > a:hover {
+	border: 1px solid transparent;
+	padding: 0;
+	outline: none;
+}
+
+.view-attorneys .nav-pills > li > a > button:hover {
+	background-color: #e0e0e0;
+	background-position: 0 -15px;
+}
+
+.view-attorneys .nav-pills > li.active > a > button:hover {
+	background: #265a88;
+}
+
+/* Prosecutor List */
+
+#prosecutor-list h2 {
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+#prosecutor-list ul {
+	padding: 0;
+	margin: 0 auto;
+}
+
+#prosecutor-list ul:not([role="tablist"]) {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#prosecutor-list li {
+	list-style: none;
+	padding: 0;
+}
+
+#prosecutor-list ul:not([role="tablist"]) li {
+	margin-bottom: 1em;
+	display: flex;
+	flex-direction: row;
+}
+
+#prosecutor-list a {
+	display: inline-block;
+	border-radius: 8px;
+	width: 100%;
+	background-color: #eee;
+	border: 3px solid #fff;
+	color: #333;
+	text-decoration: none;
+}
+
+#prosecutor-list ul:not([role="tablist"]) a {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	margin-right: 0.5em;
+}
+
+#prosecutor-list a:hover {
+	background-color: #ddd;
+	color: #111;
+}
+
+#prosecutor-list p a {
+	background-color: transparent;
+	border: none;
+	color: #337ab7;
+}
+
+#prosecutor-list p a:hover {
+	background-color: transparent;
+}
+
+@media screen and (max-width: 991px) {
+	.navbar {
+		z-index: 100;
+	}
+	/* CSS Ribbon */
+	#ribbon {
+		width: 100%;
+		height: 50px;
+		background: rgb(199, 59, 60);
+		top: 0;
+		margin: 0;
+		overflow: hidden;
+		position: fixed;
+		z-index: 99;
+		display: block;
+		border-bottom-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+	}
+
+	#ribbon .base p {
+		color: #fff;
+		text-align: center;
+		font-weight: 900;
+		padding-top: 1px;
+		padding-left: 6px;
+		font-size: 25px;
+		text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+	}
+
+	#ribbon .container a {
+		height: 100%;
+		width: 100%;
+		position: absolute;
+	}
+
+	#ribbon .container {
+		top: 0px !important;
+		-webkit-filter: none !important;
+		filter: none !important;
+	}
+	.view-attorneys ul.nav-pills li,
+	.view-attorneys ul.nav-pills li.active {
+		display: block;
+		width: 100%;
+	}
+	.view-attorneys ul.nav-pills li a button,
+	.view-attorneys ul.nav-pills li.active a button,
+	.view-attorneys ul.nav-pills li a,
+	.view-attorneys ul.nav-pills li.active a {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	#ribbon {
+		width: 110px;
+		height: 100px;
+		margin: 0 auto;
+		position: fixed;
+		right: 65px;
+		overflow: hidden;
+		z-index: 99999;
+		top: 0;
+	}
+
+	#ribbon .base p {
+		color: #fff;
+		text-align: center;
+		font-weight: 900;
+		padding-top: 1px;
+		padding-left: 6px;
+		font-size: 25px;
+		text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+	}
+
+	#ribbon .container {
+		position: relative;
+		top: -40px;
+		width: 100px;
+		height: 95px;
+		overflow: hidden;
+		margin: 0 auto;
+		padding: 0;
+		-webkit-filter: grayscale(100%);
+		/* Safari 6.0 - 9.0 */
+		filter: grayscale(100%);
+	}
+
+	#ribbon .container:hover {
+		top: 0px;
+		-webkit-filter: none;
+		filter: none;
+		cursor: pointer;
+		transition: all 300ms linear;
+	}
+
+	#ribbon .container a {
+		height: 100%;
+		position: absolute;
+		width: 100%;
+		z-index: 3;
+	}
+
+	#ribbon .base {
+		height: 40px;
+		width: 100px;
+		background: rgb(199, 59, 60);
+		background: -moz-linear-gradient(
+			top,
+			rgba(199, 59, 60, 1) 0%,
+			rgba(184, 32, 31, 1) 100%
+		);
+		background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			color-stop(0%, rgba(199, 59, 60, 1)),
+			color-stop(100%, rgba(184, 32, 31, 1))
+		);
+		background: -webkit-linear-gradient(
+			top,
+			rgba(199, 59, 60, 1) 0%,
+			rgba(184, 32, 31, 1) 100%
+		);
+		background: -o-linear-gradient(
+			top,
+			rgba(199, 59, 60, 1) 0%,
+			rgba(184, 32, 31, 1) 100%
+		);
+		background: -ms-linear-gradient(
+			top,
+			rgba(199, 59, 60, 1) 0%,
+			rgba(184, 32, 31, 1) 100%
+		);
+		background: linear-gradient(
+			top,
+			rgba(199, 59, 60, 1) 0%,
+			rgba(184, 32, 31, 1) 100%
+		);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c73b3c', endColorstr='#b8201f', GradientType=0);
+		position: relative;
+		z-index: 2;
+		border-left: 1px solid #631a15;
+		border-right: 1px solid #631a15;
+	}
+
+	#ribbon .base:after {
+		content: "";
+		position: absolute;
+		top: 0;
+		width: 86px;
+		left: 6px;
+		height: 36px;
+		border-left: 1px dashed #631a15;
+		border-right: 1px dashed #631a15;
+	}
+
+	#ribbon .base:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		width: 86px;
+		left: 7px;
+		height: 36px;
+		border-left: 1px dashed #da5050;
+		border-right: 1px dashed #da5050;
+	}
+
+	#ribbon .point {
+		width: 100px;
+		height: 100px;
+		background: #b8201f;
+		position: absolute;
+		top: -30px;
+		left: 0;
+		z-index: 1;
+		-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		transform: rotate(45deg);
+		border: 1px solid #631a15;
+	}
+
+	#ribbon .point:after {
+		content: "";
+		position: absolute;
+		top: 6px;
+		width: 86px;
+		left: 7px;
+		height: 87px;
+		border: 1px dashed #631a15;
+		/*border-right: 1px dashed #631a15;*/
+	}
+
+	#ribbon .point:before {
+		content: "";
+		position: absolute;
+		top: 6px;
+		width: 86px;
+		left: 8px;
+		height: 88px;
+		border: 1px dashed #da5050;
+		/*border-right: 1px dashed #da5050;*/
+	}
+}
+
+/* Social Media */
+ul.icons {
+	display: block;
+	list-style: none;
+	margin: 20px auto 0;
+	padding-left: 0;
+	text-align: center;
+}
+ul.icons li {
+	list-style-type: none;
+	display: inline-block;
+}
+ul.icons li + li {
+	padding: 0 10px;
+}
+ul.icons li a {
+	font-size: 50px;
+	color: #b8201f;
+}
+
+/* Case List */
+ul.case-list {
+	list-style: none;
+	padding-left: 0;
+}
+ul.case-list {
+	list-style-type: none;
+}
+
+/* Basic Page */
+.container.basic-page {
+	margin-top: 50px;
+}
+
+/* Thumbnail */
+div.thumbnail {
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 275px;
+	background-position: 50% 0%;
+}
+@media (min-width: 768px) {
+	div.thumbnail {
+		background-position: 50% 50%;
+	}
+}
+/* Article View */
+section.articles ul {
+	list-style: none;
+	padding: 0;
+}
+section.articles ul li {
+	list-style-type: none;
+}
+section.articles ul li h3 {
+	font-weight: 600;
+}
+
+.article-card {
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+	padding: 10px;
+	margin: 10px;
+}
+
+.article-card > img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.article-card > p {
+	text-overflow: ellipsis;
+}
+
+/* Attorney Card */
+.single-attorney .card-header {
+	height: 95px;
+}
+
+.single-attorney .card-footer {
+	height: 75px;
+}
