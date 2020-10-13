@@ -31,6 +31,6 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "faker": "^5.1.0"
+    "faker": "^4.1.0"
   }
 }
