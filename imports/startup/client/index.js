@@ -33,6 +33,13 @@ Template.attorneyView.helpers({
   }
 });
 
+//home-hero number counter
+Template.homeHero.helpers({
+  number(){
+    return Attorneys.find().fetch().length;
+  }
+})
+
 /**
  * ROUTES
  */
