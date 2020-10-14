@@ -15,6 +15,10 @@
   "author": "Billimarie Lubiano Robinson <work@billimarie.com>",
   "license": "GNU GPLv3",
   "scripts": {
+    "test": "meteor test --driver-package meteortesting:mocha --once",
+    "test-watch": "meteor test --driver-package meteortesting:mocha",
+    "test-app": "meteor test --driver-package meteortesting:mocha --once --full-app",
+    "test-app-watch": "meteor test --driver-package meteortesting:mocha --full-app",
     "start": "meteor run"
   },
   "dependencies": {
@@ -24,5 +28,9 @@
     "meteor-node-stubs": "~1.0.1",
     "moment": "^2.29.0",
     "simpl-schema": "^1.5.6"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "faker": "^4.1.0"
   }
 }
