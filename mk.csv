@@ -1,0 +1,5 @@
+name,role,state,county,party,ageRange,gender,race,appointed,headshot,websites__url,websites__wiki,websites__googleNews,websites__facebook,websites__twitter,office__address__poBox,office__address__courthouse,office__address__street,office__address__city,office__address__zipcode,office__address__phone,office__email,articles__title,articles__url,articles__summary,articles__featuredImage,relevantCases,openData,previous,salary
+John T. Chisholm,District Attorney,Wisconsin,Milwaukee,Democrat,50-60,Male,,"if true: January 1, 2007
+if false: [null]",https://twitter.com/DAJohnChisholm/photo,https://county.milwaukee.gov/EN/District-Attorney,https://en.wikipedia.org/wiki/John_T._Chisholm,,,,,Milwaukee County DA's Office,"821 W. State St., Suite 405",Milwaukee,53233,(414) 278-4646,milwaukee.da@da.wi.gov,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
