@@ -9,6 +9,7 @@ Template.currentProsecutors.onCreated(function () {
   this.state.setDefault({
     selectedRoleFilters: [],
     selectedRaceFilters: [],
+    selectedPartyFilters: [],
     selectedAgeFilters: []
   });
 });
@@ -32,6 +33,13 @@ Template.currentProsecutors.helpers({
       'White'
     ]
   },
+  partyFilters() {
+    return [
+      'Democrat',
+      'Republican',
+      'Other'
+    ]
+  },
   ageFilters() {
     return [
       '18-25',
@@ -44,25 +52,30 @@ Template.currentProsecutors.helpers({
     ]
   },
   attorneys() {
-    const selectedRoleFilters = Template.instance().state.get("selectedRoleFilters")
-    const selectedRaceFilters = Template.instance().state.get("selectedRaceFilters")
-    const selectedAgeFilters = Template.instance().state.get("selectedAgeFilters")
+      const selectedRoleFilters = Template.instance().state.get("selectedRoleFilters")
+      const selectedRaceFilters = Template.instance().state.get("selectedRaceFilters")
+      const selectedPartyFilters = Template.instance().state.get("selectedPartyFilters")
+      const selectedAgeFilters = Template.instance().state.get("selectedAgeFilters")
 
-    if (selectedRoleFilters.length > 0 && selectedRaceFilters.length > 0 && selectedAgeFilters.length > 0 ) {
-      return Attorneys.find({
-        "role": {$in: selectedRoleFilters},
-        "race": {$in: selectedRaceFilters},
-        "ageRange": {$in: selectedAgeFilters}
-      }).fetch()
-    } else if (selectedRoleFilters.length > 0 && selectedRaceFilters.length === 0 && selectedAgeFilters.length === 0) {
-      return Attorneys.find({"role": {$in: selectedRoleFilters}}).fetch()
-    } else if (selectedRoleFilters.length === 0 && selectedRaceFilters.length > 0 && selectedAgeFilters.length === 0) {
-      return Attorneys.find({"race": {$in: selectedRaceFilters}}).fetch()
-    } else if (selectedRoleFilters.length === 0 && selectedRaceFilters.length === 0 && selectedAgeFilters.length > 0) {
-      return Attorneys.find({"ageRange": {$in: selectedAgeFilters}}).fetch()
-    } else {
-      return Attorneys.find().fetch()
-    }
+      let filter = {}
+
+      if (selectedRoleFilters.length) {
+        filter.role = {$in: selectedRoleFilters}
+      }
+
+      if (selectedRaceFilters.length) {
+        filter.race = {$in: selectedRaceFilters}
+      }
+
+      if (selectedPartyFilters.length) {
+        filter.party = {$in: selectedPartyFilters}
+      }
+
+      if (selectedAgeFilters.length) {
+        filter.ageRange = {$in: selectedAgeFilters}
+      }
+
+      return Attorneys.find(filter).fetch()
   },
 });
 
@@ -83,6 +96,14 @@ Template.currentProsecutors.events({
         : [...selectedRaceFilters, filter]
     instance.state.set("selectedRaceFilters", newSelectedRaceFilters)
   },
+  "change .party-filter"(event, instance) {
+    const filter = event.currentTarget.name
+    const selectedPartyFilters = instance.state.get("selectedPartyFilters")
+    const newSelectedPartyFilters = selectedPartyFilters.includes(filter)
+        ? selectedPartyFilters.filter((value) => value !== filter)
+        : [...selectedPartyFilters, filter]
+    instance.state.set("selectedPartyFilters", newSelectedPartyFilters)
+  },
   "change .age-filter"(event, instance) {
     const filter = event.currentTarget.name
     const selectedAgeFilters = instance.state.get("selectedAgeFilters")
@@ -90,9 +111,5 @@ Template.currentProsecutors.events({
         ? selectedAgeFilters.filter((value) => value !== filter)
         : [...selectedAgeFilters, filter]
     instance.state.set("selectedAgeFilters", newSelectedAgeFilters)
-    //
-    // event.preventDefault()
-    // let value = event.target.value;
-    // console.log(value, "id");
-  },
+  }
 })
