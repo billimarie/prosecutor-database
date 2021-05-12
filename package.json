@@ -23,6 +23,6 @@
     "cheerio": "^1.0.0-rc.3",
     "meteor-node-stubs": "~1.0.1",
     "moment": "^2.29.0",
-    "simpl-schema": "^1.5.6"
+    "simpl-schema": "^1.10.2"
   }
 }
