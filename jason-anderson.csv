@@ -1,0 +1,12 @@
+name,role,state,county,party,ageRange,gender,race,appointed,headshot,websites__url,websites__facebook,websites__twitter,office__address__street,office__address__city,office__address__zipcode,office__address__phone,office__email,articles__title
+Jason Anderson,District Attorney,California,San Bernardino,Other,50-60,Male,White,"if true: 06/05/2018
+if false: [null]",https://sbcountyda.org/wp-content/uploads/sites/42/2021/12/Jason-Anderson-Headshot-2.jpg,https://sbcountyda.org/jason-anderson/,https://www.facebook.com/sbcountyda,https://twitter.com/sbcountyda,303 West 3rd Street,San Bernardino,92415,(909) 382-3800,da@sbcda.org,[Paste title of article here]
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+Instructions:,,,,,,,,,,,,,,,,,,
+"1.) Using the USPD web app, choose a state & county (or counties) to search. Pick a locale that doesn't show up. Stick with District & State Attorneys.",,,,,,,,,,,,,,,,,,
+2.) Download this template & upload it to your own Google Drive. Make sure it is private.,,,,,,,,,,,,,,,,,,
+"3.) Fill in as much information as you can find. If you can't find anything, it's okay if you leave columns blank!",,,,,,,,,,,,,,,,,,
+"4.) When finished, delete all the empty rows along with these instructions: select rows, right-click, ""Delete Rows."" Export as a .csv file & save to your forked repository: File > Download > Comma-separated values (.csv)",,,,,,,,,,,,,,,,,,
+"5.) Follow the rest of the Hacktober2020 instructions to submit your pull request. Your data will be added to the database, & your GitHub profile will be added to the Contributors gallery (if you'd like).",,,,,,,,,,,,,,,,,,
