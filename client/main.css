@@ -24,8 +24,15 @@ h1, h2 {
 /* Navigation Items */
 .nav-link {
   font-size: 1em;
+  color: #000; /* Default text color */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition effect */
 }
 
+/* Hover effect for navigation links */
+.nav-link:hover {
+  background-color: #f8f9fa; /* Light background on hover */
+  color: #007bff; /* Change text color on hover */
+}
 /* Hero */
 .jumbotron {
   text-align: center;
