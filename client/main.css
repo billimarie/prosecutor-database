@@ -461,3 +461,21 @@ section.articles {
 .single-attorney .card-footer {
   height: 75px;
 }
+.icons a:hover {
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.case-list li a:hover {
+  text-decoration: underline;
+}
+
+.jumbotron {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.list-inline-item {
+  margin-right: 10px;
+}

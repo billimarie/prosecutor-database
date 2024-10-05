@@ -1,0 +1,34 @@
+<template name="relevantCasesView">
+    <section class="relevant-cases row my-5">
+      <div class="col-12 text-center">
+        <h2 class="mb-4">Relevant Cases</h2>
+      </div>
+      {{#each relevantCases}}
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="card">
+            
+            {{#if caseImage}}
+              <img src="{{caseImage}}" class="card-img-top img-fluid" alt="{{title}}">
+            {{else}}
+              <img src="/images/default-case.jpg" class="card-img-top img-fluid" alt="Default Case Image">
+            {{/if}}
+  
+            <div class="card-body">
+              <!-- Case Title with link if URL exists -->
+              {{#if url}}
+                <h3 class="card-title">
+                  <a href="{{url}}" target="_blank" class="text-primary">{{title}}</a>
+                </h3>
+              {{else}}
+                <h3 class="card-title font-weight-bold">{{title}}</h3>
+              {{/if}}
+  
+              <!-- Case Summary -->
+              <p class="card-text">{{summary}}</p>
+            </div>
+          </div>
+        </div>
+      {{/each}}
+    </section>
+  </template>
+  
