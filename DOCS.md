@@ -78,7 +78,7 @@ Here's a link to our Hacktoberfest 2020 goal: **[Add 100 District Attorneys](htt
 To run the app locally on your machine:
 
 1. install `node` & `npm` ([see official docs](https://www.npmjs.com/get-npm))
-2. install `meteor` via terminal: `curl https://install.meteor.com/ | sh ` ([see official docs](https://www.meteor.com/install))
+2. install `meteor` via terminal: `npm install -g meteor` ([see official docs]([https://www.meteor.com/install](https://v2-docs.meteor.com/install.html#installation)))
 3. `npm install`
 4. `meteor run` & open `http://localhost:3000/` in your browser
 
