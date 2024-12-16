@@ -8,6 +8,68 @@ The U.S. Prosecutor Database is looking for its next maintainer. If you have a v
 
 ---
 
+## Setting Up
+
+To run the app locally on your machine:
+
+1. install `node` & `npm` ([see official docs](https://www.npmjs.com/get-npm))
+2. install `meteor` via terminal: `npm install -g meteor` ([see official docs]([https://www.meteor.com/install](https://v2-docs.meteor.com/install.html#installation)))
+3. `npm install`
+4. `meteor run` & open `http://localhost:3000/` in your browser
+
+### Adding Data to your local environment
+
+To play around with data:
+
+1. in a new (simultaneous) terminal tab: `meteor mongo`
+2. verify that the `show collections` command produces the `Attorneys` collection
+3. insert a new document using the `api` folder .js files as a base. Make sure it contains the `name`, `state`, & `role`--otherwise it won't work. Example: `db.Attorneys.insertOne({"id": "ag-01","state": "Alabama","name": "Steve Marshall","role": "Attorney General"})`
+4. check on the app in your browser; it should automatically refresh
+
+### JSON Structure
+
+```
+"name": "Rachael Rollins",
+"role": "District Attorney",
+"state": "Massachusetts",
+"county": "Suffolk",
+"party": "democrat",
+"ageRange": "40-50",
+"gender": "female",
+"race": "black",
+"appointed": "1601640275", // Unix Time Stamp: https://www.unixtimestamp.com/index.php
+"headshot": "https://images.squarespace-cdn.com/content/v1/5c671e8e2727be4ad82ff1e9...",
+"websites": {
+  "url": "https://www.suffolkdistrictattorney.com/about-the-office/meet-district...",
+  "wiki": "https://en.wikipedia.org/wiki/Rachael_Rollins",
+  "facebook": "https://www.facebook.com/Rollins4DA",
+  "twitter": "https://twitter.com/DARollins",
+ },
+"office": {
+  "address": {
+    "poBox": "",
+    "courthouse": "Suffolk County District Attorney",
+    "street": "1 Bulfinch Place",
+    "city": "Boston",
+    "zipcode": "02114",
+    "phone": "(617) 619-4000"
+  },
+  "email": ""
+},
+"articles": [
+  0: {
+    "title": "Suffolk DA Rachael Rollins releases list of police officers with ‘ques...",
+    "url": "https://www.boston.com/news/local-news/2020/09/26/rachael-rollins-rele...",
+    "summary": "Suffolk County District Attorney Rachael Rollins Friday night released...",
+    "featuredImage": "https://www.boston.com/wp-content/uploads/2020/06/CV3ZAWH2OJHFRFOWGSND..."
+  }
+ ]
+```
+
+Production: https://us-prosecutor-database.herokuapp.com/
+
+---
+
 ## Important Links
 - **[View the live web app](https://billimarie.github.io/prosecutor-database/)**
 - **[View the Hacktoberfest issue](https://github.com/billimarie/prosecutor-database/issues/80)**
