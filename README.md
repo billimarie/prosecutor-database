@@ -1,5 +1,5 @@
 # U.S. Prosecutor Database
-> Last Updated: December 14th, 2024
+> Last Updated: August 14th, 2025
 
 [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
@@ -26,47 +26,154 @@ To play around with data:
 3. insert a new document using the `api` folder .js files as a base. Make sure it contains the `name`, `state`, & `role`--otherwise it won't work. Example: `db.Attorneys.insertOne({"id": "ag-01","state": "Alabama","name": "Steve Marshall","role": "Attorney General"})`
 4. check on the app in your browser; it should automatically refresh
 
-### JSON Structure
+### JSON Schema
+I've asked ChatGPT to enhance our old JSON schema:
 
 ```
-"name": "Rachael Rollins",
-"role": "District Attorney",
-"state": "Massachusetts",
-"county": "Suffolk",
-"party": "democrat",
-"ageRange": "40-50",
-"gender": "female",
-"race": "black",
-"appointed": "1601640275", // Unix Time Stamp: https://www.unixtimestamp.com/index.php
-"headshot": "https://images.squarespace-cdn.com/content/v1/5c671e8e2727be4ad82ff1e9...",
-"websites": {
-  "url": "https://www.suffolkdistrictattorney.com/about-the-office/meet-district...",
-  "wiki": "https://en.wikipedia.org/wiki/Rachael_Rollins",
-  "facebook": "https://www.facebook.com/Rollins4DA",
-  "twitter": "https://twitter.com/DARollins",
- },
-"office": {
-  "address": {
-    "poBox": "",
-    "courthouse": "Suffolk County District Attorney",
-    "street": "1 Bulfinch Place",
-    "city": "Boston",
-    "zipcode": "02114",
-    "phone": "(617) 619-4000"
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "US Prosecutor Database Schema",
+  "description": "Enhanced schema for storing prosecutor profiles, policies, metrics, campaign statements, provenance, and privacy info for the US Prosecutor Database.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]{2}-[a-z0-9\\-]+-[0-9]{4}$",
+      "description": "Unique ID: state (2-letter), jurisdiction slug, year (e.g., ca-los-angeles-2025)"
+    },
+    "prosecutor": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "role": { "type": "string", "enum": ["District Attorney", "Assistant District Attorney", "State Attorney General", "Deputy AG", "US Attorney"] },
+        "jurisdiction": {
+          "type": "object",
+          "properties": {
+            "state": { "type": "string", "minLength": 2, "maxLength": 2 },
+            "county": { "type": "string" },
+            "city": { "type": "string" }
+          },
+          "required": ["state"]
+        },
+        "party_affiliation": { "type": "string", "enum": ["Democrat", "Republican", "Independent", "Nonpartisan", "Other", "Unknown"] },
+        "demographics": {
+          "type": "object",
+          "properties": {
+            "gender": { "type": "string", "enum": ["Male", "Female", "Nonbinary", "Other", "Unknown"] },
+            "race_ethnicity": { "type": "string" },
+            "dob": { "type": "string", "format": "date" }
+          }
+        },
+        "contact": {
+          "type": "object",
+          "properties": {
+            "phone": { "type": "string" },
+            "email": { "type": "string", "format": "email" },
+            "website": { "type": "string", "format": "uri" },
+            "mailing_address": { "type": "string" }
+          }
+        },
+        "term_start": { "type": "string", "format": "date" },
+        "term_end": { "type": "string", "format": "date" },
+        "photo_url": { "type": "string", "format": "uri" }
+      },
+      "required": ["name", "role", "jurisdiction"]
+    },
+    "policies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "topic": { "type": "string", "description": "Policy category (e.g., 'discovery', 'bail', 'diversion')" },
+          "description": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "effective_date": { "type": "string", "format": "date" },
+          "last_updated": { "type": "string", "format": "date" }
+        },
+        "required": ["topic", "url"]
+      }
+    },
+    "metrics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "description": "Metric identifier (e.g., 'diversion_rate', 'discovery_timeliness')" },
+          "name": { "type": "string" },
+          "value": { "type": "number" },
+          "unit": { "type": "string", "description": "Unit of measurement (%, days, ratio, etc.)" },
+          "period": { "type": "string", "description": "Reporting period (e.g., 2025Q2, 2024-01)" },
+          "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "url": { "type": "string", "format": "uri" },
+                "quote": { "type": "string" },
+                "quote_hash": { "type": "string" }
+              }
+            }
+          },
+          "caveats": { "type": "array", "items": { "type": "string" } }
+        },
+        "required": ["id", "value", "period"]
+      }
+    },
+    "campaign_statements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": { "type": "string", "format": "date" },
+          "url": { "type": "string", "format": "uri" },
+          "statement": { "type": "string" },
+          "themes": { "type": "array", "items": { "type": "string" }, "description": "Tags for major policy stances (e.g., 'increase_incarceration', 'expand_diversion')" }
+        },
+        "required": ["date", "statement"]
+      }
+    },
+    "provenance": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "field": { "type": "string", "description": "Field path in dot notation" },
+          "source_url": { "type": "string", "format": "uri" },
+          "retrieved_at": { "type": "string", "format": "date-time" },
+          "text_span_hash": { "type": "string" },
+          "model_confidence": { "type": "number", "minimum": 0, "maximum": 1 }
+        },
+        "required": ["field", "source_url", "retrieved_at"]
+      }
+    },
+    "privacy": {
+      "type": "object",
+      "properties": {
+        "pii_redaction": { "type": "boolean" },
+        "dp_noise_epsilon": { "type": "number", "description": "Differential privacy parameter if noise is added" }
+      }
+    },
+    "last_updated": { "type": "string", "format": "date-time" }
   },
-  "email": ""
-},
-"articles": [
-  0: {
-    "title": "Suffolk DA Rachael Rollins releases list of police officers with ‘ques...",
-    "url": "https://www.boston.com/news/local-news/2020/09/26/rachael-rollins-rele...",
-    "summary": "Suffolk County District Attorney Rachael Rollins Friday night released...",
-    "featuredImage": "https://www.boston.com/wp-content/uploads/2020/06/CV3ZAWH2OJHFRFOWGSND..."
-  }
- ]
-```
+  "required": ["id", "prosecutor", "last_updated"]
+}
 
-Production: https://us-prosecutor-database.herokuapp.com/
+```
+You'll notice the following has been added:
+
+- metrics[] for justice-forward measures with evidence and confidence levels.
+- policies[] to store topic-tagged policy statements with effective dates.
+- campaign_statements[] to track rhetoric vs. practice.
+- provenance[] to record exactly where and when each data point came from (critical for AI-assisted ingestion).
+- privacy controls to indicate whether PII was redacted or differential privacy applied.
+- Stronger validation patterns for IDs, enums, and date formats to avoid messy data.
+
+---
+
+## Production
+
+TBD
 
 ---
 
