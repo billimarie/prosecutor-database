@@ -21,6 +21,10 @@ Modernized stack for accountability-focused prosecutor data:
    - `npm run dev`
 4. Build production bundle:
    - `npm run build`
+5. Scrape:
+  - `node ./scripts/pilot-scraping/[state-abbreviation-here]-scraper.mjs`
+6. Push local CSV up to Firestore (requires Firestore Rules adjustment):
+   - `node ./scripts/seedFirestoreFromCsv.mjs --csv ./public/data/[csv-filename-here].csv`
 
 ## Netlify Deployment
 

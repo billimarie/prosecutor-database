@@ -26,8 +26,13 @@
     "normalize:legacy-csv": "node scripts/normalizeLegacyCsv.mjs"
   },
   "dependencies": {
+    "cheerio": "^1.2.0",
+    "csv-parse": "^6.2.1",
+    "csv-stringify": "^6.7.0",
     "dotenv": "^17.3.1",
     "firebase": "^11.7.3",
+    "node-fetch": "^3.3.2",
+    "node-html-parser": "^7.1.0",
     "papaparse": "^5.5.3",
     "vue": "^3.5.13",
     "vue-router": "^4.6.4"
