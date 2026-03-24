@@ -3,6 +3,7 @@ import Papa from "papaparse";
 const CSV_URLS = [
   "/data/normalized/prosecutors.normalized.csv",
   "/data/normalized/us-attorneys.normalized.csv",
+  "/data/normalized/legacy-prosecutors.normalized.csv",
 ];
 
 let _cache = null;
