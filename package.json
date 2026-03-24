@@ -26,6 +26,7 @@
     "normalize:legacy-csv": "node scripts/normalizeLegacyCsv.mjs"
   },
   "dependencies": {
+    "dotenv": "^17.3.1",
     "firebase": "^11.7.3",
     "papaparse": "^5.5.3",
     "vue": "^3.5.13",
