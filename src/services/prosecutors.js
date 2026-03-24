@@ -1,22 +1,29 @@
-import { collection, getDocs, orderBy, query } from "firebase/firestore";
-import { db } from "../firebase";
-import { fallbackProsecutors } from "../data/fallbackProsecutors";
+import Papa from "papaparse";
+
+const CSV_URL = "/data/normalized/prosecutors.normalized.csv";
+
+let _cache = null;
+
+async function loadAll() {
+  if (_cache) return _cache;
+
+  const response = await fetch(CSV_URL);
+  const text = await response.text();
+
+  const { data } = Papa.parse(text, {
+    header: true,
+    skipEmptyLines: true,
+  });
+
+  _cache = data;
+  return _cache;
+}
 
 export async function fetchProsecutors() {
-  try {
-    const q = query(collection(db, "prosecutors"), orderBy("name"));
-    const snapshot = await getDocs(q);
+  return loadAll();
+}
 
-    if (snapshot.empty) {
-      return fallbackProsecutors;
-    }
-
-    return snapshot.docs.map((doc) => ({
-      id: doc.id,
-      ...doc.data(),
-    }));
-  } catch (error) {
-    console.error("Unable to load Firestore prosecutors, using fallback.", error);
-    return fallbackProsecutors;
-  }
+export async function fetchProsecutorById(id) {
+  const all = await loadAll();
+  return all.find((p) => p.id === id) ?? null;
 }

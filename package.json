@@ -27,7 +27,9 @@
   },
   "dependencies": {
     "firebase": "^11.7.3",
-    "vue": "^3.5.13"
+    "papaparse": "^5.5.3",
+    "vue": "^3.5.13",
+    "vue-router": "^4.6.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
