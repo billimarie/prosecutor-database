@@ -1,0 +1,1666 @@
+[
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ca.csv",
+    "row_number": 2,
+    "name": "Nancy O'Malley",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ca.csv",
+    "row_number": 15,
+    "name": "Thomas L. Hardy",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ca.csv",
+    "row_number": 26,
+    "name": "Tim Kendall",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ca.csv",
+    "row_number": 34,
+    "name": "Candice Hooper-Mancino",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "fl.csv",
+    "row_number": 2,
+    "name": "William Eddins",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "fl.csv",
+    "row_number": 3,
+    "name": "Jack Campbell",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "fl.csv",
+    "row_number": 4,
+    "name": "Jeffrey A. Siegmeister",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "fl.csv",
+    "row_number": 5,
+    "name": "Melissa W. Nelson",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "fl.csv",
+    "row_number": 6,
+    "name": "Brad King",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "fl.csv",
+    "row_number": 7,
+    "name": "Bernie McCabe",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "fl.csv",
+    "row_number": 8,
+    "name": "R. J. Larizza",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "fl.csv",
+    "row_number": 9,
+    "name": "William Cervone",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "fl.csv",
+    "row_number": 10,
+    "name": "Aramis D. Ayala",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "fl.csv",
+    "row_number": 11,
+    "name": "Brian Haas",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "fl.csv",
+    "row_number": 12,
+    "name": "Katherine Fernandez Rundle",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "fl.csv",
+    "row_number": 13,
+    "name": "Ed Brodsky",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "fl.csv",
+    "row_number": 14,
+    "name": "Andrew H. Warren",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "fl.csv",
+    "row_number": 15,
+    "name": "Glenn Hess",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "fl.csv",
+    "row_number": 16,
+    "name": "David A. Aronberg",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "fl.csv",
+    "row_number": 17,
+    "name": "Dennis W. Ward",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "fl.csv",
+    "row_number": 18,
+    "name": "Michael J. Satz",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "fl.csv",
+    "row_number": 19,
+    "name": "Philip G. Archer",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "fl.csv",
+    "row_number": 20,
+    "name": "Bruce H. Colton",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "fl.csv",
+    "row_number": 21,
+    "name": "Stephen B. Russell",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "warning",
+    "type": "internal_note_detected",
+    "source_file": "fl.csv",
+    "row_number": 21,
+    "name": "Stephen B. Russell",
+    "detail": "Internal note text detected in legacy row."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "la.csv",
+    "row_number": 2,
+    "name": "James E. Stewart, Sr.",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "la.csv",
+    "row_number": 3,
+    "name": "Danny Newell",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "la.csv",
+    "row_number": 5,
+    "name": "Robert S. Tew",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "la.csv",
+    "row_number": 6,
+    "name": "John M. \"Mack\" Lancaster",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "la.csv",
+    "row_number": 9,
+    "name": "R. Chris Nevils",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "la.csv",
+    "row_number": 10,
+    "name": "Phillip Terrell, Jr.",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "la.csv",
+    "row_number": 11,
+    "name": "Billy Joe Harrington",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "la.csv",
+    "row_number": 12,
+    "name": "Don M. Burkett",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "la.csv",
+    "row_number": 14,
+    "name": "Trent Brignac",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "la.csv",
+    "row_number": 16,
+    "name": "Keith A. Stutes",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "la.csv",
+    "row_number": 17,
+    "name": "M. Bofill (Bo) Duh",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "la.csv",
+    "row_number": 18,
+    "name": "Kristine M. Russell",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "la.csv",
+    "row_number": 22,
+    "name": "Scott M. Perrilloux",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "la.csv",
+    "row_number": 23,
+    "name": "Warren Montgomery",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "la.csv",
+    "row_number": 26,
+    "name": "Charles J. Ballay",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "la.csv",
+    "row_number": 29,
+    "name": "J. Reed Walters",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "la.csv",
+    "row_number": 31,
+    "name": "Asa A. Skinner",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "la.csv",
+    "row_number": 34,
+    "name": "H. Todd Nesom",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "la.csv",
+    "row_number": 35,
+    "name": "Perry M. Nicosia",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "la.csv",
+    "row_number": 37,
+    "name": "James R. Lestage",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "la.csv",
+    "row_number": 38,
+    "name": "Brian Frazier",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "la.csv",
+    "row_number": 39,
+    "name": "Jennifer A. Jones",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "la.csv",
+    "row_number": 43,
+    "name": "Gary Evans",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ms.csv",
+    "row_number": 4,
+    "name": "Ben Creekmore",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ms.csv",
+    "row_number": 8,
+    "name": "Robert Shuler Smith",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ms.csv",
+    "row_number": 14,
+    "name": "Matthew Sullivan",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ms.csv",
+    "row_number": 16,
+    "name": "Hal Kittrell",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ms.csv",
+    "row_number": 19,
+    "name": "Tony Buckley",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "nj.csv",
+    "row_number": 2,
+    "name": "Damon G. Tyner",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "nj.csv",
+    "row_number": 3,
+    "name": "Dennis Calo",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "nj.csv",
+    "row_number": 4,
+    "name": "Scott A. Coffina",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "nj.csv",
+    "row_number": 5,
+    "name": "Mary Eva Colalillo",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "nj.csv",
+    "row_number": 6,
+    "name": "Jeffrey H. Sutherland",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "nj.csv",
+    "row_number": 7,
+    "name": "Jennifer Webb-McRae",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "nj.csv",
+    "row_number": 8,
+    "name": "Robert D. Laurino",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "nj.csv",
+    "row_number": 9,
+    "name": "Sean F. Dalton",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "nj.csv",
+    "row_number": 10,
+    "name": "Esther Suarez",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "nj.csv",
+    "row_number": 11,
+    "name": "Anthony P. Kearns",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "nj.csv",
+    "row_number": 12,
+    "name": "Angelo J. Onofri",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "nj.csv",
+    "row_number": 13,
+    "name": "Andrew C. Carey",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "nj.csv",
+    "row_number": 14,
+    "name": "Christopher J. Gramiccioni",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "nj.csv",
+    "row_number": 15,
+    "name": "Frederic M. Knapp",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "nj.csv",
+    "row_number": 16,
+    "name": "Joseph D. Coronato",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "nj.csv",
+    "row_number": 17,
+    "name": "Camelia M. Valdes",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "nj.csv",
+    "row_number": 18,
+    "name": "John T. Lenahan",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "nj.csv",
+    "row_number": 19,
+    "name": "Michael H. Robertson",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "nj.csv",
+    "row_number": 20,
+    "name": "Francis A. Koch",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "nj.csv",
+    "row_number": 21,
+    "name": "Michael A. Monahan",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "nj.csv",
+    "row_number": 22,
+    "name": "Richard T. Burke",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 2,
+    "name": "Gary Pasqua",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 3,
+    "name": "Craig Carriero",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 4,
+    "name": "Andrew J. Wylie",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 5,
+    "name": "Kristy L. Sprague",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 6,
+    "name": "Jason Carusone",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 7,
+    "name": "Marsha King Purdue",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 8,
+    "name": "Tony Jordan",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 9,
+    "name": "Karen Heggen",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 10,
+    "name": "Joel Abelove",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 11,
+    "name": "Kristyna Mills",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 12,
+    "name": "Leanne K. Moser",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 13,
+    "name": "Jeffrey Carpenter",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 14,
+    "name": "Chad Brown",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 15,
+    "name": "Kelli P. McCoski",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 16,
+    "name": "Robert M. Carney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 17,
+    "name": "David Soares",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 18,
+    "name": "Paul Czajka",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 19,
+    "name": "William V. Grady",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 20,
+    "name": "Robert V. Tendy",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 21,
+    "name": "Gregory Oakes",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 22,
+    "name": "Scott D. McNamara",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 23,
+    "name": "Patrick Swanson",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 24,
+    "name": "William J. Fitzpatrick",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 25,
+    "name": "William G. Gabor",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 26,
+    "name": "John M. Muehl",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 27,
+    "name": "Susan Mallery",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 28,
+    "name": "Joseph Stanzione",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 29,
+    "name": "John Hubbard",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 30,
+    "name": "D. Holley Carnright",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 31,
+    "name": "James Farrell",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 32,
+    "name": "David Hoovler",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 33,
+    "name": "Thomas P. Zugibe",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 34,
+    "name": "Anthony Scarpino",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 35,
+    "name": "Timothy Sini",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 36,
+    "name": "Madeline Singas",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 37,
+    "name": "Richard A. Brown",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 38,
+    "name": "Darcel D. Clark",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 39,
+    "name": "Eric Gonzalez",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 40,
+    "name": "Cyrus R. Vance, Jr.",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 41,
+    "name": "Michael McMahon",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 42,
+    "name": "Joseph A. McBride",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 43,
+    "name": "Stephen Cornwell",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 44,
+    "name": "Patrick Perfetti",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 45,
+    "name": "Jon E. Budelmann",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 46,
+    "name": "Kirk Martin",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 47,
+    "name": "Matthew Van Houten",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 48,
+    "name": "Weeden A. Wetmore",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 49,
+    "name": "Michael Calarco",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 50,
+    "name": "Barry Porsch",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 51,
+    "name": "Joseph Fazzary",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 52,
+    "name": "Brooks Baker",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 53,
+    "name": "Todd Casella",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 54,
+    "name": "James Ritts",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 55,
+    "name": "Sandra Doorley",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 56,
+    "name": "Gregory J. McCaffrey",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 57,
+    "name": "Keith Slep",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 58,
+    "name": "Donald O'Geen",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 59,
+    "name": "Lawrence Friedman",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 60,
+    "name": "Lori Rieman",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 61,
+    "name": "John J. Flynn",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 62,
+    "name": "Joseph V. Cardone",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ny.csv",
+    "row_number": 63,
+    "name": "Caroline Wojtaszek",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "warning",
+    "type": "internal_note_detected",
+    "source_file": "oh.csv",
+    "row_number": 2,
+    "name": "Katherine J. Zartman",
+    "detail": "Internal note text detected in legacy row."
+  },
+  {
+    "severity": "warning",
+    "type": "internal_note_detected",
+    "source_file": "oh.csv",
+    "row_number": 10,
+    "name": "Kelly Ormsby",
+    "detail": "Internal note text detected in legacy row."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "oh.csv",
+    "row_number": 27,
+    "name": "Kevin S. Talebi",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "oh.csv",
+    "row_number": 28,
+    "name": "D. Andrew Wilson",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "oh.csv",
+    "row_number": 64,
+    "name": "DENNIS MICHAEL HADDOX (R)",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 13,
+    "name": "Timothy C. Baxter",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 28,
+    "name": "Gerald R. Fox",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 46,
+    "name": "Carrie Schneider",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 73,
+    "name": "CITY ATTORNEY",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 75,
+    "name": "http://www.ci.greenfield.wi.us/149/City-Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 76,
+    "name": "Greenfield City Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 77,
+    "name": "http://www.ci.janesville.wi.us/government/departments-divisions/attorney-s-office",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 78,
+    "name": "Janesville City Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 79,
+    "name": "https://www.cityofkaukauna.com/departments/attorneys-office/",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 80,
+    "name": "Kaukauna City Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 81,
+    "name": "https://kenosha.org/departments/attorney/index.html",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 82,
+    "name": "Kenosha City Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 83,
+    "name": "http://www.cityoflacrosse.org/index.aspx?nid=15",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 84,
+    "name": "LaCrosse City Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 85,
+    "name": "https://www.cityoflacrosse.org/businessdirectoryii.aspx?bid=27",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 86,
+    "name": "LaCrosse Municipal ProsecutorLake Geneva City Attorney<br />",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 87,
+    "name": "http://www.ci.lake-mills.wi.us/index.asp?SEC=8949F785-0D60-43DC-A330-7FF1242AEBD4&amp;Type=B_BASIC",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 88,
+    "name": "Lake Mills City Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 89,
+    "name": "http://www.cityofmadison.com/attorney/index.cfm",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 90,
+    "name": "Madison City Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 91,
+    "name": "http://www.manitowoc.org/attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 92,
+    "name": "Manitowoc City Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 93,
+    "name": "http://marinette.wi.us/index.php/departments/city-attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 94,
+    "name": "Marinette City Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 95,
+    "name": "http://www.cityofmenasha-wi.gov/departments/city_attorney/index.php",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 96,
+    "name": "Menasha City Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 97,
+    "name": "http://www.ci.mequon.wi.us/index.asp?Type=B_BASIC&amp;SEC=%7BC805F607-7EB8-4DEB-8396-A0F36E8A6B3B%7D",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 98,
+    "name": "Mequon City Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 99,
+    "name": "http://www.ci.merrill.wi.us/index.asp?SEC=329B3DB6-BA74-4408-A657-68ECCB365F51&amp;Type=B_BASIC",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 100,
+    "name": "Merrill City Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 101,
+    "name": "http://city.milwaukee.gov/CityAttorney#.VnmHAxUrIRk",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 102,
+    "name": "Milwaukee City Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 103,
+    "name": "http://www.ci.neenah.wi.us/departments/city-attorney/",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 104,
+    "name": "Neenah City Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 105,
+    "name": "http://neillsville.townwebdesign.com/city-departments/city-attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 106,
+    "name": "Neillsville City Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 107,
+    "name": "http://www.haskinkarls.com/our-attorneys/",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 108,
+    "name": "Oak Creek City AttorneyOconomowoc City Attorney<br />",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 109,
+    "name": "http://www.cityofonalaska.com/index.asp?Type=B_BASIC&amp;SEC=%7BCA8CE391-CBDF-4F20-AB36-F0EDDBC884B5%7D",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 110,
+    "name": "Onalaska City Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 111,
+    "name": "http://www.ci.oshkosh.wi.us/City_Attorney/",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 112,
+    "name": "Oshkosh City Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 113,
+    "name": "http://cityofracine.org/Attorney/",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 114,
+    "name": "Racine City Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 115,
+    "name": "http://www.sheboyganwi.gov/departments/city-attorney/",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 116,
+    "name": "Sheboygan City Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 117,
+    "name": "http://smwi.org/city-attorney/",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 118,
+    "name": "South Milwaukee City Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 119,
+    "name": "http://www.ci.superior.wi.us/index.aspx?nid=73",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 120,
+    "name": "Superior City Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 121,
+    "name": "http://www.housemanlaw.com/Johnathan_Woodward.html",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 122,
+    "name": "Thiensville Village Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 123,
+    "name": "http://viroqua-wisconsin.com/city-of-viroqua/departments/municipal-court",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 124,
+    "name": "Viroqua City Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 125,
+    "name": "http://www.ci.watertown.wi.us/departments/city_attorney/index.php#.VnmHERUrIRk",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 126,
+    "name": "Watertown City Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 127,
+    "name": "http://www.ci.waukesha.wi.us/web/guest/attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 128,
+    "name": "Waukesha City Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 129,
+    "name": "http://www.ci.wausau.wi.us/Departments/Attorney.aspx",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 130,
+    "name": "Wausau City Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 131,
+    "name": "http://www.wauwatosa.net/index.aspx?NID=84",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 132,
+    "name": "Wauwatosa City Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 133,
+    "name": "http://www.westalliswi.gov/index.aspx?NID=94",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 134,
+    "name": "West Allis City Attorney",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 135,
+    "name": "http://www.ci.west-bend.wi.us/City-Attorney/",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "info",
+    "type": "missing_website",
+    "source_file": "ri.csv",
+    "row_number": 136,
+    "name": "West Bend City Attorney</a> <small>[</small><small>",
+    "detail": "No URL found in body field."
+  },
+  {
+    "severity": "warning",
+    "type": "duplicate_source_file_content",
+    "source_file": "wi.csv",
+    "row_number": "",
+    "name": "",
+    "detail": "File contents are identical to ri.csv."
+  }
+]

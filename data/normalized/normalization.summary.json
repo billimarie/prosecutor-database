@@ -1,0 +1,62 @@
+[
+  {
+    "source_file": "attorney-general.csv",
+    "columns": "title, en, body",
+    "data_rows": 55
+  },
+  {
+    "source_file": "az.csv",
+    "columns": "title, langcode, body",
+    "data_rows": 15
+  },
+  {
+    "source_file": "ca.csv",
+    "columns": "title, langcode, body",
+    "data_rows": 56
+  },
+  {
+    "source_file": "co.csv",
+    "columns": "title, langcode, body",
+    "data_rows": 2
+  },
+  {
+    "source_file": "fl.csv",
+    "columns": "title, langcode, body",
+    "data_rows": 20
+  },
+  {
+    "source_file": "la.csv",
+    "columns": "title, langcode, body",
+    "data_rows": 42
+  },
+  {
+    "source_file": "ms.csv",
+    "columns": "title, langcode, body",
+    "data_rows": 22
+  },
+  {
+    "source_file": "nj.csv",
+    "columns": "title, langcode, body",
+    "data_rows": 21
+  },
+  {
+    "source_file": "ny.csv",
+    "columns": "title, langcode, field_role",
+    "data_rows": 62
+  },
+  {
+    "source_file": "oh.csv",
+    "columns": "title, langcode, body",
+    "data_rows": 87
+  },
+  {
+    "source_file": "ri.csv",
+    "columns": "title, langcode, body",
+    "data_rows": 135
+  },
+  {
+    "source_file": "wi.csv",
+    "columns": "SKIPPED_DUPLICATE_FILE",
+    "data_rows": 0
+  }
+]

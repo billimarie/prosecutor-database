@@ -1,0 +1,47 @@
+[
+  {
+    "id": "ga-ocmulgee-harold-mclendon-2024",
+    "name": "Harold McLendon",
+    "office": "District Attorney",
+    "jurisdiction": "Ocmulgee Judicial Circuit",
+    "state": "GA",
+    "county_or_region": "Laurens / Johnson / Twiggs / Treutlen",
+    "small_town_focus": true,
+    "campaign_theme": "Tough-on-crime rhetoric",
+    "incarceration_signal": "Requires local jail trend verification from public data.",
+    "source_urls": [
+      "https://www.13wmaz.com/article/news/local/harold-mclendon-campaigned-tough-crime-district-attorney/93-65423929-a1cb-4a43-b067-1a676a8961ab"
+    ],
+    "notes": "Starter lead only; not an adjudication of misconduct."
+  },
+  {
+    "id": "pa-lebanon-michael-light-2025",
+    "name": "Michael Light II",
+    "office": "District Attorney candidate",
+    "jurisdiction": "Lebanon County",
+    "state": "PA",
+    "county_or_region": "Lebanon County",
+    "small_town_focus": true,
+    "campaign_theme": "Tough on Crime. Smart on Spending.",
+    "incarceration_signal": "Pull county jail trends from Vera and state corrections data.",
+    "source_urls": [
+      "https://www.michaellightfordistrictattorney.com/"
+    ],
+    "notes": "Starter lead only; verify election outcome and office status."
+  },
+  {
+    "id": "ms-desoto-matthew-barton-2022",
+    "name": "Matthew Barton",
+    "office": "District Attorney candidate",
+    "jurisdiction": "DeSoto County",
+    "state": "MS",
+    "county_or_region": "DeSoto County",
+    "small_town_focus": true,
+    "campaign_theme": "Tough. Conservative.",
+    "incarceration_signal": "Candidate messaging should be compared against post-election charging outcomes.",
+    "source_urls": [
+      "https://www.desototimes.com/elections/matthew-barton-announces-campaign-for-desoto-county-district-attorney/article_21d412c0-7b0e-11ed-b99b-2baf9fb1680c.html"
+    ],
+    "notes": "Starter lead only; requires source corroboration."
+  }
+]

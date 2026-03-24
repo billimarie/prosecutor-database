@@ -1,0 +1,5 @@
+severity,type,source_file,row_number,name,detail
+warning,internal_note_detected,fl.csv,21,Stephen B. Russell,Internal note text detected in legacy row.
+warning,internal_note_detected,oh.csv,2,Katherine J. Zartman,Internal note text detected in legacy row.
+warning,internal_note_detected,oh.csv,10,Kelly Ormsby,Internal note text detected in legacy row.
+warning,duplicate_source_file_content,wi.csv,,,File contents are identical to ri.csv.

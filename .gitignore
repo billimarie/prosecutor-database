@@ -3,6 +3,9 @@ node_modules/
 npm-debug.log*
 .idea
 *.log
+dist/
+.env
+.env.local
 
 # Windows Batch Start
 start.bat

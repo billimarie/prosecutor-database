@@ -1,163 +1,143 @@
 # DOCS
-> Last Updated: October 5th 2020
+> Last Updated: March 24, 2026
 
-## Table of Contents
-- [1. History: Why Prosecutors?](#1-history-why-prosecutors)
-- [2. Overview](#2-overview)
-- [3. Data Collection](#3-data-collection)
-- [4-A. Web App Development](#4-a-web-app-development)
-- [4-B. Adding Data to Your Local Environment](#4-b-adding-data-to-your-local-environment)
-- [5. Join Us: Post-Carceral](#5-join-us-post-carceral)
-- [6. License](#6-license)
+This document is optimized for contributors and AI agents that collect prosecutor accountability data.
 
----
+## The U.S. Prosecutor Database exists because the data didn't.
+ 
+This project grew out of CLASP (the Community Legal & Advocacy Services Project), a now-defunct nonprofit prisoners' rights initiative, and was inspired by Angela Davis's *[Arbitrary Justice: The Power of the American Prosecutor](https://www.amazon.com/Arbitrary-Justice-Power-American-Prosecutor/dp/0195384733)*.
 
-## 1. History: Why Prosecutors?
+What began as a small effort to compile basic information about current and former prosecutors quickly revealed a deeper problem: no comprehensive, public dataset existed. Volunteers stepped in. Manual data mining began. Eventually, contributors found the project on GitHub and the database grew into an open-source collective effort.
+ 
+John Pfaff, author of *Locked In*, identifies the core reason prosecutors escape scrutiny: **there is no data on them.** Because prosecutors are less visible than legislators or police, advocates have historically overlooked their outsized role in mass incarceration. This project is a direct response to that gap.
+ 
+### Why Prosecutors
+ 
+A few statistics frame the urgency:
+ 
+- 97% of incarcerated people are held in **state prisons** — not private facilities.
+- In 46 states, prosecutors are **elected** — and 85% run **without opposition**.
+- Since the 1990s, violent crime and arrests for violent crime have declined — yet felony cases filed in state courts have climbed sharply. As Pfaff documents, the probability of a prosecutor filing felony charges against an arrestee roughly doubled, driving prison populations up even as crime dropped.
+- **95% of cases** end in plea bargains negotiated behind closed doors.
+- Tens of thousands of new prosecutors were hired in the decades after crime stopped rising.
+ 
+### The Goal
+ 
+Ending mass incarceration starts with prosecutorial oversight.
+ 
+This database is one attempt to demystify the power of local, state, and federal prosecutors — to surface the people making charging decisions that shape millions of lives. The goal is to give the public the information it needs to vote based on prosecutorial records rather than campaign slogans, and to help shift the tide toward a post-carceral world.
 
-The U.S. Prosecutor Database was a programming project idea I had while co-founding CLASP (the Community Legal & Advocacy Services Project), a nonprofit prisoners' rights project.
+### Core Principles (AI written)
 
-Inspired by [Arbitrary Justice: The Power of the American Prosecutor](https://www.amazon.com/Arbitrary-Justice-Power-American-Prosecutor/dp/0195384733) by the legendary Angela Davis, I decided to start compiling a list of basic information about current & previous prosecutors. This proved to be harder than originally thought. Due to the severe lack of a complete/comprehensive dataset, I asked friends to help. We started mining what we could. Eventually, people found the open-source project on GitHub & began contributing as well.
+1. Favor small-town visibility: prioritize counties and circuits with limited oversight coverage.
+2. Evidence-first: every non-trivial claim needs at least one source URL.
+3. No defamation: do not label a person as "corrupt" without verified legal findings.
+4. Track rhetoric vs outcomes: campaign statements should be compared to public justice metrics.
 
-*The goal of this project is to inspire engagement from the public when it comes to prosecutor oversight, elections, & cases. **Ending Mass Incarceration starts with Prosecutorial Oversight.***
+### Technical Stack
 
-John Pfaff, the author of Locked In, believes one of the reasons why prisoners' rights advocates have forgotten to hold prosecutors accountable is simply because *there is no data available*. We overlook the role of prosecutors since they are less visible.
+- Frontend: `Vue 3` + `Vite`
+- Backend/data: `Firebase Firestore`
+- Hosting: `Netlify`
 
-Some key statistics to help you understand the severity of this unaccounted power dynamic:
-- 97% of prisoners are held in state prisons--not private prisons.
-- In 46 states, prosecutors are elected—& 85% run without opposition.
-- Since the 1990's, violent crime & arrests for violent crime have declined—but the number of felony cases filed in state courts continue to jump drastically higher than they should. "The probability that a prosecutor would file felony charges against an arrestee basically doubled," Pfaff writes, "& that change pushed prison populations up even as crime dropped."
-- 95% of cases end in plea bargains worked out behind closed doors.
-- Unsurprisingly, as you look at the data for the last twenty or so years, tens of thousands more prosecutors were hired even after crime stopped rising.
+Collection used by app:
 
-The United States Prosecutor Database is one attempt to demystify the power of local, state, & federal prosecutors. My hope is you feel inspired to vote based upon prosecutorial data rather than campaign slogans, as we can help shift the tide away from mass incarceration toward a post-carceral world.
+- `prosecutors`
 
-[Back to Top](#us-prosecutor-database)
+### Firestore Record Shape
 
----
+Use this canonical JSON shape:
 
-## 2. Overview
-
-The **United States Prosecutor Database** is a website housing the data of current &amp; previous elected/appointed government attorneys at the local, state, &amp; federal level. This includes (but is not limited to):
-- Attorney Generals
-- U.S. Attorneys
-- District/State Attorneys
-- Municipal/County/City Attorneys
-
-Our goal is to showcase prosecutorial news articles, demographics, trends, office culture, &amp; history. This goal is in service to [the **Post-Carceral** mission](#5-join-us-post-carceral), which is to:
-
-* Cultivate a community of holding prosecutors accountable as a voting public
-* Change the political and cultural landscape of this nation's real lawmakers
-* Assist prosecutors who are aiming to end mass incarceration with a commitment to decarceration
-
-[Back to Top](#us-prosecutor-database)
-
----
-
-## 3. Data Collection
-
-### Please use the `hacktober-data` branch
-
-Here's a link to our Hacktoberfest 2020 goal: **[Add 100 District Attorneys](https://github.com/billimarie/prosecutor-database/issues/80)** It contains *very* detailed steps on how to contribute data. For basic instructions, see below:
-
-1.) Search our [live web app](https://us-prosecutor-database.herokuapp.com/) for counties & states which do not have District Attorney information (or have missing information in their District Attorney profile).
-
-2.) After choosing a state & county (or counties) to focus on, create a private copy of our [U.S. Prosecutor Google Sheet](https://docs.google.com/spreadsheets/d/1Itwl8_jQpuXPjRH70fffEUSHvInfqbRKXg0iPEx8iCE/edit?usp=sharing). You can do this by going to File > Download then uploading it to your Google Drive.
-
-3.) Manually search for the prosecutor information available online, then populate the sheet with the data you can find.
-
-3.) Convert your file (.CSV) into JSON. You can do this through Terminal / Command Line: `npm install -g csvtojson` & `csvtojson [your-file-name-here].csv > [your-file-name-here].json`.
-
-4.) Submit a pull request. Your data will be added to the database, & your GitHub profile will be added to the Contributors gallery.
-
----
-
-## 4-A. Web App Development
-
-### Please use the `hacktober-app` branch
-
-To run the app locally on your machine:
-
-1. install `node` & `npm` ([see official docs](https://www.npmjs.com/get-npm))
-2. install `meteor` via terminal: `npm install -g meteor` ([see official docs]([https://www.meteor.com/install](https://v2-docs.meteor.com/install.html#installation)))
-3. `npm install`
-4. `meteor run` & open `http://localhost:3000/` in your browser
-
-## 4-B. Adding Data to your local environment
-
-To play around with data:
-
-1. in a new (simultaneous) terminal tab: `meteor mongo`
-2. verify that the `show collections` command produces the `Attorneys` collection
-3. insert a new document using the `api` folder .js files as a base. Make sure it contains the `name`, `state`, & `role`--otherwise it won't work. Example: `db.Attorneys.insertOne({"id": "ag-01","state": "Alabama","name": "Steve Marshall","role": "Attorney General"})`
-4. check on the app in your browser; it should automatically refresh
-
-### JSON Structure
-
-```
-"name": "Rachael Rollins",
-"role": "District Attorney",
-"state": "Massachusetts",
-"county": "Suffolk",
-"party": "democrat",
-"ageRange": "40-50",
-"gender": "female",
-"race": "black",
-"appointed": "1601640275", // Unix Time Stamp: https://www.unixtimestamp.com/index.php
-"headshot": "https://images.squarespace-cdn.com/content/v1/5c671e8e2727be4ad82ff1e9...",
-"websites": {
-  "url": "https://www.suffolkdistrictattorney.com/about-the-office/meet-district...",
-  "wiki": "https://en.wikipedia.org/wiki/Rachael_Rollins",
-  "facebook": "https://www.facebook.com/Rollins4DA",
-  "twitter": "https://twitter.com/DARollins",
- },
-"office": {
-  "address": {
-    "poBox": "",
-    "courthouse": "Suffolk County District Attorney",
-    "street": "1 Bulfinch Place",
-    "city": "Boston",
-    "zipcode": "02114",
-    "phone": "(617) 619-4000"
-  },
-  "email": ""
-},
-"articles": [
-  0: {
-    "title": "Suffolk DA Rachael Rollins releases list of police officers with ‘ques...",
-    "url": "https://www.boston.com/news/local-news/2020/09/26/rachael-rollins-rele...",
-    "summary": "Suffolk County District Attorney Rachael Rollins Friday night released...",
-    "featuredImage": "https://www.boston.com/wp-content/uploads/2020/06/CV3ZAWH2OJHFRFOWGSND..."
-  }
- ]
+```json
+{
+  "id": "ga-ocmulgee-harold-mclendon-2024",
+  "name": "Harold McLendon",
+  "office": "District Attorney",
+  "jurisdiction": "Ocmulgee Judicial Circuit",
+  "state": "GA",
+  "county_or_region": "Laurens / Johnson / Twiggs / Treutlen",
+  "small_town_focus": true,
+  "campaign_theme": "Tough-on-crime rhetoric",
+  "incarceration_signal": "County jail rate trend increased between X and Y years.",
+  "source_urls": [
+    "https://example.org/source-1",
+    "https://example.org/source-2"
+  ],
+  "notes": "Short caveats and context.",
+  "last_verified_at": "2026-03-24T00:00:00.000Z"
+}
 ```
 
-Production: https://us-prosecutor-database.herokuapp.com/
+### AI-Agent Collection Workflow
 
-[Back to Top](#us-prosecutor-database)
+Use this workflow for each prosecutor entry:
+
+1. Discover candidate officeholders/candidates
+   - Start with local election pages, county prosecutor office pages, and local journalism.
+2. Capture campaign language
+   - Pull direct quotes or slogan text (include source URL).
+3. Pull incarceration context
+   - County-level trend references from sources like Vera Incarceration Trends and state dashboards.
+4. Write neutral interpretation
+   - Record observed mismatch risk, not moral conclusions.
+5. Save with provenance
+   - Include retrieval timestamp and at least one source URL per major field.
+
+### Suggested Source Priority
+
+Highest confidence to lowest:
+
+1. Official county/state election records
+2. Official prosecutor office statements
+3. Reputable local/state journalism
+4. Nonpartisan policy datasets (Vera, BJS, state criminal justice dashboards)
+5. Campaign websites and social posts (usable but should be corroborated)
+
+### Starter Research Leads (Small-Town Focus)
+
+Initial lead records are in:
+
+- `src/data/fallbackProsecutors.js`
+
+Current example sources used:
+
+- [13WMAZ campaign coverage](https://www.13wmaz.com/article/news/local/harold-mclendon-campaigned-tough-crime-district-attorney/93-65423929-a1cb-4a43-b067-1a676a8961ab)
+- [Michael Light campaign site](https://www.michaellightfordistrictattorney.com/)
+- [DeSoto Times election article](https://www.desototimes.com/elections/matthew-barton-announces-campaign-for-desoto-county-district-attorney/article_21d412c0-7b0e-11ed-b99b-2baf9fb1680c.html)
+- [Vera Incarceration Trends](https://trends.vera.org/)
+
+Treat these as leads requiring ongoing verification, not final adjudications.
+
+### Local Development
+
+1. `npm install`
+2. Copy `.env.example` to `.env`
+3. Fill Firebase values
+4. `npm run dev`
+
+Optional:
+
+- `npm run seed:local` to export fallback leads into `data/prosecutors.seed.json`
+
+### Seeding From Google Sheets CSV
+
+Because Google Sheets access can be restricted from server-side tools, export the
+desired tab as CSV and seed locally.
+
+1. In Google Sheets: `File` -> `Download` -> `Comma-separated values (.csv)`
+2. Put the file into `data/` (e.g. `data/uspd-basic-prosecutor-profile.csv`)
+3. Run:
+   - `npm run seed:firestore:csv -- --csv "data/uspd-basic-prosecutor-profile.csv" --collection prosecutors`
+
+The importer will map common column names:
+
+- `title` -> `name`
+- `field_role` -> `role` (normalized where possible)
+- `state` and `county`/`county_or_region` -> jurisdiction fields if present
+
+Non-role fields are stored as placeholders because any campaign/incarceration interpretation must be verified with sources.
 
 ---
-
-## 5. Join Us: POST-CARCERAL
-
-**Post-Carceral** is a digital community group of volunteers working on civic tech projects (like the US Prosecutor Database) in service of working toward a post-carceral ("beyond prison") world.
-
-You don't have to be a developer or a prisoners' rights activist to join. We're looking for all types of people with all types of interestes & expertise to collaborate with.
-
-**Datathons**: CURRENTLY UNDER HIATUS. On Sundays, we hang out remotely and discuss recent prosecutor news, primary results, & campaigns. We also brainstorm new ways to collect data (considering the strange logic of the prosecutorial system, especially as it differes between localities & regions). If you'd like to join, send an email.
-
-**Mailing List**: [http://eepurl.com/dqPQdL](http://eepurl.com/dqPQdL)
-
-[Back to Top](#us-prosecutor-database)
-
----
-
-## 6. License
-
-The USPD is an open-source community project built to house data about current and previous US Prosecutors (copyright (c) 2017 - 2020 Billimarie Lubiano Robinson). It is licensed under **GNU GPLv3**. This means you are able to use, modify, & distribute USPD as long as the following conditions are met:
-- Acknowledge the original source (this repository & its contributors)
-- Apply the same license & copyright usage
-- Make public any changes, updates, or improvements upon USPD
-
-For more information, please view the [LICENSE.md](/.github/license.md) file.
-
-[Back to Top](#us-prosecutor-database)
+ 
+*"The probability that a prosecutor would file felony charges against an arrestee basically doubled — and that change pushed prison populations up even as crime dropped."*
+— John Pfaff, *Locked In*
