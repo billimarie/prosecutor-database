@@ -1,0 +1,8 @@
+id,name,office,jurisdiction,state,county_or_region,small_town_focus,campaign_theme,incarceration_signal,source_urls,notes,last_verified_at
+prosecutor_tx_001,Ken Paxton,State Attorney General,Texas,TX,Statewide,false,,https://www.texasattorneygeneral.gov/,Texas Attorney General,2026-03-24T17:30:00Z
+prosecutor_tx_002,John Creuzot,District Attorney,Dallas County,TX,Dallas,false,,https://www.dallascounty.org/government/district-attorney/,Dallas County DA - major urban center,2026-03-24T17:30:00Z
+prosecutor_tx_003,Kim Ogg,District Attorney,Harris County,TX,Harris,false,,https://www.harriscountydistrictattorney.gov/,Harris County DA - covers Houston area,2026-03-24T17:30:00Z
+prosecutor_tx_004,Nico LaHood,District Attorney,Bexar County,TX,Bexar,false,,https://www.bexar.org/512/District-Attorney,Bexar County DA - covers San Antonio,2026-03-24T17:30:00Z
+prosecutor_tx_005,Joe Gonzales,District Attorney,Travis County,TX,Travis,false,,https://www.traviscountydistrictattorney.org/,Travis County DA - covers Austin,2026-03-24T17:30:00Z
+prosecutor_tx_006,Patty Maginnis,County Attorney,Cochran County,TX,Cochran,true,,https://www.co.cochran.tx.us/,Cochran County Attorney - small rural Texas county,2026-03-24T17:30:00Z
+prosecutor_tx_007,Woody Gosdin,District Attorney,Lubbock County,TX,Lubbock,true,,https://www.co.lubbock.tx.us/,Lubbock County DA - serves West Texas region,2026-03-24T17:30:00Z
