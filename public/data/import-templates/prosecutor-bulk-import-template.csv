@@ -1,0 +1,6 @@
+id,name,office,jurisdiction,state,county_or_region,small_town_focus,campaign_theme,incarceration_signal,source_urls,notes,last_verified_at
+1,John Doe,Prosecutor,State A,CA,Downtown,No,Criminal Justice,Yes,www.example.com,note here,2026-03-24 16:55:16
+2,Jane Smith,Prosecutor,State B,NY,Suburb,Yes,Social Justice,No,www.sample.com,note here too,2026-03-24 16:55:16
+3,Bob Johnson,Assistant Prosecutor,State C,TX,Rural,No,Law Enforcement,Yes,www.thirdexample.com,note here as well,2026-03-24 16:55:16
+4,Alice Brown,Deputy Prosecutor,State D,FL,Metro,Yes,Community Outreach,No,www.fourthexample.com,note here again,2026-03-24 16:55:16
+5,Charlie Green,Chief Prosecutor,State E,IL,Urban,Yes,Voter Engagement,Yes,www.fifthexample.com,note here finally,2026-03-24 16:55:16
