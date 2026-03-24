@@ -1,3 +1,5 @@
+<img width="940" height="646" alt="{AED1A75A-2EFE-4A2A-9DBA-DBF890D07B98}" src="https://github.com/user-attachments/assets/ac2bc78e-5702-4d21-9ad7-03448fe642f2" />
+
 # U.S. Prosecutor Database (Vue + Firebase)
 > Updated for Agentic AI: March 24th, 2026
 
@@ -59,7 +61,3 @@ The USPD is an open-source community project built to house data about current a
 - Acknowledge the original source (this repository & its contributors)
 - Apply the same license & copyright usage
 - Make public any changes, updates, or improvements upon USPD
-
-For more information, please view the [LICENSE.md](/.github/license.md) file.
-
-[Back to Top](#us-prosecutor-database)
