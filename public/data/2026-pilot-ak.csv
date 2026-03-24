@@ -1,0 +1,16 @@
+id,name,office,jurisdiction,state,county_or_region,small_town_focus,source_urls,notes,last_verified_at
+prosecutor_ak_anchorage,Patrick J. McKay,District Attorney,Anchorage,AK,Anchorage,false,https://law.alaska.gov/department/criminal/offices.html#anchor_anchorage,Supervising DA Anchorage,2026-03-24T20:00:00Z
+prosecutor_ak_bethel,Dan Alteneder,District Attorney,Bethel,AK,Bethel,true,https://law.alaska.gov/department/criminal/offices.html#anchor_bethel,Supervising DA Bethel,2026-03-24T20:00:00Z
+prosecutor_ak_dillingham,Peter G. Zuyus,District Attorney,Dillingham,AK,Dillingham,true,https://law.alaska.gov/department/criminal/offices.html#anchor_dillingham,Supervising DA Dillingham,2026-03-24T20:00:00Z
+prosecutor_ak_fairbanks,Joe Dallaire,District Attorney,Fairbanks,AK,Fairbanks,false,https://law.alaska.gov/department/criminal/offices.html#anchor_fairbanks,Supervising DA Fairbanks,2026-03-24T20:00:00Z
+prosecutor_ak_homer,Position Rotates,District Attorney,Homer,AK,Homer,true,https://law.alaska.gov/department/criminal/offices.html#anchor_homer,DA position rotates,2026-03-24T20:00:00Z
+prosecutor_ak_juneau,Jessalyn Gillum,District Attorney,Juneau,AK,Juneau,false,https://law.alaska.gov/department/criminal/offices.html#anchor_juneau,Supervising DA Juneau,2026-03-24T20:00:00Z
+prosecutor_ak_kenai,Scot Leaders,District Attorney,Kenai,AK,Kenai,true,https://law.alaska.gov/department/criminal/offices.html#anchor_kenai,Supervising DA Kenai,2026-03-24T20:00:00Z
+prosecutor_ak_ketchikan,Celeste Hodges,District Attorney,Ketchikan,AK,Ketchikan,true,https://law.alaska.gov/department/criminal/offices.html#anchor_ketchikan,Supervising DA Ketchikan,2026-03-24T20:00:00Z
+prosecutor_ak_kodiak,Leilani Hunt,District Attorney,Kodiak,AK,Kodiak,true,https://law.alaska.gov/department/criminal/offices.html#anchor_kodiak,Supervising DA Kodiak,2026-03-24T20:00:00Z
+prosecutor_ak_kotzebue,Steven Wallace,District Attorney,Kotzebue,AK,Kotzebue,true,https://law.alaska.gov/department/criminal/offices.html#anchor_kotzebue,Supervising DA Kotzebue,2026-03-24T20:00:00Z
+prosecutor_ak_nome,John Earthman,District Attorney,Nome,AK,Nome,true,https://law.alaska.gov/department/criminal/offices.html#anchor_nome,Supervising DA Nome,2026-03-24T20:00:00Z
+prosecutor_ak_palmer,Kerry Corliss,District Attorney,Palmer,AK,Palmer,false,https://law.alaska.gov/department/criminal/offices.html#anchor_palmer,Supervising DA Palmer,2026-03-24T20:00:00Z
+prosecutor_ak_seward,Matthew Christian,District Attorney,Seward,AK,Seward,true,https://law.alaska.gov/department/criminal/offices.html#anchor_seward,Supervising DA Seward,2026-03-24T20:00:00Z
+prosecutor_ak_sitka,Andrew J. Behrens,District Attorney,Sitka,AK,Sitka,true,https://law.alaska.gov/department/criminal/offices.html#anchor_sitka,Supervising DA Sitka,2026-03-24T20:00:00Z
+prosecutor_ak_utqiagvik,Ruth Botstein,District Attorney,Utqiaġvik,AK,Utqiaġvik,true,https://law.alaska.gov/department/criminal/offices.html#anchor_utqiagvik,Supervising DA Utqiaġvik,2026-03-24T20:00:00Z
