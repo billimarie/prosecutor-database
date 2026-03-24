@@ -1,0 +1,8 @@
+id,name,office,jurisdiction,state,county_or_region,small_town_focus,campaign_theme,incarceration_signal,source_urls,notes,last_verified_at
+prosecutor_ca_001,Rob Bonta,State Attorney General,California,CA,Statewide,false,,https://oag.ca.gov/,California Attorney General - elected official,2026-03-24T17:30:00Z
+prosecutor_ca_002,Diana Becerra,District Attorney,Los Angeles County,CA,Los Angeles,false,,https://da.lacounty.gov/,Los Angeles County DA,2026-03-24T17:30:00Z
+prosecutor_ca_003,Pamela Price,District Attorney,Alameda County,CA,Alameda,false,,https://www.acgov.org/da/,Alameda County DA,2026-03-24T17:30:00Z
+prosecutor_ca_004,Phil Weiser,District Attorney,San Francisco County,CA,San Francisco,false,,https://sfdistrictattorney.org/,San Francisco County DA,2026-03-24T17:30:00Z
+prosecutor_ca_005,Summer Stephen,District Attorney,San Diego County,CA,San Diego,false,,https://www.sdcda.org/,San Diego County DA,2026-03-24T17:30:00Z
+prosecutor_ca_006,Rod Pacheco,District Attorney,Kern County,CA,Kern,true,,https://www.co.kern.ca.us/da/,Kern County DA - serves agricultural region,2026-03-24T17:30:00Z
+prosecutor_ca_007,Heather Turnrose,District Attorney,Fresno County,CA,Fresno,true,,https://www.fresnocountyda.com/,Fresno County DA - serves Central Valley,2026-03-24T17:30:00Z

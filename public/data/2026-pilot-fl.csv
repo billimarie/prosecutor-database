@@ -1,0 +1,8 @@
+id,name,office,jurisdiction,state,county_or_region,small_town_focus,campaign_theme,incarceration_signal,source_urls,notes,last_verified_at
+prosecutor_fl_001,Ashley Moody,State Attorney General,Florida,FL,Statewide,false,,https://www.myfloridalegal.com/,Florida Attorney General,2026-03-24T17:30:00Z
+prosecutor_fl_002,Aramis Ayala,State Attorney,Ninth Judicial Circuit,FL,Orange County,false,,https://www.sao9.org/,State Attorney - 9th Judicial Circuit (Orlando area),2026-03-24T17:30:00Z
+prosecutor_fl_003,Andrew Warren,State Attorney,Thirteenth Judicial Circuit,FL,Hillsborough County,false,,https://www.sao13.org/,State Attorney - 13th Judicial Circuit (Tampa area),2026-03-24T17:30:00Z
+prosecutor_fl_004,Katherine Fernandez Rundle,State Attorney,Eleventh Judicial Circuit,FL,Miami-Dade County,false,,https://www.miamidadeprosecutor.org/,State Attorney - 11th Judicial Circuit (Miami area),2026-03-24T17:30:00Z
+prosecutor_fl_005,Phil Archer,State Attorney,Fourth Judicial Circuit,FL,Duval County,false,,https://www.sao4.org/,State Attorney - 4th Judicial Circuit (Jacksonville area),2026-03-24T17:30:00Z
+prosecutor_fl_006,Maria Chapa Lopez,State Attorney,Twelfth Judicial Circuit,FL,Sarasota County,true,,https://www.sao12.org/,State Attorney - 12th Judicial Circuit (Sarasota/Manatee counties),2026-03-24T17:30:00Z
+prosecutor_fl_007,Tom Bakkedahl,State Attorney,Eighth Judicial Circuit,FL,Alachua County,true,,https://www.sao8.org/,State Attorney - 8th Judicial Circuit (Gainesville area),2026-03-24T17:30:00Z
