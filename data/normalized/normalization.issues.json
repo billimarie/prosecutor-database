@@ -1164,7 +1164,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 75,
-    "name": "http://www.ci.greenfield.wi.us/149/City-Attorney",
+    "name": "https://www.ci.greenfield.wi.us/149/City-Attorney",
     "detail": "No URL found in body field."
   },
   {
@@ -1180,7 +1180,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 77,
-    "name": "http://www.ci.janesville.wi.us/government/departments-divisions/attorney-s-office",
+    "name": "https://www.ci.janesville.wi.us/government/departments-divisions/attorney-s-office",
     "detail": "No URL found in body field."
   },
   {
@@ -1228,7 +1228,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 83,
-    "name": "http://www.cityoflacrosse.org/index.aspx?nid=15",
+    "name": "https://www.cityoflacrosse.org/index.aspx?nid=15",
     "detail": "No URL found in body field."
   },
   {
@@ -1260,7 +1260,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 87,
-    "name": "http://www.ci.lake-mills.wi.us/index.asp?SEC=8949F785-0D60-43DC-A330-7FF1242AEBD4&amp;Type=B_BASIC",
+    "name": "https://www.ci.lake-mills.wi.us/index.asp?SEC=8949F785-0D60-43DC-A330-7FF1242AEBD4&amp;Type=B_BASIC",
     "detail": "No URL found in body field."
   },
   {
@@ -1276,7 +1276,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 89,
-    "name": "http://www.cityofmadison.com/attorney/index.cfm",
+    "name": "https://www.cityofmadison.com/attorney/index.cfm",
     "detail": "No URL found in body field."
   },
   {
@@ -1292,7 +1292,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 91,
-    "name": "http://www.manitowoc.org/attorney",
+    "name": "https://www.manitowoc.org/attorney",
     "detail": "No URL found in body field."
   },
   {
@@ -1308,7 +1308,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 93,
-    "name": "http://marinette.wi.us/index.php/departments/city-attorney",
+    "name": "https://marinette.wi.us/index.php/departments/city-attorney",
     "detail": "No URL found in body field."
   },
   {
@@ -1324,7 +1324,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 95,
-    "name": "http://www.cityofmenasha-wi.gov/departments/city_attorney/index.php",
+    "name": "https://www.cityofmenasha-wi.gov/departments/city_attorney/index.php",
     "detail": "No URL found in body field."
   },
   {
@@ -1340,7 +1340,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 97,
-    "name": "http://www.ci.mequon.wi.us/index.asp?Type=B_BASIC&amp;SEC=%7BC805F607-7EB8-4DEB-8396-A0F36E8A6B3B%7D",
+    "name": "https://www.ci.mequon.wi.us/index.asp?Type=B_BASIC&amp;SEC=%7BC805F607-7EB8-4DEB-8396-A0F36E8A6B3B%7D",
     "detail": "No URL found in body field."
   },
   {
@@ -1356,7 +1356,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 99,
-    "name": "http://www.ci.merrill.wi.us/index.asp?SEC=329B3DB6-BA74-4408-A657-68ECCB365F51&amp;Type=B_BASIC",
+    "name": "https://www.ci.merrill.wi.us/index.asp?SEC=329B3DB6-BA74-4408-A657-68ECCB365F51&amp;Type=B_BASIC",
     "detail": "No URL found in body field."
   },
   {
@@ -1372,7 +1372,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 101,
-    "name": "http://city.milwaukee.gov/CityAttorney#.VnmHAxUrIRk",
+    "name": "https://city.milwaukee.gov/CityAttorney#.VnmHAxUrIRk",
     "detail": "No URL found in body field."
   },
   {
@@ -1388,7 +1388,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 103,
-    "name": "http://www.ci.neenah.wi.us/departments/city-attorney/",
+    "name": "https://www.ci.neenah.wi.us/departments/city-attorney/",
     "detail": "No URL found in body field."
   },
   {
@@ -1404,7 +1404,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 105,
-    "name": "http://neillsville.townwebdesign.com/city-departments/city-attorney",
+    "name": "https://neillsville.townwebdesign.com/city-departments/city-attorney",
     "detail": "No URL found in body field."
   },
   {
@@ -1420,7 +1420,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 107,
-    "name": "http://www.haskinkarls.com/our-attorneys/",
+    "name": "https://www.haskinkarls.com/our-attorneys/",
     "detail": "No URL found in body field."
   },
   {
@@ -1436,7 +1436,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 109,
-    "name": "http://www.cityofonalaska.com/index.asp?Type=B_BASIC&amp;SEC=%7BCA8CE391-CBDF-4F20-AB36-F0EDDBC884B5%7D",
+    "name": "https://www.cityofonalaska.com/index.asp?Type=B_BASIC&amp;SEC=%7BCA8CE391-CBDF-4F20-AB36-F0EDDBC884B5%7D",
     "detail": "No URL found in body field."
   },
   {
@@ -1452,7 +1452,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 111,
-    "name": "http://www.ci.oshkosh.wi.us/City_Attorney/",
+    "name": "https://www.ci.oshkosh.wi.us/City_Attorney/",
     "detail": "No URL found in body field."
   },
   {
@@ -1468,7 +1468,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 113,
-    "name": "http://cityofracine.org/Attorney/",
+    "name": "https://cityofracine.org/Attorney/",
     "detail": "No URL found in body field."
   },
   {
@@ -1484,7 +1484,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 115,
-    "name": "http://www.sheboyganwi.gov/departments/city-attorney/",
+    "name": "https://www.sheboyganwi.gov/departments/city-attorney/",
     "detail": "No URL found in body field."
   },
   {
@@ -1500,7 +1500,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 117,
-    "name": "http://smwi.org/city-attorney/",
+    "name": "https://smwi.org/city-attorney/",
     "detail": "No URL found in body field."
   },
   {
@@ -1516,7 +1516,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 119,
-    "name": "http://www.ci.superior.wi.us/index.aspx?nid=73",
+    "name": "https://www.ci.superior.wi.us/index.aspx?nid=73",
     "detail": "No URL found in body field."
   },
   {
@@ -1532,7 +1532,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 121,
-    "name": "http://www.housemanlaw.com/Johnathan_Woodward.html",
+    "name": "https://www.housemanlaw.com/Johnathan_Woodward.html",
     "detail": "No URL found in body field."
   },
   {
@@ -1548,7 +1548,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 123,
-    "name": "http://viroqua-wisconsin.com/city-of-viroqua/departments/municipal-court",
+    "name": "https://viroqua-wisconsin.com/city-of-viroqua/departments/municipal-court",
     "detail": "No URL found in body field."
   },
   {
@@ -1564,7 +1564,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 125,
-    "name": "http://www.ci.watertown.wi.us/departments/city_attorney/index.php#.VnmHERUrIRk",
+    "name": "https://www.ci.watertown.wi.us/departments/city_attorney/index.php#.VnmHERUrIRk",
     "detail": "No URL found in body field."
   },
   {
@@ -1580,7 +1580,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 127,
-    "name": "http://www.ci.waukesha.wi.us/web/guest/attorney",
+    "name": "https://www.ci.waukesha.wi.us/web/guest/attorney",
     "detail": "No URL found in body field."
   },
   {
@@ -1596,7 +1596,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 129,
-    "name": "http://www.ci.wausau.wi.us/Departments/Attorney.aspx",
+    "name": "https://www.ci.wausau.wi.us/Departments/Attorney.aspx",
     "detail": "No URL found in body field."
   },
   {
@@ -1612,7 +1612,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 131,
-    "name": "http://www.wauwatosa.net/index.aspx?NID=84",
+    "name": "https://www.wauwatosa.net/index.aspx?NID=84",
     "detail": "No URL found in body field."
   },
   {
@@ -1628,7 +1628,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 133,
-    "name": "http://www.westalliswi.gov/index.aspx?NID=94",
+    "name": "https://www.westalliswi.gov/index.aspx?NID=94",
     "detail": "No URL found in body field."
   },
   {
@@ -1644,7 +1644,7 @@
     "type": "missing_website",
     "source_file": "ri.csv",
     "row_number": 135,
-    "name": "http://www.ci.west-bend.wi.us/City-Attorney/",
+    "name": "https://www.ci.west-bend.wi.us/City-Attorney/",
     "detail": "No URL found in body field."
   },
   {
