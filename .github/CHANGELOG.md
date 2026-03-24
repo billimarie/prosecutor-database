@@ -1,5 +1,14 @@
 # Changelog
-Maintained by [@billimarie](https://www.github.com/billimarie).
+
+## 1.0.0
+
+Deployed at [https://us-prosecutor-database.netlify.app/](https://us-prosecutor-database.netlify.app/)
+
+### New
+- Converted to Vite/Vue, Firebase, Netlify
+
+### Updates
+- Normalized old data via Agentic AI (Cursor, Claude)
 
 ## 0.3.2
 
