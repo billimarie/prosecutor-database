@@ -57,7 +57,7 @@ See `DOCS.md` for schema and AI-agent scraping workflow.
 
 ## License
 
-The USPD is an open-source community project built to house data about current and previous US Prosecutors (copyright (c) 2017 - 2020 Billimarie Lubiano Robinson). It is licensed under **GNU GPLv3**. This means you are able to use, modify, & distribute USPD as long as the following conditions are met:
+The USPD is an open-source community project built to house data about current and previous US Prosecutors (est 2017). It is licensed under **GNU GPLv3**. This means you are able to use, modify, & distribute USPD as long as the following conditions are met:
 - Acknowledge the original source (this repository & its contributors)
 - Apply the same license & copyright usage
 - Make public any changes, updates, or improvements upon USPD
