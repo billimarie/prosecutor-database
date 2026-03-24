@@ -1,21 +1,16 @@
 import Papa from "papaparse";
 
-const CSV_URL = "/data/normalized/prosecutors.normalized.csv";
+const CSV_URLS = [
+  "/data/normalized/prosecutors.normalized.csv",
+  "/data/normalized/us-attorneys.normalized.csv",
+];
 
 let _cache = null;
 
 async function loadAll() {
   if (_cache) return _cache;
-
-  const response = await fetch(CSV_URL);
-  const text = await response.text();
-
-  const { data } = Papa.parse(text, {
-    header: true,
-    skipEmptyLines: true,
-  });
-
-  _cache = data;
+  const texts = await Promise.all(CSV_URLS.map(u => fetch(u).then(r => r.text())));
+  _cache = texts.flatMap(text => Papa.parse(text, { header: true, skipEmptyLines: true }).data);
   return _cache;
 }
 
