@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1
+
+### New
+- Adds Incarceration Rate visualizer
+
 ## 1.0.0
 
 Deployed at [https://us-prosecutor-database.netlify.app/](https://us-prosecutor-database.netlify.app/)
