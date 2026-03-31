@@ -6,6 +6,7 @@ import AppFooter from "../components/AppFooter.vue";
 import TrendsChart from "../components/TrendsChart.vue";
 import trendsData from "../data/incarcerationTrends.json";
 import stateAverages from "../data/stateAverages.json";
+import { getOutlierStatus } from "../utils/outlier";
 import * as d3 from "d3";
 
 const props = defineProps({
@@ -53,19 +54,7 @@ const stateTrends = computed(() => {
 });
 
 const outlierStatus = computed(() => {
-  if (!prosecutorTrends.value.length || !stateTrends.value.length) return null;
-  
-  const latestLocal = prosecutorTrends.value[prosecutorTrends.value.length - 1];
-  const latestState = stateTrends.value[stateTrends.value.length - 1];
-  
-  const localTotal = latestLocal.jail + latestLocal.prison;
-  const stateTotal = latestState.jail + latestState.prison;
-  
-  const ratio = localTotal / stateTotal;
-  
-  if (ratio >= 2) return { type: "high", label: "High Incarceration Outlier", ratio };
-  if (ratio <= 0.5) return { type: "low", label: "Low Incarceration Outlier", ratio };
-  return null;
+  return getOutlierStatus(prosecutor.value);
 });
 
 onMounted(async () => {

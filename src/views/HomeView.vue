@@ -3,6 +3,7 @@ import { onMounted, ref, computed } from "vue";
 import { RouterLink } from "vue-router";
 import { fetchProsecutors } from "../services/prosecutors";
 import AppFooter from "../components/AppFooter.vue";
+import { getOutlierStatus } from "../utils/outlier";
 
 const loading = ref(true);
 const prosecutors = ref([]);
@@ -55,6 +56,16 @@ const roleColor = {
 };
 function badgeClass(role) {
   return roleColor[role] || "badge-other";
+}
+
+function outlierClass(prosecutor) {
+  const status = getOutlierStatus(prosecutor);
+  return status ? `outlier-${status.type}` : "";
+}
+
+function outlierLabel(prosecutor) {
+  const status = getOutlierStatus(prosecutor);
+  return status ? status.label : "";
 }
 </script>
 
@@ -140,7 +151,12 @@ function badgeClass(role) {
           class="card"
         >
           <div class="card-top">
-            <span :class="['badge', badgeClass(p.role)]">{{ p.role || "Unknown" }}</span>
+            <div class="card-badges">
+              <span :class="['badge', badgeClass(p.role)]">{{ p.role || "Unknown" }}</span>
+              <span v-if="outlierLabel(p)" :class="['badge', outlierClass(p)]">
+                {{ outlierLabel(p) }}
+              </span>
+            </div>
             <span class="card-state">{{ p.state }}</span>
           </div>
 
@@ -385,6 +401,10 @@ function badgeClass(role) {
   align-items: center;
   margin-bottom: 0.2rem;
 }
+.card-badges {
+  display: flex;
+  gap: 0.5rem;
+}
 .badge {
   font-family: "Courier New", monospace;
   font-size: 0.62rem;
@@ -398,6 +418,18 @@ function badgeClass(role) {
 .badge-district { background: rgba(192,57,43,0.2);   color: #e07060; border: 1px solid rgba(192,57,43,0.4); }
 .badge-ag       { background: rgba(39,174,96,0.2);   color: #5dca86; border: 1px solid rgba(39,174,96,0.4); }
 .badge-other    { background: rgba(142,68,173,0.2);  color: #b07cd6; border: 1px solid rgba(142,68,173,0.4); }
+
+.outlier-high {
+  background: #991b1b;
+  color: #fff;
+  border: 1px solid #7f1d1d;
+}
+
+.outlier-low {
+  background: #166534;
+  color: #fff;
+  border: 1px solid #14532d;
+}
 
 .card-state {
   font-family: "Courier New", monospace;
