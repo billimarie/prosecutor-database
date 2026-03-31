@@ -12,13 +12,18 @@ const search     = ref("");
 const roleFilter = ref("All");
 const stateFilter = ref("All");
 
+const ogUrl =
+  typeof window !== "undefined"
+    ? `${window.location.origin}/`
+    : "https://us-prosecutor-database.netlify.app/";
+
 // Apply static SEO for the home / listing page.
 useSeoMeta({
   title: "U.S. Prosecutor Database | Prosecutorial Accountability",
   description:
     "Open-source civic database tracking local, state, and federal U.S. prosecutors across all 50 states " +
     "— election messaging, charging trends, and mass incarceration indicators.",
-  ogUrl: "https://us-prosecutor-database.netlify.app/",
+  ogUrl,
 });
 
 onMounted(async () => {
