@@ -42,10 +42,15 @@ watch(prosecutor, (p) => {
     "U.S. Prosecutor Database tracks prosecutorial accountability across all 50 states.",
   ].filter(Boolean).join(" ");
 
+  const origin =
+    typeof window !== "undefined" && window.location && window.location.origin
+      ? window.location.origin
+      : "https://us-prosecutor-database.netlify.app";
+
   useSeoMeta({
     title,
     description: desc,
-    ogUrl: `https://us-prosecutor-database.netlify.app/prosecutor/` + p.id,
+    ogUrl: `${origin}/prosecutor/` + p.id,
   });
 }, { immediate: true });
 </script>
