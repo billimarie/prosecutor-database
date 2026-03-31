@@ -3,6 +3,9 @@ import { onMounted, ref, computed } from "vue";
 import { RouterLink } from "vue-router";
 import { fetchProsecutorById } from "../services/prosecutors";
 import AppFooter from "../components/AppFooter.vue";
+import TrendsChart from "../components/TrendsChart.vue";
+import trendsData from "../data/incarcerationTrends.json";
+import * as d3 from "d3";
 
 const props = defineProps({
   id: {
@@ -18,6 +21,32 @@ const error = ref(null);
 // Computed property to check if relevant cases exist
 const hasRelevantCases = computed(() => {
   return prosecutor.value?.relevant_cases && prosecutor.value.relevant_cases.length > 0;
+});
+
+// FIPS Mapping for initial fallback data
+const fipsMap = {
+  "ga-ocmulgee-harold-mclendon-2024": ["13175", "13167", "13289", "13283"],
+  "pa-lebanon-michael-light-2025":    ["42075"],
+  "ms-desoto-matthew-barton-2022":    ["28033"],
+};
+
+const prosecutorTrends = computed(() => {
+  if (!prosecutor.value) return [];
+  const fipsList = fipsMap[prosecutor.value.id] || [];
+  
+  // Aggregate data if multiple FIPS exist (sum/average of rates)
+  // For simplicity in the prototype, we take the primary county or average
+  const data = fipsList.map(fips => trendsData[fips] || []).flat();
+  if (!data.length) return [];
+
+  // Group by year and average the rates
+  const yearly = d3.groups(data, d => d.year).map(([year, values]) => ({
+    year,
+    jail: d3.mean(values, v => v.jail),
+    prison: d3.mean(values, v => v.prison),
+  }));
+
+  return yearly.sort((a, b) => a.year - b.year);
 });
 
 onMounted(async () => {
@@ -127,6 +156,30 @@ onMounted(async () => {
           <dt>Small-Town Focus</dt>
           <dd>{{ prosecutor.small_town_focus ? "Yes" : "No" }}</dd>
         </dl>
+      </section>
+
+      <!-- Incarceration Trends Section -->
+      <section v-if="prosecutorTrends.length" class="profile-section">
+        <h2>Incarceration Trends (2002–2022)</h2>
+        <div class="chart-wrapper">
+          <TrendsChart :data="prosecutorTrends" />
+          <p class="chart-caption">
+            Incarceration rate per 100,000 residents for {{ prosecutor.jurisdiction }}. 
+            Data source: Vera Institute Incarceration Trends.
+          </p>
+        </div>
+      </section>
+
+      <!-- Incarceration Trends Section -->
+      <section v-if="prosecutorTrends.length" class="profile-section">
+        <h2>Incarceration Trends (2002–2022)</h2>
+        <div class="chart-wrapper">
+          <TrendsChart :data="prosecutorTrends" />
+          <p class="chart-caption">
+            Incarceration rate per 100,000 residents for {{ prosecutor.jurisdiction }}. 
+            Data source: Vera Institute Incarceration Trends.
+          </p>
+        </div>
       </section>
 
       <section v-if="prosecutor.notes" class="profile-section">

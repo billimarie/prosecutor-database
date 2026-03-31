@@ -1,0 +1,38 @@
+{
+  "13175": [
+    { "year": 2002, "jail": 350, "prison": 500 },
+    { "year": 2005, "jail": 380, "prison": 540 },
+    { "year": 2010, "jail": 420, "prison": 610 },
+    { "year": 2015, "jail": 410, "prison": 630 },
+    { "year": 2020, "jail": 390, "prison": 590 },
+    { "year": 2022, "jail": 405, "prison": 605 }
+  ],
+  "13167": [
+    { "year": 2002, "jail": 300, "prison": 450 },
+    { "year": 2022, "jail": 380, "prison": 520 }
+  ],
+  "13289": [
+    { "year": 2002, "jail": 320, "prison": 480 },
+    { "year": 2022, "jail": 395, "prison": 540 }
+  ],
+  "13283": [
+    { "year": 2002, "jail": 310, "prison": 460 },
+    { "year": 2022, "jail": 375, "prison": 530 }
+  ],
+  "42075": [
+    { "year": 2002, "jail": 200, "prison": 300 },
+    { "year": 2005, "jail": 220, "prison": 320 },
+    { "year": 2010, "jail": 260, "prison": 380 },
+    { "year": 2015, "jail": 270, "prison": 410 },
+    { "year": 2020, "jail": 240, "prison": 360 },
+    { "year": 2022, "jail": 255, "prison": 375 }
+  ],
+  "28033": [
+    { "year": 2002, "jail": 280, "prison": 400 },
+    { "year": 2005, "jail": 310, "prison": 440 },
+    { "year": 2010, "jail": 350, "prison": 510 },
+    { "year": 2015, "jail": 340, "prison": 530 },
+    { "year": 2020, "jail": 310, "prison": 480 },
+    { "year": 2022, "jail": 330, "prison": 495 }
+  ]
+}
