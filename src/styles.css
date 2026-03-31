@@ -8,6 +8,11 @@ body {
   margin: 0;
 }
 
+a,
+a:visited {
+  color: var(--amber);
+}
+
 .container {
   max-width: 1100px;
   margin: 0 auto;

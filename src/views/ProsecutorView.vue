@@ -2,6 +2,7 @@
 import { onMounted, ref, computed } from "vue";
 import { RouterLink } from "vue-router";
 import { fetchProsecutorById } from "../services/prosecutors";
+import AppFooter from "../components/AppFooter.vue";
 
 const props = defineProps({
   id: {
@@ -134,6 +135,7 @@ onMounted(async () => {
       </section>
     </article>
   </main>
+  <AppFooter />
 </template>
 
 <style scoped>

@@ -2,6 +2,7 @@
 import { onMounted, ref, computed } from "vue";
 import { RouterLink } from "vue-router";
 import { fetchProsecutors } from "../services/prosecutors";
+import AppFooter from "../components/AppFooter.vue";
 
 const loading = ref(true);
 const prosecutors = ref([]);
@@ -63,6 +64,9 @@ function badgeClass(role) {
     <!-- ── HEADER ── -->
     <header class="db-header">
       <div class="header-inner">
+        <nav class="header-secondary-nav">
+          <RouterLink id="nav-about" :to="{ name: 'about' }" class="nav-secondary-link">About &amp; Glossary</RouterLink>
+        </nav>
         <div class="header-eyebrow">CIVIC ACCOUNTABILITY PROJECT</div>
         <h1 class="header-title">U.S. Prosecutor<br>Database</h1>
         <p class="header-sub">
@@ -161,6 +165,8 @@ function badgeClass(role) {
 
     </main>
 
+    <AppFooter />
+
   </div>
 </template>
 
@@ -202,6 +208,27 @@ function badgeClass(role) {
   letter-spacing: 0.18em;
   color: var(--amber);
   margin-bottom: 0.75rem;
+}
+
+/* Secondary Nav */
+.header-secondary-nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1.5rem;
+}
+.nav-secondary-link {
+  border: 2px solid var(--amber);
+  font-family: "Courier New", monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  padding: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 0.15s;
+}
+.nav-secondary-link:hover {
+  color: var(--amber);
 }
 .header-title {
   font-size: clamp(2.4rem, 5vw, 4rem);
