@@ -1,7 +1,8 @@
 <script setup>
-import { onMounted, ref } from "vue";
+import { onMounted, ref, watch } from "vue";
 import { RouterLink } from "vue-router";
 import { fetchProsecutorById } from "../services/prosecutors";
+import { useSeoMeta } from "../composables/useSeoMeta";
 
 const props = defineProps({
   id: {
@@ -24,6 +25,34 @@ onMounted(async () => {
     loading.value = false;
   }
 });
+
+// Apply dynamic SEO meta once prosecutor data is loaded.
+watch(prosecutor, (p) => {
+  if (!p) return;
+  const name  = p.name || "Unknown Prosecutor";
+  const role  = p.role || p.office || "Prosecutor";
+  const state = p.state || "";
+  const juris = p.jurisdiction || p.county_or_region || "";
+  const locParts = [juris, state].filter(Boolean).join(", ");
+  const title = `${name} | U.S. Prosecutor Database`;
+  const desc  = [
+    `${name} is a ${role}${locParts ? " in " + locParts : ""}.`,
+    p.campaign_theme ? `Campaign theme: ${p.campaign_theme}.` : null,
+    p.notes          ? p.notes.slice(0, 120)                   : null,
+    "U.S. Prosecutor Database tracks prosecutorial accountability across all 50 states.",
+  ].filter(Boolean).join(" ");
+
+  const origin =
+    typeof window !== "undefined" && window.location && window.location.origin
+      ? window.location.origin
+      : "https://us-prosecutor-database.netlify.app";
+
+  useSeoMeta({
+    title,
+    description: desc,
+    ogUrl: `${origin}/prosecutor/` + p.id,
+  });
+}, { immediate: true });
 </script>
 
 <template>
@@ -36,7 +65,7 @@ onMounted(async () => {
     <article v-else class="profile panel">
       <header class="profile-header">
         <h1>{{ prosecutor.name }}</h1>
-        <p class="profile-meta">{{ prosecutor.role }} · {{ prosecutor.office }}</p>
+        <p class="profile-meta">{{ prosecutor.role }} &middot; {{ prosecutor.office }}</p>
       </header>
 
       <section class="profile-section">

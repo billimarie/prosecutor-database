@@ -2,6 +2,7 @@
 import { onMounted, ref, computed } from "vue";
 import { RouterLink } from "vue-router";
 import { fetchProsecutors } from "../services/prosecutors";
+import { useSeoMeta } from "../composables/useSeoMeta";
 
 const loading = ref(true);
 const prosecutors = ref([]);
@@ -10,6 +11,20 @@ const prosecutors = ref([]);
 const search     = ref("");
 const roleFilter = ref("All");
 const stateFilter = ref("All");
+
+// Apply static SEO for the home / listing page.
+const origin =
+  typeof window !== "undefined" && window.location && window.location.origin
+    ? window.location.origin
+    : "https://us-prosecutor-database.netlify.app";
+
+useSeoMeta({
+  title: "U.S. Prosecutor Database | Prosecutorial Accountability",
+  description:
+    "Open-source civic database tracking local, state, and federal U.S. prosecutors across all 50 states " +
+    "— election messaging, charging trends, and mass incarceration indicators.",
+  ogUrl: origin + "/",
+});
 
 onMounted(async () => {
   prosecutors.value = await fetchProsecutors();
@@ -66,7 +81,7 @@ function badgeClass(role) {
         <div class="header-eyebrow">CIVIC ACCOUNTABILITY PROJECT</div>
         <h1 class="header-title">U.S. Prosecutor<br>Database</h1>
         <p class="header-sub">
-          Tracking local, state &amp; federal prosecutors across all 50 states.
+          Tracking local, state & federal prosecutors across all 50 states.
           Prosecutorial oversight starts here.
         </p>
         <div class="header-stat">
