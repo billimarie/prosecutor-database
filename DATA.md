@@ -1,4 +1,5 @@
 # Data Documentation: U.S. Prosecutor Database
+> AI Generated: Antigravity
 
 This document outlines the data sources, processing logic, and mathematical models used to generate the accountability metrics and visualizations within the platform.
 
