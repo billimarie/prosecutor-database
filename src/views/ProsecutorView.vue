@@ -5,6 +5,7 @@ import { fetchProsecutorById } from "../services/prosecutors";
 import AppFooter from "../components/AppFooter.vue";
 import TrendsChart from "../components/TrendsChart.vue";
 import trendsData from "../data/incarcerationTrends.json";
+import stateAverages from "../data/stateAverages.json";
 import * as d3 from "d3";
 
 const props = defineProps({
@@ -34,12 +35,9 @@ const prosecutorTrends = computed(() => {
   if (!prosecutor.value) return [];
   const fipsList = fipsMap[prosecutor.value.id] || [];
   
-  // Aggregate data if multiple FIPS exist (sum/average of rates)
-  // For simplicity in the prototype, we take the primary county or average
   const data = fipsList.map(fips => trendsData[fips] || []).flat();
   if (!data.length) return [];
 
-  // Group by year and average the rates
   const yearly = d3.groups(data, d => d.year).map(([year, values]) => ({
     year,
     jail: d3.mean(values, v => v.jail),
@@ -47,6 +45,27 @@ const prosecutorTrends = computed(() => {
   }));
 
   return yearly.sort((a, b) => a.year - b.year);
+});
+
+const stateTrends = computed(() => {
+  if (!prosecutor.value || !prosecutor.value.state) return [];
+  return stateAverages[prosecutor.value.state] || [];
+});
+
+const outlierStatus = computed(() => {
+  if (!prosecutorTrends.value.length || !stateTrends.value.length) return null;
+  
+  const latestLocal = prosecutorTrends.value[prosecutorTrends.value.length - 1];
+  const latestState = stateTrends.value[stateTrends.value.length - 1];
+  
+  const localTotal = latestLocal.jail + latestLocal.prison;
+  const stateTotal = latestState.jail + latestState.prison;
+  
+  const ratio = localTotal / stateTotal;
+  
+  if (ratio >= 2) return { type: "high", label: "High Incarceration Outlier", ratio };
+  if (ratio <= 0.5) return { type: "low", label: "Low Incarceration Outlier", ratio };
+  return null;
 });
 
 onMounted(async () => {
@@ -70,7 +89,6 @@ onMounted(async () => {
 
     <article v-else class="profile panel">
       <header class="profile-header">
-        <!-- Featured Image -->
         <div v-if="prosecutor.featured_image" class="featured-image-container">
           <img 
             :src="prosecutor.featured_image" 
@@ -79,7 +97,12 @@ onMounted(async () => {
           />
           <p v-if="prosecutor.image_caption" class="image-caption">{{ prosecutor.image_caption }}</p>
         </div>
-        <h1>{{ prosecutor.name }}</h1>
+        <div class="header-with-badge">
+          <h1>{{ prosecutor.name }}</h1>
+          <span v-if="outlierStatus" :class="['badge', `badge-${outlierStatus.type}`]">
+            {{ outlierStatus.label }}
+          </span>
+        </div>
         <p class="profile-meta">{{ prosecutor.role }} · {{ prosecutor.office }}</p>
       </header>
 
@@ -162,22 +185,10 @@ onMounted(async () => {
       <section v-if="prosecutorTrends.length" class="profile-section">
         <h2>Incarceration Trends (2002–2022)</h2>
         <div class="chart-wrapper">
-          <TrendsChart :data="prosecutorTrends" />
+          <TrendsChart :data="prosecutorTrends" :state-data="stateTrends" />
           <p class="chart-caption">
             Incarceration rate per 100,000 residents for {{ prosecutor.jurisdiction }}. 
-            Data source: Vera Institute Incarceration Trends.
-          </p>
-        </div>
-      </section>
-
-      <!-- Incarceration Trends Section -->
-      <section v-if="prosecutorTrends.length" class="profile-section">
-        <h2>Incarceration Trends (2002–2022)</h2>
-        <div class="chart-wrapper">
-          <TrendsChart :data="prosecutorTrends" />
-          <p class="chart-caption">
-            Incarceration rate per 100,000 residents for {{ prosecutor.jurisdiction }}. 
-            Data source: Vera Institute Incarceration Trends.
+            Dashed line represents state-wide average for {{ prosecutor.state }}.
           </p>
         </div>
       </section>
@@ -202,9 +213,36 @@ onMounted(async () => {
   margin-bottom: 1.5rem;
 }
 
+.header-with-badge {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 99px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.badge-high {
+  background: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #f87171;
+}
+.badge-low {
+  background: #dcfce7;
+  color: #166534;
+  border: 1px solid #4ade80;
+}
+
 .profile-meta {
   color: #666;
   font-size: 0.95rem;
+  margin-top: 0.5rem;
 }
 
 .profile-section {
@@ -240,7 +278,6 @@ dd {
   color: #c00;
 }
 
-/* Featured Image Styles */
 .featured-image-container {
   margin-bottom: 1.5rem;
   border-radius: 4px;
@@ -265,7 +302,6 @@ dd {
   border-top: 1px solid #eee;
 }
 
-/* Relevant Cases Styles */
 .cases-list {
   display: flex;
   flex-direction: column;
@@ -316,10 +352,6 @@ dd {
   margin-top: 0.5rem;
 }
 
-.case-outcome strong {
-  color: #444;
-}
-
 .case-source {
   margin-top: 0.5rem;
 }
@@ -330,7 +362,20 @@ dd {
   text-decoration: none;
 }
 
-.case-link:hover {
-  text-decoration: underline;
+.chart-wrapper {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #181c25;
+  border: 1px solid #2e3447;
+  border-radius: 4px;
+}
+
+.chart-caption {
+  font-family: "Courier New", monospace;
+  font-size: 0.75rem;
+  color: #7a8099;
+  margin-top: 1rem;
+  line-height: 1.5;
+  text-align: center;
 }
 </style>

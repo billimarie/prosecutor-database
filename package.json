@@ -1,7 +1,7 @@
 {
   "name": "us-prosecutor-database",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Vue + Firebase civic dataset for prosecutor accountability research.",
   "keywords": [

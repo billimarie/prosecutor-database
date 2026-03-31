@@ -1,0 +1,4817 @@
+{
+  "AL": [
+    {
+      "year": 2002,
+      "jail": 448,
+      "prison": 759
+    },
+    {
+      "year": 2003,
+      "jail": 446,
+      "prison": 752
+    },
+    {
+      "year": 2004,
+      "jail": 480,
+      "prison": 774
+    },
+    {
+      "year": 2005,
+      "jail": 531,
+      "prison": 780
+    },
+    {
+      "year": 2006,
+      "jail": 530,
+      "prison": 775
+    },
+    {
+      "year": 2007,
+      "jail": 547,
+      "prison": 784
+    },
+    {
+      "year": 2008,
+      "jail": 561,
+      "prison": 822
+    },
+    {
+      "year": 2009,
+      "jail": 527,
+      "prison": 851
+    },
+    {
+      "year": 2010,
+      "jail": 497,
+      "prison": 835
+    },
+    {
+      "year": 2011,
+      "jail": 541,
+      "prison": 848
+    },
+    {
+      "year": 2012,
+      "jail": 567,
+      "prison": 861
+    },
+    {
+      "year": 2013,
+      "jail": 532,
+      "prison": 855
+    },
+    {
+      "year": 2014,
+      "jail": 544,
+      "prison": 814
+    },
+    {
+      "year": 2015,
+      "jail": 521,
+      "prison": 793
+    },
+    {
+      "year": 2016,
+      "jail": 483,
+      "prison": 751
+    },
+    {
+      "year": 2017,
+      "jail": 521,
+      "prison": 733
+    },
+    {
+      "year": 2018,
+      "jail": 530,
+      "prison": 738
+    },
+    {
+      "year": 2019,
+      "jail": 567,
+      "prison": 778
+    },
+    {
+      "year": 2020,
+      "jail": 323,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 296,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 169,
+      "prison": 0
+    }
+  ],
+  "AR": [
+    {
+      "year": 2002,
+      "jail": 331,
+      "prison": 0
+    },
+    {
+      "year": 2003,
+      "jail": 343,
+      "prison": 0
+    },
+    {
+      "year": 2004,
+      "jail": 343,
+      "prison": 0
+    },
+    {
+      "year": 2005,
+      "jail": 316,
+      "prison": 0
+    },
+    {
+      "year": 2006,
+      "jail": 321,
+      "prison": 0
+    },
+    {
+      "year": 2007,
+      "jail": 340,
+      "prison": 0
+    },
+    {
+      "year": 2008,
+      "jail": 364,
+      "prison": 0
+    },
+    {
+      "year": 2009,
+      "jail": 370,
+      "prison": 0
+    },
+    {
+      "year": 2010,
+      "jail": 370,
+      "prison": 0
+    },
+    {
+      "year": 2011,
+      "jail": 361,
+      "prison": 0
+    },
+    {
+      "year": 2012,
+      "jail": 389,
+      "prison": 0
+    },
+    {
+      "year": 2013,
+      "jail": 412,
+      "prison": 0
+    },
+    {
+      "year": 2014,
+      "jail": 436,
+      "prison": 0
+    },
+    {
+      "year": 2015,
+      "jail": 414,
+      "prison": 0
+    },
+    {
+      "year": 2016,
+      "jail": 420,
+      "prison": 0
+    },
+    {
+      "year": 2017,
+      "jail": 419,
+      "prison": 0
+    },
+    {
+      "year": 2018,
+      "jail": 440,
+      "prison": 0
+    },
+    {
+      "year": 2019,
+      "jail": 539,
+      "prison": 0
+    },
+    {
+      "year": 2020,
+      "jail": 213,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 214,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 90,
+      "prison": 0
+    }
+  ],
+  "AZ": [
+    {
+      "year": 2002,
+      "jail": 450,
+      "prison": 661
+    },
+    {
+      "year": 2003,
+      "jail": 497,
+      "prison": 712
+    },
+    {
+      "year": 2004,
+      "jail": 496,
+      "prison": 781
+    },
+    {
+      "year": 2005,
+      "jail": 501,
+      "prison": 767
+    },
+    {
+      "year": 2006,
+      "jail": 523,
+      "prison": 756
+    },
+    {
+      "year": 2007,
+      "jail": 530,
+      "prison": 790
+    },
+    {
+      "year": 2008,
+      "jail": 479,
+      "prison": 801
+    },
+    {
+      "year": 2009,
+      "jail": 533,
+      "prison": 816
+    },
+    {
+      "year": 2010,
+      "jail": 487,
+      "prison": 801
+    },
+    {
+      "year": 2011,
+      "jail": 476,
+      "prison": 809
+    },
+    {
+      "year": 2012,
+      "jail": 448,
+      "prison": 824
+    },
+    {
+      "year": 2013,
+      "jail": 451,
+      "prison": 869
+    },
+    {
+      "year": 2014,
+      "jail": 438,
+      "prison": 930
+    },
+    {
+      "year": 2015,
+      "jail": 463,
+      "prison": 964
+    },
+    {
+      "year": 2016,
+      "jail": 440,
+      "prison": 981
+    },
+    {
+      "year": 2017,
+      "jail": 446,
+      "prison": 1001
+    },
+    {
+      "year": 2018,
+      "jail": 471,
+      "prison": 988
+    },
+    {
+      "year": 2019,
+      "jail": 500,
+      "prison": 0
+    },
+    {
+      "year": 2020,
+      "jail": 196,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 184,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 157,
+      "prison": 0
+    }
+  ],
+  "CA": [
+    {
+      "year": 2002,
+      "jail": 365,
+      "prison": 667
+    },
+    {
+      "year": 2003,
+      "jail": 379,
+      "prison": 670
+    },
+    {
+      "year": 2004,
+      "jail": 381,
+      "prison": 671
+    },
+    {
+      "year": 2005,
+      "jail": 396,
+      "prison": 679
+    },
+    {
+      "year": 2006,
+      "jail": 392,
+      "prison": 694
+    },
+    {
+      "year": 2007,
+      "jail": 387,
+      "prison": 679
+    },
+    {
+      "year": 2008,
+      "jail": 372,
+      "prison": 665
+    },
+    {
+      "year": 2009,
+      "jail": 365,
+      "prison": 644
+    },
+    {
+      "year": 2010,
+      "jail": 339,
+      "prison": 622
+    },
+    {
+      "year": 2011,
+      "jail": 336,
+      "prison": 551
+    },
+    {
+      "year": 2012,
+      "jail": 367,
+      "prison": 496
+    },
+    {
+      "year": 2013,
+      "jail": 385,
+      "prison": 511
+    },
+    {
+      "year": 2014,
+      "jail": 391,
+      "prison": 510
+    },
+    {
+      "year": 2015,
+      "jail": 359,
+      "prison": 488
+    },
+    {
+      "year": 2016,
+      "jail": 359,
+      "prison": 491
+    },
+    {
+      "year": 2017,
+      "jail": 365,
+      "prison": 508
+    },
+    {
+      "year": 2018,
+      "jail": 353,
+      "prison": 507
+    },
+    {
+      "year": 2019,
+      "jail": 360,
+      "prison": 491
+    },
+    {
+      "year": 2020,
+      "jail": 300,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 281,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 293,
+      "prison": 0
+    }
+  ],
+  "CO": [
+    {
+      "year": 2002,
+      "jail": 307,
+      "prison": 447
+    },
+    {
+      "year": 2003,
+      "jail": 433,
+      "prison": 460
+    },
+    {
+      "year": 2004,
+      "jail": 362,
+      "prison": 458
+    },
+    {
+      "year": 2005,
+      "jail": 525,
+      "prison": 482
+    },
+    {
+      "year": 2006,
+      "jail": 529,
+      "prison": 496
+    },
+    {
+      "year": 2007,
+      "jail": 486,
+      "prison": 474
+    },
+    {
+      "year": 2008,
+      "jail": 464,
+      "prison": 466
+    },
+    {
+      "year": 2009,
+      "jail": 477,
+      "prison": 444
+    },
+    {
+      "year": 2010,
+      "jail": 486,
+      "prison": 449
+    },
+    {
+      "year": 2011,
+      "jail": 417,
+      "prison": 429
+    },
+    {
+      "year": 2012,
+      "jail": 426,
+      "prison": 416
+    },
+    {
+      "year": 2013,
+      "jail": 465,
+      "prison": 419
+    },
+    {
+      "year": 2014,
+      "jail": 474,
+      "prison": 421
+    },
+    {
+      "year": 2015,
+      "jail": 472,
+      "prison": 404
+    },
+    {
+      "year": 2016,
+      "jail": 533,
+      "prison": 419
+    },
+    {
+      "year": 2017,
+      "jail": 539,
+      "prison": 419
+    },
+    {
+      "year": 2018,
+      "jail": 541,
+      "prison": 448
+    },
+    {
+      "year": 2019,
+      "jail": 501,
+      "prison": 432
+    },
+    {
+      "year": 2020,
+      "jail": 401,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 435,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 384,
+      "prison": 0
+    }
+  ],
+  "DC": [
+    {
+      "year": 2002,
+      "jail": 429,
+      "prison": 0
+    },
+    {
+      "year": 2003,
+      "jail": 781,
+      "prison": 0
+    },
+    {
+      "year": 2004,
+      "jail": 863,
+      "prison": 0
+    },
+    {
+      "year": 2005,
+      "jail": 861,
+      "prison": 0
+    },
+    {
+      "year": 2006,
+      "jail": 869,
+      "prison": 0
+    },
+    {
+      "year": 2007,
+      "jail": 743,
+      "prison": 0
+    },
+    {
+      "year": 2008,
+      "jail": 702,
+      "prison": 0
+    },
+    {
+      "year": 2009,
+      "jail": 689,
+      "prison": 0
+    },
+    {
+      "year": 2010,
+      "jail": 687,
+      "prison": 0
+    },
+    {
+      "year": 2011,
+      "jail": 658,
+      "prison": 0
+    },
+    {
+      "year": 2012,
+      "jail": 589,
+      "prison": 0
+    },
+    {
+      "year": 2013,
+      "jail": 481,
+      "prison": 0
+    },
+    {
+      "year": 2014,
+      "jail": 480,
+      "prison": 0
+    },
+    {
+      "year": 2015,
+      "jail": 373,
+      "prison": 0
+    },
+    {
+      "year": 2016,
+      "jail": 378,
+      "prison": 0
+    },
+    {
+      "year": 2017,
+      "jail": 389,
+      "prison": 0
+    },
+    {
+      "year": 2018,
+      "jail": 417,
+      "prison": 0
+    },
+    {
+      "year": 2019,
+      "jail": 378,
+      "prison": 0
+    },
+    {
+      "year": 2020,
+      "jail": 311,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 308,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 284,
+      "prison": 0
+    }
+  ],
+  "FL": [
+    {
+      "year": 2002,
+      "jail": 578,
+      "prison": 869
+    },
+    {
+      "year": 2003,
+      "jail": 614,
+      "prison": 909
+    },
+    {
+      "year": 2004,
+      "jail": 631,
+      "prison": 955
+    },
+    {
+      "year": 2005,
+      "jail": 650,
+      "prison": 984
+    },
+    {
+      "year": 2006,
+      "jail": 670,
+      "prison": 1002
+    },
+    {
+      "year": 2007,
+      "jail": 704,
+      "prison": 1047
+    },
+    {
+      "year": 2008,
+      "jail": 746,
+      "prison": 1086
+    },
+    {
+      "year": 2009,
+      "jail": 693,
+      "prison": 1079
+    },
+    {
+      "year": 2010,
+      "jail": 660,
+      "prison": 1072
+    },
+    {
+      "year": 2011,
+      "jail": 673,
+      "prison": 1071
+    },
+    {
+      "year": 2012,
+      "jail": 671,
+      "prison": 1073
+    },
+    {
+      "year": 2013,
+      "jail": 641,
+      "prison": 1068
+    },
+    {
+      "year": 2014,
+      "jail": 637,
+      "prison": 1064
+    },
+    {
+      "year": 2015,
+      "jail": 617,
+      "prison": 1035
+    },
+    {
+      "year": 2016,
+      "jail": 915,
+      "prison": 1014
+    },
+    {
+      "year": 2017,
+      "jail": 627,
+      "prison": 1008
+    },
+    {
+      "year": 2018,
+      "jail": 654,
+      "prison": 1021
+    },
+    {
+      "year": 2019,
+      "jail": 658,
+      "prison": 1004
+    },
+    {
+      "year": 2020,
+      "jail": 608,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 648,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 624,
+      "prison": 0
+    }
+  ],
+  "GA": [
+    {
+      "year": 2002,
+      "jail": 628,
+      "prison": 979
+    },
+    {
+      "year": 2003,
+      "jail": 659,
+      "prison": 951
+    },
+    {
+      "year": 2004,
+      "jail": 683,
+      "prison": 933
+    },
+    {
+      "year": 2005,
+      "jail": 725,
+      "prison": 947
+    },
+    {
+      "year": 2006,
+      "jail": 708,
+      "prison": 999
+    },
+    {
+      "year": 2007,
+      "jail": 700,
+      "prison": 1017
+    },
+    {
+      "year": 2008,
+      "jail": 652,
+      "prison": 983
+    },
+    {
+      "year": 2009,
+      "jail": 661,
+      "prison": 996
+    },
+    {
+      "year": 2010,
+      "jail": 684,
+      "prison": 967
+    },
+    {
+      "year": 2011,
+      "jail": 708,
+      "prison": 966
+    },
+    {
+      "year": 2012,
+      "jail": 653,
+      "prison": 998
+    },
+    {
+      "year": 2013,
+      "jail": 720,
+      "prison": 973
+    },
+    {
+      "year": 2014,
+      "jail": 763,
+      "prison": 943
+    },
+    {
+      "year": 2015,
+      "jail": 737,
+      "prison": 940
+    },
+    {
+      "year": 2016,
+      "jail": 752,
+      "prison": 957
+    },
+    {
+      "year": 2017,
+      "jail": 752,
+      "prison": 970
+    },
+    {
+      "year": 2018,
+      "jail": 689,
+      "prison": 978
+    },
+    {
+      "year": 2019,
+      "jail": 711,
+      "prison": 993
+    },
+    {
+      "year": 2020,
+      "jail": 588,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 608,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 656,
+      "prison": 0
+    }
+  ],
+  "IA": [
+    {
+      "year": 2002,
+      "jail": 143,
+      "prison": 268
+    },
+    {
+      "year": 2003,
+      "jail": 150,
+      "prison": 278
+    },
+    {
+      "year": 2004,
+      "jail": 151,
+      "prison": 287
+    },
+    {
+      "year": 2005,
+      "jail": 148,
+      "prison": 296
+    },
+    {
+      "year": 2006,
+      "jail": 148,
+      "prison": 287
+    },
+    {
+      "year": 2007,
+      "jail": 150,
+      "prison": 288
+    },
+    {
+      "year": 2008,
+      "jail": 145,
+      "prison": 302
+    },
+    {
+      "year": 2009,
+      "jail": 147,
+      "prison": 290
+    },
+    {
+      "year": 2010,
+      "jail": 146,
+      "prison": 307
+    },
+    {
+      "year": 2011,
+      "jail": 157,
+      "prison": 288
+    },
+    {
+      "year": 2012,
+      "jail": 155,
+      "prison": 292
+    },
+    {
+      "year": 2013,
+      "jail": 161,
+      "prison": 310
+    },
+    {
+      "year": 2014,
+      "jail": 160,
+      "prison": 327
+    },
+    {
+      "year": 2015,
+      "jail": 161,
+      "prison": 341
+    },
+    {
+      "year": 2016,
+      "jail": 176,
+      "prison": 356
+    },
+    {
+      "year": 2017,
+      "jail": 186,
+      "prison": 373
+    },
+    {
+      "year": 2018,
+      "jail": 184,
+      "prison": 390
+    },
+    {
+      "year": 2019,
+      "jail": 231,
+      "prison": 397
+    },
+    {
+      "year": 2020,
+      "jail": 49,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 43,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 25,
+      "prison": 0
+    }
+  ],
+  "ID": [
+    {
+      "year": 2002,
+      "jail": 329,
+      "prison": 0
+    },
+    {
+      "year": 2003,
+      "jail": 337,
+      "prison": 0
+    },
+    {
+      "year": 2004,
+      "jail": 351,
+      "prison": 0
+    },
+    {
+      "year": 2005,
+      "jail": 361,
+      "prison": 0
+    },
+    {
+      "year": 2006,
+      "jail": 368,
+      "prison": 0
+    },
+    {
+      "year": 2007,
+      "jail": 380,
+      "prison": 0
+    },
+    {
+      "year": 2008,
+      "jail": 373,
+      "prison": 0
+    },
+    {
+      "year": 2009,
+      "jail": 348,
+      "prison": 0
+    },
+    {
+      "year": 2010,
+      "jail": 324,
+      "prison": 0
+    },
+    {
+      "year": 2011,
+      "jail": 322,
+      "prison": 0
+    },
+    {
+      "year": 2012,
+      "jail": 351,
+      "prison": 0
+    },
+    {
+      "year": 2013,
+      "jail": 349,
+      "prison": 0
+    },
+    {
+      "year": 2014,
+      "jail": 356,
+      "prison": 0
+    },
+    {
+      "year": 2015,
+      "jail": 368,
+      "prison": 0
+    },
+    {
+      "year": 2016,
+      "jail": 378,
+      "prison": 0
+    },
+    {
+      "year": 2017,
+      "jail": 389,
+      "prison": 0
+    },
+    {
+      "year": 2018,
+      "jail": 397,
+      "prison": 0
+    },
+    {
+      "year": 2019,
+      "jail": 383,
+      "prison": 0
+    },
+    {
+      "year": 2020,
+      "jail": 160,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 134,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 125,
+      "prison": 0
+    }
+  ],
+  "IL": [
+    {
+      "year": 2002,
+      "jail": 239,
+      "prison": 399
+    },
+    {
+      "year": 2003,
+      "jail": 252,
+      "prison": 433
+    },
+    {
+      "year": 2004,
+      "jail": 236,
+      "prison": 449
+    },
+    {
+      "year": 2005,
+      "jail": 258,
+      "prison": 465
+    },
+    {
+      "year": 2006,
+      "jail": 276,
+      "prison": 473
+    },
+    {
+      "year": 2007,
+      "jail": 228,
+      "prison": 475
+    },
+    {
+      "year": 2008,
+      "jail": 228,
+      "prison": 490
+    },
+    {
+      "year": 2009,
+      "jail": 227,
+      "prison": 485
+    },
+    {
+      "year": 2010,
+      "jail": 228,
+      "prison": 529
+    },
+    {
+      "year": 2011,
+      "jail": 231,
+      "prison": 546
+    },
+    {
+      "year": 2012,
+      "jail": 230,
+      "prison": 567
+    },
+    {
+      "year": 2013,
+      "jail": 297,
+      "prison": 563
+    },
+    {
+      "year": 2014,
+      "jail": 231,
+      "prison": 564
+    },
+    {
+      "year": 2015,
+      "jail": 264,
+      "prison": 439
+    },
+    {
+      "year": 2016,
+      "jail": 275,
+      "prison": 556
+    },
+    {
+      "year": 2017,
+      "jail": 286,
+      "prison": 548
+    },
+    {
+      "year": 2018,
+      "jail": 308,
+      "prison": 572
+    },
+    {
+      "year": 2019,
+      "jail": 320,
+      "prison": 581
+    },
+    {
+      "year": 2020,
+      "jail": 89,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 92,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 68,
+      "prison": 0
+    }
+  ],
+  "IN": [
+    {
+      "year": 2002,
+      "jail": 387,
+      "prison": 431
+    },
+    {
+      "year": 2003,
+      "jail": 425,
+      "prison": 464
+    },
+    {
+      "year": 2004,
+      "jail": 431,
+      "prison": 478
+    },
+    {
+      "year": 2005,
+      "jail": 463,
+      "prison": 514
+    },
+    {
+      "year": 2006,
+      "jail": 456,
+      "prison": 505
+    },
+    {
+      "year": 2007,
+      "jail": 455,
+      "prison": 533
+    },
+    {
+      "year": 2008,
+      "jail": 505,
+      "prison": 563
+    },
+    {
+      "year": 2009,
+      "jail": 475,
+      "prison": 593
+    },
+    {
+      "year": 2010,
+      "jail": 491,
+      "prison": 609
+    },
+    {
+      "year": 2011,
+      "jail": 459,
+      "prison": 613
+    },
+    {
+      "year": 2012,
+      "jail": 459,
+      "prison": 620
+    },
+    {
+      "year": 2013,
+      "jail": 468,
+      "prison": 661
+    },
+    {
+      "year": 2014,
+      "jail": 472,
+      "prison": 676
+    },
+    {
+      "year": 2015,
+      "jail": 461,
+      "prison": 657
+    },
+    {
+      "year": 2016,
+      "jail": 519,
+      "prison": 618
+    },
+    {
+      "year": 2017,
+      "jail": 558,
+      "prison": 640
+    },
+    {
+      "year": 2018,
+      "jail": 581,
+      "prison": 671
+    },
+    {
+      "year": 2019,
+      "jail": 632,
+      "prison": 688
+    },
+    {
+      "year": 2020,
+      "jail": 517,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 297,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 576,
+      "prison": 0
+    }
+  ],
+  "KS": [
+    {
+      "year": 2002,
+      "jail": 335,
+      "prison": 0
+    },
+    {
+      "year": 2003,
+      "jail": 343,
+      "prison": 0
+    },
+    {
+      "year": 2004,
+      "jail": 366,
+      "prison": 0
+    },
+    {
+      "year": 2005,
+      "jail": 367,
+      "prison": 0
+    },
+    {
+      "year": 2006,
+      "jail": 396,
+      "prison": 0
+    },
+    {
+      "year": 2007,
+      "jail": 418,
+      "prison": 0
+    },
+    {
+      "year": 2008,
+      "jail": 400,
+      "prison": 0
+    },
+    {
+      "year": 2009,
+      "jail": 390,
+      "prison": 0
+    },
+    {
+      "year": 2010,
+      "jail": 423,
+      "prison": 0
+    },
+    {
+      "year": 2011,
+      "jail": 406,
+      "prison": 372
+    },
+    {
+      "year": 2012,
+      "jail": 405,
+      "prison": 386
+    },
+    {
+      "year": 2013,
+      "jail": 413,
+      "prison": 385
+    },
+    {
+      "year": 2014,
+      "jail": 414,
+      "prison": 417
+    },
+    {
+      "year": 2015,
+      "jail": 387,
+      "prison": 434
+    },
+    {
+      "year": 2016,
+      "jail": 436,
+      "prison": 427
+    },
+    {
+      "year": 2017,
+      "jail": 462,
+      "prison": 468
+    },
+    {
+      "year": 2018,
+      "jail": 519,
+      "prison": 482
+    },
+    {
+      "year": 2019,
+      "jail": 519,
+      "prison": 480
+    },
+    {
+      "year": 2020,
+      "jail": 145,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 161,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 170,
+      "prison": 0
+    }
+  ],
+  "KY": [
+    {
+      "year": 2002,
+      "jail": 469,
+      "prison": 539
+    },
+    {
+      "year": 2003,
+      "jail": 492,
+      "prison": 546
+    },
+    {
+      "year": 2004,
+      "jail": 577,
+      "prison": 619
+    },
+    {
+      "year": 2005,
+      "jail": 590,
+      "prison": 674
+    },
+    {
+      "year": 2006,
+      "jail": 614,
+      "prison": 689
+    },
+    {
+      "year": 2007,
+      "jail": 670,
+      "prison": 780
+    },
+    {
+      "year": 2008,
+      "jail": 670,
+      "prison": 762
+    },
+    {
+      "year": 2009,
+      "jail": 669,
+      "prison": 766
+    },
+    {
+      "year": 2010,
+      "jail": 695,
+      "prison": 750
+    },
+    {
+      "year": 2011,
+      "jail": 732,
+      "prison": 803
+    },
+    {
+      "year": 2012,
+      "jail": 760,
+      "prison": 817
+    },
+    {
+      "year": 2013,
+      "jail": 667,
+      "prison": 767
+    },
+    {
+      "year": 2014,
+      "jail": 826,
+      "prison": 789
+    },
+    {
+      "year": 2015,
+      "jail": 835,
+      "prison": 826
+    },
+    {
+      "year": 2016,
+      "jail": 944,
+      "prison": 887
+    },
+    {
+      "year": 2017,
+      "jail": 985,
+      "prison": 895
+    },
+    {
+      "year": 2018,
+      "jail": 1100,
+      "prison": 890
+    },
+    {
+      "year": 2019,
+      "jail": 1134,
+      "prison": 898
+    },
+    {
+      "year": 2020,
+      "jail": 823,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 928,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 1013,
+      "prison": 0
+    }
+  ],
+  "LA": [
+    {
+      "year": 2002,
+      "jail": 1490,
+      "prison": 0
+    },
+    {
+      "year": 2003,
+      "jail": 1520,
+      "prison": 0
+    },
+    {
+      "year": 2004,
+      "jail": 1690,
+      "prison": 0
+    },
+    {
+      "year": 2005,
+      "jail": 1785,
+      "prison": 0
+    },
+    {
+      "year": 2006,
+      "jail": 1714,
+      "prison": 0
+    },
+    {
+      "year": 2007,
+      "jail": 1920,
+      "prison": 0
+    },
+    {
+      "year": 2008,
+      "jail": 2039,
+      "prison": 0
+    },
+    {
+      "year": 2009,
+      "jail": 1973,
+      "prison": 0
+    },
+    {
+      "year": 2010,
+      "jail": 2046,
+      "prison": 0
+    },
+    {
+      "year": 2011,
+      "jail": 2004,
+      "prison": 0
+    },
+    {
+      "year": 2012,
+      "jail": 1922,
+      "prison": 0
+    },
+    {
+      "year": 2013,
+      "jail": 1842,
+      "prison": 0
+    },
+    {
+      "year": 2014,
+      "jail": 1869,
+      "prison": 0
+    },
+    {
+      "year": 2015,
+      "jail": 2004,
+      "prison": 0
+    },
+    {
+      "year": 2016,
+      "jail": 1893,
+      "prison": 0
+    },
+    {
+      "year": 2017,
+      "jail": 2128,
+      "prison": 0
+    },
+    {
+      "year": 2018,
+      "jail": 2160,
+      "prison": 0
+    },
+    {
+      "year": 2019,
+      "jail": 2915,
+      "prison": 0
+    },
+    {
+      "year": 2020,
+      "jail": 2296,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 2252,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 1892,
+      "prison": 0
+    }
+  ],
+  "MA": [
+    {
+      "year": 2002,
+      "jail": 282,
+      "prison": 0
+    },
+    {
+      "year": 2003,
+      "jail": 303,
+      "prison": 0
+    },
+    {
+      "year": 2004,
+      "jail": 311,
+      "prison": 0
+    },
+    {
+      "year": 2005,
+      "jail": 326,
+      "prison": 0
+    },
+    {
+      "year": 2006,
+      "jail": 330,
+      "prison": 0
+    },
+    {
+      "year": 2007,
+      "jail": 356,
+      "prison": 0
+    },
+    {
+      "year": 2008,
+      "jail": 351,
+      "prison": 0
+    },
+    {
+      "year": 2009,
+      "jail": 334,
+      "prison": 222
+    },
+    {
+      "year": 2010,
+      "jail": 315,
+      "prison": 221
+    },
+    {
+      "year": 2011,
+      "jail": 312,
+      "prison": 216
+    },
+    {
+      "year": 2012,
+      "jail": 294,
+      "prison": 216
+    },
+    {
+      "year": 2013,
+      "jail": 236,
+      "prison": 209
+    },
+    {
+      "year": 2014,
+      "jail": 263,
+      "prison": 208
+    },
+    {
+      "year": 2015,
+      "jail": 268,
+      "prison": 194
+    },
+    {
+      "year": 2016,
+      "jail": 266,
+      "prison": 188
+    },
+    {
+      "year": 2017,
+      "jail": 260,
+      "prison": 191
+    },
+    {
+      "year": 2018,
+      "jail": 242,
+      "prison": 184
+    },
+    {
+      "year": 2019,
+      "jail": 231,
+      "prison": 180
+    },
+    {
+      "year": 2020,
+      "jail": 160,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 154,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 166,
+      "prison": 0
+    }
+  ],
+  "MD": [
+    {
+      "year": 2002,
+      "jail": 409,
+      "prison": 620
+    },
+    {
+      "year": 2003,
+      "jail": 410,
+      "prison": 623
+    },
+    {
+      "year": 2004,
+      "jail": 418,
+      "prison": 604
+    },
+    {
+      "year": 2005,
+      "jail": 410,
+      "prison": 588
+    },
+    {
+      "year": 2006,
+      "jail": 400,
+      "prison": 600
+    },
+    {
+      "year": 2007,
+      "jail": 450,
+      "prison": 616
+    },
+    {
+      "year": 2008,
+      "jail": 414,
+      "prison": 620
+    },
+    {
+      "year": 2009,
+      "jail": 404,
+      "prison": 600
+    },
+    {
+      "year": 2010,
+      "jail": 391,
+      "prison": 617
+    },
+    {
+      "year": 2011,
+      "jail": 398,
+      "prison": 636
+    },
+    {
+      "year": 2012,
+      "jail": 354,
+      "prison": 604
+    },
+    {
+      "year": 2013,
+      "jail": 396,
+      "prison": 606
+    },
+    {
+      "year": 2014,
+      "jail": 365,
+      "prison": 0
+    },
+    {
+      "year": 2015,
+      "jail": 363,
+      "prison": 0
+    },
+    {
+      "year": 2016,
+      "jail": 351,
+      "prison": 0
+    },
+    {
+      "year": 2017,
+      "jail": 340,
+      "prison": 581
+    },
+    {
+      "year": 2018,
+      "jail": 337,
+      "prison": 560
+    },
+    {
+      "year": 2019,
+      "jail": 324,
+      "prison": 537
+    },
+    {
+      "year": 2020,
+      "jail": 171,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 196,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 287,
+      "prison": 0
+    }
+  ],
+  "ME": [
+    {
+      "year": 2002,
+      "jail": 164,
+      "prison": 208
+    },
+    {
+      "year": 2003,
+      "jail": 169,
+      "prison": 208
+    },
+    {
+      "year": 2004,
+      "jail": 169,
+      "prison": 209
+    },
+    {
+      "year": 2005,
+      "jail": 164,
+      "prison": 211
+    },
+    {
+      "year": 2006,
+      "jail": 176,
+      "prison": 212
+    },
+    {
+      "year": 2007,
+      "jail": 158,
+      "prison": 214
+    },
+    {
+      "year": 2008,
+      "jail": 195,
+      "prison": 217
+    },
+    {
+      "year": 2009,
+      "jail": 188,
+      "prison": 221
+    },
+    {
+      "year": 2010,
+      "jail": 190,
+      "prison": 224
+    },
+    {
+      "year": 2011,
+      "jail": 193,
+      "prison": 247
+    },
+    {
+      "year": 2012,
+      "jail": 209,
+      "prison": 245
+    },
+    {
+      "year": 2013,
+      "jail": 199,
+      "prison": 266
+    },
+    {
+      "year": 2014,
+      "jail": 217,
+      "prison": 269
+    },
+    {
+      "year": 2015,
+      "jail": 181,
+      "prison": 267
+    },
+    {
+      "year": 2016,
+      "jail": 198,
+      "prison": 276
+    },
+    {
+      "year": 2017,
+      "jail": 181,
+      "prison": 287
+    },
+    {
+      "year": 2018,
+      "jail": 193,
+      "prison": 298
+    },
+    {
+      "year": 2019,
+      "jail": 201,
+      "prison": 267
+    },
+    {
+      "year": 2020,
+      "jail": 57,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 56,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 84,
+      "prison": 0
+    }
+  ],
+  "MI": [
+    {
+      "year": 2002,
+      "jail": 329,
+      "prison": 583
+    },
+    {
+      "year": 2003,
+      "jail": 333,
+      "prison": 586
+    },
+    {
+      "year": 2004,
+      "jail": 330,
+      "prison": 594
+    },
+    {
+      "year": 2005,
+      "jail": 353,
+      "prison": 620
+    },
+    {
+      "year": 2006,
+      "jail": 324,
+      "prison": 653
+    },
+    {
+      "year": 2007,
+      "jail": 327,
+      "prison": 645
+    },
+    {
+      "year": 2008,
+      "jail": 322,
+      "prison": 637
+    },
+    {
+      "year": 2009,
+      "jail": 313,
+      "prison": 606
+    },
+    {
+      "year": 2010,
+      "jail": 320,
+      "prison": 610
+    },
+    {
+      "year": 2011,
+      "jail": 320,
+      "prison": 618
+    },
+    {
+      "year": 2012,
+      "jail": 325,
+      "prison": 670
+    },
+    {
+      "year": 2013,
+      "jail": 332,
+      "prison": 680
+    },
+    {
+      "year": 2014,
+      "jail": 350,
+      "prison": 682
+    },
+    {
+      "year": 2015,
+      "jail": 334,
+      "prison": 677
+    },
+    {
+      "year": 2016,
+      "jail": 344,
+      "prison": 664
+    },
+    {
+      "year": 2017,
+      "jail": 347,
+      "prison": 656
+    },
+    {
+      "year": 2018,
+      "jail": 330,
+      "prison": 653
+    },
+    {
+      "year": 2019,
+      "jail": 344,
+      "prison": 659
+    },
+    {
+      "year": 2020,
+      "jail": 213,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 73,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 77,
+      "prison": 0
+    }
+  ],
+  "MN": [
+    {
+      "year": 2002,
+      "jail": 188,
+      "prison": 185
+    },
+    {
+      "year": 2003,
+      "jail": 194,
+      "prison": 214
+    },
+    {
+      "year": 2004,
+      "jail": 209,
+      "prison": 251
+    },
+    {
+      "year": 2005,
+      "jail": 218,
+      "prison": 267
+    },
+    {
+      "year": 2006,
+      "jail": 224,
+      "prison": 263
+    },
+    {
+      "year": 2007,
+      "jail": 221,
+      "prison": 256
+    },
+    {
+      "year": 2008,
+      "jail": 206,
+      "prison": 261
+    },
+    {
+      "year": 2009,
+      "jail": 203,
+      "prison": 270
+    },
+    {
+      "year": 2010,
+      "jail": 205,
+      "prison": 267
+    },
+    {
+      "year": 2011,
+      "jail": 201,
+      "prison": 257
+    },
+    {
+      "year": 2012,
+      "jail": 202,
+      "prison": 267
+    },
+    {
+      "year": 2013,
+      "jail": 228,
+      "prison": 277
+    },
+    {
+      "year": 2014,
+      "jail": 244,
+      "prison": 291
+    },
+    {
+      "year": 2015,
+      "jail": 254,
+      "prison": 295
+    },
+    {
+      "year": 2016,
+      "jail": 255,
+      "prison": 295
+    },
+    {
+      "year": 2017,
+      "jail": 255,
+      "prison": 300
+    },
+    {
+      "year": 2018,
+      "jail": 251,
+      "prison": 279
+    },
+    {
+      "year": 2019,
+      "jail": 247,
+      "prison": 281
+    },
+    {
+      "year": 2020,
+      "jail": 141,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 146,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 47,
+      "prison": 0
+    }
+  ],
+  "MO": [
+    {
+      "year": 2002,
+      "jail": 230,
+      "prison": 810
+    },
+    {
+      "year": 2003,
+      "jail": 251,
+      "prison": 796
+    },
+    {
+      "year": 2004,
+      "jail": 277,
+      "prison": 810
+    },
+    {
+      "year": 2005,
+      "jail": 321,
+      "prison": 832
+    },
+    {
+      "year": 2006,
+      "jail": 361,
+      "prison": 827
+    },
+    {
+      "year": 2007,
+      "jail": 334,
+      "prison": 834
+    },
+    {
+      "year": 2008,
+      "jail": 346,
+      "prison": 831
+    },
+    {
+      "year": 2009,
+      "jail": 314,
+      "prison": 837
+    },
+    {
+      "year": 2010,
+      "jail": 313,
+      "prison": 844
+    },
+    {
+      "year": 2011,
+      "jail": 328,
+      "prison": 844
+    },
+    {
+      "year": 2012,
+      "jail": 341,
+      "prison": 881
+    },
+    {
+      "year": 2013,
+      "jail": 345,
+      "prison": 889
+    },
+    {
+      "year": 2014,
+      "jail": 361,
+      "prison": 927
+    },
+    {
+      "year": 2015,
+      "jail": 363,
+      "prison": 951
+    },
+    {
+      "year": 2016,
+      "jail": 391,
+      "prison": 986
+    },
+    {
+      "year": 2017,
+      "jail": 396,
+      "prison": 1010
+    },
+    {
+      "year": 2018,
+      "jail": 400,
+      "prison": 960
+    },
+    {
+      "year": 2019,
+      "jail": 403,
+      "prison": 814
+    },
+    {
+      "year": 2020,
+      "jail": 192,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 174,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 98,
+      "prison": 0
+    }
+  ],
+  "MS": [
+    {
+      "year": 2002,
+      "jail": 812,
+      "prison": 721
+    },
+    {
+      "year": 2003,
+      "jail": 913,
+      "prison": 760
+    },
+    {
+      "year": 2004,
+      "jail": 999,
+      "prison": 201
+    },
+    {
+      "year": 2005,
+      "jail": 1004,
+      "prison": 236
+    },
+    {
+      "year": 2006,
+      "jail": 771,
+      "prison": 275
+    },
+    {
+      "year": 2007,
+      "jail": 1070,
+      "prison": 334
+    },
+    {
+      "year": 2008,
+      "jail": 1130,
+      "prison": 414
+    },
+    {
+      "year": 2009,
+      "jail": 1029,
+      "prison": 528
+    },
+    {
+      "year": 2010,
+      "jail": 1067,
+      "prison": 713
+    },
+    {
+      "year": 2011,
+      "jail": 1038,
+      "prison": 1079
+    },
+    {
+      "year": 2012,
+      "jail": 1125,
+      "prison": 1122
+    },
+    {
+      "year": 2013,
+      "jail": 1194,
+      "prison": 1109
+    },
+    {
+      "year": 2014,
+      "jail": 1174,
+      "prison": 966
+    },
+    {
+      "year": 2015,
+      "jail": 1175,
+      "prison": 961
+    },
+    {
+      "year": 2016,
+      "jail": 1148,
+      "prison": 964
+    },
+    {
+      "year": 2017,
+      "jail": 1192,
+      "prison": 971
+    },
+    {
+      "year": 2018,
+      "jail": 1149,
+      "prison": 984
+    },
+    {
+      "year": 2019,
+      "jail": 1401,
+      "prison": 968
+    },
+    {
+      "year": 2020,
+      "jail": 1139,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 1142,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 1103,
+      "prison": 0
+    }
+  ],
+  "MT": [
+    {
+      "year": 2002,
+      "jail": 190,
+      "prison": 0
+    },
+    {
+      "year": 2003,
+      "jail": 199,
+      "prison": 0
+    },
+    {
+      "year": 2004,
+      "jail": 214,
+      "prison": 0
+    },
+    {
+      "year": 2005,
+      "jail": 306,
+      "prison": 0
+    },
+    {
+      "year": 2006,
+      "jail": 233,
+      "prison": 0
+    },
+    {
+      "year": 2007,
+      "jail": 187,
+      "prison": 0
+    },
+    {
+      "year": 2008,
+      "jail": 193,
+      "prison": 0
+    },
+    {
+      "year": 2009,
+      "jail": 190,
+      "prison": 0
+    },
+    {
+      "year": 2010,
+      "jail": 283,
+      "prison": 0
+    },
+    {
+      "year": 2011,
+      "jail": 186,
+      "prison": 0
+    },
+    {
+      "year": 2012,
+      "jail": 255,
+      "prison": 0
+    },
+    {
+      "year": 2013,
+      "jail": 600,
+      "prison": 0
+    },
+    {
+      "year": 2014,
+      "jail": 327,
+      "prison": 0
+    },
+    {
+      "year": 2015,
+      "jail": 335,
+      "prison": 0
+    },
+    {
+      "year": 2016,
+      "jail": 358,
+      "prison": 0
+    },
+    {
+      "year": 2017,
+      "jail": 363,
+      "prison": 0
+    },
+    {
+      "year": 2018,
+      "jail": 338,
+      "prison": 0
+    },
+    {
+      "year": 2019,
+      "jail": 340,
+      "prison": 0
+    },
+    {
+      "year": 2020,
+      "jail": 224,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 115,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 42,
+      "prison": 0
+    }
+  ],
+  "NC": [
+    {
+      "year": 2002,
+      "jail": 231,
+      "prison": 501
+    },
+    {
+      "year": 2003,
+      "jail": 242,
+      "prison": 507
+    },
+    {
+      "year": 2004,
+      "jail": 264,
+      "prison": 525
+    },
+    {
+      "year": 2005,
+      "jail": 276,
+      "prison": 534
+    },
+    {
+      "year": 2006,
+      "jail": 280,
+      "prison": 544
+    },
+    {
+      "year": 2007,
+      "jail": 309,
+      "prison": 549
+    },
+    {
+      "year": 2008,
+      "jail": 301,
+      "prison": 554
+    },
+    {
+      "year": 2009,
+      "jail": 284,
+      "prison": 551
+    },
+    {
+      "year": 2010,
+      "jail": 308,
+      "prison": 552
+    },
+    {
+      "year": 2011,
+      "jail": 299,
+      "prison": 550
+    },
+    {
+      "year": 2012,
+      "jail": 324,
+      "prison": 544
+    },
+    {
+      "year": 2013,
+      "jail": 337,
+      "prison": 550
+    },
+    {
+      "year": 2014,
+      "jail": 338,
+      "prison": 558
+    },
+    {
+      "year": 2015,
+      "jail": 332,
+      "prison": 568
+    },
+    {
+      "year": 2016,
+      "jail": 339,
+      "prison": 561
+    },
+    {
+      "year": 2017,
+      "jail": 367,
+      "prison": 578
+    },
+    {
+      "year": 2018,
+      "jail": 371,
+      "prison": 568
+    },
+    {
+      "year": 2019,
+      "jail": 395,
+      "prison": 557
+    },
+    {
+      "year": 2020,
+      "jail": 146,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 344,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 356,
+      "prison": 0
+    }
+  ],
+  "ND": [
+    {
+      "year": 2002,
+      "jail": 135,
+      "prison": 129
+    },
+    {
+      "year": 2003,
+      "jail": 160,
+      "prison": 180
+    },
+    {
+      "year": 2004,
+      "jail": 181,
+      "prison": 164
+    },
+    {
+      "year": 2005,
+      "jail": 170,
+      "prison": 171
+    },
+    {
+      "year": 2006,
+      "jail": 186,
+      "prison": 181
+    },
+    {
+      "year": 2007,
+      "jail": 222,
+      "prison": 184
+    },
+    {
+      "year": 2008,
+      "jail": 225,
+      "prison": 197
+    },
+    {
+      "year": 2009,
+      "jail": 199,
+      "prison": 175
+    },
+    {
+      "year": 2010,
+      "jail": 239,
+      "prison": 178
+    },
+    {
+      "year": 2011,
+      "jail": 256,
+      "prison": 178
+    },
+    {
+      "year": 2012,
+      "jail": 251,
+      "prison": 193
+    },
+    {
+      "year": 2013,
+      "jail": 270,
+      "prison": 200
+    },
+    {
+      "year": 2014,
+      "jail": 273,
+      "prison": 229
+    },
+    {
+      "year": 2015,
+      "jail": 293,
+      "prison": 225
+    },
+    {
+      "year": 2016,
+      "jail": 280,
+      "prison": 238
+    },
+    {
+      "year": 2017,
+      "jail": 283,
+      "prison": 236
+    },
+    {
+      "year": 2018,
+      "jail": 271,
+      "prison": 238
+    },
+    {
+      "year": 2019,
+      "jail": 270,
+      "prison": 238
+    },
+    {
+      "year": 2020,
+      "jail": 203,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 211,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 175,
+      "prison": 0
+    }
+  ],
+  "NE": [
+    {
+      "year": 2002,
+      "jail": 148,
+      "prison": 574
+    },
+    {
+      "year": 2003,
+      "jail": 148,
+      "prison": 579
+    },
+    {
+      "year": 2004,
+      "jail": 174,
+      "prison": 579
+    },
+    {
+      "year": 2005,
+      "jail": 170,
+      "prison": 472
+    },
+    {
+      "year": 2006,
+      "jail": 168,
+      "prison": 730
+    },
+    {
+      "year": 2007,
+      "jail": 166,
+      "prison": 581
+    },
+    {
+      "year": 2008,
+      "jail": 180,
+      "prison": 449
+    },
+    {
+      "year": 2009,
+      "jail": 206,
+      "prison": 258
+    },
+    {
+      "year": 2010,
+      "jail": 197,
+      "prison": 265
+    },
+    {
+      "year": 2011,
+      "jail": 196,
+      "prison": 253
+    },
+    {
+      "year": 2012,
+      "jail": 206,
+      "prison": 246
+    },
+    {
+      "year": 2013,
+      "jail": 204,
+      "prison": 265
+    },
+    {
+      "year": 2014,
+      "jail": 212,
+      "prison": 295
+    },
+    {
+      "year": 2015,
+      "jail": 216,
+      "prison": 295
+    },
+    {
+      "year": 2016,
+      "jail": 210,
+      "prison": 283
+    },
+    {
+      "year": 2017,
+      "jail": 209,
+      "prison": 280
+    },
+    {
+      "year": 2018,
+      "jail": 224,
+      "prison": 269
+    },
+    {
+      "year": 2019,
+      "jail": 255,
+      "prison": 281
+    },
+    {
+      "year": 2020,
+      "jail": 66,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 64,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 59,
+      "prison": 0
+    }
+  ],
+  "NH": [
+    {
+      "year": 2002,
+      "jail": 184,
+      "prison": 249
+    },
+    {
+      "year": 2003,
+      "jail": 188,
+      "prison": 252
+    },
+    {
+      "year": 2004,
+      "jail": 203,
+      "prison": 255
+    },
+    {
+      "year": 2005,
+      "jail": 205,
+      "prison": 258
+    },
+    {
+      "year": 2006,
+      "jail": 234,
+      "prison": 261
+    },
+    {
+      "year": 2007,
+      "jail": 222,
+      "prison": 266
+    },
+    {
+      "year": 2008,
+      "jail": 219,
+      "prison": 272
+    },
+    {
+      "year": 2009,
+      "jail": 236,
+      "prison": 279
+    },
+    {
+      "year": 2010,
+      "jail": 248,
+      "prison": 285
+    },
+    {
+      "year": 2011,
+      "jail": 241,
+      "prison": 291
+    },
+    {
+      "year": 2012,
+      "jail": 261,
+      "prison": 313
+    },
+    {
+      "year": 2013,
+      "jail": 243,
+      "prison": 318
+    },
+    {
+      "year": 2014,
+      "jail": 240,
+      "prison": 323
+    },
+    {
+      "year": 2015,
+      "jail": 233,
+      "prison": 307
+    },
+    {
+      "year": 2016,
+      "jail": 237,
+      "prison": 297
+    },
+    {
+      "year": 2017,
+      "jail": 230,
+      "prison": 298
+    },
+    {
+      "year": 2018,
+      "jail": 205,
+      "prison": 299
+    },
+    {
+      "year": 2019,
+      "jail": 202,
+      "prison": 300
+    },
+    {
+      "year": 2020,
+      "jail": 79,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 83,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 102,
+      "prison": 0
+    }
+  ],
+  "NJ": [
+    {
+      "year": 2002,
+      "jail": 280,
+      "prison": 482
+    },
+    {
+      "year": 2003,
+      "jail": 297,
+      "prison": 485
+    },
+    {
+      "year": 2004,
+      "jail": 307,
+      "prison": 479
+    },
+    {
+      "year": 2005,
+      "jail": 311,
+      "prison": 486
+    },
+    {
+      "year": 2006,
+      "jail": 323,
+      "prison": 487
+    },
+    {
+      "year": 2007,
+      "jail": 330,
+      "prison": 482
+    },
+    {
+      "year": 2008,
+      "jail": 324,
+      "prison": 461
+    },
+    {
+      "year": 2009,
+      "jail": 312,
+      "prison": 455
+    },
+    {
+      "year": 2010,
+      "jail": 303,
+      "prison": 451
+    },
+    {
+      "year": 2011,
+      "jail": 267,
+      "prison": 430
+    },
+    {
+      "year": 2012,
+      "jail": 280,
+      "prison": 415
+    },
+    {
+      "year": 2013,
+      "jail": 293,
+      "prison": 399
+    },
+    {
+      "year": 2014,
+      "jail": 295,
+      "prison": 386
+    },
+    {
+      "year": 2015,
+      "jail": 270,
+      "prison": 387
+    },
+    {
+      "year": 2016,
+      "jail": 244,
+      "prison": 386
+    },
+    {
+      "year": 2017,
+      "jail": 198,
+      "prison": 395
+    },
+    {
+      "year": 2018,
+      "jail": 208,
+      "prison": 393
+    },
+    {
+      "year": 2019,
+      "jail": 177,
+      "prison": 394
+    },
+    {
+      "year": 2020,
+      "jail": 166,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 169,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 143,
+      "prison": 0
+    }
+  ],
+  "NM": [
+    {
+      "year": 2002,
+      "jail": 663,
+      "prison": 0
+    },
+    {
+      "year": 2003,
+      "jail": 1274,
+      "prison": 0
+    },
+    {
+      "year": 2004,
+      "jail": 1316,
+      "prison": 0
+    },
+    {
+      "year": 2005,
+      "jail": 1327,
+      "prison": 0
+    },
+    {
+      "year": 2006,
+      "jail": 1378,
+      "prison": 0
+    },
+    {
+      "year": 2007,
+      "jail": 1330,
+      "prison": 0
+    },
+    {
+      "year": 2008,
+      "jail": 1258,
+      "prison": 0
+    },
+    {
+      "year": 2009,
+      "jail": 1194,
+      "prison": 0
+    },
+    {
+      "year": 2010,
+      "jail": 1219,
+      "prison": 113
+    },
+    {
+      "year": 2011,
+      "jail": 1314,
+      "prison": 122
+    },
+    {
+      "year": 2012,
+      "jail": 1375,
+      "prison": 140
+    },
+    {
+      "year": 2013,
+      "jail": 1448,
+      "prison": 198
+    },
+    {
+      "year": 2014,
+      "jail": 1491,
+      "prison": 332
+    },
+    {
+      "year": 2015,
+      "jail": 774,
+      "prison": 337
+    },
+    {
+      "year": 2016,
+      "jail": 944,
+      "prison": 341
+    },
+    {
+      "year": 2017,
+      "jail": 932,
+      "prison": 344
+    },
+    {
+      "year": 2018,
+      "jail": 655,
+      "prison": 349
+    },
+    {
+      "year": 2019,
+      "jail": 702,
+      "prison": 350
+    },
+    {
+      "year": 2020,
+      "jail": 453,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 519,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 533,
+      "prison": 0
+    }
+  ],
+  "NV": [
+    {
+      "year": 2002,
+      "jail": 358,
+      "prison": 906
+    },
+    {
+      "year": 2003,
+      "jail": 367,
+      "prison": 889
+    },
+    {
+      "year": 2004,
+      "jail": 420,
+      "prison": 851
+    },
+    {
+      "year": 2005,
+      "jail": 387,
+      "prison": 813
+    },
+    {
+      "year": 2006,
+      "jail": 397,
+      "prison": 786
+    },
+    {
+      "year": 2007,
+      "jail": 533,
+      "prison": 756
+    },
+    {
+      "year": 2008,
+      "jail": 484,
+      "prison": 611
+    },
+    {
+      "year": 2009,
+      "jail": 539,
+      "prison": 623
+    },
+    {
+      "year": 2010,
+      "jail": 493,
+      "prison": 599
+    },
+    {
+      "year": 2011,
+      "jail": 549,
+      "prison": 632
+    },
+    {
+      "year": 2012,
+      "jail": 553,
+      "prison": 686
+    },
+    {
+      "year": 2013,
+      "jail": 765,
+      "prison": 707
+    },
+    {
+      "year": 2014,
+      "jail": 576,
+      "prison": 781
+    },
+    {
+      "year": 2015,
+      "jail": 627,
+      "prison": 855
+    },
+    {
+      "year": 2016,
+      "jail": 634,
+      "prison": 863
+    },
+    {
+      "year": 2017,
+      "jail": 606,
+      "prison": 800
+    },
+    {
+      "year": 2018,
+      "jail": 582,
+      "prison": 805
+    },
+    {
+      "year": 2019,
+      "jail": 574,
+      "prison": 694
+    },
+    {
+      "year": 2020,
+      "jail": 82,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 69,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 77,
+      "prison": 0
+    }
+  ],
+  "NY": [
+    {
+      "year": 2002,
+      "jail": 218,
+      "prison": 370
+    },
+    {
+      "year": 2003,
+      "jail": 223,
+      "prison": 368
+    },
+    {
+      "year": 2004,
+      "jail": 229,
+      "prison": 378
+    },
+    {
+      "year": 2005,
+      "jail": 227,
+      "prison": 388
+    },
+    {
+      "year": 2006,
+      "jail": 223,
+      "prison": 407
+    },
+    {
+      "year": 2007,
+      "jail": 231,
+      "prison": 412
+    },
+    {
+      "year": 2008,
+      "jail": 227,
+      "prison": 411
+    },
+    {
+      "year": 2009,
+      "jail": 227,
+      "prison": 411
+    },
+    {
+      "year": 2010,
+      "jail": 426,
+      "prison": 398
+    },
+    {
+      "year": 2011,
+      "jail": 239,
+      "prison": 400
+    },
+    {
+      "year": 2012,
+      "jail": 244,
+      "prison": 406
+    },
+    {
+      "year": 2013,
+      "jail": 241,
+      "prison": 416
+    },
+    {
+      "year": 2014,
+      "jail": 232,
+      "prison": 426
+    },
+    {
+      "year": 2015,
+      "jail": 221,
+      "prison": 432
+    },
+    {
+      "year": 2016,
+      "jail": 239,
+      "prison": 434
+    },
+    {
+      "year": 2017,
+      "jail": 238,
+      "prison": 431
+    },
+    {
+      "year": 2018,
+      "jail": 229,
+      "prison": 419
+    },
+    {
+      "year": 2019,
+      "jail": 202,
+      "prison": 398
+    },
+    {
+      "year": 2020,
+      "jail": 157,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 163,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 167,
+      "prison": 0
+    }
+  ],
+  "OH": [
+    {
+      "year": 2002,
+      "jail": 217,
+      "prison": 469
+    },
+    {
+      "year": 2003,
+      "jail": 222,
+      "prison": 481
+    },
+    {
+      "year": 2004,
+      "jail": 227,
+      "prison": 493
+    },
+    {
+      "year": 2005,
+      "jail": 232,
+      "prison": 505
+    },
+    {
+      "year": 2006,
+      "jail": 235,
+      "prison": 518
+    },
+    {
+      "year": 2007,
+      "jail": 242,
+      "prison": 531
+    },
+    {
+      "year": 2008,
+      "jail": 237,
+      "prison": 545
+    },
+    {
+      "year": 2009,
+      "jail": 218,
+      "prison": 561
+    },
+    {
+      "year": 2010,
+      "jail": 214,
+      "prison": 579
+    },
+    {
+      "year": 2011,
+      "jail": 217,
+      "prison": 575
+    },
+    {
+      "year": 2012,
+      "jail": 230,
+      "prison": 579
+    },
+    {
+      "year": 2013,
+      "jail": 245,
+      "prison": 612
+    },
+    {
+      "year": 2014,
+      "jail": 246,
+      "prison": 641
+    },
+    {
+      "year": 2015,
+      "jail": 249,
+      "prison": 668
+    },
+    {
+      "year": 2016,
+      "jail": 258,
+      "prison": 682
+    },
+    {
+      "year": 2017,
+      "jail": 267,
+      "prison": 676
+    },
+    {
+      "year": 2018,
+      "jail": 284,
+      "prison": 684
+    },
+    {
+      "year": 2019,
+      "jail": 304,
+      "prison": 698
+    },
+    {
+      "year": 2020,
+      "jail": 223,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 265,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 266,
+      "prison": 0
+    }
+  ],
+  "OK": [
+    {
+      "year": 2002,
+      "jail": 380,
+      "prison": 869
+    },
+    {
+      "year": 2003,
+      "jail": 390,
+      "prison": 899
+    },
+    {
+      "year": 2004,
+      "jail": 418,
+      "prison": 917
+    },
+    {
+      "year": 2005,
+      "jail": 440,
+      "prison": 925
+    },
+    {
+      "year": 2006,
+      "jail": 438,
+      "prison": 939
+    },
+    {
+      "year": 2007,
+      "jail": 448,
+      "prison": 926
+    },
+    {
+      "year": 2008,
+      "jail": 455,
+      "prison": 935
+    },
+    {
+      "year": 2009,
+      "jail": 486,
+      "prison": 927
+    },
+    {
+      "year": 2010,
+      "jail": 505,
+      "prison": 946
+    },
+    {
+      "year": 2011,
+      "jail": 515,
+      "prison": 921
+    },
+    {
+      "year": 2012,
+      "jail": 549,
+      "prison": 989
+    },
+    {
+      "year": 2013,
+      "jail": 576,
+      "prison": 1010
+    },
+    {
+      "year": 2014,
+      "jail": 576,
+      "prison": 1123
+    },
+    {
+      "year": 2015,
+      "jail": 599,
+      "prison": 1172
+    },
+    {
+      "year": 2016,
+      "jail": 587,
+      "prison": 1121
+    },
+    {
+      "year": 2017,
+      "jail": 577,
+      "prison": 1122
+    },
+    {
+      "year": 2018,
+      "jail": 549,
+      "prison": 1108
+    },
+    {
+      "year": 2019,
+      "jail": 581,
+      "prison": 984
+    },
+    {
+      "year": 2020,
+      "jail": 151,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 501,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 183,
+      "prison": 0
+    }
+  ],
+  "OR": [
+    {
+      "year": 2002,
+      "jail": 346,
+      "prison": 492
+    },
+    {
+      "year": 2003,
+      "jail": 329,
+      "prison": 501
+    },
+    {
+      "year": 2004,
+      "jail": 340,
+      "prison": 517
+    },
+    {
+      "year": 2005,
+      "jail": 328,
+      "prison": 504
+    },
+    {
+      "year": 2006,
+      "jail": 329,
+      "prison": 516
+    },
+    {
+      "year": 2007,
+      "jail": 316,
+      "prison": 499
+    },
+    {
+      "year": 2008,
+      "jail": 326,
+      "prison": 502
+    },
+    {
+      "year": 2009,
+      "jail": 297,
+      "prison": 507
+    },
+    {
+      "year": 2010,
+      "jail": 282,
+      "prison": 509
+    },
+    {
+      "year": 2011,
+      "jail": 281,
+      "prison": 517
+    },
+    {
+      "year": 2012,
+      "jail": 272,
+      "prison": 509
+    },
+    {
+      "year": 2013,
+      "jail": 274,
+      "prison": 543
+    },
+    {
+      "year": 2014,
+      "jail": 290,
+      "prison": 545
+    },
+    {
+      "year": 2015,
+      "jail": 282,
+      "prison": 0
+    },
+    {
+      "year": 2016,
+      "jail": 295,
+      "prison": 0
+    },
+    {
+      "year": 2017,
+      "jail": 295,
+      "prison": 538
+    },
+    {
+      "year": 2018,
+      "jail": 302,
+      "prison": 579
+    },
+    {
+      "year": 2019,
+      "jail": 314,
+      "prison": 575
+    },
+    {
+      "year": 2020,
+      "jail": 176,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 171,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 227,
+      "prison": 0
+    }
+  ],
+  "PA": [
+    {
+      "year": 2002,
+      "jail": 332,
+      "prison": 375
+    },
+    {
+      "year": 2003,
+      "jail": 331,
+      "prison": 386
+    },
+    {
+      "year": 2004,
+      "jail": 348,
+      "prison": 391
+    },
+    {
+      "year": 2005,
+      "jail": 355,
+      "prison": 414
+    },
+    {
+      "year": 2006,
+      "jail": 372,
+      "prison": 444
+    },
+    {
+      "year": 2007,
+      "jail": 372,
+      "prison": 468
+    },
+    {
+      "year": 2008,
+      "jail": 379,
+      "prison": 505
+    },
+    {
+      "year": 2009,
+      "jail": 373,
+      "prison": 532
+    },
+    {
+      "year": 2010,
+      "jail": 377,
+      "prison": 533
+    },
+    {
+      "year": 2011,
+      "jail": 360,
+      "prison": 536
+    },
+    {
+      "year": 2012,
+      "jail": 385,
+      "prison": 549
+    },
+    {
+      "year": 2013,
+      "jail": 385,
+      "prison": 558
+    },
+    {
+      "year": 2014,
+      "jail": 390,
+      "prison": 566
+    },
+    {
+      "year": 2015,
+      "jail": 374,
+      "prison": 576
+    },
+    {
+      "year": 2016,
+      "jail": 378,
+      "prison": 582
+    },
+    {
+      "year": 2017,
+      "jail": 377,
+      "prison": 570
+    },
+    {
+      "year": 2018,
+      "jail": 377,
+      "prison": 577
+    },
+    {
+      "year": 2019,
+      "jail": 376,
+      "prison": 568
+    },
+    {
+      "year": 2020,
+      "jail": 567,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 299,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 313,
+      "prison": 0
+    }
+  ],
+  "SC": [
+    {
+      "year": 2002,
+      "jail": 326,
+      "prison": 866
+    },
+    {
+      "year": 2003,
+      "jail": 383,
+      "prison": 852
+    },
+    {
+      "year": 2004,
+      "jail": 397,
+      "prison": 836
+    },
+    {
+      "year": 2005,
+      "jail": 399,
+      "prison": 814
+    },
+    {
+      "year": 2006,
+      "jail": 418,
+      "prison": 803
+    },
+    {
+      "year": 2007,
+      "jail": 420,
+      "prison": 807
+    },
+    {
+      "year": 2008,
+      "jail": 409,
+      "prison": 808
+    },
+    {
+      "year": 2009,
+      "jail": 418,
+      "prison": 812
+    },
+    {
+      "year": 2010,
+      "jail": 385,
+      "prison": 786
+    },
+    {
+      "year": 2011,
+      "jail": 379,
+      "prison": 770
+    },
+    {
+      "year": 2012,
+      "jail": 387,
+      "prison": 758
+    },
+    {
+      "year": 2013,
+      "jail": 382,
+      "prison": 760
+    },
+    {
+      "year": 2014,
+      "jail": 373,
+      "prison": 731
+    },
+    {
+      "year": 2015,
+      "jail": 372,
+      "prison": 712
+    },
+    {
+      "year": 2016,
+      "jail": 368,
+      "prison": 700
+    },
+    {
+      "year": 2017,
+      "jail": 364,
+      "prison": 685
+    },
+    {
+      "year": 2018,
+      "jail": 397,
+      "prison": 650
+    },
+    {
+      "year": 2019,
+      "jail": 368,
+      "prison": 644
+    },
+    {
+      "year": 2020,
+      "jail": 218,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 221,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 151,
+      "prison": 0
+    }
+  ],
+  "SD": [
+    {
+      "year": 2002,
+      "jail": 189,
+      "prison": 403
+    },
+    {
+      "year": 2003,
+      "jail": 164,
+      "prison": 426
+    },
+    {
+      "year": 2004,
+      "jail": 220,
+      "prison": 431
+    },
+    {
+      "year": 2005,
+      "jail": 220,
+      "prison": 472
+    },
+    {
+      "year": 2006,
+      "jail": 257,
+      "prison": 457
+    },
+    {
+      "year": 2007,
+      "jail": 218,
+      "prison": 444
+    },
+    {
+      "year": 2008,
+      "jail": 217,
+      "prison": 446
+    },
+    {
+      "year": 2009,
+      "jail": 234,
+      "prison": 426
+    },
+    {
+      "year": 2010,
+      "jail": 280,
+      "prison": 419
+    },
+    {
+      "year": 2011,
+      "jail": 239,
+      "prison": 459
+    },
+    {
+      "year": 2012,
+      "jail": 269,
+      "prison": 427
+    },
+    {
+      "year": 2013,
+      "jail": 292,
+      "prison": 430
+    },
+    {
+      "year": 2014,
+      "jail": 273,
+      "prison": 426
+    },
+    {
+      "year": 2015,
+      "jail": 308,
+      "prison": 440
+    },
+    {
+      "year": 2016,
+      "jail": 319,
+      "prison": 476
+    },
+    {
+      "year": 2017,
+      "jail": 324,
+      "prison": 505
+    },
+    {
+      "year": 2018,
+      "jail": 357,
+      "prison": 494
+    },
+    {
+      "year": 2019,
+      "jail": 371,
+      "prison": 447
+    },
+    {
+      "year": 2020,
+      "jail": 83,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 130,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 53,
+      "prison": 0
+    }
+  ],
+  "TN": [
+    {
+      "year": 2002,
+      "jail": 497,
+      "prison": 535
+    },
+    {
+      "year": 2003,
+      "jail": 478,
+      "prison": 583
+    },
+    {
+      "year": 2004,
+      "jail": 539,
+      "prison": 615
+    },
+    {
+      "year": 2005,
+      "jail": 541,
+      "prison": 634
+    },
+    {
+      "year": 2006,
+      "jail": 562,
+      "prison": 619
+    },
+    {
+      "year": 2007,
+      "jail": 579,
+      "prison": 619
+    },
+    {
+      "year": 2008,
+      "jail": 603,
+      "prison": 636
+    },
+    {
+      "year": 2009,
+      "jail": 627,
+      "prison": 621
+    },
+    {
+      "year": 2010,
+      "jail": 637,
+      "prison": 656
+    },
+    {
+      "year": 2011,
+      "jail": 737,
+      "prison": 728
+    },
+    {
+      "year": 2012,
+      "jail": 760,
+      "prison": 719
+    },
+    {
+      "year": 2013,
+      "jail": 750,
+      "prison": 737
+    },
+    {
+      "year": 2014,
+      "jail": 741,
+      "prison": 738
+    },
+    {
+      "year": 2015,
+      "jail": 755,
+      "prison": 726
+    },
+    {
+      "year": 2016,
+      "jail": 801,
+      "prison": 738
+    },
+    {
+      "year": 2017,
+      "jail": 839,
+      "prison": 762
+    },
+    {
+      "year": 2018,
+      "jail": 858,
+      "prison": 752
+    },
+    {
+      "year": 2019,
+      "jail": 893,
+      "prison": 743
+    },
+    {
+      "year": 2020,
+      "jail": 672,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 660,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 719,
+      "prison": 0
+    }
+  ],
+  "TX": [
+    {
+      "year": 2002,
+      "jail": 658,
+      "prison": 930
+    },
+    {
+      "year": 2003,
+      "jail": 694,
+      "prison": 965
+    },
+    {
+      "year": 2004,
+      "jail": 815,
+      "prison": 1004
+    },
+    {
+      "year": 2005,
+      "jail": 730,
+      "prison": 1047
+    },
+    {
+      "year": 2006,
+      "jail": 897,
+      "prison": 1065
+    },
+    {
+      "year": 2007,
+      "jail": 921,
+      "prison": 1080
+    },
+    {
+      "year": 2008,
+      "jail": 930,
+      "prison": 1076
+    },
+    {
+      "year": 2009,
+      "jail": 866,
+      "prison": 1069
+    },
+    {
+      "year": 2010,
+      "jail": 842,
+      "prison": 1114
+    },
+    {
+      "year": 2011,
+      "jail": 691,
+      "prison": 1127
+    },
+    {
+      "year": 2012,
+      "jail": 595,
+      "prison": 1090
+    },
+    {
+      "year": 2013,
+      "jail": 695,
+      "prison": 1106
+    },
+    {
+      "year": 2014,
+      "jail": 763,
+      "prison": 1118
+    },
+    {
+      "year": 2015,
+      "jail": 681,
+      "prison": 1125
+    },
+    {
+      "year": 2016,
+      "jail": 712,
+      "prison": 1120
+    },
+    {
+      "year": 2017,
+      "jail": 643,
+      "prison": 1163
+    },
+    {
+      "year": 2018,
+      "jail": 637,
+      "prison": 1144
+    },
+    {
+      "year": 2019,
+      "jail": 702,
+      "prison": 1138
+    },
+    {
+      "year": 2020,
+      "jail": 587,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 631,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 1090,
+      "prison": 0
+    }
+  ],
+  "UT": [
+    {
+      "year": 2002,
+      "jail": 1230,
+      "prison": 368
+    },
+    {
+      "year": 2003,
+      "jail": 1336,
+      "prison": 375
+    },
+    {
+      "year": 2004,
+      "jail": 773,
+      "prison": 405
+    },
+    {
+      "year": 2005,
+      "jail": 1380,
+      "prison": 406
+    },
+    {
+      "year": 2006,
+      "jail": 1304,
+      "prison": 397
+    },
+    {
+      "year": 2007,
+      "jail": 1460,
+      "prison": 397
+    },
+    {
+      "year": 2008,
+      "jail": 1326,
+      "prison": 410
+    },
+    {
+      "year": 2009,
+      "jail": 1264,
+      "prison": 393
+    },
+    {
+      "year": 2010,
+      "jail": 1255,
+      "prison": 408
+    },
+    {
+      "year": 2011,
+      "jail": 1254,
+      "prison": 420
+    },
+    {
+      "year": 2012,
+      "jail": 1396,
+      "prison": 446
+    },
+    {
+      "year": 2013,
+      "jail": 1398,
+      "prison": 440
+    },
+    {
+      "year": 2014,
+      "jail": 1461,
+      "prison": 477
+    },
+    {
+      "year": 2015,
+      "jail": 1397,
+      "prison": 413
+    },
+    {
+      "year": 2016,
+      "jail": 1481,
+      "prison": 398
+    },
+    {
+      "year": 2017,
+      "jail": 1060,
+      "prison": 393
+    },
+    {
+      "year": 2018,
+      "jail": 1007,
+      "prison": 384
+    },
+    {
+      "year": 2019,
+      "jail": 987,
+      "prison": 397
+    },
+    {
+      "year": 2020,
+      "jail": 394,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 372,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 353,
+      "prison": 0
+    }
+  ],
+  "VA": [
+    {
+      "year": 2002,
+      "jail": 596,
+      "prison": 0
+    },
+    {
+      "year": 2003,
+      "jail": 603,
+      "prison": 0
+    },
+    {
+      "year": 2004,
+      "jail": 633,
+      "prison": 0
+    },
+    {
+      "year": 2005,
+      "jail": 677,
+      "prison": 0
+    },
+    {
+      "year": 2006,
+      "jail": 738,
+      "prison": 0
+    },
+    {
+      "year": 2007,
+      "jail": 737,
+      "prison": 0
+    },
+    {
+      "year": 2008,
+      "jail": 749,
+      "prison": 0
+    },
+    {
+      "year": 2009,
+      "jail": 729,
+      "prison": 0
+    },
+    {
+      "year": 2010,
+      "jail": 747,
+      "prison": 0
+    },
+    {
+      "year": 2011,
+      "jail": 747,
+      "prison": 0
+    },
+    {
+      "year": 2012,
+      "jail": 771,
+      "prison": 0
+    },
+    {
+      "year": 2013,
+      "jail": 804,
+      "prison": 0
+    },
+    {
+      "year": 2014,
+      "jail": 707,
+      "prison": 0
+    },
+    {
+      "year": 2015,
+      "jail": 687,
+      "prison": 0
+    },
+    {
+      "year": 2016,
+      "jail": 657,
+      "prison": 0
+    },
+    {
+      "year": 2017,
+      "jail": 669,
+      "prison": 0
+    },
+    {
+      "year": 2018,
+      "jail": 670,
+      "prison": 0
+    },
+    {
+      "year": 2019,
+      "jail": 681,
+      "prison": 0
+    },
+    {
+      "year": 2020,
+      "jail": 711,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 672,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 596,
+      "prison": 0
+    }
+  ],
+  "WA": [
+    {
+      "year": 2002,
+      "jail": 326,
+      "prison": 395
+    },
+    {
+      "year": 2003,
+      "jail": 317,
+      "prison": 401
+    },
+    {
+      "year": 2004,
+      "jail": 300,
+      "prison": 402
+    },
+    {
+      "year": 2005,
+      "jail": 325,
+      "prison": 406
+    },
+    {
+      "year": 2006,
+      "jail": 342,
+      "prison": 389
+    },
+    {
+      "year": 2007,
+      "jail": 340,
+      "prison": 378
+    },
+    {
+      "year": 2008,
+      "jail": 328,
+      "prison": 385
+    },
+    {
+      "year": 2009,
+      "jail": 349,
+      "prison": 371
+    },
+    {
+      "year": 2010,
+      "jail": 319,
+      "prison": 376
+    },
+    {
+      "year": 2011,
+      "jail": 312,
+      "prison": 374
+    },
+    {
+      "year": 2012,
+      "jail": 319,
+      "prison": 406
+    },
+    {
+      "year": 2013,
+      "jail": 323,
+      "prison": 440
+    },
+    {
+      "year": 2014,
+      "jail": 319,
+      "prison": 454
+    },
+    {
+      "year": 2015,
+      "jail": 312,
+      "prison": 462
+    },
+    {
+      "year": 2016,
+      "jail": 326,
+      "prison": 462
+    },
+    {
+      "year": 2017,
+      "jail": 322,
+      "prison": 475
+    },
+    {
+      "year": 2018,
+      "jail": 317,
+      "prison": 445
+    },
+    {
+      "year": 2019,
+      "jail": 332,
+      "prison": 446
+    },
+    {
+      "year": 2020,
+      "jail": 165,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 148,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 76,
+      "prison": 0
+    }
+  ],
+  "WI": [
+    {
+      "year": 2002,
+      "jail": 344,
+      "prison": 368
+    },
+    {
+      "year": 2003,
+      "jail": 365,
+      "prison": 378
+    },
+    {
+      "year": 2004,
+      "jail": 374,
+      "prison": 387
+    },
+    {
+      "year": 2005,
+      "jail": 392,
+      "prison": 389
+    },
+    {
+      "year": 2006,
+      "jail": 403,
+      "prison": 404
+    },
+    {
+      "year": 2007,
+      "jail": 406,
+      "prison": 409
+    },
+    {
+      "year": 2008,
+      "jail": 400,
+      "prison": 408
+    },
+    {
+      "year": 2009,
+      "jail": 400,
+      "prison": 417
+    },
+    {
+      "year": 2010,
+      "jail": 385,
+      "prison": 415
+    },
+    {
+      "year": 2011,
+      "jail": 350,
+      "prison": 413
+    },
+    {
+      "year": 2012,
+      "jail": 356,
+      "prison": 424
+    },
+    {
+      "year": 2013,
+      "jail": 362,
+      "prison": 438
+    },
+    {
+      "year": 2014,
+      "jail": 362,
+      "prison": 442
+    },
+    {
+      "year": 2015,
+      "jail": 341,
+      "prison": 448
+    },
+    {
+      "year": 2016,
+      "jail": 374,
+      "prison": 466
+    },
+    {
+      "year": 2017,
+      "jail": 403,
+      "prison": 494
+    },
+    {
+      "year": 2018,
+      "jail": 404,
+      "prison": 500
+    },
+    {
+      "year": 2019,
+      "jail": 391,
+      "prison": 505
+    },
+    {
+      "year": 2020,
+      "jail": 278,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 290,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 301,
+      "prison": 0
+    }
+  ],
+  "WV": [
+    {
+      "year": 2002,
+      "jail": 256,
+      "prison": 307
+    },
+    {
+      "year": 2003,
+      "jail": 272,
+      "prison": 344
+    },
+    {
+      "year": 2004,
+      "jail": 292,
+      "prison": 380
+    },
+    {
+      "year": 2005,
+      "jail": 366,
+      "prison": 417
+    },
+    {
+      "year": 2006,
+      "jail": 388,
+      "prison": 450
+    },
+    {
+      "year": 2007,
+      "jail": 380,
+      "prison": 479
+    },
+    {
+      "year": 2008,
+      "jail": 373,
+      "prison": 484
+    },
+    {
+      "year": 2009,
+      "jail": 346,
+      "prison": 507
+    },
+    {
+      "year": 2010,
+      "jail": 348,
+      "prison": 540
+    },
+    {
+      "year": 2011,
+      "jail": 375,
+      "prison": 559
+    },
+    {
+      "year": 2012,
+      "jail": 411,
+      "prison": 586
+    },
+    {
+      "year": 2013,
+      "jail": 408,
+      "prison": 570
+    },
+    {
+      "year": 2014,
+      "jail": 383,
+      "prison": 581
+    },
+    {
+      "year": 2015,
+      "jail": 392,
+      "prison": 585
+    },
+    {
+      "year": 2016,
+      "jail": 412,
+      "prison": 595
+    },
+    {
+      "year": 2017,
+      "jail": 439,
+      "prison": 606
+    },
+    {
+      "year": 2018,
+      "jail": 486,
+      "prison": 616
+    },
+    {
+      "year": 2019,
+      "jail": 494,
+      "prison": 626
+    },
+    {
+      "year": 2020,
+      "jail": 404,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 538,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 510,
+      "prison": 0
+    }
+  ],
+  "WY": [
+    {
+      "year": 2002,
+      "jail": 364,
+      "prison": 0
+    },
+    {
+      "year": 2003,
+      "jail": 380,
+      "prison": 0
+    },
+    {
+      "year": 2004,
+      "jail": 439,
+      "prison": 0
+    },
+    {
+      "year": 2005,
+      "jail": 449,
+      "prison": 438
+    },
+    {
+      "year": 2006,
+      "jail": 469,
+      "prison": 469
+    },
+    {
+      "year": 2007,
+      "jail": 429,
+      "prison": 465
+    },
+    {
+      "year": 2008,
+      "jail": 463,
+      "prison": 468
+    },
+    {
+      "year": 2009,
+      "jail": 401,
+      "prison": 464
+    },
+    {
+      "year": 2010,
+      "jail": 424,
+      "prison": 465
+    },
+    {
+      "year": 2011,
+      "jail": 412,
+      "prison": 489
+    },
+    {
+      "year": 2012,
+      "jail": 383,
+      "prison": 500
+    },
+    {
+      "year": 2013,
+      "jail": 414,
+      "prison": 517
+    },
+    {
+      "year": 2014,
+      "jail": 401,
+      "prison": 548
+    },
+    {
+      "year": 2015,
+      "jail": 406,
+      "prison": 569
+    },
+    {
+      "year": 2016,
+      "jail": 435,
+      "prison": 577
+    },
+    {
+      "year": 2017,
+      "jail": 439,
+      "prison": 611
+    },
+    {
+      "year": 2018,
+      "jail": 494,
+      "prison": 622
+    },
+    {
+      "year": 2019,
+      "jail": 469,
+      "prison": 627
+    },
+    {
+      "year": 2020,
+      "jail": 133,
+      "prison": 0
+    },
+    {
+      "year": 2021,
+      "jail": 151,
+      "prison": 0
+    },
+    {
+      "year": 2022,
+      "jail": 195,
+      "prison": 0
+    }
+  ]
+}

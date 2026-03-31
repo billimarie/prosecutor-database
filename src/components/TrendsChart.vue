@@ -7,6 +7,10 @@ const props = defineProps({
     type: Array, // Array of { year, jail, prison }
     required: true,
   },
+  stateData: {
+    type: Array, // Array of { year, jail, prison } for the state
+    default: () => [],
+  },
   title: {
     type: String,
     default: "Incarceration Rate (per 100k)",
@@ -33,41 +37,59 @@ function renderChart() {
     .append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
+  // Max Y value calculation including state data
+  const maxLocal = d3.max(props.data, d => Math.max(d.jail, d.prison));
+  const maxState = props.stateData.length ? d3.max(props.stateData, d => d.jail + d.prison) : 0;
+  const maxY = Math.max(maxLocal, maxState) * 1.1;
+
   // Scales
   const x = d3.scaleLinear()
     .domain(d3.extent(props.data, d => d.year))
     .range([0, width]);
 
   const y = d3.scaleLinear()
-    .domain([0, d3.max(props.data, d => Math.max(d.jail, d.prison)) * 1.1])
+    .domain([0, maxY])
     .range([height, 0]);
 
   // Axes
   svg.append("g")
     .attr("transform", `translate(0,${height})`)
     .call(d3.axisBottom(x).ticks(5).tickFormat(d3.format("d")))
-    .attr("color", "#7a8099");
+    .attr("color", "#4b5563");
 
   svg.append("g")
     .call(d3.axisLeft(y).ticks(5))
-    .attr("color", "#7a8099");
+    .attr("color", "#4b5563");
 
   // Gridlines
   svg.append("g")
     .attr("class", "grid")
-    .attr("opacity", 0.1)
+    .attr("opacity", 0.05)
     .call(d3.axisLeft(y).tickSize(-width).tickFormat(""));
 
   // Lines
-  const lineJail = d3.line()
-    .x(d => x(d.year))
-    .y(d => y(d.jail))
-    .curve(d3.curveMonotoneX);
+  const lineJail = d3.line().x(d => x(d.year)).y(d => y(d.jail)).curve(d3.curveMonotoneX);
+  const linePrison = d3.line().x(d => x(d.year)).y(d => y(d.prison)).curve(d3.curveMonotoneX);
+  const lineStateAvg = d3.line().x(d => x(d.year)).y(d => y(d.jail + d.prison)).curve(d3.curveMonotoneX);
 
-  const linePrison = d3.line()
-    .x(d => x(d.year))
-    .y(d => y(d.prison))
-    .curve(d3.curveMonotoneX);
+  // Draw State Average Line (Dashed)
+  if (props.stateData.length) {
+    svg.append("path")
+      .datum(props.stateData)
+      .attr("fill", "none")
+      .attr("stroke", "#4b5563")
+      .attr("stroke-width", 1.5)
+      .attr("stroke-dasharray", "4,4")
+      .attr("d", lineStateAvg);
+    
+    svg.append("text")
+      .attr("x", width + 10)
+      .attr("y", y(props.stateData[props.stateData.length - 1].jail + props.stateData[props.stateData.length - 1].prison))
+      .attr("fill", "#9ca3af")
+      .style("font-size", "10px")
+      .style("font-family", "Courier New")
+      .text("STATE AVG");
+  }
 
   // Draw Jail Line
   svg.append("path")
