@@ -119,7 +119,7 @@ if (table.length < 2) {
   throw new Error("CSV appears to have no data rows.");
 }
 
-const headers = table[0].map((h) => String(h ?? "").trim());
+const headers = table[0].map((h) => String(h ?? "").trim().toLowerCase());
 const rows = table.slice(1);
 
 const roleKeys = ["field_role", "role"];
