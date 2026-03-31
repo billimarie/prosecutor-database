@@ -1,25 +1,24 @@
-import Papa from "papaparse";
-
-const CSV_URLS = [
-  "/data/normalized/prosecutors.normalized.csv",
-  "/data/normalized/us-attorneys.normalized.csv",
-  "/data/normalized/legacy-prosecutors.normalized.csv",
-];
+import { db } from "../firebase";
+import { collection, getDocs, getDoc, doc } from "firebase/firestore";
 
 let _cache = null;
 
-async function loadAll() {
+async function fetchFromFirestore() {
   if (_cache) return _cache;
-  const texts = await Promise.all(CSV_URLS.map(u => fetch(u).then(r => r.text())));
-  _cache = texts.flatMap(text => Papa.parse(text, { header: true, skipEmptyLines: true }).data);
+  console.log("Fetching prosecutors from Firestore...");
+  const snap = await getDocs(collection(db, "prosecutors"));
+  _cache = snap.docs.map(doc => ({ id: doc.id, ...doc.data() }));
   return _cache;
 }
 
 export async function fetchProsecutors() {
-  return loadAll();
+  return fetchFromFirestore();
 }
 
 export async function fetchProsecutorById(id) {
-  const all = await loadAll();
-  return all.find((p) => p.id === id) ?? null;
+  // Always try to fetch its own doc first for freshness if desired
+  // Or just use the cache. For consistency with old logic, using specific doc.
+  const snap = await getDoc(doc(db, "prosecutors", id));
+  if (!snap.exists()) return null;
+  return { id: snap.id, ...snap.data() };
 }
