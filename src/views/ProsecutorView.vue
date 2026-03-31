@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted, ref } from "vue";
+import { onMounted, ref, computed } from "vue";
 import { RouterLink } from "vue-router";
 import { fetchProsecutorById } from "../services/prosecutors";
 
@@ -13,6 +13,11 @@ const props = defineProps({
 const loading = ref(true);
 const prosecutor = ref(null);
 const error = ref(null);
+
+// Computed property to check if relevant cases exist
+const hasRelevantCases = computed(() => {
+  return prosecutor.value?.relevant_cases && prosecutor.value.relevant_cases.length > 0;
+});
 
 onMounted(async () => {
   try {
@@ -35,6 +40,15 @@ onMounted(async () => {
 
     <article v-else class="profile panel">
       <header class="profile-header">
+        <!-- Featured Image -->
+        <div v-if="prosecutor.featured_image" class="featured-image-container">
+          <img 
+            :src="prosecutor.featured_image" 
+            :alt="`${prosecutor.name} - Featured Image`"
+            class="featured-image"
+          />
+          <p v-if="prosecutor.image_caption" class="image-caption">{{ prosecutor.image_caption }}</p>
+        </div>
         <h1>{{ prosecutor.name }}</h1>
         <p class="profile-meta">{{ prosecutor.role }} · {{ prosecutor.office }}</p>
       </header>
@@ -51,6 +65,32 @@ onMounted(async () => {
           <dt>Jurisdiction</dt>
           <dd>{{ prosecutor.jurisdiction || "—" }}</dd>
         </dl>
+      </section>
+
+      <!-- Relevant Cases Section -->
+      <section v-if="hasRelevantCases" class="profile-section">
+        <h2>Relevant Cases</h2>
+        <div class="cases-list">
+          <div
+            v-for="(caseItem, index) in prosecutor.relevant_cases"
+            :key="index"
+            class="case-card"
+          >
+            <div class="case-header">
+              <h3 class="case-title">{{ caseItem.title }}</h3>
+              <span v-if="caseItem.year" class="case-year">{{ caseItem.year }}</span>
+            </div>
+            <p v-if="caseItem.description" class="case-description">{{ caseItem.description }}</p>
+            <div v-if="caseItem.outcome" class="case-outcome">
+              <strong>Outcome:</strong> {{ caseItem.outcome }}
+            </div>
+            <div v-if="caseItem.source" class="case-source">
+              <a :href="caseItem.source" target="_blank" rel="noopener" class="case-link">
+                View Source
+              </a>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="profile-section">
@@ -143,5 +183,99 @@ dd {
 
 .error {
   color: #c00;
+}
+
+/* Featured Image Styles */
+.featured-image-container {
+  margin-bottom: 1.5rem;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #f5f5f5;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+.image-caption {
+  font-size: 0.85rem;
+  color: #888;
+  font-style: italic;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  background: #f9f9f9;
+  border-top: 1px solid #eee;
+}
+
+/* Relevant Cases Styles */
+.cases-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.case-card {
+  background: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.case-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.case-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.case-year {
+  font-size: 0.8rem;
+  color: #888;
+  background: #eee;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+.case-description {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.5;
+  margin: 0.5rem 0;
+}
+
+.case-outcome {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+.case-outcome strong {
+  color: #444;
+}
+
+.case-source {
+  margin-top: 0.5rem;
+}
+
+.case-link {
+  font-size: 0.85rem;
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.case-link:hover {
+  text-decoration: underline;
 }
 </style>

@@ -1,4 +1,4 @@
-id,name,office,role,state,county_or_region,jurisdiction,website,email,phone,source_file,source_row_number,notes
+id,name,office,role,state,county_or_region,jurisdiction,website,email,phone,source_file,source_row_number,notes,featured_image,image_caption,relevant_cases
 ak-8e9dad1f990667ef,Jahna Lindemuth,Attorney General,Attorney General,AK,,,https://www.law.state.ak.us/index.html,,,attorney-general.csv,3,Imported from legacy manual CSV. Verify campaign/incarceration evidence before publication.
 al-6c4cee9f5f546fa5,Steve Marshall,Attorney General,Attorney General,AL,,,https://www.ago.alabama.gov,,,attorney-general.csv,2,Imported from legacy manual CSV. Verify campaign/incarceration evidence before publication.
 ar-59d92f05a20482d3,Leslie Rutledge,Attorney General,Attorney General,AR,,,https://arkansasag.gov,,,attorney-general.csv,6,Imported from legacy manual CSV. Verify campaign/incarceration evidence before publication.
