@@ -4,8 +4,16 @@
  * https://github.com/billimarie/prosecutor-database/issues/135
  */
 
-const BASE_URL = 'https://us-prosecutor-database.netlify.app';
-const DEFAULT_IMAGE = BASE_URL + '/og-image.png';
+function getBaseUrl() {
+  if (typeof window !== 'undefined' && window.location) {
+    return window.location.origin;
+  }
+  return 'https://us-prosecutor-database.netlify.app';
+}
+
+function getDefaultImage() {
+  return getBaseUrl() + '/og-image.svg';
+}
 
 /**
  * Updates document.title and key meta/link tags in document.head.
@@ -23,7 +31,7 @@ export function useSeoMeta({
   ogTitle,
   ogDescription,
   ogUrl,
-  ogImage = DEFAULT_IMAGE,
+  ogImage = getDefaultImage(),
 } = {}) {
   if (title) document.title = title;
 
@@ -60,5 +68,5 @@ export function useSeoMeta({
   setMeta('meta[name="twitter:title"]',       'name="twitter:title"',       ogTitle || title);
   setMeta('meta[name="twitter:description"]', 'name="twitter:description"', ogDescription || description);
   setMeta('meta[name="twitter:image"]',       'name="twitter:image"',       ogImage);
-  setLink('canonical', ogUrl || BASE_URL + '/');
+  setLink('canonical', ogUrl || getBaseUrl() + '/');
 }
