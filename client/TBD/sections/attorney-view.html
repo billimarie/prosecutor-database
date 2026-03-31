@@ -92,22 +92,28 @@
       <div class="container">
         {{> articleView}}
 
-        <section class="row my-5">
-          <div class="page-header">
-            <h2>Relevant Cases</h2>
-            <ul class="case-list">
-              {{#each relevantCases}}
-                <li>
-                  <h3>
-                    <a href="{{this.url}}" target="_blank">
-                      {{this.title}}
-                    </a>
-                    <p><em>{{this.summary}}</em></p>
+        <section class="articles row relevant-cases">
+          <h2 class="text-center">Relevant Cases</h2>
+          {{#each relevantCases}}
+            <div class="row">
+              <div class="col-lg-4 col-md-6 article-card">
+                {{#if featuredImage}}
+                  <img src="{{featuredImage}}" style="width:100%" />
+                {{else}}
+                  <img src="/images/default-article.jpg" style="width:75%" />
+                {{/if}}
+                <hr>
+                {{#if url}}
+                  <h3 style="padding-top: 1px;">
+                    <a href="{{this.url}}" target="_blank">{{this.title}}</a>
                   </h3>
-                </li>
-              {{/each}}
-            </ul>
-          </div>
+                {{else}}
+                  <h3 style="padding-top: 1px; font-weight: bold">{{this.title}}</h3>
+                {{/if}}
+                <p>{{this.summary}}</p>
+              </div>
+            </div>
+          {{/each}}
         </section>
 
         <section class="row my-5">
