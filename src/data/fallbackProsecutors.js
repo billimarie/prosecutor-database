@@ -30,6 +30,24 @@ export const fallbackProsecutors = [
         outcome: "Implemented new case management system",
         source: "https://ocmulgee.georgiacourts.gov"
       }
+    ],
+    previous_prosecutors: [
+      {
+        id: "ga-ocmulgee-david-cooke-2020",
+        name: "David Cooke",
+        office: "District Attorney",
+        jurisdiction: "Ocmulgee Judicial Circuit",
+        county_or_region: "Laurens / Johnson / Twiggs / Treutlen",
+        tenure_end: "2023"
+      },
+      {
+        id: "ga-ocmulgee-paul-bowden-2016",
+        name: "Paul Bowden",
+        office: "District Attorney",
+        jurisdiction: "Ocmulgee Judicial Circuit",
+        county_or_region: "Laurens / Johnson / Twiggs / Treutlen",
+        tenure_end: "2019"
+      }
     ]
   },
   {
