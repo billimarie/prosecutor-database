@@ -25,6 +25,11 @@ const hasRelevantCases = computed(() => {
   return prosecutor.value?.relevant_cases && prosecutor.value.relevant_cases.length > 0;
 });
 
+// Computed property to check if previous prosecutors exist
+const hasPreviousProsecutors = computed(() => {
+  return prosecutor.value?.previous_prosecutors && prosecutor.value.previous_prosecutors.length > 0;
+});
+
 // FIPS Mapping for initial fallback data
 const fipsMap = {
   "ga-ocmulgee-harold-mclendon-2024": ["13175", "13167", "13289", "13283"],
@@ -134,6 +139,36 @@ onMounted(async () => {
           </div>
         </div>
       </section>
+
+ <!-- Previous Prosecutors Section -->
+<section v-if="hasPreviousProsecutors" class="profile-section">
+  <h2>Previous Prosecutors</h2>
+  <div class="cases-list">
+    <div
+      v-for="prev in prosecutor.value.previous_prosecutors"
+      :key="prev.id"
+      class="case-card"
+    >
+      <div class="case-header">
+        <h3 class="case-title">{{ prev.name }}</h3>
+        <span v-if="prev.tenure_end" class="case-year">{{ prev.tenure_end }}</span>
+      </div>
+      <div v-if="prev.office" class="case-outcome">
+        <strong>Office:</strong> {{ prev.office }}
+      </div>
+      <div v-if="prev.jurisdiction" class="case-outcome">
+        <strong>Jurisdiction:</strong> {{ prev.jurisdiction }}
+      </div>
+      <RouterLink
+        v-if="prev.id"
+        :to="{ name: 'prosecutor', params: { id: prev.id } }"
+        class="case-link"
+      >
+        View Profile →
+      </RouterLink>
+    </div>
+  </div>
+</section>
 
       <section class="profile-section">
         <h2>Contact</h2>
