@@ -26,7 +26,7 @@
     "normalize:legacy-csv": "node scripts/normalizeLegacyCsv.mjs"
   },
   "dependencies": {
-    "axios": "^1.13.6",
+    "axios": "^1.15.0",
     "cheerio": "^1.2.0",
     "csv-parse": "^6.2.1",
     "csv-stringify": "^6.7.0",
