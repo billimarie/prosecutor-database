@@ -1,7 +1,7 @@
 <script setup>
 import { onMounted, ref, computed } from "vue";
 import { RouterLink } from "vue-router";
-import { fetchProsecutorById } from "../services/prosecutors";
+import { fetchProsecutorById, fetchCurrentAndPreviousForProsecutor } from "../services/prosecutors";
 import AppFooter from "../components/AppFooter.vue";
 import TrendsChart from "../components/TrendsChart.vue";
 import trendsData from "../data/incarcerationTrends.json";
@@ -18,12 +18,20 @@ const props = defineProps({
 
 const loading = ref(true);
 const prosecutor = ref(null);
+const seatData = ref(null);
 const error = ref(null);
 
 // Computed property to check if relevant cases exist
 const hasRelevantCases = computed(() => {
   return prosecutor.value?.relevant_cases && prosecutor.value.relevant_cases.length > 0;
 });
+
+// Format date helper function
+const formatDate = (dateString) => {
+  if (!dateString) return '';
+  const date = new Date(dateString);
+  return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
+};
 
 // FIPS Mapping for initial fallback data
 const fipsMap = {
@@ -60,8 +68,14 @@ const outlierStatus = computed(() => {
 onMounted(async () => {
   try {
     prosecutor.value = await fetchProsecutorById(props.id);
-    if (!prosecutor.value) error.value = "Prosecutor record not found.";
+    if (!prosecutor.value) {
+      error.value = "Prosecutor record not found.";
+    } else {
+      // Fetch current and previous prosecutors for this seat
+      seatData.value = await fetchCurrentAndPreviousForProsecutor(props.id);
+    }
   } catch (e) {
+    console.error("Error loading prosecutor data:", e);
     error.value = "Failed to load record. Please try again.";
   } finally {
     loading.value = false;
@@ -179,6 +193,37 @@ onMounted(async () => {
             Incarceration rate per 100,000 residents for {{ prosecutor.jurisdiction }}. 
             Dashed line represents state-wide average for {{ prosecutor.state }}.
           </p>
+        </div>
+      </section>
+
+      <!-- Previous Prosecutors Section -->
+      <section v-if="seatData && seatData.previous.length > 0" class="profile-section">
+        <h2>Previous Prosecutors</h2>
+        <div class="previous-prosecutors-list">
+          <div
+            v-for="(prev, index) in seatData.previous"
+            :key="index"
+            class="previous-prosecutor-card"
+          >
+            <div class="prev-prosecutor-header">
+              <h3 class="prev-prosecutor-name">{{ prev.name }}</h3>
+              <span v-if="prev.end_date" class="prev-prosecutor-end-date">{{ formatDate(prev.end_date) }}</span>
+            </div>
+            <p class="prev-prosecutor-meta">{{ prev.office }} · {{ prev.jurisdiction }}</p>
+            <p v-if="prev.notes" class="prev-prosecutor-notes">{{ prev.notes }}</p>
+            <div v-if="prev.source_urls && prev.source_urls.length > 0" class="prev-prosecutor-sources">
+              <a 
+                v-for="(url, urlIndex) in prev.source_urls" 
+                :key="urlIndex"
+                :href="url" 
+                target="_blank" 
+                rel="noopener" 
+                class="source-link"
+              >
+                Source {{ urlIndex + 1 }}
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -366,5 +411,67 @@ dd {
   margin-top: 1rem;
   line-height: 1.5;
   text-align: center;
+}
+
+.previous-prosecutors-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.previous-prosecutor-card {
+  background: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.prev-prosecutor-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.prev-prosecutor-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.prev-prosecutor-end-date {
+  font-size: 0.8rem;
+  color: #888;
+  background: #eee;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+.prev-prosecutor-meta {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0.5rem 0;
+}
+
+.prev-prosecutor-notes {
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.5;
+  margin: 0.5rem 0;
+  font-style: italic;
+}
+
+.prev-prosecutor-sources {
+  margin-top: 0.5rem;
+}
+
+.source-link {
+  font-size: 0.85rem;
+  color: #0066cc;
+  text-decoration: none;
+  margin-right: 1rem;
 }
 </style>
