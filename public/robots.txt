@@ -1,0 +1,6 @@
+# robots.txt for U.S. Prosecutor Database
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://us-prosecutor-database.netlify.app/sitemap.xml

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Not Found — U.S. Prosecutor Database</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+        background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+        color: #fff;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .container {
+        text-align: center;
+        padding: 2rem;
+        max-width: 600px;
+      }
+      
+      .error-code {
+        font-size: 8rem;
+        font-weight: bold;
+        background: linear-gradient(45deg, #e94560, #ff6b6b);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-bottom: 1rem;
+      }
+      
+      .error-title {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        color: #fff;
+      }
+      
+      .error-message {
+        font-size: 1.1rem;
+        color: #a0a0a0;
+        margin-bottom: 2rem;
+        line-height: 1.6;
+      }
+      
+      .back-button {
+        display: inline-block;
+        padding: 1rem 2rem;
+        background: linear-gradient(45deg, #e94560, #ff6b6b);
+        color: #fff;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: 600;
+        transition: transform 0.2s, box-shadow 0.2s;
+      }
+      
+      .back-button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(233, 69, 96, 0.4);
+      }
+      
+      .home-link {
+        display: block;
+        margin-top: 1rem;
+        color: #a0a0a0;
+        text-decoration: none;
+        transition: color 0.2s;
+      }
+      
+      .home-link:hover {
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="error-code">404</div>
+      <h1 class="error-title">Page Not Found</h1>
+      <p class="error-message">
+        The page you're looking for doesn't exist or has been moved.
+      </p>
+      <a href="/" class="back-button">Back to Database</a>
+      <a href="/" class="home-link">← Return to Home</a>
+    </div>
+  </body>
+</html>
