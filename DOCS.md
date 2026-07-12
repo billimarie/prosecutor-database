@@ -1,15 +1,15 @@
 # DOCS
-> Last Updated: March 24, 2026
+> Last Updated: July 12th, 2026
 
-This document is optimized for contributors and AI agents that collect prosecutor accountability data.
-
-## The U.S. Prosecutor Database exists because the data didn't.
+## Inspiration
  
-This project grew out of CLASP (the Community Legal & Advocacy Services Project), a now-defunct nonprofit prisoners' rights initiative, and was inspired by Angela Davis's *[Arbitrary Justice: The Power of the American Prosecutor](https://www.amazon.com/Arbitrary-Justice-Power-American-Prosecutor/dp/0195384733)*.
+This project grew out of CLASP (the Community Legal & Advocacy Services Project), a now-defunct nonprofit prisoners' rights initiative, and was inspired by Angela Davis's *[Arbitrary Justice: The Power of the American Prosecutor](https://www.amazon.com/Arbitrary-Justice-Power-American-Prosecutor/dp/0195384733)* and John Pfaff's *[Locked In: The True Causes of Mass Incarceration-and How to Achieve Real Reform ](https://www.amazon.com/Locked-Causes-Incarceration-Achieve-Reform/dp/0465096913)*.
 
 What began as a small effort to compile basic information about current and former prosecutors quickly revealed a deeper problem: no comprehensive, public dataset existed. Volunteers stepped in. Manual data mining began. Eventually, contributors found the project on GitHub and the database grew into an open-source collective effort.
  
-John Pfaff, author of *Locked In*, identifies the core reason prosecutors escape scrutiny: **there is no data on them.** Because prosecutors are less visible than legislators or police, advocates have historically overlooked their outsized role in mass incarceration. This project is a direct response to that gap.
+John Pfaff, author of *Locked In*, identifies the core reason prosecutors escape scrutiny: **there is no data on them.** Because prosecutors are less visible than legislators or police, advocates have historically overlooked their outsized role in mass incarceration.
+
+This project is a direct response to that gap.
  
 ### Why Prosecutors
  
