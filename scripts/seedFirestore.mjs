@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { initializeApp } from "firebase/app";
 import {
   doc,
@@ -5,7 +6,7 @@ import {
   serverTimestamp,
   setDoc,
 } from "firebase/firestore";
-import { fallbackProsecutors } from "../src/data/fallbackProsecutors.js";
+import fs from "node:fs";
 
 const requiredEnvKeys = [
   "VITE_FIREBASE_API_KEY",
@@ -34,15 +35,42 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-let upserted = 0;
+// Load data from seed file
+let prosecutors;
 try {
-  for (const prosecutor of fallbackProsecutors) {
+  prosecutors = JSON.parse(fs.readFileSync('./public/data/prosecutors.seed.json', 'utf8'));
+} catch (error) {
+  console.error('Error reading seed file:', error.message);
+  process.exit(1);
+}
+
+if (!prosecutors || prosecutors.length === 0) {
+  console.error('No prosecutor data found to seed.');
+  process.exit(1);
+}
+
+console.log(`Found ${prosecutors.length} prosecutor records to seed\n`);
+
+let upserted = 0;
+let errors = 0;
+
+try {
+  for (const prosecutor of prosecutors) {
     const { id, ...rest } = prosecutor;
+    
+    if (!id) {
+      console.log(`⚠ Skipping record: missing id field`);
+      continue;
+    }
+    
     await setDoc(doc(db, "prosecutors", id), {
       ...rest,
       last_verified_at: new Date().toISOString(),
       updated_at: serverTimestamp(),
+      created_at: new Date().toISOString()
     });
+    
+    console.log(`✓ Seeded ${prosecutor.name} (${id})`);
     upserted += 1;
   }
 } catch (error) {
@@ -54,4 +82,5 @@ try {
   throw error;
 }
 
-console.log(`Seed complete. Upserted ${upserted} prosecutor records.`);
+console.log(`\n✅ Seed complete. Upserted ${upserted} prosecutor records.`);
+console.log('\nNext step: Run `npm run migrate:relational-seats` to create seat structure');

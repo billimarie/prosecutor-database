@@ -119,7 +119,16 @@ onMounted(async () => {
           <dd>{{ prosecutor.county_or_region || "—" }}</dd>
 
           <dt>Jurisdiction</dt>
-          <dd>{{ prosecutor.jurisdiction || "—" }}</dd>
+          <dd>
+            <RouterLink 
+              v-if="prosecutor.seat_id" 
+              :to="{ name: 'seat', params: { id: prosecutor.seat_id } }"
+              class="seat-link"
+            >
+              {{ prosecutor.jurisdiction || "—" }} → View Seat History
+            </RouterLink>
+            <span v-else>{{ prosecutor.jurisdiction || "—" }}</span>
+          </dd>
         </dl>
       </section>
 
@@ -473,5 +482,17 @@ dd {
   color: #0066cc;
   text-decoration: none;
   margin-right: 1rem;
+}
+
+.seat-link {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.seat-link:hover {
+  color: #5568d3;
+  text-decoration: underline;
 }
 </style>

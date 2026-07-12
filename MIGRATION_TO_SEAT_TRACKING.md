@@ -3,11 +3,35 @@
 ## Overview
 This guide walks you through migrating your existing prosecutor database to a seat-based tracking system.
 
+## ⚠️ IMPORTANT: Database Must Have Data First
+
+**The migration scripts will skip all records if your Firestore database is empty.** 
+
+Follow the complete workflow in **`SEAT_MIGRATION_WORKFLOW.md`** which covers:
+1. Seeding initial data from `prosecutors.seed.json`
+2. Running the relational seat migration
+3. Adding historical prosecutors
+
+## Quick Start
+
+```bash
+# 1. Configure Firebase credentials
+cp .env.example .env
+# Edit .env with your Firebase project credentials
+
+# 2. Seed the database with initial prosecutor data
+npm run seed:firestore
+
+# 3. Create relational seat structure (auto-creates seats collection)
+npm run migrate:relational-seats
+```
+
 ## Current State
 Your database already has the infrastructure for seat-based tracking implemented:
 - Service functions in `src/services/prosecutors.js`
 - Frontend display in `ProsecutorView.vue`
 - Documentation in `docs/PROSECUTOR_SEAT_TRACKING.md`
+- Migration scripts in `scripts/`
 
 ## Migration Steps
 

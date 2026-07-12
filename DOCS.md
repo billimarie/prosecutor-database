@@ -80,7 +80,12 @@ Use this canonical JSON shape for seat-based tracking:
 - `start_date`: ISO 8601 timestamp of when they took office
 - `end_date`: ISO 8601 timestamp of when they left office (null for current)
 
-See `docs/PROSECUTOR_SEAT_TRACKING.md` for complete schema documentation and `MIGRATION_TO_SEAT_TRACKING.md` for migration instructions.
+**Relational Structure:**
+The database now uses two collections:
+- `seats`: Static metadata about prosecutorial positions (one per unique state+county combination)
+- `prosecutors`: Individual records linked to seats via `seat_id` (multiple per seat over time)
+
+See `docs/PROSECUTOR_SEAT_TRACKING.md` for complete schema documentation and `SEAT_MIGRATION_WORKFLOW.md` for migration instructions.
 
 ### AI-Agent Collection Workflow
 

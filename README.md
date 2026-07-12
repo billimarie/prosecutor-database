@@ -19,16 +19,42 @@ Modernized stack for accountability-focused prosecutor data:
 2. Create env file:
    - Copy `.env.example` to `.env`
    - Fill Firebase values from your Firebase project settings
-3. Start local app:
+3. Seed the database (if empty):
+   - `npm run seed:firestore`
+4. Create relational seat structure:
+   - `npm run migrate:relational-seats`
+5. Start local app:
    - `npm run dev`
-4. Build production bundle:
+6. Build production bundle:
    - `npm run build`
-5. Scrape:
+7. Scrape:
   - `node ./scripts/pilot-scraping/[state-abbreviation-here]-scraper.mjs`
-6. Push local CSV up to Firestore (requires Firestore Rules adjustment):
+8. Push local CSV up to Firestore (requires Firestore Rules adjustment):
    - `node ./scripts/seedFirestoreFromCsv.mjs --csv ./public/data/[csv-filename-here].csv`
 
 ---
+
+## Seat-Based Tracking
+
+This database tracks **prosecutorial seats** rather than individual prosecutors, enabling trend analysis across different officeholders.
+
+### Key Concepts
+- **Seat**: A prosecutorial position defined by state + county/jurisdiction
+- **seat_id**: Unique identifier (format: `{state}-{normalized-county}`)
+- **is_current**: Boolean marking who currently holds the seat
+- Multiple prosecutor records can share the same `seat_id` (current + historical)
+
+### Migration Workflow
+If starting with an empty database:
+```bash
+# 1. Seed initial data
+npm run seed:firestore
+
+# 2. Auto-create seats collection and link prosecutors
+npm run migrate:relational-seats
+```
+
+See `SEAT_MIGRATION_WORKFLOW.md` for detailed instructions.
 
 ## Netlify Deployment
 

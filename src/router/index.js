@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import ProsecutorView from "../views/ProsecutorView.vue";
 import AboutView from "../views/AboutView.vue";
+import SeatView from "../views/SeatView.vue";
 
 const routes = [
   {
@@ -18,6 +19,12 @@ const routes = [
     path: "/prosecutor/:id",
     name: "prosecutor",
     component: ProsecutorView,
+    props: true,
+  },
+  {
+    path: "/seat/:id",
+    name: "seat",
+    component: SeatView,
     props: true,
   },
 ];
