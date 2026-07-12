@@ -3,12 +3,23 @@
 # U.S. Prosecutor Database (Vue + Firebase)
 > Updated: July 12th, 2026
 
-Modernized stack for accountability-focused prosecutor data:
+A relational seat-based database that separates the fixed "seat" (prosecutorial position) from the variable "humans" who occupy it.
+
+## Core Concept
+
+Our "one-to-many" relational database will track:
+- `seats` collection: The prosecutorial position itself (fixed metadata like jurisdiction, boundaries, office, etc.)
+- `prosecutors` collection: The individual people who have held or currently hold the seat (name, bio, education, demographics, related cases, term dates)
+
+## Goal
+
+To track prosecutorial trends as different people pass through the same seat over time.
+
+Ideally, researchers will be able to compute trend analysis regarding average term length, party changes, campaign theme evolution, etc. prosecutor campaigns for elections, incarceration trends, etc.
 
 - Frontend: `Vue 3` + `Vite`
 - Data store: `Firebase Firestore`
 - Hosting: `Netlify`
-- Goal: source-backed prosecutor campaign + incarceration trend research
 
 ---
 
