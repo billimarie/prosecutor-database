@@ -54,52 +54,52 @@ In Netlify, set environment variables for all `VITE_FIREBASE_*` keys.
 ## Prosecutor Database Schema
 
 ### Core Fields (Required)
-name - string
-state - string
-county_or_region - string
-office_title - string
-is_current - boolean
-seat_id - string
+- name - string
+- state - string
+- county_or_region - string
+- office_title - string
+- is_current - boolean
+- seat_id - string
 
 ### Demographic Fields
-age_range - string
-gender - string
-race_ethnicity - string
+- age_range - string
+- gender - string
+- race_ethnicity - string
 
 ### Temporal Fields (For Seat Tracking)
-start_date - timestamp/string
-end_date - timestamp/string
-term_start - string
-term_end - string
+- start_date - timestamp/string
+- end_date - timestamp/string
+- term_start - string
+- term_end - string
 
 ### Contact & Office Information
-office_address - string
-phone - string
-email - string
-website - string
+- office_address - string
+- phone - string
+- email - string
+- website - string
 
 ### Biographical & Professional Information
-bio - text
-education - array/string
-career_highlights - array/text
-political_party - string
-appointed_by - string
-election_year - number
+- bio - text
+- education - array/string
+- career_highlights - array/text
+- political_party - string
+- appointed_by - string
+- election_year - number
 
 ### Source & Verification Fields
-source_url - string
-source_name - string
-verification_status - string
-last_updated - timestamp
-notes - text
+- source_url - string
+- source_name - string
+- verification_status - string
+- last_updated - timestamp
+- notes - text
 
 ### Metadata Fields (Firestore Auto-generated)
-created_at - timestamp
-updated_at - timestamp
-document_id - string
+- created_at - timestamp
+- updated_at - timestamp
+- document_id - string
 
 ### For inmporting into the database: CSV Headers
-name,state,county_or_region,office_title,is_current,seat_id,age_range,gender,race_ethnicity,start_date,end_date,term_start,term_end,office_address,phone,email,website,bio,education,career_highlights,political_party,appointed_by,election_year,source_url,source_name,verification_status,notes
+```name,state,county_or_region,office_title,is_current,seat_id,age_range,gender,race_ethnicity,start_date,end_date,term_start,term_end,office_address,phone,email,website,bio,education,career_highlights,political_party,appointed_by,election_year,source_url,source_name,verification_status,notes```
 
 ---
 
