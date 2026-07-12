@@ -44,9 +44,9 @@ Collection used by app:
 
 - `prosecutors`
 
-### Firestore Record Shape
+### Firestore Record Shape (Seat-Based Tracking)
 
-Use this canonical JSON shape:
+Use this canonical JSON shape for seat-based tracking:
 
 ```json
 {
@@ -56,6 +56,12 @@ Use this canonical JSON shape:
   "jurisdiction": "Ocmulgee Judicial Circuit",
   "state": "GA",
   "county_or_region": "Laurens / Johnson / Twiggs / Treutlen",
+  
+  "seat_id": "ga-laurens-johnson-twiggs-treutlen",
+  "is_current": true,
+  "start_date": "2024-01-15T00:00:00.000Z",
+  "end_date": null,
+  
   "small_town_focus": true,
   "campaign_theme": "Tough-on-crime rhetoric",
   "incarceration_signal": "County jail rate trend increased between X and Y years.",
@@ -67,6 +73,14 @@ Use this canonical JSON shape:
   "last_verified_at": "2026-03-24T00:00:00.000Z"
 }
 ```
+
+**Key Fields for Seat Tracking:**
+- `seat_id`: Unique identifier for the prosecutorial seat (auto-generated from state + county)
+- `is_current`: Boolean indicating if this prosecutor currently holds the seat
+- `start_date`: ISO 8601 timestamp of when they took office
+- `end_date`: ISO 8601 timestamp of when they left office (null for current)
+
+See `docs/PROSECUTOR_SEAT_TRACKING.md` for complete schema documentation and `MIGRATION_TO_SEAT_TRACKING.md` for migration instructions.
 
 ### AI-Agent Collection Workflow
 
