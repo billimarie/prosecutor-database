@@ -24,7 +24,8 @@
     "seed:firestore": "node --env-file=.env scripts/seedFirestore.mjs",
     "seed:firestore:csv": "node --env-file=.env scripts/seedFirestoreFromCsv.mjs",
     "normalize:legacy-csv": "node scripts/normalizeLegacyCsv.mjs",
-    "migrate:seat-tracking": "node --env-file=.env scripts/migrateToSeatTracking.mjs"
+    "migrate:seat-tracking": "node --env-file=.env scripts/migrateToSeatTracking.mjs",
+    "migrate:relational-seats": "node --env-file=.env scripts/migrateToRelationalSeats.mjs"
   },
   "dependencies": {
     "axios": "^1.13.6",
