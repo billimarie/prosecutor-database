@@ -1,0 +1,4 @@
+seat_id,state,county_or_region,jurisdiction,office_type,circuit_type,counties_served,election_cycle,term_length,appointment_method,official_website,source_urls,notes
+ga-laurens-johnson-twiggs-treutlen,GA,Laurens / Johnson / Twiggs / Treutlen,Ocmulgee Judicial Circuit,District Attorney,multi-county,"Laurens,Johnson,Twiggs,Treutlen",4,4,elected,https://ocmulgeeda.org,"https://georgacourts.gov/circuits/ocmulgee","Multi-county circuit in central Georgia"
+pa-lebanon-county,PA,Lebanon County,Lebanon County District Attorney,District Attorney,single-county,Lebanon,4,4,elected,,,Single county seat
+ms-desoto-county,MS,DeSoto County,DeSoto County District Attorney,District Attorney,single-county,DeSoto,4,4,elected,,,Single county seat
