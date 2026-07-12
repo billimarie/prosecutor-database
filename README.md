@@ -1,7 +1,7 @@
 <img width="940" height="646" alt="{AED1A75A-2EFE-4A2A-9DBA-DBF890D07B98}" src="https://github.com/user-attachments/assets/ac2bc78e-5702-4d21-9ad7-03448fe642f2" />
 
 # U.S. Prosecutor Database (Vue + Firebase)
-> Updated for Agentic AI: March 24th, 2026
+> Updated: July 12th, 2026
 
 Modernized stack for accountability-focused prosecutor data:
 
