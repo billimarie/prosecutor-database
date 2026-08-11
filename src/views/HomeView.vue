@@ -10,42 +10,71 @@ const prosecutors = ref([]);
 
 // --- filter state ---
 const search     = ref("");
-const roleFilter = ref("All");
-const stateFilter = ref("All");
+const selectedRoles = ref([]);
+const selectedStates = ref([]);
+const selectedParties = ref([]);
+const selectedRaces = ref([]);
+const ageRange = ref([18, 80]);
+const filtersOpen = ref(false);
+const openSections = ref({ role: true, party: true, race: false, age: true, state: false });
+
+const roleOptions = [
+  "Attorney General",
+  "County Attorney",
+  "District Attorney",
+  "State Attorney",
+  "State Attorney General",
+  "U.S. Attorney",
+  "US Attorney",
+];
+
+const stateOptions = [
+  "AK", "AL", "AR", "AS", "AZ", "CA", "CO", "CT", "DC", "DE", "FL", "GA", "GU", "HI", "IA", "ID", "IL", "IN", "KS", "KY", "LA", "MA", "MD", "ME", "MI", "MN", "MO", "MP", "MS", "MT", "NC", "ND", "NE", "NH", "NJ", "NM", "NV", "NY", "OH", "OK", "OR", "PA", "PR", "RI", "SC", "SD", "TN", "TX", "UT", "VA", "VI", "VT", "WA", "WI", "WV", "WY",
+];
+
+const partyOptions = ["Democrat", "Republican", "Other"];
+const raceOptions = ["American Indian or Alaska Native", "Asian", "Black or African American", "Hispanic or Latino", "Native Hawaiian or Other Pacific Islander", "White", "Other"];
 
 onMounted(async () => {
   prosecutors.value = await fetchProsecutors();
   loading.value = false;
 });
 
-// Derive unique sorted role & state lists from data
-const roles = computed(() => {
-  const set = new Set(prosecutors.value.map(p => p.role).filter(Boolean));
-  return ["All", ...Array.from(set).sort()];
-});
-
-const states = computed(() => {
-  const set = new Set(prosecutors.value.map(p => p.state).filter(Boolean));
-  return ["All", ...Array.from(set).sort()];
-});
-
 const filtered = computed(() => {
   const q = search.value.trim().toLowerCase();
   return prosecutors.value.filter(p => {
-    const matchRole  = roleFilter.value  === "All" || p.role  === roleFilter.value;
-    const matchState = stateFilter.value === "All" || p.state === stateFilter.value;
+    const role = p.role || p.office || "";
+    const party = p.political_party || p.party || "";
+    const race = p.race_ethnicity || p.race || p.ethnicity || "";
+    const age = Number(p.age);
+    const normalizedRole = role.replace(/\./g, "").toLowerCase();
+    const matchRole = selectedRoles.value.length === 0 || selectedRoles.value.some(value => {
+      const normalizedValue = value.replace(/\./g, "").toLowerCase();
+      return normalizedRole === normalizedValue || normalizedRole.startsWith(`${normalizedValue} `);
+    });
+    const matchState = selectedStates.value.length === 0 || selectedStates.value.includes(p.state);
+    const matchParty = selectedParties.value.length === 0 || selectedParties.value.some(value => value === party || (value === "Other" && party && !partyOptions.slice(0, 2).includes(party)));
+    const matchRace = selectedRaces.value.length === 0 || selectedRaces.value.some(value => value === race || (value === "Other" && race && !raceOptions.slice(0, -1).includes(race)));
+    const matchAge = !Number.isFinite(age) || (age >= ageRange.value[0] && age <= ageRange.value[1]);
     const matchSearch = !q ||
       p.name?.toLowerCase().includes(q) ||
       p.jurisdiction?.toLowerCase().includes(q) ||
       p.office?.toLowerCase().includes(q);
-    return matchRole && matchState && matchSearch;
+    return matchRole && matchState && matchParty && matchRace && matchAge && matchSearch;
   });
 });
 
 function resetFilters() {
   search.value = "";
-  roleFilter.value = "All";
-  stateFilter.value = "All";
+  selectedRoles.value = [];
+  selectedStates.value = [];
+  selectedParties.value = [];
+  selectedRaces.value = [];
+  ageRange.value = [18, 80];
+}
+
+function toggleSection(section) {
+  openSections.value[section] = !openSections.value[section];
 }
 
 // Role → badge color key
@@ -108,25 +137,37 @@ function outlierLabel(prosecutor) {
           />
         </div>
 
-        <div class="filter-group">
-          <label class="filter-label" for="role">ROLE</label>
-          <select id="role" v-model="roleFilter" class="filter-select">
-            <option v-for="r in roles" :key="r" :value="r">{{ r }}</option>
-          </select>
-        </div>
-
-        <div class="filter-group">
-          <label class="filter-label" for="state">STATE</label>
-          <select id="state" v-model="stateFilter" class="filter-select">
-            <option v-for="s in states" :key="s" :value="s">{{ s }}</option>
-          </select>
-        </div>
-
-        <button class="filter-reset" @click="resetFilters" title="Clear filters">
-          ✕ Reset
+        <button class="filter-trigger" type="button" :aria-expanded="filtersOpen" aria-controls="filter-panel" @click="filtersOpen = !filtersOpen">
+          Filters <span aria-hidden="true">{{ filtersOpen ? "−" : "+" }}</span>
         </button>
 
+        <button class="filter-reset" @click="resetFilters" title="Clear filters">Clear all</button>
+
       </div>
+
+      <aside id="filter-panel" v-show="filtersOpen" class="filter-panel" aria-label="Filters">
+        <div class="filter-panel-head"><button type="button" @click="resetFilters">Clear all</button></div>
+        <section class="filter-section">
+          <button type="button" class="filter-section-title" @click="toggleSection('role')" :aria-expanded="openSections.role">Role <span aria-hidden="true">{{ openSections.role ? "v" : ">" }}</span></button>
+          <div v-show="openSections.role" class="filter-options"><label v-for="role in roleOptions" :key="role" class="check-option"><input v-model="selectedRoles" type="checkbox" :value="role"><span>{{ role }}</span></label></div>
+        </section>
+        <section class="filter-section">
+          <button type="button" class="filter-section-title" @click="toggleSection('party')" :aria-expanded="openSections.party">Party affiliation <span aria-hidden="true">{{ openSections.party ? "v" : ">" }}</span></button>
+          <div v-show="openSections.party" class="filter-options"><label v-for="party in partyOptions" :key="party" class="check-option"><input v-model="selectedParties" type="checkbox" :value="party"><span>{{ party }}</span></label></div>
+        </section>
+        <section class="filter-section">
+          <button type="button" class="filter-section-title" @click="toggleSection('race')" :aria-expanded="openSections.race">Race / ethnicity <span aria-hidden="true">{{ openSections.race ? "v" : ">" }}</span></button>
+          <div v-show="openSections.race" class="filter-options"><label v-for="race in raceOptions" :key="race" class="check-option"><input v-model="selectedRaces" type="checkbox" :value="race"><span>{{ race }}</span></label></div>
+        </section>
+        <section class="filter-section">
+          <button type="button" class="filter-section-title" @click="toggleSection('age')" :aria-expanded="openSections.age">Age <span aria-hidden="true">{{ openSections.age ? "v" : ">" }}</span></button>
+          <div v-show="openSections.age" class="age-options"><div class="age-values"><span>{{ ageRange[0] }}</span><span>{{ ageRange[1] }}</span></div><div class="age-sliders"><input v-model.number="ageRange[0]" type="range" min="18" max="80" :max="ageRange[1]" aria-label="Minimum age"><input v-model.number="ageRange[1]" type="range" min="18" max="80" :min="ageRange[0]" aria-label="Maximum age"></div></div>
+        </section>
+        <section class="filter-section">
+          <button type="button" class="filter-section-title" @click="toggleSection('state')" :aria-expanded="openSections.state">State <span aria-hidden="true">{{ openSections.state ? "v" : ">" }}</span></button>
+          <div v-show="openSections.state" class="state-options"><label v-for="state in stateOptions" :key="state" class="check-option"><input v-model="selectedStates" type="checkbox" :value="state"><span>{{ state }}</span></label></div>
+        </section>
+      </aside>
 
       <div class="filter-count" v-if="!loading">
         Showing <strong>{{ filtered.length }}</strong> of {{ prosecutors.length }} records
@@ -325,6 +366,20 @@ function outlierLabel(prosecutor) {
   border-color: var(--amber);
 }
 .filter-select { cursor: pointer; }
+.filter-trigger {
+  align-self: flex-end;
+  background: var(--amber);
+  border: 1px solid var(--amber);
+  color: var(--ink);
+  cursor: pointer;
+  font-family: "Courier New", monospace;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  padding: 0.55rem 0.85rem;
+  text-transform: uppercase;
+}
+.filter-trigger span { margin-left: 0.4rem; }
 .filter-reset {
   background: transparent;
   border: 1px solid var(--border);
@@ -337,6 +392,61 @@ function outlierLabel(prosecutor) {
   align-self: flex-end;
 }
 .filter-reset:hover { color: var(--amber); border-color: var(--amber); }
+.filter-panel {
+  box-sizing: border-box;
+  left: 58rem;
+  margin: 0;
+  position: absolute;
+  top: calc(100% - 2rem);
+  width: 280px;
+  background: #f9f9f7;
+  border: 1px solid #d7d7d2;
+  color: #202124;
+  font-family: Arial, sans-serif;
+  max-height: min(72vh, 620px);
+  overflow-y: auto;
+  padding: 0 1.5rem;
+}
+.filter-panel-head {
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  font-size: 1.15rem;
+  justify-content: space-between;
+  padding: 0.7rem 0;
+}
+.filter-panel-head button {
+  background: transparent;
+  border: 1px solid #c9c9c5;
+  border-radius: 2px;
+  color: #777;
+  cursor: pointer;
+  font-size: 0.8rem;
+  padding: 0.3rem 0.55rem;
+}
+.filter-section { border-bottom: 1px solid #ddd; padding: 0.35rem 0; }
+.filter-section-title {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  color: #1f2023;
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: space-between;
+  padding: 0.55rem 0;
+  text-align: left;
+  width: 100%;
+}
+.filter-options { display: grid; gap: 0.55rem; padding: 0.2rem 0 0.8rem; }
+.check-option { align-items: center; color: #555; cursor: pointer; display: flex; font-size: 0.98rem; gap: 0.65rem; }
+.check-option input { accent-color: #1677e8; height: 18px; margin: 0; width: 18px; }
+.state-options { display: grid; gap: 0.55rem; grid-template-columns: 1fr; padding: 0.2rem 0 0.8rem; }
+.age-options { padding: 0.2rem 0 0.8rem; }
+.age-values { color: #777; display: flex; font-size: 0.85rem; justify-content: space-between; margin-bottom: 0.25rem; }
+.age-sliders { display: grid; gap: 0.25rem; }
+.age-sliders input { accent-color: #1677e8; cursor: pointer; margin: 0; width: 100%; }
 .filter-count {
   max-width: 1200px;
   margin: 0.6rem auto 0;
@@ -496,5 +606,6 @@ function outlierLabel(prosecutor) {
   .filter-bar { padding: 0.75rem 1rem; }
   .db-main    { padding: 1rem; }
   .card-grid  { grid-template-columns: 1fr; }
+  .filter-panel { left: 0.75rem; max-width: calc(100vw - 1.5rem); padding: 0 1rem; }
 }
 </style>
